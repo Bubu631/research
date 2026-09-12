@@ -1,0 +1,48 @@
+{
+  "data_url": "https://raw.githubusercontent.com/sheffieldnlp/mlqe-pe/2a670a1140416cf80507b5a829659383c878feb8/data/post-editing/train/en-zh-train.tar.gz",
+  "data_revision": "2a670a1140416cf80507b5a829659383c878feb8",
+  "archive_sha256": "9aee7f258d9a7050a6f46851ff37c6cfe4efd074a57fd692af832f2d8c864d5c",
+  "data_license": "CC0-1.0",
+  "license_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+  "model_id": "Helsinki-NLP/opus-mt-en-zh",
+  "model_revision": "408d9bc410a388e1d9aef112a2daba955b945255",
+  "model_license": "Apache-2.0",
+  "model_files_sha256": {
+    "target.spm": "81dc94efa84e4025ef38d25d5d07429fe41e3eb29d44003f1db6fe98487b0052",
+    "tokenizer_config.json": "5df181fba586b7cb37d429c13c4f96cb43fb11de7bb6489733d9eded32418179",
+    "config.json": "bcae8ed74fed77fb51c58462b62397fee6b1a1a34aece79183a0dd02ad329e71",
+    "generation_config.json": "837839ed0534a27084f9b980fc33f47729052dd89cb26cca7ac830765ed30e49",
+    "README.md": "83eee2a6598751f746a057e10d5c9dfd71d6b0cf0146f9e6c1bb3ebd6e90959b",
+    "source.spm": "5775ddc9e3ff2fae91554da56468ad35ff56edaba870fea74447bc7234bfdaa8",
+    "pytorch_model.bin": "69a1d6ec829cee349360b3b677ac0aa99a7d88822d1a6578370029efffdca3f5",
+    "vocab.json": "f1832ca38f7aa158b9a944ff583e4901e6b37d9d4ad9241f03838e636e9cfb03"
+  },
+  "population": {
+    "input_count": 7000,
+    "eligible_count": 7000,
+    "excluded_counts": {},
+    "selected": 512,
+    "diagnostic": 256,
+    "reporting": 256,
+    "split_overlap": 0
+  },
+  "protocol_sha256": "f81c3cedec8adaddb6e6420c200984fb25af4de2ebb684631a294176941267ff",
+  "script_sha256": "923a21c5734225ecdc099219328c20e1423e7f9efce62872263691702f2aaa14",
+  "language_pair": "en-zh",
+  "device": "mps",
+  "platform": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "4.57.6",
+    "sentencepiece": "0.2.2",
+    "sacremoses": "0.2.0",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1",
+    "huggingface-hub": "0.36.2",
+    "requests": "2.34.2"
+  },
+  "run_started_utc": "2026-09-11T17:32:19Z",
+  "scope": "Real public human post-edits; separate frozen MT evaluation model; shared output-bias gradients; synthetic selection"
+}

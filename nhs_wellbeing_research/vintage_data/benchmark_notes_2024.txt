@@ -1,0 +1,275 @@
+NHS Staff Survey 2024
+
+This file provides results for all organisations in the 2024 NHS Staff Survey, spilt by organisation type. 
+It holds the data used to create the benchmark reports on the website:
+https://www.nhsstaffsurveys.com/results/
+Occupational group weight is applied except to q1, q10a, q26d, q27a-q31a, and q32a-q35 that are not weighted or benchmarked because these questions ask for demographic or factual information.
+This allows comparisons to be made within benchmark groups. Comparisons between benchmark groups should not be made, nor should those groups be combined, due to different staff mixes and contextual factors. 
+
+Note: 2023 results for People Promise element 4 ('We are safe and healthy'), two of its sub-scores ('Health and safety climate' and 'Negative experiences'), Q13a-d and Q14a-d are now reported using corrected data. 
+Please see https://www.nhsstaffsurveys.com/survey-documents/ for more details.
+
+Key
+Variable Name | Description
+
+variables with _n_ in name | response number for corresponding variable, as described below. *Note suppression occurs if responses are less than 10.
+
+org_id | Organisation Code
+org_name | Name of Organisation
+org_mode | Mode of Survey
+org_type | Benchmarking Group of Organisation
+(coded: 1=Acute and Acute & Community Trusts; 3=Acute Specialist Trusts; 4=Mental Health & Learning Disability and Mental Health, Learning Disability & Community Trusts; 6=Community Trusts; 7=Ambulance Trusts; 8=ICBs; 9=CSUs; 10= Mental Health Social Enterprises; 12=Community Social Enterprises; 13=Community Surgical Services)
+org_type_reporting | Benchmarking Group used for comparisons in reporting (code)
+org_type_reporting_name | Benchmarking Group used for comparisons in reporting (name)
+PP1_20XX | Score out of 10 for We are compassionate and inclusive for year 20XX
+PP2_20XX | Score out of 10 for We are recognised and rewarded for year 20XX
+PP3_20XX | Score out of 10 for We each have a voice that counts for year 20XX
+PP4_20XX | Score out of 10 for We are safe and healthy for year 20XX
+PP5_20XX | Score out of 10 for We are always learning for year 20XX
+PP6_20XX | Score out of 10 for We work flexibly for year 20XX
+PP7_20XX | Score out of 10 for We are a team for year 20XX
+theme_engagement_20XX | Score out of 10 for Staff engagement for year 20XX
+theme_morale_20XX | Score out of 10 for Morale for year 20XX
+PP1_1_20XX | Score out of 10 for Compassionate culture (sub-score) for year 20XX
+PP1_2_20XX | Score out of 10 for Compassionate leadership (sub-score) for year 20XX
+PP1_3_20XX | Score out of 10 for Diversity and equality (sub-score) for year 20XX
+PP1_4_20XX | Score out of 10 for Inclusion (sub-score) for year 20XX
+PP3_1_20XX | Score out of 10 for Autonomy and control (sub-score) for year 20XX
+PP3_2_20XX | Score out of 10 for Raising concerns (sub-score) for year 20XX
+PP4_1_20XX | Score out of 10 for Health and safety climate (sub-score) for year 20XX
+PP4_2_20XX | Score out of 10 for Burnout (sub-score) for year 20XX
+PP4_3_20XX | Score out of 10 for Negative experiences (sub-score) for year 20XX
+PP5_1_20XX | Score out of 10 for Development (sub-score) for year 20XX
+PP5_2_20XX | Score out of 10 for Appraisals (sub-score) for year 20XX
+PP6_1_20XX | Score out of 10 for Support for work-life balance (sub-score) for year 20XX
+PP6_2_20XX | Score out of 10 for Flexible working (sub-score) for year 20XX
+PP7_1_20XX | Score out of 10 for Team working (sub-score) for year 20XX
+PP7_2_20XX | Score out of 10 for Line management (sub-score) for year 20XX
+E_1_20XX | Score out of 10 for Motivation (sub-score) for year 20XX
+E_2_20XX | Score out of 10 for Involvement (sub-score) for year 20XX
+E_3_20XX | Score out of 10 for Advocacy (sub-score) for year 20XX
+M_1_20XX | Score out of 10 for Thinking about leaving (sub-score) for year 20XX
+M_2_20XX | Score out of 10 for Work pressure (sub-score) for year 20XX
+M_3_20XX | Score out of 10 for Stressors (sub-score) for year 20XX
+q1_20XX | % of staff that have contact with patients / service users for q1 - Do you have face-to-face, video or telephone contact with patients / service users as part of your job? for year 20XX
+q2a_20XX | % of staff selecting Often or Always for q2a - I look forward to going to work. for year 20XX
+q2b_20XX | % of staff selecting Often or Always for q2b - I am enthusiastic about my job. for year 20XX
+q2c_20XX | % of staff selecting Often or Always for q2c - Time passes quickly when I am working. for year 20XX
+q3a_20XX | % of staff selecting Agree or Strongly Agree for q3a - I always know what my work responsibilities are. for year 20XX
+q3b_20XX | % of staff selecting Agree or Strongly Agree for q3b - I am trusted to do my job. for year 20XX
+q3c_20XX | % of staff selecting Agree or Strongly Agree for q3c - There are frequent opportunities for me to show initiative in my role. for year 20XX
+q3d_20XX | % of staff selecting Agree or Strongly Agree for q3d - I am able to make suggestions to improve the work of my team / department. for year 20XX
+q3e_20XX | % of staff selecting Agree or Strongly Agree for q3e - I am involved in deciding on changes introduced that affect my work area / team / department. for year 20XX
+q3f_20XX | % of staff selecting Agree or Strongly Agree for q3f - I am able to make improvements happen in my area of work. for year 20XX
+q3g_20XX | % of staff selecting Agree or Strongly Agree for q3g - I am able to meet all the conflicting demands on my time at work. for year 20XX
+q3h_20XX | % of staff selecting Agree or Strongly Agree for q3h - I have adequate materials, supplies and equipment to do my work. for year 20XX
+q3i_20XX | % of staff selecting Agree or Strongly Agree for q3i - There are enough staff at this organisation for me to do my job properly. for year 20XX
+q4a_20XX | % of staff selecting Satisfied or Very Satisfied for q4a - The recognition I get for good work. for year 20XX
+q4b_20XX | % of staff selecting Satisfied or Very Satisfied for q4b - The extent to which my organisation values my work. for year 20XX
+q4c_20XX | % of staff selecting Satisfied or Very Satisfied for q4c - My level of pay. for year 20XX
+q4d_20XX | % of staff selecting Satisfied or Very Satisfied for q4d - The opportunities for flexible working patterns. for year 20XX
+q5a_20XX | % of staff selecting Never or Rarely for q5a - I have unrealistic time pressures. for year 20XX
+q5b_20XX | % of staff selecting Often or Always for q5b - I have a choice in deciding how to do my work. for year 20XX
+q5c_20XX | % of staff selecting Never or Rarely for q5c - Relationships at work are strained. for year 20XX
+q6a_20XX | % of staff selecting Agree or Strongly Agree out of those who answered the question, but excluding those who selected Not applicable to me for q6a - I feel that my role makes a difference to patients / service users. for year 20XX
+q6b_20XX | % of staff selecting Agree or Strongly Agree for q6b - My organisation is committed to helping me balance my work and home life. for year 20XX
+q6c_20XX | % of staff selecting Agree or Strongly Agree for q6c - I achieve a good balance between my work life and my home life. for year 20XX
+q6d_20XX | % of staff selecting Agree or Strongly Agree for q6d - I can approach my immediate manager to talk openly about flexible working. for year 20XX
+q7a_20XX | % of staff selecting Agree or Strongly Agree for q7a - The team I work in has a set of shared objectives. for year 20XX
+q7b_20XX | % of staff selecting Agree or Strongly Agree for q7b - The team I work in often meets to discuss the team’s effectiveness. for year 20XX
+q7c_20XX | % of staff selecting Agree or Strongly Agree for q7c - I receive the respect I deserve from my colleagues at work. for year 20XX
+q7d_20XX | % of staff selecting Agree or Strongly Agree for q7d - Team members understand each other's roles. for year 20XX
+q7e_20XX | % of staff selecting Agree or Strongly Agree for q7e - I enjoy working with the colleagues in my team. for year 20XX
+q7f_20XX | % of staff selecting Agree or Strongly Agree for q7f - My team has enough freedom in how to do its work. for year 20XX
+q7g_20XX | % of staff selecting Agree or Strongly Agree for q7g - In my team disagreements are dealt with constructively. for year 20XX
+q7h_20XX | % of staff selecting Agree or Strongly Agree for q7h - I feel valued by my team. for year 20XX
+q7i_20XX | % of staff selecting Agree or Strongly Agree for q7i - I feel a strong personal attachment to my team. for year 20XX
+q8a_20XX | % of staff selecting Agree or Strongly Agree for q8a - Teams within this organisation work well together to achieve their objectives. for year 20XX
+q8b_20XX | % of staff selecting Agree or Strongly Agree for q8b - The people I work with are understanding and kind to one another. for year 20XX
+q8c_20XX | % of staff selecting Agree or Strongly Agree for q8c - The people I work with are polite and treat each other with respect. for year 20XX
+q8d_20XX | % of staff selecting Agree or Strongly Agree for q8d - The people I work with show appreciation to one another. for year 20XX
+q9a_20XX | % of staff selecting Agree or Strongly Agree for q9a - My immediate manager (who may be referred to as your 'line manager') encourages me at work. for year 20XX
+q9b_20XX | % of staff selecting Agree or Strongly Agree for q9b - My immediate manager (who may be referred to as your 'line manager') gives me clear feedback on my work. for year 20XX
+q9c_20XX | % of staff selecting Agree or Strongly Agree for q9c - My immediate manager (who may be referred to as your 'line manager') asks for my opinion before making decisions that affect my work. for year 20XX
+q9d_20XX | % of staff selecting Agree or Strongly Agree for q9d - My immediate manager (who may be referred to as your 'line manager') takes a positive interest in my health and well-being. for year 20XX
+q9e_20XX | % of staff selecting Agree or Strongly Agree for q9e - My immediate manager (who may be referred to as your 'line manager') values my work. for year 20XX
+q9f_20XX | % of staff selecting Agree or Strongly Agree for q9f - My immediate manager (who may be referred to as your 'line manager') works together with me to come to an understanding of problems. for year 20XX
+q9g_20XX | % of staff selecting Agree or Strongly Agree for q9g - My immediate manager (who may be referred to as your 'line manager') is interested in listening to me when I describe challenges I face. for year 20XX
+q9h_20XX | % of staff selecting Agree or Strongly Agree for q9h - My immediate manager (who may be referred to as your 'line manager') cares about my concerns. for year 20XX
+q9i_20XX | % of staff selecting Agree or Strongly Agree for q9i - My immediate manager (who may be referred to as your 'line manager') takes effective action to help me with any problems I face. for year 20XX
+q10a_20XX | % of staff working part-time for q10a - How many hours a week are you contracted to work? for year 20XX
+q10b_20XX | % of staff working additional paid hours for q10b - On average, how many additional PAID hours do you work per week for this organisation, over and above your contracted hours? for year 20XX
+q10c_20XX | % of staff working additional unpaid hours  for q10c - On average, how many additional UNPAID hours do you work per week for this organisation, over and above your contracted hours? for year 20XX
+q11a_20XX | % of staff selecting Agree or Strongly Agree for q11a - My organisation takes positive action on health and well-being. for year 20XX
+q11b_20XX | % of staff selecting Yes for q11b - In the last 12 months have you experienced musculoskeletal problems (MSK) as a result of work activities? for year 20XX
+q11c_20XX | % of staff selecting Yes for q11c - During the last 12 months have you felt unwell as a result of work related stress? for year 20XX
+q11d_20XX | % of staff selecting Yes for q11d - In the last three months have you ever come to work despite not feeling well enough to perform your duties? for year 20XX
+q11e_20XX | % of staff selecting Yes for q11e - Have you felt pressure from your manager to come to work? for year 20XX
+q12a_20XX | % of staff selecting Often or Always for q12a - How often, if at all, do you find your work emotionally exhausting? for year 20XX
+q12b_20XX | % of staff selecting Often or Always for q12b - How often, if at all, do you feel burnt out because of your work? for year 20XX
+q12c_20XX | % of staff selecting Often or Always for q12c - How often, if at all, does your work frustrate you? for year 20XX
+q12d_20XX | % of staff selecting Often or Always for q12d - How often, if at all, are you exhausted at the thought of another day/shift at work? for year 20XX
+q12e_20XX | % of staff selecting Often or Always for q12e - How often, if at all, do you feel worn out at the end of your working day/shift? for year 20XX
+q12f_20XX | % of staff selecting Often or Always for q12f - How often, if at all, do you feel that every working hour is tiring for you? for year 20XX
+q12g_20XX | % of staff selecting Often or Always for q12g - How often, if at all, do you not have enough energy for family and friends during leisure time? for year 20XX
+q13a_20XX | % of staff saying they experienced at least one incident of violence for q13a - In the last 12 months how many times have you personally experienced physical violence at work from patients / service users, their relatives or other members of the public? for year 20XX
+q13b_20XX | % of staff saying they experienced at least one incident of violence for q13b - In the last 12 months how many times have you personally experienced physical violence at work from managers? for year 20XX
+q13c_20XX | % of staff saying they experienced at least one incident of violence for q13c - In the last 12 months how many times have you personally experienced physical violence at work from other colleagues? for year 20XX
+q13d_20XX | % of staff saying they, or a colleague, reported it, out of those who answered the question excluding those who selected Don't know or Not applicable for q13d - The last time you experienced physical violence at work, did you or a colleague report it? for year 20XX
+q14a_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse for q14a - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from patients / service users, their relatives or other members of the public? for year 20XX
+q14b_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse for q14b - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from managers? for year 20XX
+q14c_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse for q14c - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from other colleagues? for year 20XX
+q14d_20XX | % of staff saying they, or a colleague, reported it, out of those who answered the question excluding those who selected Don't know or Not applicable for q14d - The last time you experienced harassment, bullying or abuse at work, did you or a colleague report it? for year 20XX
+q15_20XX | % of staff selecting Yes out of those who answered the question for q15 - Does your organisation act fairly with regard to career progression / promotion, regardless of ethnic background, gender, religion, sexual orientation, disability or age? for year 20XX
+q16a_20XX | % of staff selecting Yes for q16a - In the last 12 months have you personally experienced discrimination at work from patients / service users, their relatives or other members of the public? for year 20XX
+q16b_20XX | % of staff selecting Yes for q16b - In the last 12 months have you personally experienced discrimination at work from manager / team leader or other colleagues? for year 20XX
+q16c_1_20XX | % of staff who experienced discrimination that said it was on this basis for q16c_1 - On what grounds have you experienced discrimination - Ethnic background for year 20XX
+q16c_2_20XX | % of staff who experienced discrimination that said it was on this basis for q16c_2 - On what grounds have you experienced discrimination - Gender for year 20XX
+q16c_3_20XX | % of staff who experienced discrimination that said it was on this basis for q16c_3 - On what grounds have you experienced discrimination - Religion for year 20XX
+q16c_4_20XX | % of staff who experienced discrimination that said it was on this basis for q16c_4 - On what grounds have you experienced discrimination - Sexual orientation for year 20XX
+q16c_5_20XX | % of staff who experienced discrimination that said it was on this basis for q16c_5 - On what grounds have you experienced discrimination - Disability for year 20XX
+q16c_6_20XX | % of staff who experienced discrimination that said it was on this basis for q16c_6 - On what grounds have you experienced discrimination - Age for year 20XX
+q16c_7_20XX | % of staff who experienced discrimination that said it was on this basis for q16c_7 - On what grounds have you experienced discrimination - Other for year 20XX
+q17a_20XX | % of staff saying they were the target of at least one incident of unwanted behaviour of a sexual nature for q17a - In the last 12 months, how many times have you been the target of unwanted behaviour of a sexual nature in the workplace? This may include offensive or inappropriate sexualised conversation (including jokes), touching or assault. From patients / service users, their relatives or other members of the public for year 20XX
+q17b_20XX | % of staff saying they were the target of at least one incident of unwanted behaviour of a sexual nature for q17b - In the last 12 months, how many times have you been the target of unwanted behaviour of a sexual nature in the workplace? This may include offensive or inappropriate sexualised conversation (including jokes), touching or assault. From staff / colleagues for year 20XX
+q18_20XX | % of staff selecting Yes for q18 - In the last month have you seen any errors, near misses, or incidents that could have hurt staff and/or patients/service users? for year 20XX
+q19a_20XX | % of staff selecting Agree or Strongly Agree for q19a - My organisation treats staff who are involved in an error, near miss or incident fairly. for year 20XX
+q19b_20XX | % of staff selecting Agree or Strongly Agree for q19b - My organisation encourages us to report errors, near misses or incidents. 20XX
+q19c_20XX | % of staff selecting Agree or Strongly Agree for q19c - When errors, near misses or incidents are reported, my organisation takes action to ensure that they do not happen again. for year 20XX
+q19d_20XX | % of staff selecting Agree or Strongly Agree for q19d - We are given feedback about changes made in response to reported errors, near misses and incidents. for year 20XX
+q20a_20XX | % of staff selecting Agree or Strongly Agree for q20a - I would feel secure raising concerns about unsafe clinical practice. for year 20XX
+q20b_20XX | % of staff selecting Agree or Strongly Agree for q20b - I am confident that my organisation would address my concern. for year 20XX
+q21_20XX | % of staff selecting Agree or Strongly Agree for q21 - I think that my organisation respects individual differences (e.g. cultures, working styles, backgrounds, ideas, etc). for year 20XX
+q22_20XX | % of staff selecting Often or Always for q22 - I can eat nutritious and affordable food while I am working. for year 20XX
+q23a_20XX | % of staff selecting Yes for q23a - In the last 12 months, have you had an appraisal, annual review, development review, or Knowledge and Skills Framework (KSF) development review? for year 20XX
+q23b_20XX | % of staff selecting Yes, definitely for q23b - It helped me to improve how I do my job. for year 20XX
+q23c_20XX | % of staff selecting Yes, definitely for q23c - It helped me agree clear objectives for my work. for year 20XX
+q23d_20XX | % of staff selecting Yes, definitely for q23d - It left me feeling that my work is valued by my organisation. for year 20XX
+q24a_20XX | % of staff selecting Agree or Strongly Agree for q24a - This organisation offers me challenging work. for year 20XX
+q24b_20XX | % of staff selecting Agree or Strongly Agree for q24b - There are opportunities for me to develop my career in this organisation. for year 20XX
+q24c_20XX | % of staff selecting Agree or Strongly Agree for q24c - I have opportunities to improve my knowledge and skills. for year 20XX
+q24d_20XX | % of staff selecting Agree or Strongly Agree for q24d - I feel supported to develop my potential. for year 20XX
+q24e_20XX | % of staff selecting Agree or Strongly Agree for q24e - I am able to access the right learning and development opportunities when I need to. for year 20XX
+q24f_20XX | % of staff selecting Agree or Strongly Agree for q24f - I am able to access clinical supervision opportunities when I need to. for year 20XX
+q25a_20XX | % of staff selecting Agree or Strongly Agree for q25a - Care of patients / service users is my organisation's top priority. for year 20XX
+q25b_20XX | % of staff selecting Agree or Strongly Agree for q25b - My organisation acts on concerns raised by patients / service users. for year 20XX
+q25c_20XX | % of staff selecting Agree or Strongly Agree for q25c - I would recommend my organisation as a place to work. for year 20XX
+q25d_20XX | % of staff selecting Agree or Strongly Agree for q25d - If a friend or relative needed treatment I would be happy with the standard of care provided by this organisation. for year 20XX
+q25e_20XX | % of staff selecting Agree or Strongly Agree for q25e - I feel safe to speak up about anything that concerns me in this organisation. for year 20XX
+q25f_20XX | % of staff selecting Agree or Strongly Agree for q25f - If I spoke up about something that concerned me I am confident my organisation would address my concern. for year 20XX
+q26a_20XX | % of staff selecting Agree or Strongly Agree for q26a - I often think about leaving this organisation. for year 20XX
+q26b_20XX | % of staff selecting Agree or Strongly Agree for q26b - I will probably look for a job at a new organisation in the next 12 months. for year 20XX
+q26c_20XX | % of staff selecting Agree or Strongly Agree for q26c - As soon as I can find another job, I will leave this organisation. for year 20XX
+q26d_1_20XX | % of staff who said this would be their most likely destination for q26d_1 - I would want to move to another job within this organisation for year 20XX
+q26d_2_20XX | % of staff who said this would be their most likely destination for q26d_2 - I would want to move to a job in a different NHS Trust/organisation for year 20XX
+q26d_3_20XX | % of staff who said this would be their most likely destination for q26d_3 - I would want to move to a job in healthcare, but outside the NHS for year 20XX
+q26d_4_20XX | % of staff who said this would be their most likely destination for q26d_4 - I would want to move to a job outside healthcare for year 20XX
+q26d_5_20XX | % of staff who said this would be their most likely destination for q26d_5 - I would retire or take a career break for year 20XX
+q26d_9_20XX | % of staff who said this would be their most likely destination for q26d_9 - I am not considering leaving my current job for year 20XX
+q27a_1_20XX | % of staff for q27a_1 - Gender - Female for year 20XX
+q27a_2_20XX | % of staff for q27a_2 - Gender - Male for year 20XX
+q27a_3_20XX | % of staff for q27a_3 - Gender - Non-binary for year 20XX
+q27a_4_20XX | % of staff for q27a_4 - Gender - Prefer to self-describe for year 20XX
+q27a_9_20XX | % of staff for q27a_9 - Gender - Prefer not to say for year 20XX
+q27b_1_20XX | % of staff for q27b_1 - Is your gender identity the same as the sex you were registered at birth? - Yes for year 20XX
+q27b_2_20XX | % of staff for q27b_2 - Is your gender identity the same as the sex you were registered at birth? - No for year 20XX
+q27b_9_20XX | % of staff for q27b_3 - Is your gender identity the same as the sex you were registered at birth? - Prefer not to say for year 20XX
+q27c_1_20XX | % of staff for q27c_1 - Age - 16-20 for year 20XX
+q27c_2_20XX | % of staff for q27c_2 - Age - 21-30 for year 20XX
+q27c_3_20XX | % of staff for q27c_3 - Age - 31-40 for year 20XX
+q27c_4_20XX | % of staff for q27c_4 - Age - 41-50 for year 20XX
+q27c_5_20XX | % of staff for q27c_5 - Age - 51-65 for year 20XX
+q27c_6_20XX | % of staff for q27c_6 - Age - 66+ for year 20XX
+eth_grp_sum_1_20XX | % of staff for q28 group 1 - What is your ethnic group? - White for year 20XX
+eth_grp_sum_2_20XX | % of staff for q28 group 2 - What is your ethnic group? - Mixed/Multiple ethnic background for year 20XX
+eth_grp_sum_3_20XX | % of staff for q28 group 3 - What is your ethnic group? - Asian/Asian British for year 20XX
+eth_grp_sum_4_20XX | % of staff for q28 group 4 - What is your ethnic group? - Black/African/Caribbean/Black British for year 20XX
+eth_grp_sum_5_20XX | % of staff for q28 group 5 - What is your ethnic group? - Arab for year 20XX
+eth_grp_sum_6_20XX | % of staff for q28 group 6 - What is your ethnic group? - Other ethnic group for year 20XX
+q29_1_20XX | % of staff for q29_1 - Sexual orientation - Heterosexual or Straight for year 20XX
+q29_2_20XX | % of staff for q29_2 - Sexual orientation - Gay or Lesbian for year 20XX
+q29_3_20XX | % of staff for q29_3 - Sexual orientation - Bisexual for year 20XX
+q29_4_20XX | % of staff for q29_4 - Sexual orientation - Other sexuality for year 20XX
+q29_5_20XX | % of staff for q29_5 - Sexual orientation - I would prefer not to say for year 20XX
+q30_1_20XX | % of staff for q30_1 - What is your religion? Are you... - No religion for year 20XX
+q30_2_20XX | % of staff for q30_2 - What is your religion? Are you... - Christian for year 20XX
+q30_3_20XX | % of staff for q30_3 - What is your religion? Are you... - Buddhist for year 20XX
+q30_4_20XX | % of staff for q30_4 - What is your religion? Are you... - Hindu for year 20XX
+q30_5_20XX | % of staff for q30_5 - What is your religion? Are you... - Jewish for year 20XX
+q30_6_20XX | % of staff for q30_6 - What is your religion? Are you... - Muslim for year 20XX
+q30_7_20XX | % of staff for q30_7 - What is your religion? Are you... - Sikh for year 20XX
+q30_8_20XX | % of staff for q30_8 - What is your religion? Are you... - Any other religion for year 20XX
+q30_9_20XX | % of staff for q30_9 - What is your religion? Are you... - I would prefer not to say for year 20XX
+q31a_20XX | % of staff selecting Yes for q31a - Do you have any physical or mental health conditions or illnesses lasting or expected to last for 12 months or more? for year 20XX
+q31b_20XX | % of staff selecting Yes out of those who answered the question excluding those who select No adjustment required for q31b - Has your employer made reasonable adjustment(s) to enable you to carry out your work? for year 20XX
+q32a_20XX | % of staff selecting Yes for q32a - Do you have any children aged from 0 to 17 living at home with you, or who you have regular caring responsibility for? for year 20XX
+q32b_20XX | % of staff selecting Yes for q32b - Do you look after, or give any help or support to family members, friends, neighbours or others because of either: long term physical or mental ill health / disability, or problems related to old age? for year 20XX
+q33_1_20XX | % of staff for q33_1 - Thinking about your current role, how often, if at all, do you work at/from home? - Never for year 20XX
+q33_2_20XX | % of staff for q33_2 - Thinking about your current role, how often, if at all, do you work at/from home? - Rarely for year 20XX
+q33_3_20XX | % of staff for q33_3 - Thinking about your current role, how often, if at all, do you work at/from home? - Sometimes for year 20XX
+q33_4_20XX | % of staff for q33_4 - Thinking about your current role, how often, if at all, do you work at/from home? - Often for year 20XX
+q33_5_20XX | % of staff for q33_5 - Thinking about your current role, how often, if at all, do you work at/from home? - Always for year 20XX
+q34a_1_20XX | % of staff for q34a_1 - How many years have you worked for this organisation? - Less than 1 year for year 20XX
+q34a_2_20XX | % of staff for q34a_2 - How many years have you worked for this organisation? - 1-2 years for year 20XX
+q34a_3_20XX | % of staff for q34a_3 - How many years have you worked for this organisation? - 3-5 years for year 20XX
+q34a_4_20XX | % of staff for q34a_4 - How many years have you worked for this organisation? - 6-10 years for year 20XX
+q34a_5_20XX | % of staff for q34a_5 - How many years have you worked for this organisation? - 11-15 years for year 20XX
+q34a_6_20XX | % of staff for q34a_6 - How many years have you worked for this organisation? - More than 15 years for year 20XX
+q34b_1_20XX | % of staff for q34b_1 - When you joined this organisation, were you recruited from outside of the UK? - Yes for year 20XX
+q34b_2_20XX | % of staff for q34b_2 - When you joined this organisation, were you recruited from outside of the UK? - No for year 20XX
+q34b_9_20XX | % of staff for q34b_9 - When you joined this organisation, were you recruited from outside of the UK? - Prefer not to say for year 20XX
+occ_subgroup_1_20XX | % of staff for q35 group 1 - Registered Nurses for year 20XX
+occ_subgroup_2_20XX | % of staff for q35 group 2 - Nursing or Healthcare assistants for year 20XX
+occ_subgroup_3_20XX | % of staff for q35 group 3 - Medical and Dental for year 20XX
+occ_subgroup_4_20XX | % of staff for q35 group 4 - Allied Health Professionals for year 20XX
+occ_subgroup_5_20XX | % of staff for q35 group 5 - Scientific and Technical for year 20XX
+occ_subgroup_6_20XX | % of staff for q35 group 6 - Social Care for year 20XX
+occ_subgroup_7_20XX | % of staff for q35 group 7 - Public Health for year 20XX
+occ_subgroup_8_20XX | % of staff for q35 group 8 - Commissioning for year 20XX
+occ_subgroup_9_20XX | % of staff for q35 group 9 - Admin and Clerical for year 20XX
+occ_subgroup_10_20XX | % of staff for q35 group 10 - Central Functions for year 20XX
+occ_subgroup_11_20XX | % of staff for q35 group 11 - Maintenance for year 20XX
+occ_subgroup_12_20XX | % of staff for q35 group 12 - General Management for year 20XX
+occ_subgroup_13_20XX | % of staff for q35 group 13 - Other for year 20XX
+occ_subgroup_14_20XX | % of staff for q35 group 14 - Emergency Care Practitioners for year 20XX
+occ_subgroup_15_20XX | % of staff for q35 group 15 - Paramedics for year 20XX
+occ_subgroup_16_20XX | % of staff for q35 group 16 - Emergency Care Assistants for year 20XX
+occ_subgroup_17_20XX | % of staff for q35 group 17 - Ambulance Technicians for year 20XX
+occ_subgroup_18_20XX | % of staff for q35 group 18 - Ambulance Control Staff for year 20XX
+occ_subgroup_19_20XX | % of staff for q35 group 19 - Patient Transport Service for year 20XX
+q11e_q31a_1_20XX | % of staff selecting Yes for q11e - Have you felt pressure from your manager to come to work? for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+q11e_q31a_2_20XX | % of staff selecting Yes for q11e - Have you felt pressure from your manager to come to work? for year 20XX for staff without a long term condition or illness (q31a) (WDES)
+q14a_q31a_1_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse  for q14a - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from patients / service users, their relatives or other members of the public? for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+q14a_q31a_2_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse  for q14a - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from patients / service users, their relatives or other members of the public? for year 20XX for staff without a long term condition or illness (q31a) (WDES)
+q14b_q31a_1_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse  for q14b - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from managers? for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+q14b_q31a_2_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse  for q14b - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from managers? for year 20XX for staff without a long term condition or illness (q31a) (WDES)
+q14c_q31a_1_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse  for q14c - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from other colleagues? for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+q14c_q31a_2_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse  for q14c - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from other colleagues? for year 20XX for staff without a long term condition or illness (q31a) (WDES)
+q14d_q31a_1_20XX | % of staff saying they, or a colleague, reported it, out of those who answered the question excluding those who selected Don't know or Not applicable for q14d - The last time you experienced harassment, bullying or abuse at work, did you or a colleague report it? for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+q14d_q31a_2_20XX | % of staff saying they, or a colleague, reported it, out of those who answered the question excluding those who selected Don't know or Not applicable for q14d - The last time you experienced harassment, bullying or abuse at work, did you or a colleague report it? for year 20XX for staff without a long term condition or illness (q31a) (WDES)
+q15_q31a_1_20XX | % of staff selecting Yes out of those who answered the question for q15 - Does your organisation act fairly with regard to career progression / promotion, regardless of ethnic background, gender, religion, sexual orientation, disability or age? for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+q15_q31a_2_20XX | % of staff selecting Yes out of those who answered the question for q15 - Does your organisation act fairly with regard to career progression / promotion, regardless of ethnic background, gender, religion, sexual orientation, disability or age? for year 20XX for staff without a long term condition or illness (q31a) (WDES)
+q31b_q31a_1_20XX | % of staff selecting Yes out of those who answered the question excluding those who select No adjustment required for q31b - Has your employer made reasonable adjustment(s) to enable you to carry out your work? for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+q4b_q31a_1_20XX | % of staff selecting Satisfied or Very Satisfied for q4b - The extent to which my organisation values my work. for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+q4b_q31a_2_20XX | % of staff selecting Satisfied or Very Satisfied for q4b - The extent to which my organisation values my work. for year 20XX for staff without a long term condition or illness (q31a) (WDES)
+theme_engagement_q31a_1_20XX | Score out of 10 for Staff engagement for year 20XX for staff with a long term condition or illness (q31a) (WDES)
+theme_engagement_q31a_2_20XX | Score out of 10 for Staff engagement for year 20XX for staff without a long term condition or illness (q31a) (WDES)
+theme_engagement_q31a_unweighted_20XX | Score out of 10 for Staff engagement for year 20XX for all staff (q31a) (unweighted data) (WDES)
+equal_eth_summary_1_20XX | % of staff selecting Yes out of those who answered the question for q15 - Does your organisation act fairly with regard to career progression / promotion, regardless of ethnic background, gender, religion, sexual orientation, disability or age? for year 20XX for White staff (WRES)
+equal_eth_summary_2_20XX | % of staff selecting Yes out of those who answered the question for q15 - Does your organisation act fairly with regard to career progression / promotion, regardless of ethnic background, gender, religion, sexual orientation, disability or age? for year 20XX for Staff from all other ethnic groups combined (WRES)
+har_from_pat_eth_summary_1_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse for q14a - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from patients / service users, their relatives or other members of the public? for year 20XX for White staff (WRES)
+har_from_pat_eth_summary_2_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse for q14a - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from patients / service users, their relatives or other members of the public? for year 20XX for Staff from all other ethnic groups combined (WRES)
+har_from_staff_eth_summary_1_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse across q14b and q14c - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from managers / other colleagues? for year 20XX - for White staff (WRES)
+har_from_staff_eth_summary_2_20XX | % of staff saying they experienced at least one incident of harassment, bullying or abuse across q14b and q14c - In the last 12 months how many times have you personally experienced harassment, bullying or abuse at work from managers / other colleagues? for year 20XX - for Staff from all other ethnic groups combined (WRES)
+q16b_eth_summary_1_20XX | % of staff selecting Yes for q16b - In the last 12 months have you personally experienced discrimination at work from manager / team leader or other colleagues? for year 20XX for White staff (WRES)
+q16b_eth_summary_2_20XX | % of staff selecting Yes for q16b - In the last 12 months have you personally experienced discrimination at work from manager / team leader or other colleagues? for year 20XX for Staff from all other ethnic groups combined (WRES)
+PP1_sig | Significance test result for difference between most recent two years' data for We are compassionate and inclusive  -1 significant decrease, 0 no difference, 1 significant increase
+PP2_sig | Significance test result for difference between most recent two years' data for We are recognised and rewarded   -1 significant decrease, 0 no difference, 1 significant increase
+PP3_sig | Significance test result for difference between most recent two years' data for We each have a voice that counts   -1 significant decrease, 0 no difference, 1 significant increase
+PP4_sig | Significance test result for difference between most recent two years' data for We are safe and healthy   -1 significant decrease, 0 no difference, 1 significant increase
+PP5_sig | Significance test result for difference between most recent two years' data for We are always learning   -1 significant decrease, 0 no difference, 1 significant increase
+PP6_sig | Significance test result for difference between most recent two years' data for We work flexibly   -1 significant decrease, 0 no difference, 1 significant increase
+PP7_sig | Significance test result for difference between most recent two years' data for We are a team   -1 significant decrease, 0 no difference, 1 significant increase
+theme_engagement_sig | Significance test result for difference between most recent two years' data for Staff engagement   -1 significant decrease, 0 no difference, 1 significant increase
+theme_morale_sig | Significance test result for difference between most recent two years' data for Morale   -1 significant decrease, 0 no difference, 1 significant increase
+response_rate_20XX | Response rate for year 20XX

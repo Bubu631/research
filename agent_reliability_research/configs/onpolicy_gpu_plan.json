@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "status": "proposed_unexecuted",
+  "execution_enabled": false,
+  "purpose": "Fresh-rollout coding RL: test whether sequential audits earn their complexity over whole-group correction",
+  "model": {
+    "id": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+    "revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+    "dtype": "bfloat16",
+    "adaptation": "LoRA",
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.0,
+    "lora_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    "full_parameter_training_claim": false
+  },
+  "data": {
+    "id": "osunlp/TACO-Cobalt",
+    "revision": "88abc66029a542fceedf7b529816fd8cae9180ae",
+    "source_train_tasks_expected": 5853,
+    "source_validation_tasks_expected": 250,
+    "split_order": "SHA256(taco-audit-onpolicy-v1|id|normalized_question_sha256)",
+    "pilot_tasks": 128,
+    "proxy_fit_tasks": 512,
+    "development_tasks": 256,
+    "remaining_training_tasks_before_duplicate_checks": 4957,
+    "final_test": "all official validation tasks, sealed until confirmation",
+    "split_manifest_sha256": null,
+    "reference": "AND over union of original public and hidden tests, deterministic seeded runner",
+    "proxy_feedback": "public tests only; no hidden feedback is sent to actor",
+    "certificate": "any public-test failure certifies union-reference failure; available to every method",
+    "outcome_based_task_filtering": false
+  },
+  "rollout": {
+    "group_size": 8,
+    "groups_per_collection": 16,
+    "maximum_turns": 4,
+    "early_stop": "public tests all pass or maximum turns reached",
+    "max_new_tokens_per_turn": 1024,
+    "max_context_tokens": 8192,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "save_actual_behavior_log_probabilities": true,
+    "question_format": "fixed code-only Python instruction, original task, previous program and agent-visible public feedback",
+    "reward": "binary terminal union-reference verdict",
+    "actor_reference_feedback_access": false
+  },
+  "optimizer": {
+    "learning_rate": 0.00001,
+    "learning_rate_pilot_candidates": [0.000005, 0.00001],
+    "optimizer": "AdamW",
+    "kl_beta": 0.01,
+    "clip_epsilon": 0.2,
+    "gradient_norm_cap": 1.0,
+    "groups_per_optimizer_step": 2,
+    "microbatch_trajectories": 1,
+    "epochs_per_rollout_collection": 1,
+    "audit_time": "immediately before each optimizer step, fresh independent audit randomness",
+    "reuse_audited_advantage_after_parameter_update": false,
+    "coefficient_plumbing": "direct sign-separated linear combination; no renormalization or sign reclamping",
+    "loss_mask": "all generated assistant tokens including code; user/tool tokens excluded",
+    "long_context_rule": "deterministic declared rolling context; log every truncation"
+  },
+  "audit": {
+    "main_expected_unknown_query_fraction": 0.5,
+    "absolute_survival_floor": 0.05,
+    "order": "pre-audit decreasing p*(1-p), stable record-id tie break",
+    "schedule": "fixed-order model-moment PAVA using unit query costs",
+    "predicted_cost_aware_secondary": false,
+    "completion_model": "independent Bernoulli; frozen calibration model",
+    "predictor_features": "pre-audit code/trajectory and public-test features only",
+    "calibration_generation_seed": 20260912,
+    "use_current_hidden_labels_for_schedule_or_predictor": false,
+    "known_labels": "retain prior exact cached verdicts, charge only distinct reference computations",
+    "calibration_cost_amortization": "actual stated deployment groups only, never infinite or omitted"
+  },
+  "methods": [
+    "sequential_completion",
+    "full_reference_grpo",
+    "whole_group_residual",
+    "full_group_small_batch",
+    "pgbc_fixed_scale"
+  ],
+  "baseline_definitions": {
+    "whole_group_residual": "same learned proxy, exact completion, certificates and expected unknown-label count as SC",
+    "full_group_small_batch": "select complete groups before generation, generate and fully verify fewer groups; report different rollout/update counts as an alternative compute pipeline",
+    "pgbc_fixed_scale": "Cai v4 direct coefficients, leave-one-out baseline, fixed scale; estimated effective channel, no current-group z-score; includes calibration/appeal costs"
+  },
+  "pgbc_details": {
+    "fixed_positive_scale": 0.5,
+    "cheap_binary_verdict": "all public tests passed on final program",
+    "channel_estimation": "calibration-only class-conditional empirical rates; exact false-negative rate zero under union-test semantics",
+    "inverse_channel_minimum_denominator": 0.05,
+    "poor_channel_rule": "stop and report this baseline as unidentified/unstable if calibration lacks either reference class or 1-false_positive-false_negative < 0.05; do not silently replace or clamp the channel"
+  },
+  "auxiliary_fixed_bank_only": ["proxy_only", "label_ht_then_normalize", "partial_replacement"],
+  "stages": {
+    "pilot": {"tasks_in_order": [32, 128], "training_collections_per_candidate": 5},
+    "initial": {"seeds": [1101, 1102, 1103], "collections_per_run": 25, "evaluation_split": "development"},
+    "confirmation": {"seeds": [2101, 2102, 2103, 2104, 2105], "collections_per_run": 100, "evaluation_split": "sealed official validation", "protocol_changes_after_start": false}
+  },
+  "evaluation": {
+    "checkpoints": "fixed 0%, 50%, 100% collection count, plus cost ledger",
+    "greedy_pass_rate": true,
+    "sampled_attempts_per_task": 8,
+    "primary_comparison": "SC versus WG heldout reference success and measured cost frontier",
+    "noninferiority_margin_absolute": 0.01,
+    "initial_gate_uses_final_test": false,
+    "diagnostic_full_label_banks": "16 task groups at initial/end checkpoints for a predeclared diagnostic seed; separate accounting and no optimizer access",
+    "seed_uncertainty": "paired across fixed training seeds; task-level paired bootstrap separately; no trajectory pseudo-replication",
+    "insufficient_power": "report intervals, never call overlap equivalence"
+  },
+  "pilot_gates": {
+    "reference_repeat_disagreement_max": 0.005,
+    "fraction_groups_with_at_least_four_unknown_labels_min": 0.2,
+    "reference_critical_path_fraction_for_speed_study_min": 0.2,
+    "predicted_net_wall_time_saving_min": 0.05,
+    "max_gpu_memory_fraction": 0.9,
+    "require_source_and_ledger_checks": true,
+    "outcome_driven_dataset_replacement": false
+  },
+  "sandbox": {
+    "host_execution_for_generated_code": false,
+    "require_isolated_remote_worker": true,
+    "runtime": "gVisor/runsc or reviewed microVM",
+    "image_digest": null,
+    "non_root": true,
+    "network": "none",
+    "read_only_root": true,
+    "private_workspace_or_credentials_mount": false,
+    "docker_socket_mount": false,
+    "drop_all_capabilities": true,
+    "no_new_privileges": true,
+    "cpu_cores_per_program": 1,
+    "memory_mb": 512,
+    "pids_limit": 32,
+    "scratch_mb": 64,
+    "stdout_limit_bytes": 65536,
+    "per_test_cpu_seconds": 2,
+    "per_program_wall_seconds": 30,
+    "fixed_runner_seed": 20260912,
+    "fail_fast_reference": true,
+    "cache_key": "task, program, image, tests, limits and seed hashes"
+  },
+  "resource_inputs_required_before_any_paid_execution": {
+    "gpu_count": null,
+    "gpu_memory_gb_each": null,
+    "pilot_total_gpu_hours_cap": null,
+    "initial_total_gpu_hours_cap": null,
+    "confirmation_total_gpu_hours_cap": null,
+    "per_run_wall_hours_cap": null,
+    "disk_gb_cap": null,
+    "profile_safety_multiplier": 1.3
+  },
+  "ledger": {
+    "format": "append-only JSONL",
+    "required_ids": ["run_id", "method", "training_seed", "task_id", "group_id", "trajectory_id", "behavior_checkpoint", "optimizer_step", "program_sha256"],
+    "required_costs": ["gpu_allocation_start_end", "generation_gpu_seconds", "prefill_and_generated_tokens", "update_gpu_seconds", "public_test_cpu_seconds", "reference_test_cpu_seconds", "sandbox_wall_seconds", "scheduling_cpu_seconds", "prediction_cpu_seconds", "calibration_cost", "evaluation_cost", "diagnostic_cost", "cache_hit", "retry_cost", "failure_cost"],
+    "required_audit_fields": ["known_certificate", "audit_uniform", "order", "survival_probabilities", "queried_indices", "conditional_expected_queries", "actual_unique_queries", "coefficient_norm", "gradient_norm", "clip_active_fraction"],
+    "overlap_rule": "end-to-end time comes from actual interval timestamps; do not sum overlapping GPU/CPU components as wall time"
+  }
+}

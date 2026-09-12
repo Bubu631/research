@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "computed_at_utc": "2026-09-12T15:59:26.199759+00:00",
+  "binary_grpo_degree": [
+    {
+      "group_size": 2,
+      "computed_degree": 1,
+      "theorem_degree": 1,
+      "maximum_mobius_formula_error": 5.551115123125783e-17,
+      "full_interaction_coefficient": 0.0
+    },
+    {
+      "group_size": 3,
+      "computed_degree": 1,
+      "theorem_degree": 1,
+      "maximum_mobius_formula_error": 1.1102230246251565e-16,
+      "full_interaction_coefficient": 1.1102230246251565e-16
+    },
+    {
+      "group_size": 4,
+      "computed_degree": 3,
+      "theorem_degree": 3,
+      "maximum_mobius_formula_error": 2.0816681711721685e-16,
+      "full_interaction_coefficient": 0.0
+    },
+    {
+      "group_size": 5,
+      "computed_degree": 3,
+      "theorem_degree": 3,
+      "maximum_mobius_formula_error": 2.498001805406602e-16,
+      "full_interaction_coefficient": 2.498001805406602e-16
+    },
+    {
+      "group_size": 6,
+      "computed_degree": 5,
+      "theorem_degree": 5,
+      "maximum_mobius_formula_error": 4.0245584642661925e-16,
+      "full_interaction_coefficient": 2.636779683484747e-16
+    },
+    {
+      "group_size": 7,
+      "computed_degree": 5,
+      "theorem_degree": 5,
+      "maximum_mobius_formula_error": 3.6636919067654316e-16,
+      "full_interaction_coefficient": 1.249000902703301e-16
+    },
+    {
+      "group_size": 8,
+      "computed_degree": 7,
+      "theorem_degree": 7,
+      "maximum_mobius_formula_error": 8.153200337090993e-16,
+      "full_interaction_coefficient": 0.0
+    },
+    {
+      "group_size": 9,
+      "computed_degree": 7,
+      "theorem_degree": 7,
+      "maximum_mobius_formula_error": 5.891120924417237e-15,
+      "full_interaction_coefficient": -5.891120924417237e-15
+    },
+    {
+      "group_size": 10,
+      "computed_degree": 9,
+      "theorem_degree": 9,
+      "maximum_mobius_formula_error": 3.8614944575243726e-15,
+      "full_interaction_coefficient": -2.3800406090401793e-15
+    },
+    {
+      "group_size": 11,
+      "computed_degree": 9,
+      "theorem_degree": 9,
+      "maximum_mobius_formula_error": 7.348288644237755e-15,
+      "full_interaction_coefficient": -3.859759734048396e-15
+    },
+    {
+      "group_size": 12,
+      "computed_degree": 11,
+      "theorem_degree": 11,
+      "maximum_mobius_formula_error": 2.2024049251001543e-14,
+      "full_interaction_coefficient": -6.29704621779581e-15
+    }
+  ],
+  "adaptive_roulette": {
+    "group_size": 5,
+    "all_reward_configurations": 32,
+    "pointwise_unbiasedness_max_error": 5.551115123125783e-17,
+    "note": "Pointwise RR check holds regardless of whether model probabilities match the reward law.",
+    "exact_variance_under_correct_model": 0.19339599534935392,
+    "sum_increment_variance_over_survival": 0.1933959953493539,
+    "orthogonality_max_error": 2.1412992906588713e-18,
+    "deterministic_survival": [
+      0.84,
+      0.67,
+      0.48,
+      0.31,
+      0.17
+    ],
+    "expected_queries": 2.4699999999999998
+  },
+  "fixed_survival_pava": {
+    "cases": 20,
+    "maximum_objective_gap_vs_independent_SLSQP": 2.0726531602122122e-11,
+    "scope": "Fixed query order, deterministic survival and costs, supplied positive increment second moments."
+  },
+  "counterexamples": {
+    "ht_rewards_then_normalize": {
+      "oracle_update": 1.0,
+      "expected_update": 0.5
+    },
+    "unbiased_advantage_then_clip": {
+      "oracle_objective": 0.0,
+      "expected_objective": -0.4
+    },
+    "affine_flip_correction_normalization_max_difference": 0.0
+  },
+  "seed": 202609121,
+  "source_sha256": "5cff0040e3cad7d45688d3e92e84d49fcf7f3e2fe64ae12d85ecfc2c293c9f45",
+  "scope": "Finite exact enumeration and optimization checks; no empirical RL performance or novelty claim."
+}

@@ -1,0 +1,39 @@
+\subsection{Extension to the native trainable model parameters}
+\label{sec:nativeparameters}
+After inspecting the output-bias study, we fixed a subsequent scope-check protocol using the same 256 English--German reporting records, checkpoint, alignment, and three selection mechanisms. We differentiated the edited and untouched losses through the model's 73,886,208 native trainable parameters. Shared weights were counted once; the two sinusoidal position tables remained fixed, and the added output-bias adapter was absent. These are two parameterizations of the model, rather than a literal subset/superset comparison. The run used evaluation mode, no optimizer update, and batches of four with source attention masks and ignored target padding. Each sentence's two loss sums were divided by its own full PE length including EOS.
+
+The eight vectors $\E_P[g_E],\E_P[g_U]$ and the corresponding two means for each $Q$ were accumulated in CPU float64 from float32 automatic differentiation. Their $8\times8$ Gram matrix permits the same geometry analysis without distributing the 4.73\,GB mean-gradient bank; the bank hash and parameter order are retained. This completed computation took 2,212 seconds on the recorded Apple M1 Pro. The initial attempt stopped at the first backward call because serialized sinusoidal tables were marked trainable despite their non-differentiable forward implementation. Explicitly fixing those tables implemented the already stated protocol; no completed outcome preceded this correction. Both execution records are preserved.
+
+\begin{table}[ht]
+\centering\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Selection & $\rho_Q(0)$ & $\rho_Q(1)$ & $\norm{b_0}$ & $\norm{b_1}$ & $\norm{\varepsilon}$ \\
+\midrule
+Edit & 0.44748 & 0.33102 & 0.49340 & 0.65602 & 0.47136 \\
+Length & 0.19267 & 0.10497 & 0.12684 & 0.20144 & 0.16385 \\
+Edit + length & 0.22455 & 0.14286 & 0.18330 & 0.27333 & 0.21668 \\
+\bottomrule
+\end{tabular}
+\caption{Completed native-parameter gradient diagnostics on the fixed public reporting population. The primary relative measure uses the selected mean in its denominator. Hard localization has larger relative bias but smaller absolute bias than full retention in all three settings. These are finite-population gradient measurements under declared synthetic selection, not translation-quality changes.}
+\label{tab:nativeparameters}
+\end{table}
+
+For all three mechanisms, the derivative polynomial has no root in $(0,1)$ and is negative throughout $[0,1]$: relative bias decreases monotonically as untouched retention increases (Table~\ref{tab:nativeparameters}, Figure~\ref{fig:nativeparameters}). This differs from the small interior maximum of the English--German edit-selection curve in the output-bias parameterization. Moreover, both assumptions of the simple amplification corollary fail here: the untouched selection bias is nonzero, and the selected edited/untouched mean cosines are $-0.01139$, $-0.01224$, and $-0.00873$. The general derivative criterion, rather than the sufficient aligned/unbiased case, explains these measured curves.
+
+The absolute and relative endpoint comparisons go in opposite directions. Removing untouched loss reduces the absolute selection-bias norm in these native coordinates, while reducing the selected mean's norm enough to increase the relative discrepancy. Absolute bias is not monotone: it has shallow minima at retention $0.07936$, $0.04386$, and $0.06221$, respectively. Thus ``amplification'' of this relative diagnostic cannot be read as larger absolute gradient error, worse downstream training, or worse translation quality.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=\linewidth]{full_parameter_geometry.pdf}
+\caption{Native-parameter relative and absolute gradient bias. Curves are evaluated from the saved six moments; 21 grid points and the exact derivative coefficients are exported. The two panels expose the distinction between a normalized discrepancy and its numerator. No parameter update is performed.}
+\label{fig:nativeparameters}
+\end{figure}
+
+\paragraph{Numerical checks and dependence.}
+Edited plus untouched losses reconstruct full per-sentence NLL to $2.99\times10^{-7}$ maximum absolute error. The independent unpadded forward calculation from the output-bias study agrees with the batched full-model baseline to $1.73\times10^{-6}$. Finite differences of the Gram-based squared ratio agree with the derivative polynomial. The Gram matrix is symmetric and positive to recorded precision (smallest eigenvalue $1.41\times10^{-9}$).
+
+The mixed propensity is the average of the edit and length propensities, so its selected distribution is their normalization-weighted mixture. These are not three independent replications. In exact arithmetic the eight-vector Gram matrix has rank at most six; float32 differentiation and subsequent float64 accumulation yield a maximum relative norm residual of approximately $7.1\times10^{-5}$ in the corresponding mixture identity. The saved validation report records this residual rather than claiming machine-zero native-gradient identities. It is an implementation-consistency diagnostic, not a bound on total numerical gradient error. An independent Euclidean reconstruction from the Gram matrix reproduces both ratio conventions, absolute norms, and squared-ratio derivatives to maximum discrepancy below $7.3\times10^{-15}$; this verifies downstream calculations from the same saved gradients, not an independent transformer execution.
+
+This extension reuses a previously examined finite reporting population and is explicitly a subsequent diagnostic. It adds native-parameter evidence in one language direction; it does not add an independent generalization test, native-parameter fine-tuning, or evidence about authentic complaint propensities. The public output-bias replay checks apply to those output-bias runs; no second full native-gradient execution is claimed.

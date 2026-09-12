@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "run_at_utc": "2026-09-11T21:49:53.913194+00:00",
+  "matrix_and_value_checks": {
+    "sequential_matrix_updates": 700,
+    "max_state_error": 8.881784197001252e-16,
+    "terminal_sum_quadrature_cases": 80,
+    "max_terminal_value_error": 1.0130785099704553e-15,
+    "scope": "Gain applies to terminal sum of selected means; division by fixed total k does not change action argmax"
+  },
+  "small_synthetic_paths": {
+    "synthetic_policy_budget_cases": 20,
+    "replications_each": 5,
+    "all_action_traces_and_posterior_fields_match": true
+  },
+  "replay_and_information_flow": {
+    "replay_policy_cases": 10,
+    "replications_each": 4,
+    "independent_2023_calibration_matches": true,
+    "oracle_metadata_perturbation_all_draw_streams_actions_and_posteriors_unchanged": true,
+    "oracle_perturbation_changed_evaluations": 10,
+    "weighted_histogram_reference_matches": true
+  },
+  "sampling_and_calibration": {
+    "histogram_vs_uniform_record_packets": 77,
+    "draws_per_packet": 20,
+    "zero_probability_bin_checked": true,
+    "saved_2023_calibration_rows_independently_checked": 240
+  },
+  "saved_rows": [
+    {
+      "dataset": "synthetic",
+      "policy": "ordinary_kg",
+      "reps": 2000,
+      "budget": 40,
+      "audit_cost": 5,
+      "independent_regret_mean": 0.17511306202561888,
+      "numerical_tie_branch_checks": []
+    },
+    {
+      "dataset": "synthetic",
+      "policy": "two_channel_kg",
+      "reps": 2000,
+      "budget": 40,
+      "audit_cost": 5,
+      "independent_regret_mean": 0.1761952461149508,
+      "numerical_tie_branch_checks": [
+        {
+          "step": 23,
+          "replications": [
+            1261
+          ],
+          "largest_independent_KG_deficiency": 8.673617379884035e-19,
+          "interpretation": "Original trace retained only after independent greedy-value verification; full-matrix rounding may resolve a numerical tie differently"
+        },
+        {
+          "step": 25,
+          "replications": [
+            1753
+          ],
+          "largest_independent_KG_deficiency": 0.0,
+          "interpretation": "Original trace retained only after independent greedy-value verification; full-matrix rounding may resolve a numerical tie differently"
+        },
+        {
+          "step": 27,
+          "replications": [
+            502,
+            1213
+          ],
+          "largest_independent_KG_deficiency": 1.734723475976807e-18,
+          "interpretation": "Original trace retained only after independent greedy-value verification; full-matrix rounding may resolve a numerical tie differently"
+        },
+        {
+          "step": 30,
+          "replications": [
+            1624
+          ],
+          "largest_independent_KG_deficiency": 0.0,
+          "interpretation": "Original trace retained only after independent greedy-value verification; full-matrix rounding may resolve a numerical tie differently"
+        },
+        {
+          "step": 31,
+          "replications": [
+            1485
+          ],
+          "largest_independent_KG_deficiency": 0.0,
+          "interpretation": "Original trace retained only after independent greedy-value verification; full-matrix rounding may resolve a numerical tie differently"
+        }
+      ]
+    },
+    {
+      "dataset": "replay",
+      "policy": "ordinary_kg",
+      "reps": 1000,
+      "budget": 48,
+      "audit_cost": 5,
+      "independent_regret_mean": 0.18044069748536015,
+      "numerical_tie_branch_checks": []
+    },
+    {
+      "dataset": "replay",
+      "policy": "two_channel_kg",
+      "reps": 1000,
+      "budget": 48,
+      "audit_cost": 5,
+      "independent_regret_mean": 0.19411257529833495,
+      "numerical_tie_branch_checks": []
+    }
+  ],
+  "protected_files_unchanged": true,
+  "protected_sha256": {
+    "experiments/allocation.py": "35e05926fd8e8a313ffb321dfab415eeea1e3124dadcc52f91030a6a29dfcd11",
+    "experiments/synthetic.py": "79a17a2db0a60fe047420a67a8afa75b943ad028bfaa4982ccb42744ec755e2f",
+    "experiments/replay.py": "53c2a1ecad8f9764a1e9fb3c9cc7b12c3083ff5bc8336657930db429dd8615b8",
+    "experiments/common.py": "92f862bfa7d4b392dacedc693955f7976a6c98b17276df41972a1f1586caa88a",
+    "results/allocation_verification.json": "2bee5dc447ff86008826a9fd6b33a7d9b83a9bcdb67dfed72690a596225856d7",
+    "results/nhs_aisi_results.xlsx": "63f6dfae4110c0b773ee1c94b82b69a9241ec977b87da06a93d428a707b30f4b",
+    "results/nhs_aisi_results.xlsx.inspect.ndjson": "001017dc76e6ad92676aa163f36a474bb22d2f774a2f7d246da4b5873ea007cb",
+    "results/nhs_scenario_manifest.json": "64253de902018e2ff7bac2d2657349d43a6c1cccf31430f24a91571b91533bdf",
+    "results/nhs_scenario_summary.csv": "bdd93b42a0aeae3662f63b7d7bb53b4a081b0815e2b990a2387ab5dcdd04119b",
+    "results/nhs_scenarios.csv": "34ff6adf8e5649539d5924ac84d3da09c7b084cbfea6dc5954ce11e4cedf90c5",
+    "results/replay.csv": "f70ce7987dfeac1d4f9eab9ada6452ec757aa67867b90d89c2441071998bd629",
+    "results/replay_allocations.csv": "642deccf1d77ee4f94676a7e777127493f2d407080fb50ee0efbafc4c9c7a3f5",
+    "results/replay_budget_extension.csv": "b9bfb084660745bd4e99cdf248c36e3e7aa1659f1e08e3433ada32b39d3dc5c3",
+    "results/replay_budget_extension_allocations.csv": "803edc18c0c0933545ac22fe13556529ba3b1f5d4da09d222862f3b9f0dd1069",
+    "results/replay_budget_extension_calibration.csv": "ec7f58a309f5c906513d25da9c1fc3065250a9f0ba842f7a5318507a5ff4db3e",
+    "results/replay_budget_extension_manifest.json": "03a41af370b40968e2fc23892782a0ef797261d2a24c5c0e030d996321bffc98",
+    "results/replay_budget_extension_replication_metrics.npz": "14f956f653b745765511094de1ca1a2b7d118a2587b25ddb2bb04003d27da896",
+    "results/replay_budget_extension_verification.json": "dc1395cc4c737a0ebde163c7fd792ab5d61e7c0cdf7ea9339838e12ffb854124",
+    "results/replay_calibration.csv": "7051e73386c65ecc7591c2bd0dfd1ea0e60af7e597e74be7a4943362b26c3d03",
+    "results/replay_manifest.json": "5966df0564096f6e6ac9e0cc4122af73e5ea8392dbfa9a6ced0c83bd39364998",
+    "results/replay_smoke.csv": "38646428683485132d24f02c71f3f8ef5f09b066c328b4fd12cfb3205d5aa8c8",
+    "results/replay_smoke_allocations.csv": "8eeba6c5f7d399a884da8fa1b06a4f193290a375af6ae517e4c8118d00c12807",
+    "results/replay_smoke_calibration.csv": "3e4802c666976de6d32598d7d921f157f4e356cb1e5e1359ffd46d46bd884893",
+    "results/replay_smoke_manifest.json": "7eb617ae1fa0dc1fd0f03a8cfb9a984b0e8d209f6128ff4d4ae322646b0b0501",
+    "results/synthetic.csv": "3162608c221d187919257899e26cf43089f24ec98e6a7a81f3d986018c9d677a",
+    "results/synthetic_manifest.json": "f2bdf3dea997829a3576832b8518ec4334ff3e4cd2f624c5dc0d5f9ed2a390ef",
+    "results/synthetic_smoke.csv": "c0f0533b4cc97094ba225b5dabb1594db5570adea9cb335e0e8b99f5ac1d5136",
+    "results/synthetic_smoke_manifest.json": "57e832052a981daac88a6bd909d26b2110589a0ef5de8ed8614707bc7bd01530",
+    "results/synthetic_smoke_stress.csv": "2ce45262393fe7b29140a4bcb8e92ddad8c00aa1d060998d119d40968998e936",
+    "results/synthetic_stress.csv": "6ad80c383a2ba9be4b9f4dc12a18fc04dea829cd129651b9b56187eb5a61fae0",
+    "results/theory_verification.json": "6df2a95001170444b7c6472fc01347eef6ccbbb6dc787aa3db7e76475af225e2",
+    "results/workbook_manifest.json": "dd606e9bae835b2990ff97850f45bedfee7a353617046237712384a18eba0ecc",
+    "data/processed/brfss_employed_2023.csv": "5c1c5735fd83707fa8d8914643036c935ae2511f4e7224d242224c7c61537da1",
+    "data/processed/brfss_employed_2024.csv": "16872bd93a1120053dda882cb4f046fa2379eef63db590132faf9cd0783df6b2"
+  },
+  "verifier_sha256": "5875c8dc2500b3ad3bf168c024a98dfa974d09957cc79cc486967255ac7dd711",
+  "scope": "Independent implementation/finite-file checks; not global budget optimality, clinical validation, or a guarantee of real-world posterior coverage"
+}

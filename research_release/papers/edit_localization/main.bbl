@@ -1,0 +1,138 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Berger et~al.(2023)Berger, Exel, Huck, and
+  Riezler]{berger2023markings}
+Nathaniel Berger, Miriam Exel, Matthias Huck, and Stefan Riezler.
+\newblock Enhancing supervised learning with contrastive markings in neural
+  machine translation training.
+\newblock In \emph{Proceedings of the 24th Annual Conference of the European
+  Association for Machine Translation}, pages 69--78. European Association for
+  Machine Translation, 2023.
+\newblock URL \url{https://aclanthology.org/2023.eamt-1.8/}.
+
+\bibitem[Berger et~al.(2024)Berger, Exel, Huck, and
+  Riezler]{berger2024postedits}
+Nathaniel Berger, Miriam Exel, Matthias Huck, and Stefan Riezler.
+\newblock Post-edits are preferences too.
+\newblock In \emph{Proceedings of the Ninth Conference on Machine Translation},
+  pages 1289--1300. Association for Computational Linguistics, 2024.
+\newblock \doi{10.18653/v1/2024.wmt-1.122}.
+\newblock URL \url{https://aclanthology.org/2024.wmt-1.122/}.
+
+\bibitem[{CH-Wang} et~al.(2025){CH-Wang}, Svegliato, Appel, and
+  Eisner]{chwang2025spans}
+Sky {CH-Wang}, Justin Svegliato, Helen Appel, and Jason Eisner.
+\newblock Fine-tuning {LLMs} with fine-grained human feedback on text spans,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2512.23693}.
+
+\bibitem[Chen et~al.(2020)Chen, Li, and Wu]{chen2020nonprobability}
+Yilin Chen, Pengfei Li, and Changbao Wu.
+\newblock Doubly robust inference with nonprobability survey samples.
+\newblock \emph{Journal of the American Statistical Association}, 115\penalty0
+  (532):\penalty0 2011--2021, 2020.
+\newblock \doi{10.1080/01621459.2019.1677241}.
+\newblock URL \url{https://arxiv.org/abs/1805.06432}.
+
+\bibitem[Elvira et~al.(2022)Elvira, Martino, and Robert]{elvira2022ess}
+V{\'i}ctor Elvira, Luca Martino, and Christian~P. Robert.
+\newblock Rethinking the effective sample size.
+\newblock \emph{International Statistical Review}, 90\penalty0 (3):\penalty0
+  525--550, 2022.
+\newblock \doi{10.1111/insr.12500}.
+\newblock URL \url{https://arxiv.org/abs/1809.04129}.
+
+\bibitem[Fomicheva et~al.(2022)Fomicheva, Sun, Fonseca, Zerva, Blain,
+  Chaudhary, Guzm{\'a}n, Lopatina, Martins, and Specia]{fomicheva2022mlqepe}
+Marina Fomicheva, Shuo Sun, Erick Fonseca, Chrysoula Zerva, Fr{\'e}d{\'e}ric
+  Blain, Vishrav Chaudhary, Francisco Guzm{\'a}n, Nina Lopatina, Andr{\'e}
+  F.~T. Martins, and Lucia Specia.
+\newblock {MLQE-PE}: A multilingual quality estimation and post-editing
+  dataset.
+\newblock In \emph{Proceedings of the Thirteenth Language Resources and
+  Evaluation Conference}, pages 4963--4974. European Language Resources
+  Association, 2022.
+\newblock URL \url{https://aclanthology.org/2022.lrec-1.530/}.
+
+\bibitem[{Helsinki-NLP}(2020{\natexlab{a}})]{helsinki2020ende}
+{Helsinki-NLP}.
+\newblock {Helsinki-NLP/opus-mt-en-de}: Model card and checkpoint,
+  2020{\natexlab{a}}.
+\newblock URL \url{https://huggingface.co/Helsinki-NLP/opus-mt-en-de}.
+\newblock Revision 6183067f769a302e3861815543b9f312c71b0ca4; accessed
+  2026-09-11.
+
+\bibitem[{Helsinki-NLP}(2020{\natexlab{b}})]{helsinki2020enzh}
+{Helsinki-NLP}.
+\newblock {Helsinki-NLP/opus-mt-en-zh}: Model card and checkpoint,
+  2020{\natexlab{b}}.
+\newblock URL \url{https://huggingface.co/Helsinki-NLP/opus-mt-en-zh}.
+\newblock Revision 408d9bc410a388e1d9aef112a2daba955b945255; accessed
+  2026-09-11.
+
+\bibitem[Lawrence et~al.(2017)Lawrence, Sokolov, and
+  Riezler]{lawrence2017deterministic}
+Carolin Lawrence, Artem Sokolov, and Stefan Riezler.
+\newblock Counterfactual learning from bandit feedback under deterministic
+  logging: A case study in statistical machine translation.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2566--2576. Association for Computational
+  Linguistics, 2017.
+\newblock \doi{10.18653/v1/D17-1272}.
+\newblock URL \url{https://aclanthology.org/D17-1272/}.
+
+\bibitem[Morandi and Viswanathan(2026)]{morandi2026selection}
+Andrea Morandi and Mahesh Viswanathan.
+\newblock Correcting selection bias in sparse user feedback for large language
+  model quality estimation: A multi-agent hierarchical bayesian approach, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.12177}.
+
+\bibitem[Owen and Zhou(2000)]{owen2000safe}
+Art Owen and Yi~Zhou.
+\newblock Safe and effective importance sampling.
+\newblock \emph{Journal of the American Statistical Association}, 95\penalty0
+  (449):\penalty0 135--143, 2000.
+\newblock \doi{10.1080/01621459.2000.10473909}.
+\newblock URL \url{https://doi.org/10.1080/01621459.2000.10473909}.
+
+\bibitem[Rafailov et~al.(2023)Rafailov, Sharma, Mitchell, Ermon, Manning, and
+  Finn]{rafailov2023dpo}
+Rafael Rafailov, Archit Sharma, Eric Mitchell, Stefano Ermon, Christopher~D.
+  Manning, and Chelsea Finn.
+\newblock Direct preference optimization: Your language model is secretly a
+  reward model.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~36, pages 53728--53741, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.18290}.
+
+\bibitem[Sugiyama et~al.(2007)Sugiyama, Krauledat, and
+  M{\"u}ller]{sugiyama2007covariate}
+Masashi Sugiyama, Matthias Krauledat, and Klaus-Robert M{\"u}ller.
+\newblock Covariate shift adaptation by importance weighted cross validation.
+\newblock \emph{Journal of Machine Learning Research}, 8:\penalty0 985--1005,
+  2007.
+\newblock URL \url{https://jmlr.org/papers/v8/sugiyama07a.html}.
+
+\bibitem[Swaminathan and Joachims(2015)]{swaminathan2015crm}
+Adith Swaminathan and Thorsten Joachims.
+\newblock Counterfactual risk minimization: Learning from logged bandit
+  feedback.
+\newblock In \emph{Proceedings of the 32nd International Conference on Machine
+  Learning}, volume~37 of \emph{Proceedings of Machine Learning Research},
+  pages 814--823, 2015.
+\newblock URL \url{https://proceedings.mlr.press/v37/swaminathan15.html}.
+
+\bibitem[Tiedemann and Thottingal(2020)]{tiedemann2020opusmt}
+J{\"o}rg Tiedemann and Santhosh Thottingal.
+\newblock {OPUS-MT}---building open translation services for the world.
+\newblock In \emph{Proceedings of the 22nd Annual Conference of the European
+  Association for Machine Translation}, pages 479--480. European Association
+  for Machine Translation, 2020.
+\newblock URL \url{https://aclanthology.org/2020.eamt-1.61/}.
+
+\end{thebibliography}

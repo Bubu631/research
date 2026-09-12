@@ -1,0 +1,260 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype,amsmath,amssymb,amsthm,mathtools,booktabs,graphicx,xcolor}
+\usepackage{enumitem}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[colorlinks=true,allcolors=blue!55!black]{hyperref}
+\usepackage{xurl}
+\graphicspath{{figures/}{../figures/}}
+\setlist{nosep}
+\setlength{\emergencystretch}{2em}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\newcommand{\ind}{\mathbf 1}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\clip}{\operatorname{clip}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\title{The Audit Complexity of Group-Relative Policy Updates}
+\author{Shengwei Zhang\\University of Pennsylvania}
+\date{September 12, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Scaling agent training requires deciding which expensive terminal outcomes to verify. For group-relative policy optimization, this is a nonlinear estimation problem: unbiased reward estimates need not yield unbiased normalized advantages, and unbiased advantages need not preserve a clipped objective. We study the conditional target obtained by completely verifying a fixed binary-reward group. For any nonconstant fixed score vector, we prove that an unclipped group-normalized update has Boolean degree $G-1$ for even group size $G$ and $G-2$ for odd $G$. Each sign-separated advantage has degree $G$ for even $G$ and $G-1$ for odd $G$. These identities give sharp worst-case query-depth obstructions to pointwise unbiased estimation under a hard audit cap. Under an expected budget, we instantiate randomized telescoping on positive and negative advantage coefficients, preserving the complete-label clipped surrogate at every fixed parameter value. Independent-Bernoulli completion admits exact count-based calculations and a model-based monotone survival schedule. Exact enumeration, a controlled estimation study, and 180 runs of constructed stateful policy training examine both validity and efficiency. Sequential correction approaches full-verification performance using roughly half the training queries in the constructed tasks, but does not establish an advantage over whole-group residual correction and takes more local computation. Charging development-label costs eliminates every apparent advantage of a tuned schedule in the initial 135-setting comparison. A frozen-model diagnostic on 49 historical software-task groups gives lower mean projected error for model-derived schedules, with broad pointwise intervals and no on-policy inference. The results identify the function that must be audited, distinguish exact unbiasedness from useful approximation, and expose when a simple whole-group audit is the appropriate baseline.
+\end{abstract}
+
+\section{Introduction}
+A long-running agent can appear to finish a task while leaving a prerequisite unsatisfied. A software repair may pass a visible check but fail a broader test suite; a multi-stage release can update its final artifact while retaining stale dependency metadata. Obtaining a stronger terminal verdict may require executing tests, inspecting state, or applying a more expensive verifier. As the number and diversity of training environments increase, checking every rollout can become a substantial part of data collection. This motivates a specific question: given a fixed collection of trajectories and cheap predictions, which reference-verifier queries are sufficient to reconstruct the intended training update?
+
+The question differs from improving a verifier's classification accuracy. Group Relative Policy Optimization (GRPO) standardizes rewards within a rollout group \citep{shao2024}. The resulting update depends jointly on multiple outcomes. An inverse-probability correction that is valid for individual rewards need not survive division by the group's estimated standard deviation. PPO-style clipping adds a second nonlinearity \citep{schulman2017}. Even an unbiased scalar advantage can become biased when its random sign selects a clipping branch. These operations make the \emph{audit target}, rather than merely the queried item, consequential.
+
+We isolate this issue by conditioning on trajectories, a policy checkpoint, token weights, cheap predictions, and the complete potential reference-label vector. Our target is the finite-group update that would use all those labels. It is neither the population policy gradient nor the trajectory of an optimizer trained with complete feedback. This distinction makes a distribution-free audit statement possible without assuming that the cheap verifier follows a known noise channel. It also prevents a correct estimation theorem from being interpreted as a guarantee about final policy quality.
+
+Our central theoretical result is an exact algebraic characterization of an unclipped binary GRPO update. Its degree is almost the group size, which rules out pointwise unbiased estimation by any randomized adaptive query algorithm whose every path has a substantially smaller hard cap. The result includes the linear exceptions $G=2,3$ and does not assert that every method must query all $G$ labels. Under an expected budget, randomized telescoping \citep{rhee2015,beatson2019} gives a complementary construction: occasionally reveal a longer prefix, and weight each completion increment by its inverse survival probability. Applying this construction to sign-separated advantages retains the fixed-parameter clipped objective.
+
+The contribution is the audit-complexity analysis and the specified finite-group implementation, not the invention of importance weighting, control variates, randomized telescoping, or model-assisted label allocation. Those tools have extensive prior use \citep{horvitz1952,zrnic2024,liu2026}. We give exact Bernoulli completion calculations, state the assumptions under which a monotone schedule is model-optimal, and compare against a whole-group residual estimator that already corrects the complete nonlinear target.
+
+The experiments deliberately test that strong baseline. A development-tuned sequential schedule often improves \emph{marginal} query-MSE, but its calibration expense reverses the initial comparison. In a constructed stateful environment, unbiased residual corrections retain much more reference success than proxy-only training; the sequential version does not establish a distinct gain over whole-group correction. We also examine the high-degree obstruction quantitatively: under several specified product-label distributions, the energy of high-degree interactions can be small. Exact unbiasedness therefore does not itself establish that every practically useful approximation requires a large audit cap.
+
+\section{Setting and the function being estimated}\label{sec:setting}
+Consider a group of $G\ge2$ completed trajectories. All information available before auditing is denoted by $X$: trajectories, fixed parameters, sequence lengths, scores, cheap features, predicted label probabilities, and known incremental query costs. A reference query reveals one component of $r\in\{0,1\}^G$. The trajectory and its potential reference outcome do not change when another member is queried. Repeated reference queries are deterministic in this formulation. Stochastic or inconsistent reference tests require a different estimand or a declared fixed random seed.
+
+Define the population-form within-group standard deviation and normalized advantages by
+\begin{equation}\label{eq:adv}
+ \bar r=G^{-1}\sum_i r_i,\qquad
+ \sigma(r)=\sqrt{G^{-1}\sum_i(r_i-\bar r)^2},\qquad
+ A_i(r)=\begin{cases}(r_i-\bar r)/\sigma(r),&\sigma(r)>0,\\0,&\sigma(r)=0.\end{cases}
+\end{equation}
+Unless explicitly stated, the analysis uses zero stabilizer. A sample standard deviation multiplies all advantages by a fixed group-size factor and leaves their polynomial degree unchanged. Other stabilizers and reward transformations must be analyzed separately.
+
+For a fixed scalar projection $s\in\R^G$ of the per-trajectory score contribution, our first target is
+\begin{equation}\label{eq:F}
+ F_s(r)=G^{-1}\sum_i s_i A_i(r).
+\end{equation}
+Fixed token averaging and other known weights can be absorbed into $s_i$. We seek design unbiasedness, $\E_I[\widehat F_s\mid X,r]=F_s(r)$, where the expectation is over audit randomization only. Nothing in this definition assumes $r$ was sampled from the completion model.
+
+A pointwise identity for this target is not a population-gradient identity. For example, even before standard-deviation normalization, an iid on-policy group using its own reward mean as a baseline gives the familiar factor $(1-1/G)$ in the expected centered score estimate under the score identity. The random group standard deviation changes the target further. Our analysis preserves the specified complete-label surrogate instead of identifying it with $\nabla\E[R]$.
+
+\subsection{Reward correction does not commute with normalization}
+For a cheap prediction $m_i$ and independent audit $I_i\sim\operatorname{Bernoulli}(q_i)$, the augmented estimate
+\begin{equation}\label{eq:ht}
+ \widehat r_i=m_i+\frac{I_i}{q_i}(r_i-m_i)
+\end{equation}
+is unbiased when $m_i,q_i$ are fixed before the current audit. In general, normalizing $\widehat r$ and applying the same score aggregation need not be unbiased for $F_s(r)$. With $G=2$, $s=(1,-1)$, $r=(1,0)$, $m=(0,0)$ and $q_1=1/2$, the complete target is $1$. Here the normalization formula is extended in the usual way to real-valued corrected rewards. Normalizing $(2I_1,0)$ gives $1$ if $I_1=1$ and zero otherwise, so its expectation is $1/2$.
+
+Both recent verifier-noise papers explicitly recognize the following affine-invariance identity \citep{cai2025,mansouri2025}. For any common $a>0,b\in\R$, exact group normalization of $ar+b$ equals normalization of $r$. Thus a common positive affine backward reward correction followed by recomputing the same group's mean and standard deviation cannot change its normalized advantages at zero stabilizer. This statement concerns a particular operation order; it does not invalidate linear policy-gradient correction or empirical results under other implementations \citep{cai2025,mansouri2025}.
+
+\subsection{Clipping requires a second correction target}\label{sec:clipping}
+Let $\rho_i(\theta)$ be a fixed-trajectory policy ratio and $\bar\rho_i=\clip(\rho_i,1-\delta,1+\delta)$. An unbiased estimate of $A_i$ is still insufficient for the clipped term $\min(\rho_i A_i,\bar\rho_i A_i)$. If $A_i=0$, $\widehat A_i\in\{-1,1\}$ equally likely, $\rho_i=2$ and $\bar\rho_i=1.2$, the expected plugged-in term is $-0.4$, while its complete-label value is zero.
+
+Set $A_i^+=\max(A_i,0)$, $A_i^-=\min(A_i,0)$ and use the block ordering
+\begin{equation}\label{eq:phi}
+ \Phi(r)=(A_1^+,\ldots,A_G^+,A_1^-,\ldots,A_G^-)^\top.
+\end{equation}
+Then the clipped surrogate is linear in this vector:
+\begin{equation}\label{eq:cliplinear}
+ L_\theta(r)=\frac1G\sum_i\left[
+ \min(\rho_i,\bar\rho_i)A_i^+ +
+ \max(\rho_i,\bar\rho_i)A_i^-\right].
+\end{equation}
+An unbiased estimate of $\Phi$ therefore yields a pointwise unbiased $L_\theta$ and its fixed-parameter derivative away from clipping kinks. A consistent subgradient convention can be fixed at kinks. Audit probabilities, model completions, and sampled coefficients are treated as constants for this derivative. Crucially, an estimated positive coefficient can be negative: re-clamping its sign or renormalizing the estimated vector destroys this argument.
+
+\section{Exact audit depth and approximate recovery}\label{sec:degree}
+A hard cap $b$ limits every execution path to $b$ distinct label queries, including adaptive algorithms. An expected budget only restricts the mean cost and permits occasional longer paths. These are different operational constraints.
+
+\begin{theorem}[Exact degree and hard-cap query depth]\label{thm:degree}
+For $G\ge2$ and $s$ not constant, the unique multilinear polynomial representing $F_s$ on the Boolean cube has degree
+\[
+ d_G=\begin{cases}G-1,&G\text{ even},\\G-2,&G\text{ odd}.\end{cases}
+\]
+Every integrable randomized adaptive estimator that is unbiased for every $r\in\{0,1\}^G$ and queries at most $b$ distinct labels on every path satisfies $b\ge d_G$. Conversely, a signed finite-variance estimator with hard cap $d_G$ exists. If $s$ is constant, $F_s\equiv0$.
+\end{theorem}
+\begin{proof}[Proof outline]
+Write $c_i=s_i-\bar s$, $K=\sum_i r_i$ and $f(x)=1/\sqrt{x(G-x)}$. On a mixed group, $F_s(r)=(\sum_i c_i r_i)f(K)$. For a proper subset $S$ of size $\ell$, Boolean M\"obius inversion gives
+\begin{equation}\label{eq:mobius}
+ [r_S]F_s=\left(\sum_{i\in S}c_i\right)\Delta^{\ell-1}f(1).
+\end{equation}
+The full-set coefficient vanishes because $\sum_i c_i=0$. Every even-order derivative of $f$ is positive in $(0,G)$; hence its even-order finite differences are positive. If $G$ is even, a nonzero coefficient exists at $\ell=G-1$. If $G$ is odd, the order-$G-2$ difference cancels by symmetry about $G/2$, while a nonzero coefficient exists at $\ell=G-2$. Appendix~\ref{app:proof} supplies the details.
+
+Fixing a query algorithm's random seed produces a depth-$b$ decision tree. Each leaf event is a product of at most $b$ Boolean literals, so its expected output has degree at most $b$. Averaging over seeds preserves this finite-dimensional polynomial space. For attainability, randomly sample a nonzero monomial of the degree-$d_G$ polynomial, query its variables, and inverse-weight its value. This is an existence result, not a low-variance recommendation.
+\end{proof}
+
+The sign-separated coefficients required by the clipped-surrogate construction have a different exact degree.
+\input{sign_degree.tex}
+Neither degree is an expected-query lower bound. A rare expensive audit with a large inverse weight can have an arbitrarily small positive mean query count at the expense of variance. Finally, the cube assumption matters: a valid cheap certificate can rule out some label vectors and reduce the required reference queries. We use such certificates equally across all methods in the constructed environment.
+
+\subsection{Why high degree does not prove large practical bias}
+For a full-support product Bernoulli measure $P$, let $\{\psi_S\}$ be its orthonormal multilinear basis and $f_S=\E_P[F\psi_S]$. The decision-tree argument and orthogonal projection immediately give the following quantitative qualification.
+\begin{proposition}[Integrated bias under a hard cap]\label{prop:bias}
+For any square-integrable mean function $h(r)=\E_I[\widehat F\mid r]$ obtainable with hard cap $b$,
+\[
+ \E_P[(h(r)-F(r))^2]\ \ge\ \sum_{|S|>b}f_S^2.
+\]
+The bound is attainable as a mean function by estimating the truncated polynomial. It places no upper bound on that estimator's audit variance.
+\end{proposition}
+\begin{proof}
+The polynomial $h$ has degree at most $b$. Terms of larger degree are orthogonal to it under $P$. Pythagoras gives the inequality; monomial sampling gives the stated mean function.
+\end{proof}
+We evaluate this spectrum exactly rather than treating an almost-full degree as automatically consequential. For the uniform cube and $F=(A_1-A_2)/G$, the tail above cap $G/2$, divided by the target's second moment, is $5.13\times10^{-3}$, $3.77\times10^{-4}$ and $1.46\times10^{-6}$ for $G=4,8,16$. These small lower bounds do not establish efficient approximability, but they prevent an overinterpretation of Theorem~\ref{thm:degree}. Nonuniform product measures and the positive-coefficient spectrum are reported in the reproducibility artifact.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{query_degree.png}
+\caption{Exact query depth and its approximation limit. Left: the algebraic obstruction differs for the unclipped aggregate and sign-separated coefficients. Right: exact product-Bernoulli Fourier energy above a half-group hard cap, divided by the unclipped contrast's second moment. Small tail energy is a small integrated-bias lower bound; it is not a guarantee of a low-variance estimator.}\label{fig:degree}
+\end{figure}
+
+\section{Sequential completion under an expected budget}\label{sec:method}
+Fix a label order $\pi$ using only pre-audit information. The completion maps are fixed independently of the stopping randomization $U$ and use only $X$ and the observed prefix. Let $\mu_k$ be any such computable completion vector after the first $k$ labels have been observed, with $\mu_G=\Phi(r)$. Choose absolute survival probabilities
+\[
+ 1\ge Q_1\ge\cdots\ge Q_G\ge q_{\min}>0
+\]
+before querying. Draw $U\sim\operatorname{Uniform}(0,1)$, reveal the prefix for which $U<Q_k$, and return
+\begin{equation}\label{eq:rr}
+ \widehat\Phi=\mu_0+\sum_{k=1}^G\frac{\ind\{U<Q_k\}}{Q_k}(\mu_k-\mu_{k-1}).
+\end{equation}
+This is a finite randomized-telescoping estimator \citep{rhee2015,beatson2019}. We call its specified reward-audit instantiation sequential completion (SC).
+
+\begin{theorem}[Conditional recovery of the complete-label surrogate]\label{thm:rr}
+For every fixed complete label vector, any completion sequence with the correct endpoint, and any pre-audit positive survival schedule, $\E_I[\widehat\Phi\mid X,r]=\Phi(r)$. Consequently substituting $\widehat\Phi$ linearly into Equation~\eqref{eq:cliplinear} recovers $L_\theta(r)$ in expectation at each fixed $\theta$. If query costs are $c_{\pi_k}$, the expected incremental reference cost is $\sum_k Q_k c_{\pi_k}$.
+\end{theorem}
+\begin{proof}
+Each indicator has conditional expectation $Q_k$. Taking expectations in the finite sum cancels the survival factors and telescopes to $\mu_G$. The objective and derivative conclusions follow by linearity. The cost is the sum of purchased query indicators times their fixed costs.
+\end{proof}
+A predictable adaptive order and continuation rule are also possible if each actual path probability is recorded correctly; the implementation and schedule optimization studied here use fixed pre-audit order and deterministic absolute survivals. This avoids confusing a fixed-chain optimum with an optimum over adaptive trees.
+
+For clarity, an online implementation is the following. It receives a callback, not a vector of unqueried labels:
+\begin{enumerate}
+\item Freeze $p$, $\pi$, query costs and $Q$. Compute $\mu_0$ and draw one uniform $U$.
+\item At step $k$, stop if $U\ge Q_k$. Otherwise buy label $r_{\pi_k}$ through the callback and compute the new completion $\mu_k$.
+\item Add $(\mu_k-\mu_{k-1})/Q_k$ to the estimate. Return the estimate and the purchased indices.
+\item Form the objective or update by a fixed linear map on the two coefficient blocks. Record purchased-query cost separately from prediction, scheduling and rollout computation.
+\end{enumerate}
+For zero stabilizer, each true advantage has magnitude at most $\sqrt{G-1}$. Conditional completions are bounded as well. A positive absolute survival floor therefore ensures finite second moments for this finite group, although the bound can be very loose and weights can still be large. Small successive continuation floors alone are less informative because their product can decay exponentially with depth.
+
+\subsection{The strong whole-group baseline}
+Let $I\sim\operatorname{Bernoulli}(q)$. The whole-group residual estimator
+\begin{equation}\label{eq:whole}
+ \widehat\Phi_{\mathrm{WG}}=\mu_0+\frac Iq\{\Phi(r)-\mu_0\}
+\end{equation}
+is already conditionally unbiased for the complete nonlinear vector. It corresponds to $Q_k=q$ for every $k$ and has expected cost $q\sum_i c_i$. Its conditional squared-error risk is
+\[
+ (q^{-1}-1)\norm{\Phi(r)-\mu_0}^2.
+\]
+It requires no intermediate completions. Comparing SC only with individual reward correction followed by normalization would omit this inexpensive and mathematically valid competitor.
+
+\subsection{Independent-Bernoulli completion}\label{sec:completion}
+Use an independent working model $R_i\sim\operatorname{Bernoulli}(p_i)$ and set $\mu_k=\E_p[\Phi(R)\mid R_{\pi_1},\ldots,R_{\pi_k}]$. The model is a variance-reduction device, not an assumption of Theorem~\ref{thm:rr}. Wrong marginal predictions and dependent actual labels do not change its endpoint; they can harm efficiency. To define completions even after a working-model zero-probability observation, observed coordinates are clamped to their actual labels and unobserved coordinates retain their original Bernoulli probabilities.
+
+For $0<K<G$ define $a(K)=\sqrt{(G-K)/K}$ and $b(K)=-\sqrt{K/(G-K)}$, with both zero at $K=0,G$. Then $A_i^+=r_i a(K)$ and $A_i^-=(1-r_i)b(K)$. Poisson-binomial convolution computes the distribution of the unknown success count. Leaving out each unknown variable in turn gives the exact coordinate expectations. A straightforward implementation takes $O(G^3)$ work for one full vector, avoids sampling artificial labels, and handles already observed coordinates by replacing their probabilities with zero or one. Computing all $G$ prefix vectors thus takes $O(G^4)$ with this reference implementation. Exhaustive binary-cube checks validate the count calculation independently.
+
+\subsection{A model-based schedule and its scope}\label{sec:schedule}
+When the working model is correct, $\mu_k$ is a Doob martingale. Put $v_k=\E_p\norm{\mu_k-\mu_{k-1}}^2$. Orthogonality gives the model-averaged audit MSE
+\begin{equation}\label{eq:modelrisk}
+ \E_p\E_I\norm{\widehat\Phi-\Phi}^2=\sum_k v_k(Q_k^{-1}-1).
+\end{equation}
+The fixed-order optimization is therefore
+\begin{equation}\label{eq:opt}
+ \min_Q\sum_k v_k/Q_k,\quad
+ \sum_k c_{\pi_k}Q_k\le B,\quad
+ 1\ge Q_1\ge\cdots\ge Q_G\ge q_{\min}.
+\end{equation}
+A weighted pool-adjacent-violators calculation merges neighboring blocks when their ratios $\sum v/\sum c$ violate nonincrease. For a block $\mathcal B$, its common survival is
+\begin{equation}\label{eq:pava}
+ Q_{\mathcal B}=\clip\left(
+ \sqrt{\frac{\sum_{k\in\mathcal B}v_k}{\lambda\sum_{k\in\mathcal B}c_{\pi_k}}},q_{\min},1\right),
+\end{equation}
+with $\lambda$ chosen to satisfy the budget when it is active. Zero-variance tails can leave legitimate slack; positive survival is retained for robustness to a wrong model. Appendix~\ref{app:moments} gives an exact $O(G^4)$ count-compressed formula for the $v_k$, so this schedule needs no additional true labels for calibration.
+
+This optimality claim is deliberately narrow: independent working model, fixed order, deterministic survival, specified costs, and Euclidean coefficient MSE. It is not a guarantee for misspecified labels, arbitrary policy-gradient geometry, or adaptive query trees. Scheduling has a measurable computational cost. In a homogeneous completion model it can reduce to Equation~\eqref{eq:whole}, an outcome to report rather than conceal.
+
+\section{Empirical study}\label{sec:experiments}
+We separate algebraic verification, controlled estimation, constructed policy training, and historical software-trajectory diagnostics. Each level has a different estimand. Local design records were written before the corresponding run; later extensions are identified as such. They were not registered with an external preregistration service. No paid cloud resources, fresh software-agent rollouts, or large-model reinforcement-learning runs are represented by the results below.
+
+\subsection{Exact checks and controlled fixed groups}\label{sec:controlled}
+Independent checks enumerate the degree formula for $G=2,\ldots,12$, integrate all stopping paths for fixed binary groups, verify the sign-split clipping identity and its derivative, and compare the schedule solver with constrained numerical optimization. The M\"obius coefficient formula agrees to $2.21\times10^{-14}$. Exact adaptive stopping checks agree to $5.56\times10^{-17}$. A separate implementation enumerates all $65{,}536$ label configurations at $G=16$ to verify the count-compressed model moments; the largest discrepancy is $4.45\times10^{-14}$. These are arithmetic validation results, not training-performance measurements.
+
+The initial controlled study uses $G\in\{4,8,16\}$, logistic-normal base-rate parameter $\alpha\in\{.05,.2,.5,.8,.95\}$, and three completion regimes. Draw $z_i\sim N(\operatorname{logit}\alpha,1.2^2)$ and supply $p_i=\operatorname{sigmoid}(z_i)$. True labels are independent Bernoulli with probabilities $p_i$, $\operatorname{sigmoid}(.45z_i)$, or $\operatorname{sigmoid}(-.65z_i)$ for calibrated, overconfident and shifted cases. The input $\alpha$ is not the achieved marginal success rate. Costs are normalized lognormal draws in simulated units. A fixed random six-dimensional linear map with clipping masks supplies a gradient-like projection; it is not a language-model gradient.
+
+For each of 45 group-size/base-rate/regime combinations, 64 separate development groups choose a survival exponent from $\{0,.5,1,2\}$. There are 256 evaluation groups and budget fractions $\{.25,.5,.75\}$, making 135 setting-budget comparisons. All methods share each evaluation group. Prefix estimators and whole-group correction are integrated exactly over all stopping depths. Individual reward correction and partial replacement enumerate all audit masks for $G=4,8$ and use 1,024 masks for $G=16$. The latter squared-bias estimates receive a signed finite-Monte-Carlo correction, detailed in Appendix~\ref{app:protocol}; negative corrected values are retained.
+
+\paragraph{Calibration cost changes the result.}
+At the same marginal audit budget, the development-tuned sequential estimator has mean projected-MSE ratio $0.9015$ and median $0.9713$ relative to whole-group correction across the 135 comparisons. The mean ratios by regime are $0.7442$, $0.9595$ and $1.0008$. However, the 64 complete development groups cost another $64G$ labels. Amortizing this cost over 256 evaluation groups allows the baseline to use $q'=\min(1,q+.25)$. The tuned method improves on this cost-matched baseline in \emph{zero of 135} comparisons. The development labels are shared across the three evaluated budgets; they must neither be charged three times nor omitted. This negative result motivated the subsequent model-based schedule of Section~\ref{sec:schedule}.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{calibration_cost.png}
+\caption{Initial study: each colored point is a tuned sequential setting's projected-MSE ratio to whole-group correction at the same marginal audit fraction. The black line gives whole-group MSE when allowed the same total label expenditure, including the sequential method's 64-group development cost amortized across 256 evaluation groups. At fraction .75 the comparator can afford full labels and its audit MSE is zero.}\label{fig:calibration}
+\end{figure}
+
+\input{model_only_experiment.tex}
+\begin{figure}[t]
+\centering\includegraphics[width=.85\linewidth]{model_schedule.png}
+\caption{New-seed model-derived schedules: all 45 setting-budget points per regime. Each point is a 256-group mean projected-MSE ratio to whole-group residual correction; bars are descriptive medians. The three budgets share groups. A correct working model helps, while reversed label probabilities can substantially increase variance despite retained conditional unbiasedness.}\label{fig:model}
+\end{figure}
+
+\input{stateful_experiment.tex}
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{stateful_training.png}
+\caption{Constructed stateful policy training. Lines average ten training seeds; bands show one pointwise seed standard error. Every method uses the same number of rollout groups. Proxy-only training can improve the cheap criterion while losing reference success. The sequential and whole-group curves do not establish a difference between those methods.}\label{fig:training}
+\end{figure}
+
+\input{frozen_experiment.tex}
+
+\section{Related work}\label{sec:related}
+Importance-weighted estimation has a long history \citep{horvitz1952}. Active statistical inference combines predictions with selectively acquired labels \citep{zrnic2024}; robust sampling explicitly addresses failures of an estimated uncertainty allocation \citep{li2025}. Doubly robust reinforcement-learning estimation and policy-gradient constructions are also established \citep{jiang2016,huang2020}. Our audit inclusion probability is distinct from a policy's action probability, and we do not infer off-policy validity from correct audit weights.
+
+Randomized telescoping and unbiased random truncation are the direct foundations of Equation~\eqref{eq:rr} \citep{rhee2015,beatson2019}. The fixed-chain cost--variance optimization is an application of that design principle. Multi-fidelity policy gradients already combine accurate and approximate information using control variates and address both reward and dynamics differences \citep{liu2026}. We condition on fixed trajectories and correct only missing reference labels. A cheap environment that changes states or observations changes the trajectory distribution, which this correction cannot repair.
+
+\input{verifier_related.tex}
+
+The polynomial representation of query algorithms is classical; query complexity in expectation studies related polynomial characterizations under different output restrictions \citep{kaniewski2015}. We permit signed outputs and give the elementary decision-tree argument directly. The specialized result is the exact degree of the group-normalized binary function. GRPO and PPO provide the training objectives being analyzed \citep{shao2024,schulman2017}. SWE-Gym supplies real software-agent trajectories for a separate historical diagnostic \citep{pan2025}; using its records does not constitute rerunning its benchmark or reproducing its training results.
+
+\section{Limitations and implications}
+Pointwise unbiasedness protects a specified complete-label objective, not necessarily the objective best aligned with downstream task success. Low-variance biased methods can be preferable under limited computation. The approximation spectrum and the strong whole-group baseline both make this limitation concrete. Moreover, clipping gradients, applying Adam, choosing checkpoints on the same audit sample, or reusing an audited batch adaptively does not preserve equality of optimizer trajectories. The theorem should be applied to a freshly specified fixed-parameter update; practical multiple-epoch reuse needs its own analysis.
+
+The independent-Bernoulli completion model ignores within-task label dependence. Its predictive accuracy, calibration and score-weighted residuals can shift during training. Positive audit probabilities retain conditional unbiasedness, but large corrections can destabilize optimization. Query costs were simulated in the controlled study and are extremely cheap in the constructed environment. Historical verdict replay measures label acquisition counts, not elapsed time for executing a real test suite. None of these studies establishes an end-to-end software-agent training speedup.
+
+The constructed tasks train stochastic execution reliability from a scripted initial policy; they do not demonstrate planning discovery or generalization to unseen repositories. The historical model diagnostic evaluates a declared truncated empirical target in a small added parameter subspace, not a full-parameter on-policy gradient. Scaling to fresh language-model training requires executable sandboxed tasks, measured verifier latency, strong whole-group correction, and multiple independent training seeds with rollout, verifier and scheduler costs all accounted for.
+
+A useful practical rule follows from the analysis: decide which nonlinear update must be estimated before choosing an audit unit. Whole-group residual correction is a valid low-complexity starting point. A sequential design earns its extra complexity only when its reduction in the relevant error outweighs intermediate-completion, scheduling and calibration costs.
+
+\section*{Reproducibility statement}
+The accompanying source contains the online query callback, independent algebraic checks, complete controlled group arrays, constructed-environment action and audit ledgers, frozen executed-source snapshots, public-source manifests, and scripts that generate the reported tables. Appendix~\ref{app:protocol} identifies seeds, computational scope and post-run reporting corrections. The private direction notes, model weights and raw third-party trajectory text are not included in the release package. Public inputs are referenced by pinned revisions and checksums.
+
+\section*{AI assistance statement}
+AI assistance was used extensively for literature discovery, mathematical derivation, manuscript preparation, code implementation and computational checks. Numerical results reported here come from executed programs and saved artifacts. Independent implementations and programmatic checks were used to test core claims; these checks do not replace expert review or establish originality. This statement describes the preparation process and does not certify a separate human verification process that has not been recorded.
+
+\section*{Data and research scope}
+The research uses constructed tasks and publicly released historical software-agent records. No new human-subject study or internal corporate dataset is involved. Reference success denotes the specified test or invariant verdict, not proof of all intended program behavior. The public trajectory card did not provide an explicit dataset license at retrieval; the package supplies provenance and retrieval instructions rather than redistributing those raw records.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+\clearpage
+\appendix
+\input{proofs.tex}
+\input{stateful_appendix.tex}
+\input{protocol_appendix.tex}
+\end{document}

@@ -1,0 +1,82 @@
+{
+  "status": "Local research manuscripts and reproducibility packages; publication status is not verified by this manifest",
+  "authors_by_paper": {
+    "edit_localization": [
+      "Shengwei Zhang",
+      "Haoda Dai",
+      "Yifei Li",
+      "Yuheng Song"
+    ],
+    "base_upgrade": [
+      "Shengwei Zhang",
+      "Tao Wu",
+      "Fei Qian"
+    ]
+  },
+  "affiliations_by_author": {
+    "Shengwei Zhang": [
+      "University of Pennsylvania"
+    ],
+    "Haoda Dai": [
+      "University of Pennsylvania"
+    ],
+    "Yifei Li": [
+      "University of Pennsylvania"
+    ],
+    "Yuheng Song": [
+      "University of Pennsylvania"
+    ],
+    "Tao Wu": [
+      "Alibaba International Digital Commerce"
+    ],
+    "Fei Qian": [
+      "Alibaba International Digital Commerce"
+    ]
+  },
+  "code_archive": "Omits large per-record vocabulary gradients; all figures and summary results included",
+  "evidence_archive": "Contains omitted per-record gradients in matching repository paths",
+  "excluded": "Private interview materials, original attachments, model/data download caches, native mean-gradient bank",
+  "sources": "Compilable LaTeX manuscripts with author-confirmed name and affiliation; publication license remains to be selected",
+  "packages": {
+    "edit_localization_source.zip": {
+      "bytes": 377379,
+      "sha256": "59d2a02340ea17223187766ec5727246c865c85a2a9e578ed8c4c7b7012a941b"
+    },
+    "base_upgrade_source.zip": {
+      "bytes": 113723,
+      "sha256": "37e2c240c2ab7180dae149da341baeb5e6bc751a7b2399a269a3f49cd37eed7a"
+    },
+    "edit_localization_paper.pdf": {
+      "bytes": 778376,
+      "sha256": "a4dc2b23f5f45c7e82df9f2e55dd56f8d2da568fc3c20ec4b3a60eb88f74f8ab"
+    },
+    "base_upgrade_paper.pdf": {
+      "bytes": 525255,
+      "sha256": "4abb50f8b167b5ebb887a1fecdc6f880a557af46c10e021e2b1db538e6349bf1"
+    },
+    "research_code_and_papers.zip": {
+      "bytes": 90637495,
+      "sha256": "217d264212257e56b1ce7c5d4935016becd899e58d77d7094fb68dfaac70818e"
+    },
+    "public_gradient_evidence.zip": {
+      "bytes": 390899596,
+      "sha256": "fb16c4d24fb2b8588065efc2715527abd1863e8f7800ddf66ca420c781a065f2"
+    },
+    "edit_localization_4authors_source.zip": {
+      "bytes": 377379,
+      "sha256": "59d2a02340ea17223187766ec5727246c865c85a2a9e578ed8c4c7b7012a941b"
+    },
+    "edit_localization_4authors_paper.pdf": {
+      "bytes": 778376,
+      "sha256": "a4dc2b23f5f45c7e82df9f2e55dd56f8d2da568fc3c20ec4b3a60eb88f74f8ab"
+    },
+    "base_upgrade_3authors_source.zip": {
+      "bytes": 113723,
+      "sha256": "37e2c240c2ab7180dae149da341baeb5e6bc751a7b2399a269a3f49cd37eed7a"
+    },
+    "base_upgrade_3authors_paper.pdf": {
+      "bytes": 525255,
+      "sha256": "4abb50f8b167b5ebb887a1fecdc6f880a557af46c10e021e2b1db538e6349bf1"
+    }
+  }
+}

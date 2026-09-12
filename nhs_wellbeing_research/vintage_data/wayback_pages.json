@@ -1,0 +1,33 @@
+[
+  {
+    "vintage": 2023,
+    "archive_capture": "20240704161813",
+    "url": "https://web.archive.org/web/20240704161813id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "accessed_at_utc": "2026-09-11T18:49:39.637883+00:00",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20240704161813id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "bytes": 371417,
+    "sha256": "f240495fc82010687f435e3f9f2dbf38ca1dbdd0502907112c0617c563c638f3",
+    "local_file": "local_results_vintage_2023_wayback.html",
+    "xlsx_links": [
+      "/static/7d4ab30226c8780f12de6378d8208303/benchmark_report_excel_data_2019-2023_v2.xlsx"
+    ]
+  },
+  {
+    "vintage": 2024,
+    "archive_capture": "20250531050327",
+    "url": "https://web.archive.org/web/20250531050327id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "accessed_at_utc": "2026-09-11T18:49:39.638383+00:00",
+    "status": 200,
+    "final_url": "https://web.archive.org/web/20250531050327id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "bytes": 32571,
+    "sha256": "7c9f1d396ff3dd6a9250dcdb89d5046306c2f589685150683d6dd30a36dc05fa",
+    "local_file": "local_results_vintage_2024_wayback.html",
+    "compressed_transport_file": "local_results_vintage_2024_wayback.html.gz",
+    "decoded_sha256": "d22f9da4d4c1a8b5f61cca01f9968c8fad5613fa868d37e6e809565bc06d6e70",
+    "xlsx_links": [
+      "/static/4393b3f78f0c9e6c06906310ee7ff6c3/Benchmark-report-Excel-data-for-2020-2024.xlsx",
+      "/static/fe57d98f2dc7cdd97bdc4c8f47f8be69/Bank-benchmark-report-Excel-data-2022-2024.xlsx"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "changes": {
+    "records.jsonl": {
+      "updated_descriptive_fields": 6055,
+      "sha256_before": "30497b0cf720fc66ed70965a3f9c0e651b16f8c9135421738b5e6835459ff97d",
+      "sha256_after": "41e36d07fcc357cc8d2dfdc5d1adebf12a685e3b94ba507dd4508f045c759326"
+    },
+    "unique_records.jsonl": {
+      "updated_descriptive_fields": 6055,
+      "sha256_before": "30497b0cf720fc66ed70965a3f9c0e651b16f8c9135421738b5e6835459ff97d",
+      "sha256_after": "41e36d07fcc357cc8d2dfdc5d1adebf12a685e3b94ba507dd4508f045c759326"
+    },
+    "proxy_predictions.jsonl": {
+      "updated_descriptive_fields": 6011,
+      "sha256_before": "0dd1a4c20ea8ac33573b9ae696210db90325e01b18fd5b5a9900c841cf909178",
+      "sha256_after": "e973ebd44a93d11f7173cb26ca2aa8a85fbdc347c1e297906cad72bf1506d45e"
+    }
+  },
+  "numeric_values_changed": false,
+  "script_sha256": "317e192abae00aaab68ad546cc32a342a59c0542eb5e38c67aad17b3a26864ab"
+}

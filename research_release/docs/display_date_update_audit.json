@@ -1,0 +1,83 @@
+{
+  "actual_check_time_utc": "2026-09-11T18:42:08.610245+00:00",
+  "change_scope": "Only manuscript display date fields; scientific claims, results and actual experiment/provenance timestamps preserved.",
+  "experiments_rerun": false,
+  "scientific_files_unchanged": 141,
+  "existing_recorded_integrity_hash_checks_passed": 89,
+  "papers": {
+    "edit_localization": {
+      "changed_pages": [
+        1
+      ],
+      "changed_pixel_bounding_box_at_100dpi": {
+        "1": [
+          356,
+          297,
+          494,
+          313
+        ]
+      },
+      "other_pages_pixel_identical": true,
+      "pdf_text_identical_except_requested_date": true,
+      "main_tex_identical_except_date_field": true,
+      "changed_pages_visually_inspected": [
+        1
+      ],
+      "visual_layout_passed": true,
+      "display_date": "August 13, 2026",
+      "previous_pdf_sha256": "ddd2fd3fcc34b5a58a1724f77fd1c0c17a60edae2e52e30c7923518988943125",
+      "pdf_sha256": "03eb0cb2df705c0fecb8e5826f9f4089289b034d1039659561a25194f9fd8f2b",
+      "source_sha256": "73030d41bd419e015b366a0d31511b38cb73ca5aed23e9dab182b5c14276a4e3",
+      "clean_archive_build": {
+        "extracted_archive_build_passed": true,
+        "pages": 21,
+        "warnings": 0,
+        "overfull_boxes": 0,
+        "underfull_boxes": 0,
+        "text_matches_final_pdf": true,
+        "source_files": 19,
+        "source_zip_sha256": "097a277a2f4d89da6ab5f52106ae8e23d5eab4d8400e95bd8981c6be1b7c0b2b",
+        "pdf_sha256": "03eb0cb2df705c0fecb8e5826f9f4089289b034d1039659561a25194f9fd8f2b",
+        "display_date": "August 13, 2026",
+        "checked_at_utc": "2026-09-11T18:42:08.610245+00:00"
+      }
+    },
+    "base_upgrade": {
+      "changed_pages": [
+        1
+      ],
+      "changed_pixel_bounding_box_at_100dpi": {
+        "1": [
+          356,
+          289,
+          494,
+          305
+        ]
+      },
+      "other_pages_pixel_identical": true,
+      "pdf_text_identical_except_requested_date": true,
+      "main_tex_identical_except_date_field": true,
+      "changed_pages_visually_inspected": [
+        1
+      ],
+      "visual_layout_passed": true,
+      "display_date": "August 28, 2026",
+      "previous_pdf_sha256": "40179df8536ce665e9e31d4a1e9e163e2ae9145692c09e1b2bb855302f4e5150",
+      "pdf_sha256": "d34077ff5b31ac8415864f1a1c8476433d7a4981ed0d6a0ded0a41fef0388573",
+      "source_sha256": "8046717810c83e2a9c26ee0c0d9a197e1073f8a28a1f971c610bfea45947721e",
+      "clean_archive_build": {
+        "extracted_archive_build_passed": true,
+        "pages": 21,
+        "warnings": 0,
+        "overfull_boxes": 0,
+        "underfull_boxes": 0,
+        "text_matches_final_pdf": true,
+        "source_files": 14,
+        "source_zip_sha256": "14f8f9c88f515eaf8b90918ac1b1f8412da26851d31f8c1d8a70d8bf51552808",
+        "pdf_sha256": "d34077ff5b31ac8415864f1a1c8476433d7a4981ed0d6a0ded0a41fef0388573",
+        "display_date": "August 28, 2026",
+        "checked_at_utc": "2026-09-11T18:42:08.610245+00:00"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "method": "rr_completion",
+  "horizon": 12,
+  "seed": 2,
+  "changed_component": 1,
+  "actions": [
+    "noop",
+    "edit_to_spec",
+    "edit_to_spec",
+    "edit_to_spec",
+    "build",
+    "build",
+    "attest",
+    "attest",
+    "attest",
+    "edit_to_spec",
+    "publish",
+    "publish"
+  ],
+  "cheap_reward": 1,
+  "reference_reward_obtained_after_training": 1,
+  "bought_during_training": true
+}

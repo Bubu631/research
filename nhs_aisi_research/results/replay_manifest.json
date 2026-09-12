@@ -1,0 +1,70 @@
+{
+  "completed": true,
+  "reps": 1000,
+  "seed": 2026091113,
+  "source_sha256_data": {
+    "data/processed/brfss_employed_2023.csv": "5c1c5735fd83707fa8d8914643036c935ae2511f4e7224d242224c7c61537da1",
+    "data/processed/brfss_employed_2024.csv": "16872bd93a1120053dda882cb4f046fa2379eef63db590132faf9cd0783df6b2"
+  },
+  "scenarios": [
+    [
+      "unweighted_uniform",
+      false,
+      0.0,
+      0.0
+    ],
+    [
+      "unweighted_tilt_025",
+      false,
+      0.25,
+      0.0
+    ],
+    [
+      "unweighted_tilt_05",
+      false,
+      0.5,
+      0.0
+    ],
+    [
+      "weighted_tilt_05",
+      true,
+      0.5,
+      0.0
+    ],
+    [
+      "validation_tilt_025",
+      false,
+      0.5,
+      0.25
+    ]
+  ],
+  "policies": [
+    "uniform",
+    "uniform_blind",
+    "uncertainty",
+    "boundary",
+    "bias_blind_kg",
+    "ordinary_kg",
+    "two_channel_uniform",
+    "balanced_mix",
+    "validation_only",
+    "two_channel_kg"
+  ],
+  "sampling": "with replacement from eligible finite-file outcome distributions",
+  "scenario_cost_budget_shared_draws": true,
+  "actual_additional_respondents_recruited": false,
+  "elapsed_seconds": 74.33986229076982,
+  "recorded_at_utc": "2026-09-11T21:35:29.382628+00:00",
+  "python": "3.13.1",
+  "numpy": "2.5.3",
+  "platform": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "source_sha256": {
+    "experiments/allocation.py": "35e05926fd8e8a313ffb321dfab415eeea1e3124dadcc52f91030a6a29dfcd11",
+    "experiments/common.py": "92f862bfa7d4b392dacedc693955f7976a6c98b17276df41972a1f1586caa88a",
+    "experiments/replay.py": "53c2a1ecad8f9764a1e9fb3c9cc7b12c3083ff5bc8336657930db429dd8615b8",
+    "experiments/synthetic.py": "79a17a2db0a60fe047420a67a8afa75b943ad028bfaa4982ccb42744ec755e2f",
+    "experiments/verify_theory.py": "99fbf8556f74282e470ce1a2fa5913053211639a658e6275138e915036df6800"
+  },
+  "protocol_sha256": "f386d991c8e2afb5059fd72e96ff866e5d2b62a945c093c4345a8ba0c6cf3a39",
+  "source_snapshot": "results/provenance/2b9fcdc6ff7b8d8e"
+}

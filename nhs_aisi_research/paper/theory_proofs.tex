@@ -1,0 +1,123 @@
+% Input in supplementary material, after \appendix. Requires theory_sections.tex.
+\section{Proofs and an allocation counterexample}
+\label{app:aisi_theory}
+
+\paragraph{Bayes decision and Gaussian update.}
+Conditional on $D$, the oracle term in Equation~\eqref{eq:aisi_loss} is
+independent of the chosen set. Thus minimizing expected loss is equivalent
+to minimizing $\sum_{i\in S}m_i$ subject to the fixed quotas. A deterministic
+index rule may resolve equal means without changing the objective.
+For a Gaussian linear observation $W=h^{\mathsf T}(\theta,b)+\epsilon$,
+write $V=h^{\mathsf T}Ph+r>0$. Conditioning yields
+\[
+ P^+=P-Phh^{\mathsf T}P/V,\qquad
+ m^+=m+(Ph)_1\{W-h^{\mathsf T}(m,a)\}/V.
+\]
+The predictive residual is $N(0,V)$, which proves
+Equation~\eqref{eq:aisi_innovation}. This calculation conditions on fixed
+hyperparameters; learning a shared hyperparameter from the new observation
+can also update other units and invalidate the one-coordinate simplification.
+
+\begin{proof}[Proof of Proposition~\ref{prop:aisi_kg}]
+Order the other units' means as $a_{(1)}\le\cdots\le a_{(|g|-1)}$.
+With $t_i=a_{(k_g)}$, the optimal posterior-mean sum in this group equals
+$\sum_{j<k_g}a_{(j)}+\min(m_i,t_i)$. After the observation, replace
+$m_i$ by $m_i+sZ$, where $Z\sim N(0,1)$; all other group contributions
+are unchanged. The tower property cancels the expected oracle-loss term
+from the before/after Bayes risk. Therefore the value is
+\[
+ K^{-1}\{\min(m_i,t_i)-\mathbb E\min(m_i+sZ,t_i)\}
+ =K^{-1}\mathbb E(sZ-|m_i-t_i|)_+.
+\]
+Integrating the Gaussian tail gives Equation~\eqref{eq:aisi_kg}.
+For $s>0$ and $\Delta\ge0$, differentiation gives
+$\partial(K\operatorname{KG})/\partial s=\varphi(\Delta/s)>0$ and
+$\partial(K\operatorname{KG})/\partial\Delta=-\Phi(-\Delta/s)<0$.
+At $s=0$, the mean does not change and the value is zero. For a quota
+of zero or the entire group, the feasible choice in that group is fixed;
+the tower property gives zero expected improvement. Equal means cause no
+problem because the optimum sum, rather than a discontinuous membership
+indicator, is the value function.
+\end{proof}
+
+\begin{proof}[Proof of Proposition~\ref{prop:aisi_floor}]
+The sample mean is sufficient and has variance
+$\tau^2+\beta^2+r/n$, with covariance $\tau^2$ with $\theta$.
+Gaussian conditioning proves Equation~\eqref{eq:aisi_level_floor}.
+For two units, set $T_i=\theta_i+b_i$. Their conditional means
+$m_i=\mu+\lambda(T_i-\mu)$, with
+$\lambda=\tau^2/(\tau^2+\beta^2)$, are independent normals with
+standard deviation $\tau^2/\sqrt{\tau^2+\beta^2}$. The minimum of two
+independent normals of common mean $\mu$ and standard deviation $s$
+has expectation $\mu-s/\sqrt{\pi}$. Hence
+\[
+ \mathbb E\min(m_1,m_2)-\mathbb E\min(\theta_1,\theta_2)
+ =\frac{\tau}{\sqrt\pi}
+   -\frac{\tau^2}{\sqrt{\pi(\tau^2+\beta^2)}},
+\]
+which is Equation~\eqref{eq:aisi_selection_floor}. Any adaptive sequence
+of ordinary observations can be simulated from exact $(T_1,T_2)$ and
+independent observation and policy randomness. Exact $T$ therefore
+contains at least as much decision-relevant information as that sequence;
+its optimal Bayes risk is a lower bound for all such policies.
+\end{proof}
+
+\paragraph{A current-posterior version of the variance floor.}
+For arbitrary positive-semidefinite $P$ with entries $(v,c,q)$, exact
+knowledge of $T=\theta+b$ leaves
+$v-(v+c)^2/(v+q+2c)$ when $\operatorname{Var}(T)>0$.
+If $\operatorname{Var}(T)=0$, $T$ is already known and its acquisition
+does not change $v$; positive semidefiniteness implies $v+c=0$.
+After learning $T$ exactly, $\operatorname{Cov}(\theta,T\mid T)=0$,
+so further ordinary sampling has zero target-mean innovation. Under
+independent units, positive remaining $v$, a nontrivial quota, and finite
+noise, ideal validation still has strictly positive one-step value.
+Affordability and the amount of remaining budget are separate constraints.
+
+\begin{proof}[Proof of Proposition~\ref{prop:aisi_shared}]
+Every feasible set has the same additional sum $\sum_g k_g u_g$ under
+the transformation. It appears both in the selected-set sum and the
+minimized oracle sum, so it cancels. All comparisons among feasible sums
+are also unchanged. If ordinary means equal $\theta_i+b_g$, this same
+argument applies with $u_g=b_g$ to recover the optimal feasible sets.
+\end{proof}
+
+\paragraph{Why marginal uncertainty can be irrelevant.}
+For two units with $\theta_1=\theta_2=Z$, $Z\sim N(0,1)$, and one slot,
+the selection regret is always zero. An exact observation of either unit
+updates both posterior means to $Z$, so the true joint information value
+is zero. Updating only one coordinate incorrectly would give
+$\varphi(0)=1/\sqrt{2\pi}$. This shows why the independence/one-coordinate
+assumption of Proposition~\ref{prop:aisi_kg} matters when offsets or targets
+have shared structure.
+
+\begin{proof}[Proof of Proposition~\ref{prop:aisi_channel}]
+At the same unit the gap is the same for both actions, and
+Proposition~\ref{prop:aisi_kg} is strictly increasing in $s$.
+Substituting $h_A$ and $h_R$ into Equation~\eqref{eq:aisi_innovation}
+and comparing squared innovations gives Equation~\eqref{eq:aisi_switch}.
+For $c=0$ and $v>0$, the equal numerators $v^2$ cancel.
+For the final statement, conditional on $\theta$, exact $T=\theta+b$
+and $U=\theta+d$ have independent likelihoods with variances $\beta^2$
+and $\delta^2$. Adding their precisions to the prior precision proves
+Equation~\eqref{eq:aisi_two_biased}. Repeated independent observation
+noise can reveal $T$ and $U$, but it does not remove their persistent
+offsets. If both channels instead share the same offset, their exact
+values supply only one such equation.
+\end{proof}
+
+\paragraph{A fixed-budget counterexample to the cost ratio.}
+There is one known alternative of value zero and one target
+$\theta\sim N(0,1)$, with one slot and budget two. A cheap direct
+measurement of $\theta$ has noise variance one and cost one. A more
+accurate direct measurement has noise variance $0.1$ and cost two.
+Both have zero initial gap. Their initial knowledge gradients are
+$1/\sqrt{4\pi}=0.282095$ and
+$1/\sqrt{2.2\pi}=0.380377$, respectively. Their cost ratios therefore
+favor the cheap action: $0.282095>0.190188$. Only another cheap action
+is affordable afterward. The two cheap measurements produce posterior
+mean variance $2/3$, hence total expected improvement
+$\sqrt{2/3}/\sqrt{2\pi}=0.325735$. Spending the budget on the more
+accurate action yields $0.380377$, a larger value. The policy can fail
+even with correct Gaussian beliefs and conditionally unbiased channels;
+one-step value per cost is not the multistep budget objective.

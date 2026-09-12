@@ -1,0 +1,23 @@
+{
+  "method": "naive_reward_ht",
+  "horizon": 12,
+  "seed": 6,
+  "changed_component": 1,
+  "actions": [
+    "edit_to_spec",
+    "edit_to_spec",
+    "edit_to_spec",
+    "build",
+    "build",
+    "build",
+    "attest",
+    "attest",
+    "attest",
+    "publish",
+    "publish",
+    "publish"
+  ],
+  "cheap_reward": 1,
+  "reference_reward_obtained_after_training": 1,
+  "bought_during_training": false
+}

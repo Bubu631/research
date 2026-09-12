@@ -1,0 +1,44 @@
+{
+  "checked_date": "2026-09-11",
+  "scope": "Four accepted AAAI 2026 AISI full papers: problem formulation, experimental setup, reported evidence and limitations reviewed. Deliberate related-case selection, not a systematic review. Publisher PDF files kept outside repository.",
+  "papers": [
+    {
+      "id": "goebel2026",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/41191/45152",
+      "bytes": 1912458,
+      "sha256": "a147a442cc86fdcdacd62cf3fcb64e2afe05b294d1d9b600419de1551f4a0d13",
+      "accessed_utc": "2026-09-11T21:27:03.100031+00:00"
+    },
+    {
+      "id": "chen2026",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/41169/45130",
+      "bytes": 848582,
+      "sha256": "72b0039c3de91ec22abb9e2ef2d4803618e4c766728b32fb06561d5c3424306e",
+      "accessed_utc": "2026-09-11T21:27:03.098447+00:00"
+    },
+    {
+      "id": "kothari2026",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/41219/45180",
+      "bytes": 1020282,
+      "sha256": "cb874b38a49e927889851a71585f0a8139b02cfc8c75111912b6d1c7a44d5f80",
+      "accessed_utc": "2026-09-11T21:27:03.094292+00:00"
+    },
+    {
+      "id": "betti2026",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/41162/45123",
+      "bytes": 13560810,
+      "sha256": "5dc024895280c2e9203e583cbbe6ea012cbe32d9a7ce16e750dfa4f88a5a6d2b",
+      "accessed_utc": "2026-09-11T21:28:25.601970+00:00"
+    }
+  ],
+  "documentation": [
+    "domain_and_aisi.md",
+    "domain_and_aisi_references.bib",
+    "nhs_decision_brief.md"
+  ],
+  "pdf_qa": {
+    "pages": 1,
+    "visual_preview": "Rendered using pdftoppm; verified one page, readable layout, no clipping or overlap.",
+    "sha256": "fbf3c492e13cdda1f3d0cec799ca5db3f53f60d3ac6c57d67424a0a3b1eb3d47"
+  }
+}

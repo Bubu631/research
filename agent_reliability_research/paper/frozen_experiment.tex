@@ -1,0 +1,27 @@
+\subsection{Historical software records and frozen-model geometry}\label{sec:frozen}
+We use the official SWE-Gym historical trajectory release \citep{pan2025,swegymdata}. Strict groups sharing both task and logging configuration have size at most two, so no strict G8 group is available. A recorded availability amendment forms fixed heterogeneous same-task groups; the heldout G8 set has 49 tasks, 392 records and 22 mixed-label groups. All 49 groups are retained. This is historical empirical replay, not on-policy data collection or a new SWE-bench evaluation.
+
+A frozen Qwen2.5-Coder-1.5B-Instruct checkpoint supplies a specified 32-dimensional added-logit-bias score \citep{qwenmodel}. Inputs preserve tool call arguments but score only a bounded-context final assistant body. Independent autograd, finite-difference and token-mask checks validate the extraction definition. The evaluation target is the complete-label empirical surrogate in this parameter subspace. It makes no claim about full-parameter gradients or training improvement. Appendix~\ref{app:historical}--\ref{app:frozen} gives the group, split, proxy, serialization and parameterization details.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{lrrr}
+\toprule
+Method & $q=.25$ & $q=.50$ & $q=.75$\\
+\midrule
+Complete labels & 0.000 & 0.000 & 0.000 \\
+Whole-group residual & 1.000 & 1.000 & 1.000 \\
+Fixed sequential & 1.488 & 1.352 & 1.027 \\
+Model coefficient schedule & 0.831 & 0.759 & 0.683 \\
+Model gradient schedule & 0.896 & 0.861 & 0.744 \\
+Reward HT then normalize & 0.770 & 1.937 & 4.861 \\
+Partial replacement & 0.772 & 1.965 & 4.479 \\
+Proxy completion & 0.333 & 1.000 & 3.000 \\
+\bottomrule
+\end{tabular}
+\caption{Historical frozen-score diagnostic: ratio of mean 32-dimensional empirical gradient MSE to whole-group residual correction. Every row includes the same 49 tasks. Values below one favor the row; full verification uses eight labels and proxy completion uses zero, so these two rows have different costs. Other rows use expected label counts 2, 4 and 6. Biased estimators may have lower MSE.}\label{tab:frozen}
+\end{table}
+
+Model coefficient schedules reduce mean projected MSE relative to whole-group correction by $16.9\%$, $24.1\%$ and $31.7\%$ at the three audit fractions (Table~\ref{tab:frozen}). Their paired task-bootstrap ratio intervals are $[.684,.992]$, $[.547,.996]$ and $[.348,1.119]$. These are pointwise descriptive intervals over 49 historical tasks; they are not simultaneous claims across budgets. The fixed exponent-one schedule instead loses to whole-group correction at each fraction. The gradient-model schedule also has lower mean error than whole-group correction, but performs worse than the coefficient-model schedule here and its intervals include one. This does not contradict model optimality: the frozen independent label model need not match the empirical conditional label/score relationship.
+
+The full extraction evaluates 57,948 target tokens. Forward and score computation take 763.20 seconds; the invocation including model setup takes 778.82 seconds on the shared M1 Pro host. The audit-risk calculation then exactly integrates the stopping paths or independent masks; it does not execute tests or train a policy. Proxy completion has the lowest MSE among several methods at the smallest budget despite nonzero conditional bias. Thus design unbiasedness is a target-preservation property, not by itself a minimum-MSE or learning-quality guarantee.

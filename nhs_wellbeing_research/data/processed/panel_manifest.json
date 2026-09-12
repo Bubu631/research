@@ -1,0 +1,73 @@
+{
+  "parsed_at_utc": "2026-09-11T19:04:06.685239+00:00",
+  "source_sha256": "ea21b97040a95cb3790534e7bccb447c5dcb874edf6621d4fbf790759112e1b1",
+  "parser_sha256": "685e9fde44c93398eb2c31eb41882677a12275ed7ff2da70ffcc4734cd5289d1",
+  "openpyxl_version": "3.1.5",
+  "rows": 1190,
+  "reporting_units": 238,
+  "trust_reporting_units": 206,
+  "complete_trust_reporting_units": 190,
+  "group_coverage": {
+    "Acute&Acute Community Trusts": {
+      "reporting_units": 121,
+      "complete_five_year": 110
+    },
+    "Acute Specialist Trusts": {
+      "reporting_units": 13,
+      "complete_five_year": 13
+    },
+    "MH&LD, MH, LD&Community Trusts": {
+      "reporting_units": 48,
+      "complete_five_year": 43
+    },
+    "Community Trusts": {
+      "reporting_units": 13,
+      "complete_five_year": 13
+    },
+    "Ambulance Trusts": {
+      "reporting_units": 11,
+      "complete_five_year": 11
+    },
+    "ICBs": {
+      "reporting_units": 23,
+      "complete_five_year": 11
+    },
+    "Social Enterprises MH": {
+      "reporting_units": 1,
+      "complete_five_year": 1
+    },
+    "Social Enterprises Community": {
+      "reporting_units": 7,
+      "complete_five_year": 2
+    },
+    "Community Surgical Services": {
+      "reporting_units": 1,
+      "complete_five_year": 1
+    }
+  },
+  "available_score_rows_by_year": {
+    "2021": 205,
+    "2022": 216,
+    "2023": 221,
+    "2024": 223,
+    "2025": 238
+  },
+  "directly_observed_eligible_counts": 0,
+  "individual_weight_records": 0,
+  "composite_standard_errors": 0,
+  "source_caveats": [
+    "2025 reporting-frame/survivor cohort; not all organisations operating in each historical year",
+    "Histories reweighted and recleaned in 2025; not a strict real-time vintage evaluation",
+    "Trust sectors R1F1/R1F2 share legal code R1F",
+    "Technical guide has NQV name discrepancy; workbook name retained; nontrust unit is excluded from primary cohort"
+  ],
+  "validation": "Unique keys, complete coverage, numeric bounds, valid-count <= total-response counts, source hash and no-history exclusions passed",
+  "outputs": {
+    "nhs_staff_survey_panel_2021_2025.csv": "dd5a85731a37a0b031d7b1d873b64424f65e911a8bd145da143def99f7f8198b",
+    "organisation_cohort.csv": "d1e2bbcb2dae375b6568621feb43b7d065980a1757b11be47923dee204a841b2",
+    "missingness_cells.csv": "f850ff8b22d869ddd8c5c5baa247aea77a621fa5d8fe449133cb2b520fd6dd2f",
+    "historical_comparability_events.csv": "2ace2c13ab68a864732afa0d48942b70374e8922c39089f189165544ca0019a1",
+    "data_dictionary.json": "1112ca41b302c5861e7c75b9e7d9a2633f9e065457b5fcfb376c8d0f8c7e6f4c",
+    "source_variable_dictionary.json": "306377a245cea7d10aac5558c353120d53f06442c72f5c3b627719c1ac0ee4f8"
+  }
+}

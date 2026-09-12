@@ -1,0 +1,99 @@
+\section{Proof of the exact degree theorem}\label{app:proof}
+Let $c_i=s_i-G^{-1}\sum_j s_j$, so $\sum_i c_i=0$. If $0<K<G$, substitution into Equation~\eqref{eq:F} gives
+\[
+ F_s(r)=\frac{\sum_i c_i r_i}{\sqrt{K(G-K)}}.
+\]
+Both constant-label endpoints are zero. A Boolean function has a unique multilinear representation $F_s(r)=\sum_S a_S\prod_{i\in S}r_i$. For a proper subset $S$ of size $\ell$, M\"obius inversion yields
+\begin{align*}
+ a_S&=\sum_{T\subseteq S}(-1)^{\ell-|T|}F_s(\ind_T)\\
+ &=\sum_{j=1}^{\ell}(-1)^{\ell-j}f(j)
+       \sum_{\substack{T\subseteq S\\|T|=j}}\sum_{i\in T}c_i\\
+ &=\left(\sum_{i\in S}c_i\right)
+       \sum_{j=1}^{\ell}(-1)^{\ell-j}\binom{\ell-1}{j-1}f(j)
+ =\left(\sum_{i\in S}c_i\right)\Delta^{\ell-1}f(1).
+\end{align*}
+The full-set coefficient is zero. For every $j=1,\ldots,G-1$, the sum over all size-$j$ subsets is $\binom{G-1}{j-1}\sum_i c_i=0$, and both endpoints contribute zero.
+
+To control the sign of the remaining differences, set $a=G/2$ and $z=x-a$. For $0<x<G$,
+\[
+ f(x)=\frac1a\left(1-\frac{z^2}{a^2}\right)^{-1/2}
+ =\frac1a\sum_{n=0}^{\infty}\frac{\binom{2n}{n}}{4^n}
+   \frac{z^{2n}}{a^{2n}}.
+\]
+This power series can be differentiated termwise on compact subintervals. Every even derivative is strictly positive: every surviving term is nonnegative, and the term $n=j$ in derivative order $2j$ is a positive constant. Iterating the fundamental theorem of calculus gives
+\[
+ \Delta^m f(x)=\int_{[0,1]^m} f^{(m)}(x+t_1+\cdots+t_m)\,dt_1\cdots dt_m,
+\]
+whenever the interval lies inside $(0,G)$. Hence every even-order difference used above is strictly positive.
+
+If $G$ is even, set $\ell=G-1$. The difference order is $G-2$, even and positive. Since $c$ is nonzero, omit an index with $c_i\ne0$; the sum of $c$ over the remaining indices is $-c_i\ne0$. Thus there is a nonzero coefficient of degree $G-1$, and none of degree $G$.
+
+If $G$ is odd, the difference of order $G-2$ on $f(1),\ldots,f(G-1)$ vanishes: the points pair about $G/2$, $f(j)=f(G-j)$, and paired binomial coefficients have opposite signs. All degree-$G-1$ coefficients vanish. For $\ell=G-2$, the difference has the positive even order $G-3$. If every subset of this size had zero $c$ sum, the complementary pairs would all obey $c_i+c_j=0$. For $G\ge3$, this forces all $c_i=0$, a contradiction. Therefore a nonzero degree-$G-2$ coefficient exists.
+
+For the query implication, fix the internal random seed of any adaptive algorithm. Its leaf event is a product of literals $r_i$ or $1-r_i$ along a path. Repeated queries of a deterministic label reveal nothing new, so a hard cap $b$ bounds the degree of each leaf-event polynomial by $b$. Multiplying by the output at that leaf and summing still gives degree at most $b$. Integrability and the finite cube permit expectation over internal seeds, leaving the mean function in the same finite-dimensional space. It cannot equal $F_s$ when $b<d_G$.
+
+For the existence statement, sample a nonzero monomial $S$ with any positive probability $p_S$, query its variables, and output $a_S\prod_{i\in S}r_i/p_S$. Include a constant term if present. A finite number of bounded outputs gives finite variance. This establishes attainability of the query cap, without establishing practical variance or computational efficiency of the monomial representation.
+
+\section{Variance identities and model moments}\label{app:moments}
+\subsection{Conditional variance under a fixed label vector}
+Write $D_k=\mu_k-\mu_{k-1}$ and $I_k=\ind\{U<Q_k\}$. For $j<k$, nested inclusion gives $\E[I_jI_k]=Q_k$. Thus
+\[
+ \operatorname{Cov}(I_j/Q_j,I_k/Q_k)=Q_j^{-1}-1.
+\]
+Consequently the conditional Euclidean MSE is
+\begin{equation}\label{eq:conditionalrisk}
+ \E_I\norm{\widehat\Phi-\Phi}^2
+ =\sum_k(Q_k^{-1}-1)\norm{D_k}^2
+ +2\sum_{j<k}(Q_j^{-1}-1)\langle D_j,D_k\rangle.
+\end{equation}
+The cross terms generally do not vanish for a fixed true label vector. Replacing this expression with $\sum_k\norm{D_k}^2(1/Q_k-1)$ on every observed group is incorrect. Orthogonality holds after averaging under the correct conditional-completion model. In that case $\E_p[D_k\mid\mathcal H_{k-1}]=0$, so $\E_p\langle D_j,D_k\rangle=0$ for $j<k$, proving Equation~\eqref{eq:modelrisk}. With a fixed linear target map $L$, replace the norm by $\norm{L^\top D_k}$; the optimal schedule can differ from one minimizing coefficient MSE.
+
+\subsection{Count-compressed second moments}
+Relabel coordinates in their query order. Let $S_k=\sum_{i\le k}R_i$, $U=\{k+1,\ldots,G\}$, and $K_U=\sum_{i\in U}R_i$. Define
+\begin{align*}
+ a_s&=\E_p[a(s+K_U)], & b_s&=\E_p[b(s+K_U)],\\
+ \alpha_i(s)&=p_i\E_p[a(s+1+K_{U\setminus\{i\}})],&
+ \beta_i(s)&=(1-p_i)\E_p[b(s+K_{U\setminus\{i\}})].
+\end{align*}
+Here $a,b$ have the endpoint convention given in Section~\ref{sec:completion}.
+\begin{lemma}[Exact completion moments]\label{lem:moments}
+For the independent-Bernoulli working model,
+\begin{equation}\label{eq:moment}
+ M_k:=\E_p\norm{\mu_k}^2
+ =\sum_{s=0}^{k}\Pr_p(S_k=s)\left[
+ s a_s^2+(k-s)b_s^2+
+ \sum_{i\in U}\{\alpha_i(s)^2+\beta_i(s)^2\}\right].
+\end{equation}
+Moreover $v_k=M_k-M_{k-1}\ge0$,
+\[
+ M_0=\norm{\E_p\Phi}^2,\qquad
+ M_G=G\left[1-\prod_i p_i-\prod_i(1-p_i)\right].
+\]
+\end{lemma}
+\begin{proof}
+Given an observed prefix with $s$ successes, each known positive coordinate has conditional coefficient $a_s$ and each known negative coordinate has coefficient $b_s$. Every unknown coordinate contributes the two conditional coefficients $\alpha_i(s),\beta_i(s)$. The Euclidean squared norm depends on the known prefix only through $s$, even if its individual probabilities differ. Averaging over its Poisson-binomial count gives Equation~\eqref{eq:moment}. The difference of moments is the squared martingale increment by the conditional-expectation projection identity. Finally, every mixed binary group has $\sum_i A_i^2=G$, while an all-equal group has zero norm. The probabilities of the two all-equal groups give the endpoint formula.
+\end{proof}
+The implementation caches prefix, suffix and leave-one-out count distributions before the sum over $s$. Constructing these distributions inside every term would introduce unnecessary work. The reference calculation takes $O(G^4)$ overall, using polynomial convolution and finite sums. A general gradient-weighted norm can depend on which prefix coordinates succeeded, so the same count-only formula cannot be asserted for an arbitrary weight matrix.
+
+\subsection{Monotone survival optimization}
+Ignoring the constant $-\sum_kv_k$, Equation~\eqref{eq:modelrisk} gives a separable convex objective. For a Lagrange multiplier $\lambda\ge0$ and a block on which the monotone constraint is active, its first-order equation is
+\[
+ -\frac{\sum_{k\in\mathcal B}v_k}{Q_{\mathcal B}^2}
+ +\lambda\sum_{k\in\mathcal B}c_{\pi_k}=0.
+\]
+The block solution is Equation~\eqref{eq:pava}. Adjacent blocks whose $\sum v/\sum c$ ratios increase must be pooled; the resulting nonincreasing blocks satisfy the monotone KKT conditions. Common lower and upper bounds clip those block solutions. A scalar search chooses the multiplier. If all $v_k=0$, every feasible positive schedule minimizes the modeled risk, and we use uniform survival. With only a zero-variance tail, its floor may permit a slack budget after every useful block has reached one. Actual expected cost is always calculated as $Q^\top c$, not copied from the requested budget.
+
+The solver normalizes a nonzero variance vector by its maximum before computing the shape. An absolute threshold such as ``sum of variances below $10^{-15}$ means zero'' would break scale invariance and can return a wrong uniform schedule for a small but informative gradient. An independent test exposed this issue before the subsequent model-scheduled study; its correction and the original source snapshot are retained.
+
+\section{Additional counterexamples and implementation boundaries}
+\paragraph{Post-audit fitting can invalidate augmentation.}
+For a single true label $r=1$, audit probability $q=1/2$, and a prediction set after observing the audit to $m=I$, Equation~\eqref{eq:ht} returns $I$ and has expectation $1/2$. The claim that predictions can be wrong is not permission to refit them on the same unaccounted audit outcome. Freeze predictions, train on past data, or use an appropriate independently specified cross-fitting scheme.
+
+\paragraph{Reference-label correction does not correct dynamics.}
+Suppose the full environment begins in state $s_1$ while a cheap simulator begins in state $s_0$, and the policy has independent parameters for the two states. Reward correction on the cheap trajectory can never create the missing score coordinate at $s_1$. Its update still targets the wrong occupancy distribution. A trajectory-level multi-fidelity method or a separate dynamics analysis is necessary \citep{liu2026}.
+
+\paragraph{Adaptive selection of parameters changes conditioning.}
+For every fixed $\theta$, Equation~\eqref{eq:rr} defines an unbiased random surrogate. Selecting $\theta$ by optimizing that same random function makes $\theta$ dependent on its noise. The pointwise expectation cannot be substituted at that random optimum. Similarly, norm clipping, Adam preconditioning and checkpoint selection are nonlinear. The constructed experiment records whether gradient clipping activates; it does not claim that its optimizer path equals complete-label training.
+
+\paragraph{Hard-cap degree and the label domain.}
+The query-degree theorem assumes every binary vector remains feasible after conditioning on the declared cheap information. If a cheap negative is a proven negative of the stronger test, that coordinate is already known. A learned classifier's high average accuracy is not such a logical certificate. The construction in Appendix~\ref{app:stateful} uses an exact implication and gives its benefit to the complete-verification and whole-group baselines as well as SC.

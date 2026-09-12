@@ -1,0 +1,12 @@
+{
+  "status": "all_checks_passed",
+  "full_grid_rows": 20,
+  "unique_paired_replications": 500,
+  "max_independent_summary_and_interval_error": 9.974659986866641e-17,
+  "frozen_2023_calibration_discrepancy": 0.0,
+  "output_hashes_match": true,
+  "original_primary_hashes_still_match": true,
+  "peak_rss_bytes": 1078329344,
+  "verified_manifest_sha256": "03a41af370b40968e2fc23892782a0ef797261d2a24c5c0e030d996321bffc98",
+  "verifier_sha256": "039aa70b80e062cc14ac7f8b5ecb692fd42806a459e6be2dfb484ab51fb58806"
+}

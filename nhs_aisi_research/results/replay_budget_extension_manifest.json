@@ -1,0 +1,70 @@
+{
+  "completed": true,
+  "analysis_stage": "post-primary-run exploratory",
+  "started_at_utc": "2026-09-11T21:44:54.188880+00:00",
+  "completed_at_utc": "2026-09-11T21:45:39.503813+00:00",
+  "elapsed_seconds": 45.3147590002045,
+  "reps": 500,
+  "backend_seed": 2026091121,
+  "policy_seed": 2026091221,
+  "budgets": [
+    48,
+    144,
+    480,
+    1440
+  ],
+  "audit_cost": 5,
+  "policies": [
+    "ordinary_kg",
+    "two_channel_kg",
+    "balanced_mix",
+    "validation_only",
+    "uniform"
+  ],
+  "kappa": 0.5,
+  "validation_kappa": 0.0,
+  "weighted": false,
+  "units": 48,
+  "selected_units": 9,
+  "packet_draws": 20,
+  "initial_draws_per_area": 20,
+  "peak_rss_bytes": 1078329344,
+  "memory_limit_bytes": 2000000000,
+  "packet_bank_bytes": 552960000,
+  "policies_and_budgets_share_streams": true,
+  "original_primary_result_and_function_hashes_preserved": true,
+  "primary_sha256": {
+    "results/replay.csv": "f70ce7987dfeac1d4f9eab9ada6452ec757aa67867b90d89c2441071998bd629",
+    "results/replay_manifest.json": "5966df0564096f6e6ac9e0cc4122af73e5ea8392dbfa9a6ced0c83bd39364998",
+    "results/replay_calibration.csv": "7051e73386c65ecc7591c2bd0dfd1ea0e60af7e597e74be7a4943362b26c3d03",
+    "results/replay_allocations.csv": "642deccf1d77ee4f94676a7e777127493f2d407080fb50ee0efbafc4c9c7a3f5",
+    "experiments/replay.py": "53c2a1ecad8f9764a1e9fb3c9cc7b12c3083ff5bc8336657930db429dd8615b8",
+    "experiments/allocation.py": "35e05926fd8e8a313ffb321dfab415eeea1e3124dadcc52f91030a6a29dfcd11",
+    "experiments/common.py": "92f862bfa7d4b392dacedc693955f7976a6c98b17276df41972a1f1586caa88a"
+  },
+  "source_sha256": {
+    "experiments/replay_budget_extension.py": "9846e439c4bed0fd36ce9f883f70c52101e0a5da52e3b95b01eee98ef523c731",
+    "experiments/replay.py": "53c2a1ecad8f9764a1e9fb3c9cc7b12c3083ff5bc8336657930db429dd8615b8",
+    "experiments/allocation.py": "35e05926fd8e8a313ffb321dfab415eeea1e3124dadcc52f91030a6a29dfcd11",
+    "experiments/common.py": "92f862bfa7d4b392dacedc693955f7976a6c98b17276df41972a1f1586caa88a",
+    "experiments/synthetic.py": "79a17a2db0a60fe047420a67a8afa75b943ad028bfaa4982ccb42744ec755e2f",
+    "docs/budget_extension_protocol.md": "3b5a854976a06143d090bca2478de93fee51fa0a501e765adc1163b4041ae09c"
+  },
+  "source_snapshot": "results/provenance/budget_extension/e7ebbb3afe066db0",
+  "source_sha256_data": {
+    "data/processed/brfss_employed_2023.csv": "5c1c5735fd83707fa8d8914643036c935ae2511f4e7224d242224c7c61537da1",
+    "data/processed/brfss_employed_2024.csv": "16872bd93a1120053dda882cb4f046fa2379eef63db590132faf9cd0783df6b2"
+  },
+  "python": "3.13.1",
+  "numpy": "2.5.3",
+  "platform": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "intervals": "Monte Carlo mean +/- 1.96 MCSE, conditional on fixed frame/scenario",
+  "posterior": "Working Gaussian target/offset model; not exact finite-frame posterior",
+  "real_additional_respondents_recruited": false,
+  "output_sha256": {
+    "results/replay_budget_extension.csv": "b9bfb084660745bd4e99cdf248c36e3e7aa1659f1e08e3433ada32b39d3dc5c3",
+    "results/replay_budget_extension_allocations.csv": "803edc18c0c0933545ac22fe13556529ba3b1f5d4da09d222862f3b9f0dd1069",
+    "results/replay_budget_extension_calibration.csv": "ec7f58a309f5c906513d25da9c1fc3065250a9f0ba842f7a5318507a5ff4db3e",
+    "results/replay_budget_extension_replication_metrics.npz": "14f956f653b745765511094de1ca1a2b7d118a2587b25ddb2bb04003d27da896"
+  }
+}

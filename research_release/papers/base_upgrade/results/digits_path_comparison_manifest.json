@@ -1,0 +1,15 @@
+{
+  "prediction_and_gate_recalculation": "passed_all_10_seed_path_runs",
+  "script_sha256": "3e8cdd0945b3930724cecbd46b2a4a08945f6f115fb02dda11de894b5455f3bb",
+  "input_manifest_sha256": {
+    "papers/base_upgrade/results/digits_manifest.json": "bddd11698dbd745f98c7039613ccb53e145b49615c79827fbe44ff043d7103c8",
+    "papers/base_upgrade/results/digits_balanced/digits_manifest.json": "a089033d8668b0d5ce8050589a3c11cd4df9d9409634b3b99d6eb704328d6379"
+  },
+  "output_sha256": {
+    "digits_path_comparison.csv": "0d084cdf24f6762cfded5196c7ffa2c81b4f38215de280bb7e5815fa33022fe8",
+    "digits_path_all_seeds.csv": "c8102a47d2f79a7c15fc27565b0e7c49c00efd850336697cc09170c46a452248",
+    "digits_path_comparison.tex": "1ab5e8b743df23dcbf5a2b134b0ddaadf5d81a75f4f92540807c62afbdfece59",
+    "digits_path_all_seeds.tex": "d3f0291adbef87d8155614d0fcaf7f0e48b4e16715d6fd89489d1c34a0340603"
+  },
+  "interpretation": "Subsequent balanced path reuses existing holdouts: descriptive, not a new confirmatory certification."
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "vintage": 2023,
+    "cdx_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.nhsstaffsurveys.com%2Fstatic%2F7d4ab30226c8780f12de6378d8208303%2Fbenchmark_report_excel_data_2019-2023_v2.xlsx&output=json&filter=statuscode%3A200&collapse=digest",
+    "accessed_at_utc": "2026-09-11T18:50:38.647163+00:00",
+    "captures": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,nhsstaffsurveys)/static/7d4ab30226c8780f12de6378d8208303/benchmark_report_excel_data_2019-2023_v2.xlsx",
+        "20240705035334",
+        "https://www.nhsstaffsurveys.com/static/7d4ab30226c8780f12de6378d8208303/benchmark_report_excel_data_2019-2023_v2.xlsx",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "200",
+        "PRKRAPHJ52U465X3KK7CHX5OGVEGRTIH",
+        "4884557"
+      ]
+    ]
+  },
+  {
+    "vintage": 2024,
+    "cdx_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.nhsstaffsurveys.com%2Fstatic%2F4393b3f78f0c9e6c06906310ee7ff6c3%2FBenchmark-report-Excel-data-for-2020-2024.xlsx&output=json&filter=statuscode%3A200&collapse=digest",
+    "accessed_at_utc": "2026-09-11T18:50:38.647609+00:00",
+    "captures": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,nhsstaffsurveys)/static/4393b3f78f0c9e6c06906310ee7ff6c3/benchmark-report-excel-data-for-2020-2024.xlsx",
+        "20250427122552",
+        "https://www.nhsstaffsurveys.com/static/4393b3f78f0c9e6c06906310ee7ff6c3/Benchmark-report-Excel-data-for-2020-2024.xlsx",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "200",
+        "G5XBNIXATD6JUMIYSCJVD44IAY5K6HYK",
+        "5373177"
+      ],
+      [
+        "com,nhsstaffsurveys)/static/4393b3f78f0c9e6c06906310ee7ff6c3/benchmark-report-excel-data-for-2020-2024.xlsx",
+        "20250531050328",
+        "https://www.nhsstaffsurveys.com/static/4393b3f78f0c9e6c06906310ee7ff6c3/Benchmark-report-Excel-data-for-2020-2024.xlsx",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "200",
+        "42655U2KE6TLCG2G6A66W3VOQYXGHWQY",
+        "5351756"
+      ]
+    ]
+  }
+]

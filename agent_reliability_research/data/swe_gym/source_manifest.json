@@ -1,0 +1,39 @@
+{
+  "dataset": "SWE-Gym/OpenHands-Sampled-Trajectories",
+  "revision": "baf3a4e4bff514d48ddc08a93a2ade5c126212c7",
+  "metadata_url": "https://huggingface.co/api/datasets/SWE-Gym/OpenHands-Sampled-Trajectories?blobs=true",
+  "dataset_card_url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/raw/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/README.md",
+  "dataset_card_sha256": "45e76541e88ef9a50192e77137a4622c6f38fbe299fbbae4beb2bbb0d135d8d3",
+  "licence": null,
+  "licence_note": "No explicit dataset licence in official card/API when accessed; code licences do not automatically cover the dataset.",
+  "download_bytes": 301095609,
+  "files": [
+    {
+      "path": "data/swe_gym/raw/train.raw-00000-of-00003.parquet",
+      "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00000-of-00003.parquet",
+      "sha256": "29d038b0c34eb0e50a19730f3cf3daa5a156c2d7e9c871c01b568acbab6aae07",
+      "expected_lfs_sha256": "29d038b0c34eb0e50a19730f3cf3daa5a156c2d7e9c871c01b568acbab6aae07",
+      "bytes": 70817777,
+      "accessed_at_utc": "2026-09-12T16:07:19.439947+00:00",
+      "reused_local_cache": false
+    },
+    {
+      "path": "data/swe_gym/raw/train.raw-00001-of-00003.parquet",
+      "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00001-of-00003.parquet",
+      "sha256": "64a5d435b777a47e2544de1cc3bf61e5452bab1237fc43e70220e13f2f901516",
+      "expected_lfs_sha256": "64a5d435b777a47e2544de1cc3bf61e5452bab1237fc43e70220e13f2f901516",
+      "bytes": 78471672,
+      "accessed_at_utc": "2026-09-12T16:07:30.841149+00:00",
+      "reused_local_cache": false
+    },
+    {
+      "path": "data/swe_gym/raw/train.raw-00002-of-00003.parquet",
+      "url": "https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories/resolve/baf3a4e4bff514d48ddc08a93a2ade5c126212c7/data/train.raw-00002-of-00003.parquet",
+      "sha256": "1e388384f0dbf65421b53ef37d4f92c10e1e458f597bf61326fa047b8e21b597",
+      "expected_lfs_sha256": "1e388384f0dbf65421b53ef37d4f92c10e1e458f597bf61326fa047b8e21b597",
+      "bytes": 151806160,
+      "accessed_at_utc": "2026-09-12T16:07:40.348415+00:00",
+      "reused_local_cache": false
+    }
+  ]
+}

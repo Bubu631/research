@@ -1,0 +1,140 @@
+% Integration fragment. Requires amsmath, amssymb, amsthm, natbib;
+% define a proposition environment in the main preamble.
+% Full proofs are in theory_proofs.tex, to be input after \appendix.
+% Root may shorten or adapt notation; no empirical conclusions are asserted here.
+
+\section{Decision value of another measurement}
+\label{sec:information_theory}
+Let $\mathcal S=\{S:|S\cap g|=k_g\text{ for every group }g\}$,
+$K=\sum_g k_g>0$, and let lower $\theta_i$ mean greater need. We use
+\begin{equation}
+ L(S,\theta)=\frac{1}{K}\left\{\sum_{i\in S}\theta_i-
+          \min_{A\in\mathcal S}\sum_{i\in A}\theta_i\right\}.
+ \label{eq:aisi_loss}
+\end{equation}
+Thus review slots have equal weight across all selected units; this is not
+equal weighting of group-specific average losses. The Bayes decision selects
+the $k_g$ smallest posterior target means within each group. Linearity of
+expectation suffices for this decision, even with dependent targets.
+Neither this loss nor its minimizer is a probability-of-exact-set-recovery
+objective. Fixed-budget subset selection and boundary-directed acquisition
+have substantial prior art \citep{chen2008subset,kalyanakrishnan2012pac,chen2014combinatorial}.
+
+For the acquisition calculation, assume independent unit states, fixed
+hyperparameters, and a Gaussian posterior
+$(\theta_i,b_i)\mid D\sim N((m_i,a_i)^{\mathsf T},P_i)$, where
+$P_i=\left(\begin{smallmatrix}v_i&c_i\\c_i&q_i\end{smallmatrix}\right)$.
+An ordinary packet measures $\theta_i+b_i$; an ideal validation packet
+measures $\theta_i$. Their loadings are $h_R=(1,1)^{\mathsf T}$ and
+$h_A=(1,0)^{\mathsf T}$. A packet has conditionally independent Gaussian
+noise variance $r_{id}>0$. Its posterior-mean innovation has standard deviation
+\begin{equation}
+ s_{id}=\frac{|(P_i h_d)_1|}{\sqrt{h_d^{\mathsf T}P_i h_d+r_{id}}}.
+ \label{eq:aisi_innovation}
+\end{equation}
+For $a$ independent respondent draws with individual noise variance $r$,
+the packet mean has variance $r/a$; a persistent offset does not shrink this way.
+Conditional unbiasedness of the validation channel is a reference-model
+assumption, not a property inferred from the NHS data.
+
+\begin{proposition}[One-step severity value]
+\label{prop:aisi_kg}
+For an action affecting only unit $i$ in a group with $0<k_g<|g|$, let
+$t_i$ be the $k_g$th smallest posterior mean among the other units in that
+group and set $\Delta_i=|m_i-t_i|$. Its expected reduction in posterior
+Bayes risk is
+\begin{equation}
+ \operatorname{KG}_{id}=\frac{1}{K}
+ \left\{s_{id}\varphi(\Delta_i/s_{id})-
+         \Delta_i\Phi(-\Delta_i/s_{id})\right\},
+ \label{eq:aisi_kg}
+\end{equation}
+with value zero at $s_{id}=0$. Groups selecting none or all of their units
+have zero local acquisition value. For finite gaps and positive $s$, the
+value strictly increases with $s$ and decreases with the gap.
+\end{proposition}
+
+This is a closed-form specialization of Gaussian knowledge gradient
+\citep{frazier2008kg,frazier2009correlated}, closely related to
+multi-information-source optimization \citep{poloczek2017miso}; it is not
+a new subset-selection algorithm. Our policy compares affordable actions
+by $\operatorname{KG}_{id}/\operatorname{cost}_{id}$. The common $1/K$
+factor can be omitted when choosing the action. This myopic cost ratio is
+not globally optimal for a fixed multistep budget; Appendix~\ref{app:aisi_theory}
+gives a counterexample, consistent with known nonconcavity of information
+value \citep{frazier2010paradoxes}. If an observation updates several units,
+Equation~\eqref{eq:aisi_kg} must be replaced by the joint decision value.
+
+\begin{proposition}[Limits of repeated ordinary measurement]
+\label{prop:aisi_floor}
+Suppose $\theta\sim N(\mu,\tau^2)$ and $b\sim N(0,\beta^2)$ are independent,
+with $\tau,\beta>0$, and $Y_j=\theta+b+\epsilon_j$ has independent
+$\epsilon_j\sim N(0,r)$. Then
+\begin{equation}
+ \operatorname{Var}(\theta\mid Y_{1:n})
+ =\tau^2-\frac{\tau^4}{\tau^2+\beta^2+r/n}
+ \longrightarrow \frac{\tau^2\beta^2}{\tau^2+\beta^2}.
+ \label{eq:aisi_level_floor}
+\end{equation}
+For two independent units with this common prior and one review slot, even
+exactly observing both $\theta_i+b_i$ leaves Bayes severity regret
+\begin{equation}
+ R_\infty=\frac{\tau}{\sqrt{\pi}}
+          \left(1-\frac{\tau}{\sqrt{\tau^2+\beta^2}}\right)>0.
+ \label{eq:aisi_selection_floor}
+\end{equation}
+This is a lower bound for every policy restricted to noisy ordinary
+measurements under that prior, including adaptive policies.
+\end{proposition}
+
+The explicit selection-risk expression concerns independent unit-specific
+offsets. Partial identification despite unlimited samples is a broader,
+established phenomenon \citep{altschuler2019contaminated}; the next result
+shows why level uncertainty alone does not establish selection harm.
+
+\begin{proposition}[Shared group shifts do not change this loss]
+\label{prop:aisi_shared}
+For arbitrary constants $u_g$, define $\theta'_i=\theta_i+u_g$ for $i\in g$.
+For every feasible $S$, $L(S,\theta')=L(S,\theta)$, and the collection of
+optimal feasible sets is unchanged. Consequently, if the only persistent
+ordinary-channel offset is common within each group, exact ordinary means
+identify an optimal within-group selection even when target levels remain
+unidentified.
+\end{proposition}
+
+Thus a useful measurement reduces uncertainty about relevant differences,
+not necessarily about absolute levels. A policy that models common offsets
+as independent unit offsets can value validation for distinctions that are
+irrelevant to fixed within-group slots.
+
+\begin{proposition}[When a second channel resolves uncertainty]
+\label{prop:aisi_channel}
+In the independent-unit reference model, ideal validation has greater
+one-step value than an ordinary packet at the same unit and equal cost
+if and only if
+\begin{equation}
+ \frac{v_i^2}{v_i+r_{iA}}>
+ \frac{(v_i+c_i)^2}{v_i+q_i+2c_i+r_{iR}},
+ \label{eq:aisi_switch}
+\end{equation}
+provided the group has a nontrivial quota. If $c_i=0$ and $v_i>0$, this
+reduces to $r_{iA}<q_i+r_{iR}$. If validation instead measures
+$\theta+d$ with a second persistent offset, independent priors with positive
+variances $\tau^2,\beta^2,\delta^2$ imply
+\begin{equation}
+ \operatorname{Var}(\theta\mid\theta+b,\theta+d)
+  =(\tau^{-2}+\beta^{-2}+\delta^{-2})^{-1}>0.
+ \label{eq:aisi_two_biased}
+\end{equation}
+Independence between channel offsets therefore does not suffice to make
+validation unbiased for an individual unit.
+\end{proposition}
+
+For unequal costs, the comparison uses the full cost-normalized expression
+in Equation~\eqref{eq:aisi_kg}, not merely variance reduction per cost.
+Cheap biased sources versus expensive reference sources are already central
+to multi-fidelity identification \citep{poiani2024optimal} and selective
+proxy auditing \citep{ao2026judges}. These propositions characterize which
+parts of that information problem matter for this decision; they do not
+identify unknown survey bias or provide guarantees under misspecified
+channel models.

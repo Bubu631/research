@@ -1,0 +1,73 @@
+{
+  "status": "in_progress",
+  "study": "Subsequent descriptive balanced-continuation public digits experiment",
+  "started_utc": "2026-09-11T17:48:27.967262+00:00",
+  "config": {
+    "seeds": [
+      1701,
+      1702,
+      1703,
+      1704,
+      1705
+    ],
+    "hidden": 48,
+    "old_epochs": 12,
+    "continuation_epochs": 24,
+    "batch_size": 128,
+    "learning_rate": 0.15,
+    "momentum": 0.9,
+    "epsilon": 0.03,
+    "family_error": 0.05,
+    "scalar_candidates": 121,
+    "layer_grid": 11,
+    "training_fraction": 0.4,
+    "development_fraction": 0.2,
+    "certification_fraction": 0.2,
+    "reporting_fraction": 0.2,
+    "continuation_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "objective_weights": [
+      0.16,
+      0.16,
+      0.16,
+      0.16,
+      0.16,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04
+    ]
+  },
+  "protocol_and_source_sha256": {
+    "executed_script.py": "17c7ca39a1deff2b90513e004b0eca99d76bb27d183d215296b90722764cc8fc",
+    "digits_upgrade_helper.py": "b5911c813fc57055fe2922138338c147156441b2d68fae029335d0869290ffea",
+    "executed_protocol.md": "44ce5879e3f1a3a7cb3e078bb9df57953f127384c29d9d5404eb6e882aea307d"
+  },
+  "dataset": "sklearn.datasets.load_digits; 1797 examples; 64 features; classes 0-9",
+  "dataset_sha256": "5889d26819cf830d070975af3c711419825fa0a078137b3d80b8e7d06bd58da0",
+  "dataset_original": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+  "versions": {
+    "python": "3.13.1",
+    "numpy": "2.5.3",
+    "sklearn": "1.9.1"
+  },
+  "caveats": [
+    "Protocol fixed after the original selective-continuation study was reviewed.",
+    "Both paths use 24 epochs; balanced training has approximately twice the minibatch updates.",
+    "Certification/reporting data are reused from the original study: descriptive, not fresh confirmatory certification.",
+    "Five seeds share one underlying dataset; seed SD is descriptive, not an independent confidence interval.",
+    "No parameters or protocol choices revised after outcomes; every fixed seed is retained.",
+    "Small public MLP study, not a foundation-model or translation result."
+  ]
+}

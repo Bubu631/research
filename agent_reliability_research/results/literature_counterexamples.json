@@ -1,0 +1,31 @@
+{
+  "description": "Exact checks supporting the independent literature audit, not paper replications.\n\nNo model, benchmark, or data from the cited papers is used.  Each example is an\nexplicit finite construction, enumerated with rational arithmetic.",
+  "arithmetic": "exact fractions; exhaustive enumeration",
+  "upstream_credit": {
+    "true_logit_gradient": "3/16",
+    "backbone_gradient": "3/16",
+    "local_advantage_propagated_upstream": "0",
+    "scope": "Local zero-mean contrasts alone need not carry an earlier action's mediated effect."
+  },
+  "positive_weight_cancellation": {
+    "base_gradient": "1/100",
+    "weighted_gradient": "-1829/25000",
+    "perturbation": "2079/25000",
+    "absolute_bound": "4179/25000",
+    "invalid_relative_bound": "21/25000",
+    "scope": "Positive bounded scalar weights alone do not preserve aggregate direction."
+  },
+  "minimality": {
+    "one_minimal_success_sets": [
+      [
+        "a"
+      ],
+      [
+        "b",
+        "c"
+      ]
+    ],
+    "minimum_cardinality": 1,
+    "scope": "A minimized successful edit subset is not a unique causal attribution."
+  }
+}

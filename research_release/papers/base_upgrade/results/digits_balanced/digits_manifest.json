@@ -1,0 +1,199 @@
+{
+  "status": "completed_subsequent_descriptive_public_data_study",
+  "study": "Subsequent descriptive balanced-continuation public digits experiment",
+  "started_utc": "2026-09-11T17:48:27.967262+00:00",
+  "config": {
+    "seeds": [
+      1701,
+      1702,
+      1703,
+      1704,
+      1705
+    ],
+    "hidden": 48,
+    "old_epochs": 12,
+    "continuation_epochs": 24,
+    "batch_size": 128,
+    "learning_rate": 0.15,
+    "momentum": 0.9,
+    "epsilon": 0.03,
+    "family_error": 0.05,
+    "scalar_candidates": 121,
+    "layer_grid": 11,
+    "training_fraction": 0.4,
+    "development_fraction": 0.2,
+    "certification_fraction": 0.2,
+    "reporting_fraction": 0.2,
+    "continuation_classes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "objective_weights": [
+      0.16,
+      0.16,
+      0.16,
+      0.16,
+      0.16,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04
+    ]
+  },
+  "protocol_and_source_sha256": {
+    "executed_script.py": "17c7ca39a1deff2b90513e004b0eca99d76bb27d183d215296b90722764cc8fc",
+    "digits_upgrade_helper.py": "b5911c813fc57055fe2922138338c147156441b2d68fae029335d0869290ffea",
+    "executed_protocol.md": "44ce5879e3f1a3a7cb3e078bb9df57953f127384c29d9d5404eb6e882aea307d"
+  },
+  "dataset": "sklearn.datasets.load_digits; 1797 examples; 64 features; classes 0-9",
+  "dataset_sha256": "5889d26819cf830d070975af3c711419825fa0a078137b3d80b8e7d06bd58da0",
+  "dataset_original": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+  "versions": {
+    "python": "3.13.1",
+    "numpy": "2.5.3",
+    "sklearn": "1.9.1"
+  },
+  "caveats": [
+    "Protocol fixed after the original selective-continuation study was reviewed.",
+    "Both paths use 24 epochs; balanced training has approximately twice the minibatch updates.",
+    "Certification/reporting data are reused from the original study: descriptive, not fresh confirmatory certification.",
+    "Five seeds share one underlying dataset; seed SD is descriptive, not an independent confidence interval.",
+    "No parameters or protocol choices revised after outcomes; every fixed seed is retained.",
+    "Small public MLP study, not a foundation-model or translation result."
+  ],
+  "completed_utc": "2026-09-11T17:48:28.320690+00:00",
+  "runtime_seconds": 0.3658994580619037,
+  "aggregate": {
+    "incumbent": {
+      "accuracy": {
+        "mean": 0.9477777777777778,
+        "seed_sd": 0.007708020514173116
+      },
+      "weighted_accuracy": {
+        "mean": 0.9478601660484014,
+        "seed_sd": 0.009762074492592816
+      },
+      "worst_slice_difference": {
+        "mean": 0.0,
+        "seed_sd": 0.0
+      }
+    },
+    "updated": {
+      "accuracy": {
+        "mean": 0.9594444444444445,
+        "seed_sd": 0.010686324478706322
+      },
+      "weighted_accuracy": {
+        "mean": 0.9637188583541525,
+        "seed_sd": 0.010486306244474058
+      },
+      "worst_slice_difference": {
+        "mean": -0.011428571428571432,
+        "seed_sd": 0.015649215928719037
+      }
+    },
+    "scalar": {
+      "accuracy": {
+        "mean": 0.9566666666666667,
+        "seed_sd": 0.010865337342004431
+      },
+      "weighted_accuracy": {
+        "mean": 0.9586621444974386,
+        "seed_sd": 0.01178415903278373
+      },
+      "worst_slice_difference": {
+        "mean": -0.011269841269841253,
+        "seed_sd": 0.015434416555597099
+      }
+    },
+    "layer": {
+      "accuracy": {
+        "mean": 0.9544444444444444,
+        "seed_sd": 0.011553685746158586
+      },
+      "weighted_accuracy": {
+        "mean": 0.9557792616145557,
+        "seed_sd": 0.01221870633595968
+      },
+      "worst_slice_difference": {
+        "mean": -0.011269841269841253,
+        "seed_sd": 0.015434416555597099
+      }
+    },
+    "released": {
+      "accuracy": {
+        "mean": 0.9477777777777778,
+        "seed_sd": 0.007708020514173116
+      },
+      "weighted_accuracy": {
+        "mean": 0.9478601660484014,
+        "seed_sd": 0.009762074492592816
+      },
+      "worst_slice_difference": {
+        "mean": 0.0,
+        "seed_sd": 0.0
+      }
+    }
+  },
+  "ancestry_checks": [
+    {
+      "seed": 1701,
+      "original_checkpoint_sha256": "b2df28b3ff931d3f91e0d655712820be7857f85889f6ac5128d42d5e31bf06ca",
+      "incumbent_max_abs_recreation_difference": 0.0,
+      "split_identity_verified": true
+    },
+    {
+      "seed": 1702,
+      "original_checkpoint_sha256": "d01cab4847bdf984e463ce80d8ebe73c8bd793eb69cedf1ea1f50078473e8fb8",
+      "incumbent_max_abs_recreation_difference": 0.0,
+      "split_identity_verified": true
+    },
+    {
+      "seed": 1703,
+      "original_checkpoint_sha256": "fb4df9c67a658fe0c7b47cdb791e0cfc4877cd28492b1d0ebf24ee92563c8f15",
+      "incumbent_max_abs_recreation_difference": 0.0,
+      "split_identity_verified": true
+    },
+    {
+      "seed": 1704,
+      "original_checkpoint_sha256": "cba5e87dca9832a931f5ceaa0f6e55c6de4f1f941d1721e6730db38217a72dc0",
+      "incumbent_max_abs_recreation_difference": 0.0,
+      "split_identity_verified": true
+    },
+    {
+      "seed": 1705,
+      "original_checkpoint_sha256": "9724b872a4c493bd7195cedd7ce7839d9a5d4cc0f6c049c348e776b6410fa9d8",
+      "incumbent_max_abs_recreation_difference": 0.0,
+      "split_identity_verified": true
+    }
+  ],
+  "continuation_count": 718,
+  "minibatch_updates_per_seed": 144,
+  "certification_pass_count": 0,
+  "exact_incumbent_selection_count": 0,
+  "output_sha256": {
+    "digits_certification.csv": "3a299c6e735b61ccfb33bc32d21a38f47e593488ac4964d36a9373bfc87d7784",
+    "digits_search.csv": "7ac4d167d66ba5ec2f30e2334df7a14e524ad90610eb81235af1cbbe0df1a4ca",
+    "digits_seed_1701.npz": "cfbc39e4739cb0c812f9424abee3e7480773704f0a61411449f97d3077baed6c",
+    "digits_seed_1702.npz": "c1158e635045d29e8be16e0e9f0846398670ec6f67bd5bcf70178b936c500f26",
+    "digits_seed_1703.npz": "7f3c43e702b01b235d3ba7c6da801155290d123fa3966e8761d27c5b9521e0a2",
+    "digits_seed_1704.npz": "daa98695b37279808db43712e11f95831f1e232e98cb53a58d544aba7157abf3",
+    "digits_seed_1705.npz": "db3ed8607ef0248496d1b210cc520d74740389ed79206ddf0ce2df56ad59030a",
+    "digits_slices.csv": "a64d3d234ae89b2b9692844bbe121328b1d3815a94adfd3b5ebd0985643b3aff",
+    "digits_summary.csv": "9937181365f2b77a5023f1319b4c2d70ee38bc181d251185d17c61ade9878acc",
+    "digits_training_loss.csv": "61e7724bc36902ce397d6797ed29144dd89fb5c6cd257bdc111b26a6b7d98471",
+    "digits_upgrade_helper.py": "b5911c813fc57055fe2922138338c147156441b2d68fae029335d0869290ffea",
+    "executed_protocol.md": "44ce5879e3f1a3a7cb3e078bb9df57953f127384c29d9d5404eb6e882aea307d",
+    "executed_script.py": "17c7ca39a1deff2b90513e004b0eca99d76bb27d183d215296b90722764cc8fc",
+    "manifest_in_progress.json": "79851034ba3f7036f778314a6534235fed8e75595377fb1ebe4830474a10232b"
+  }
+}

@@ -1,0 +1,117 @@
+\section{Constructed stateful training: protocol and accounting}
+\label{app:stateful-training}
+\label{app:stateful}
+
+\paragraph{Environment.}
+There are $n=H/4$ components in a directed dependency chain. Initially their
+source, cached artifacts, attestations, and publications all reflect version
+zero. The task changes the required version of one component, sampled
+uniformly from the first $\lceil n/2\rceil$ positions, to one. Each component is
+visited once in each of four rounds, in topological order. Every visit permits
+one of five actions: no operation, edit source to the specification, build,
+attest, or publish. These are actual tool-state transitions, including legal
+no-ops. A build stores the current built parent prefix followed by the local
+source version; attestations and publications retain immutable fingerprints.
+Consequently, updating an upstream component does not automatically refresh
+its dependants.
+
+The reference verifier executes four constraints per component: the source
+matches its requested version, and the artifact, attestation, and publication
+each match the required complete prefix. The cheap verifier checks only the
+local version of each published artifact. Its failures are conclusive
+reference failures; every baseline uses this common shortcut. The observation
+contains 15 features: an intercept, four phase indicators, local source and
+requested versions, five inspectable metadata comparisons, and normalized
+position, remaining horizon, and problem size. Constructing this observation
+does not invoke the reference verifier. Public task requirements are not
+hidden supervision; the purchased terminal labels are isolated from action
+selection and unqueried estimator inputs.
+
+\paragraph{Policy and optimization.}
+A shared linear softmax maps these features to five action probabilities.
+All methods initialize with probability $0.9$ on the round-appropriate action
+and $0.025$ on each other action. This scripted prior is disclosed because a
+nearly uniform policy would yield little terminal success at larger $H$.
+The initial greedy policy already follows a correct workflow. We execute
+300 updates per run, with eight newly sampled trajectories per update and
+a learning rate of $0.5$. For trajectory $i$, the score is the mean action
+score, $H^{-1}\sum_{t=1}^{H}\nabla_\theta\log\pi_\theta(a_{it}\mid o_{it})$.
+The estimated group coefficients weight these scores in one on-policy SGD
+update. There are no Adam updates, replay epochs, learned critics, or auxiliary
+rewards. The norm cap is one; it activates in none of the 54,000 updates
+(maximum observed norm $0.642$). Positive and negative coefficients are added
+at likelihood ratio one, so these runs do not test off-policy clipping.
+
+\paragraph{Auditing rules.}
+After cheap-negative certification, $M$ candidate labels remain in their
+original order. The completion model assigns them probability $0.55$ and
+assigns certified negatives probability zero. It is fixed and not fitted on
+training or reporting labels. Whole-group residual correction buys all $M$
+labels with probability $1/2$ and otherwise uses the same completion vector.
+Sequential completion (\texttt{rr\_completion} in the released code) uses
+\[
+ Q_j=\operatorname{clip}\bigl(c j^{-1/2},0.005,1\bigr),
+ \qquad \sum_{j=1}^{M}Q_j=M/2,
+\]
+with the scale $c$ chosen before observing any purchased label. The empty
+candidate set needs no purchases. Reward HT independently buys candidates
+with probability $1/2$, substitutes twice the observed reward and zero for
+unbought candidates, and then normalizes. Partial replacement uses the same
+inclusion probabilities but retains unbought cheap labels. Both are distinct
+from correction of the final group coefficients.
+
+A subsequent outcome-free diagnostic evaluated the model-based increment
+second moments of the homogeneous completion prior. For every
+$M\in\{1,\ldots,8\}$, the monotone schedule minimizing the model's Euclidean
+coefficient error was $Q_j=1/2$ for every candidate. It therefore coincided
+with whole-group residual correction. This is a boundary case of the
+allocation problem, not a reason to replace the frozen primary schedule or
+a claim about the true policy-gradient error.
+
+\paragraph{Randomness and evaluation.}
+Ten independent training seeds are used for each horizon and method. Within
+a seed, task and action uniforms are paired across methods; learned policies
+can still produce different subsequent trajectories. Audit randomness uses a
+separate stream. Reporting uses 256 stochastic episodes at update zero and
+every 25 updates, with a separate stream reused for pairing across checkpoints
+and methods. Reporting labels do not select parameters, schedules, updates, or
+stopping rules. These are independent episode draws from the declared task
+family, not unseen repository tasks. The horizon and chain size co-vary, so
+their individual effects are not identified.
+
+For SC minus whole-group residual, the endpoint differences and pointwise
+95\% Student-$t$ intervals over ten paired training seeds are, in percentage
+points, $0.078\;[-0.578,0.734]$ at $H=12$,
+$-0.195\;[-1.110,0.720]$ at $H=24$, and
+$1.328\;[-0.297,2.953]$ at $H=48$. These intervals use nine degrees of freedom,
+are not adjusted for multiple comparisons, and are not non-inferiority tests.
+
+\paragraph{Cost and saved evidence.}
+The complete experiment executes 432,000 training trajectories and 12,096,000
+tool actions in 259.07 seconds on the local CPU. Python 3.12.14 and NumPy 2.3.5
+are recorded in the run manifest. Training purchases 185,536 reference checks
+across all methods. Separately, reporting performs 599,040 checks, and
+post-training replay performs 432,000 diagnostic checks. These diagnostic
+labels are computed only after each entire optimization run; they never
+enter its updates. One reference query executes $4n$ constraints. Query counts
+are resource units; no artificial latency is added. The measured training
+times in the main text exclude reporting and post-training diagnostics and
+are sums over the 30 runs per method. They are shared-host diagnostics with a
+fixed method order, not an isolated randomized systems benchmark.
+
+The primary comparison fixes rollout count. A secondary released table selects
+recorded checkpoints below a common descriptive query ceiling and reports
+actual query and rollout counts. It does not interpolate, leaves unequal
+unspent budget, and is not an exactly matched-cost experiment. We do not use
+it to claim equal overall compute.
+
+Every training action sequence, task change location, cheap label, purchased
+label and mask, coefficient vector, and policy checkpoint is retained in
+compressed arrays. Immutable tool replay reconstructs terminal states and
+checks purchased labels against post-training truth. All 180 trajectory banks,
+five numerical CSV files, and four executed-source snapshots pass the recorded
+ledger and hash checks. Independent CPU checks compare trajectory scores with
+held-action finite differences (maximum error $1.40\times10^{-11}$), and
+integrate every sequential stopping cutoff on generated release groups
+(maximum coefficient error $4.44\times10^{-16}$). These checks do not claim a
+second complete execution of all 180 training runs.

@@ -1,0 +1,317 @@
+{
+  "status": "passed",
+  "runtime_seconds": 0.3118569850921631,
+  "source_sha256": "6278101123e4e2fd70b209fd74947aa45278041391b3219bb020f0400f7367b8",
+  "protected_inputs_sha256": {
+    "results/frozen_model/gradient_bank.npz": "5074caf1858e1d60c02f4ab2f433792c7048641ebad0f62fb3453a572dcf3fca",
+    "data/swe_gym/processed/heterogeneous_groups_g8.jsonl": "f689f9021f7303152d17f218524a529f871c11f9d5b6ee5b68da8af97351f0e8",
+    "results/frozen_audit/manifest.json": "01fd70a6bbf83883cb6696e8fbfae7290c1ae590a8c1c854462cdc4c96b0b541",
+    "results/frozen_audit/per_group.csv": "d1fb5023c5f4bb7a7060ef8e37e9154405b9cdeeb20705e305ca8633805a2a5c",
+    "results/frozen_audit/summary.csv": "5c6641f70037114e2746bc816ca0f34cc028a222b3bc1580da048dbefe40116f",
+    "results/frozen_audit/schedules.json": "b588e8555ae54a264e4689c06d788251e815f3c29ae6a5cda51cae8557112a87"
+  },
+  "source_manifest_hashes_match": true,
+  "protected_inputs_unchanged": true,
+  "gradient_shape": [
+    392,
+    32
+  ],
+  "groups": 49,
+  "unique_tasks": 49,
+  "unique_records": 392,
+  "checked_method_rows": 1176,
+  "full_cube_path_reconstructions": 49,
+  "full_cube_moment_and_independent_schedule_checks": [
+    {
+      "group_index": 0,
+      "group_id": "cced5328a62a2882f8977a76",
+      "instance_id": "Project-MONAI__MONAI-3205",
+      "success_count": 0,
+      "coefficient_moments": [
+        0.687886889732971,
+        1.6441963710696643,
+        2.197708920684002,
+        2.748873447873344,
+        3.3117151089180283,
+        3.8241135650884504,
+        3.9562431909245426,
+        3.9821656784078057,
+        3.992222028739243
+      ],
+      "projected_moments": [
+        3.0323375831802018e-05,
+        5.378840578513306e-05,
+        8.151780058803442e-05,
+        9.820156787670996e-05,
+        0.00017834596542829138,
+        0.00020539015946058914,
+        0.00021557500582116792,
+        0.00022092648850742026,
+        0.0002223900266266971
+      ],
+      "target_projected_norm": 0.0,
+      "schedule_optimality": [
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.25,
+          "independent_objective_gap": 9.302780767939112e-12,
+          "optimizer_success": true,
+          "model_risk": 7.0703731897391675
+        },
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.5,
+          "independent_objective_gap": 2.440714297335944e-12,
+          "optimizer_success": true,
+          "model_risk": 1.8830190253664476
+        },
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.75,
+          "independent_objective_gap": 1.9584334154387761e-13,
+          "optimizer_success": true,
+          "model_risk": 0.22224454084100967
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.25,
+          "independent_objective_gap": 4.270361841918202e-12,
+          "optimizer_success": true,
+          "model_risk": 0.0004648839727659371
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.5,
+          "independent_objective_gap": 3.4638958368304884e-14,
+          "optimizer_success": true,
+          "model_risk": 0.000136408660985521
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.75,
+          "independent_objective_gap": 8.72191208145523e-13,
+          "optimizer_success": true,
+          "model_risk": 2.693798866261572e-05
+        }
+      ]
+    },
+    {
+      "group_index": 24,
+      "group_id": "e9d7912b83d442207930033f",
+      "instance_id": "getmoto__moto-5960",
+      "success_count": 3,
+      "coefficient_moments": [
+        0.4430393933489108,
+        1.172807493694134,
+        1.7803564555050468,
+        2.327810419155814,
+        2.702366408249932,
+        3.0720261386229777,
+        3.312489219897256,
+        3.330562134076186,
+        3.3460942881439144
+      ],
+      "projected_moments": [
+        9.03974620319289e-06,
+        7.05312781218962e-05,
+        8.997591723861977e-05,
+        0.00014704812762420465,
+        0.00016306586946916995,
+        0.00017075829107124352,
+        0.00017306455738582883,
+        0.00017397262544838974,
+        0.00017451957323225223
+      ],
+      "target_projected_norm": 0.024141393352957233,
+      "schedule_optimality": [
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.25,
+          "independent_objective_gap": 2.454569880683266e-11,
+          "optimizer_success": true,
+          "model_risk": 6.528032287494536
+        },
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.5,
+          "independent_objective_gap": 1.311839525897085e-12,
+          "optimizer_success": true,
+          "model_risk": 1.8124886963497664
+        },
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.75,
+          "independent_objective_gap": 3.019806626980426e-14,
+          "optimizer_success": true,
+          "model_risk": 0.2746144132488588
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.25,
+          "independent_objective_gap": 2.682298827494378e-13,
+          "optimizer_success": true,
+          "model_risk": 0.00029051589685460337
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.5,
+          "independent_objective_gap": 2.644995333866973e-12,
+          "optimizer_success": true,
+          "model_risk": 6.263160706460551e-05
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.75,
+          "independent_objective_gap": 1.3322676295501878e-14,
+          "optimizer_success": true,
+          "model_risk": 6.4542923711314076e-06
+        }
+      ]
+    },
+    {
+      "group_index": 48,
+      "group_id": "2685712a6ec170db3ff71d65",
+      "instance_id": "python__mypy-9629",
+      "success_count": 0,
+      "coefficient_moments": [
+        0.2232185087087208,
+        0.875010857712021,
+        1.5392631429193162,
+        1.9087320996524912,
+        1.9567142804269109,
+        2.0047806602808116,
+        2.0529314812432458,
+        2.101166986481283,
+        2.1494874203058725
+      ],
+      "projected_moments": [
+        5.117642157794751e-06,
+        3.0089070606514575e-05,
+        5.2238233675544135e-05,
+        5.8191172582258006e-05,
+        5.945421172244186e-05,
+        6.114213520068702e-05,
+        6.318039323478313e-05,
+        6.481786461657246e-05,
+        6.683425380742506e-05
+      ],
+      "target_projected_norm": 0.0,
+      "schedule_optimality": [
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.25,
+          "independent_objective_gap": 5.0182080713057076e-12,
+          "optimizer_success": true,
+          "model_risk": 3.6094553060674066
+        },
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.5,
+          "independent_objective_gap": 1.4921397450962104e-13,
+          "optimizer_success": true,
+          "model_risk": 0.8415931972351276
+        },
+        {
+          "method": "rr_model_coefficient",
+          "budget": 0.75,
+          "independent_objective_gap": 1.7763568394002505e-15,
+          "optimizer_success": true,
+          "model_risk": 0.1605035471022543
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.25,
+          "independent_objective_gap": 3.5695890687748033e-12,
+          "optimizer_success": true,
+          "model_risk": 0.00011344903187621622
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.5,
+          "independent_objective_gap": 1.2434497875801753e-14,
+          "optimizer_success": true,
+          "model_risk": 2.6027437670712538e-05
+        },
+        {
+          "method": "rr_model_gradient",
+          "budget": 0.75,
+          "independent_objective_gap": 4.440892098500626e-16,
+          "optimizer_success": true,
+          "model_risk": 5.762054150111375e-06
+        }
+      ]
+    }
+  ],
+  "metric_max_absolute_errors": {
+    "coefficient_mse": 4.973799150320701e-14,
+    "gradient_mse": 1.734723475976807e-18,
+    "coefficient_bias_sq": 2.398081733190338e-14,
+    "gradient_bias_sq": 5.421010862427522e-19
+  },
+  "cost_max_absolute_error": 0.0,
+  "tail_max_absolute_error": 0.0,
+  "whole_group_closed_form_gradient_mse_max_error": 8.673617379884035e-19,
+  "summary_mean_se_max_error": 3.552713678800501e-15,
+  "paired_bootstrap_replicates": 10000,
+  "paired_bootstrap_seed": 20260916,
+  "paired_bootstrap_max_error": 4.440892098500626e-15,
+  "zero_bootstrap_denominators": 0,
+  "minimum_bootstrap_denominator": 2.101559079245801e-05,
+  "model_method_ratios": [
+    {
+      "method": "rr_model_coefficient",
+      "budget": 0.25,
+      "ratio": 0.8314466710614454,
+      "pointwise_percentile_95": [
+        0.6844658644257308,
+        0.9920285230691891
+      ]
+    },
+    {
+      "method": "rr_model_gradient",
+      "budget": 0.25,
+      "ratio": 0.8961057792125369,
+      "pointwise_percentile_95": [
+        0.6905513960239545,
+        1.2006125024473262
+      ]
+    },
+    {
+      "method": "rr_model_coefficient",
+      "budget": 0.5,
+      "ratio": 0.7590657088342163,
+      "pointwise_percentile_95": [
+        0.5465662009755472,
+        0.9961534850325067
+      ]
+    },
+    {
+      "method": "rr_model_gradient",
+      "budget": 0.5,
+      "ratio": 0.8614685891155808,
+      "pointwise_percentile_95": [
+        0.568893123661002,
+        1.3120367294673951
+      ]
+    },
+    {
+      "method": "rr_model_coefficient",
+      "budget": 0.75,
+      "ratio": 0.6834162389451188,
+      "pointwise_percentile_95": [
+        0.3476301220623089,
+        1.1187524537084308
+      ]
+    },
+    {
+      "method": "rr_model_gradient",
+      "budget": 0.75,
+      "ratio": 0.7435361126234697,
+      "pointwise_percentile_95": [
+        0.3448904524748137,
+        1.355407192323512
+      ]
+    }
+  ],
+  "interpretation": "Fixed historical 32-dimensional logit-bias update at ratio one. Pointwise task-bootstrap diagnostic; no simultaneous coverage, clipping-active, on-policy, training, or fresh test-execution claim."
+}

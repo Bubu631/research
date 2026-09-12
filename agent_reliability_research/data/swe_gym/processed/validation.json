@@ -1,0 +1,19 @@
+{
+  "checks_passed": true,
+  "files_sha_verified": 3,
+  "records": 6055,
+  "tasks": 2438,
+  "strict_block_max_size": 2,
+  "proxy_max_absolute_reconstruction_error": 2.7755575615628914e-16,
+  "historical_groups": {
+    "4": {
+      "groups": 453,
+      "members": 1812
+    },
+    "8": {
+      "groups": 223,
+      "members": 1784
+    }
+  },
+  "checker_sha256": "63c31e1ba13cc735697847dfc08183b439e779c1dd75222cef904ce5121fd8cf"
+}

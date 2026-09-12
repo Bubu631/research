@@ -1,0 +1,101 @@
+\section{Notation and Complete Reference-Model Results}
+The propositions below restate the model self-containedly. To distinguish local notation from channel cost, the off-diagonal covariance is denoted $c_i$ in these propositions (the main paper calls it $u_i$). Channel cost is written explicitly as $\operatorname{cost}_{id}$. The results concern the declared independent-unit Gaussian model with fixed hyperparameters. They do not infer real survey bias from aggregate scores.
+\input{theory_sections}
+\input{theory_proofs}
+
+\section{Algorithms and Exact Computation}
+\subsection{Policy state and update}
+Each replication starts with a two-coordinate state per unit. Its state stores target mean, offset mean, target variance, offset variance, their covariance, and ordinary/validation draw counts. For each unit $i$ and affordable channel $d$, compute the relevant other-unit quota boundary $t_i$, the innovation SD and Equation~\eqref{eq:aisi_kg}. Choose the action with maximum gain per cost, read the next unused entry in that unit-channel observation stream, apply Gaussian conditioning, and deduct the channel cost. Ties use deterministic flattened unit/channel order for KG-based rules. Recompute boundaries after every observation. The final review set consists of the smallest posterior means within each group, with stable index ties.
+
+One update has constant cost per affected unit. Computing all boundaries by sorting costs $O(M\log M)$ per replication in this implementation; evaluating $2M$ action values is linear. The implementation is vectorised over independent replications. It does not claim an optimal computational complexity or a new data structure. Finite-precision normal-tail calculations are clamped to nonnegative values to avoid tiny cancellation artefacts. A budget is integer-valued and checked at every step. Validation-only policies may leave a remainder smaller than the validation cost. Comparisons report both available budget and actual spending.
+
+\subsection{Ten policy definitions}
+\begin{enumerate}
+\item Uniform ordinary: choose a unit uniformly and acquire an ordinary packet, retaining the common bias-aware posterior.
+\item Uniform, bias blind: the same action rule with assumed bias mean and variance zero.
+\item Maximum variance: acquire an ordinary packet at the unit with largest target posterior variance.
+\item Boundary heuristic: acquire ordinary data at the largest $2\sqrt{v_i}-|m_i-t_i|$. This fixed-budget heuristic is not the LUCB algorithm.
+\item Ordinary KG: maximise one-step severity gain using only ordinary packets.
+\item Bias-blind KG: ordinary KG with zero assumed offset.
+\item Equal-action mixture: sample uniformly over affordable unit-channel pairs. Equal action probability does not mean equal expenditure.
+\item Balanced mixture: before affordability effects, choose validation with probability $1/(1+c_A)$ and a uniform unit; otherwise ordinary. If a requested validation packet is unaffordable, use an ordinary packet. This balances expected expenditure before terminal effects.
+\item Validation only: choose a uniform unit and use only validation after the common initial ordinary phase. Stop when no validation packet is affordable.
+\item Two-channel KG: maximise one-step severity gain per cost over both affordable channels, using the same posterior update as the bias-aware baselines.
+\end{enumerate}
+The full-code release also contains a dormant terminal-rule variant used for implementation exploration; no reported experiment uses it. Shared inference distinguishes action selection from the benefits of assuming a bias model. Common channel access distinguishes two-channel acquisition efficiency from the value of access to a different measurement source.
+
+\subsection{Pairing, estimation and stopping}
+Each world or replay scenario generates a packet bank indexed by replication, unit, channel and within-channel packet count. Policies observing the same count for the same unit-channel pair see the same packet, regardless of their elapsed action number. Latent worlds and banks are shared across cost and budget settings within a primary scenario. Independent policies may take different numbers of packets, but do not overwrite or consume another policy's bank. Randomised baselines have explicit seeds.
+
+For $R$ independent replications and a metric $z_r$, the stored MCSE is $s(z)/\sqrt R$ and the displayed interval is $\bar z\pm1.96\,\mathrm{MCSE}$. For two policies, compute the differences $z_r^{(1)}-z_r^{(0)}$ first and apply the same calculation; do not combine their marginal standard errors as if they were independent. Primary CSVs store paired regret and overlap comparisons with ordinary KG and bias-aware uniform ordinary. The exploratory extension retains replication-level arrays to verify these computations. No cross-scenario pooled significance test is reported, and simultaneous coverage over the full grid is not claimed.
+
+In finite-file replay, a \emph{fixed-length primitive packet mean} from iid uniform record draws is unbiased for its declared finite-frame mean. Under weight-proportional sampling it is unbiased for the constructed weight-proportional distribution. This statement does not make the final posterior estimate, or a unit's empirical mean after outcome-adaptive sampling, unbiased. Counts depend on observed outcomes. Interval coverage is calculated against each fixed-frame target across replay repetitions; it does not establish design-based population coverage.
+
+\section{Synthetic Worlds in Full}
+Targets are independent $N(5,0.35^2)$ for 40 units, arranged in four groups of ten with quota two. In the base worlds, an offset $b_i\sim N(0,\beta^2)$ persists across initial and subsequent ordinary packets. Validation has fresh noise and no persistent offset. Initial sample size and additional packet size both equal 20. Conditional packet-noise SD is $2.5/\sqrt{20}$. Budgets are 40 and 120, validation costs 2, 5 and 10, and ordinary cost one. Four bias scales and six cost/budget pairs yield 24 settings and 240 policy rows. Each of the four worlds has 2,000 independent replications; the 24 settings are not 48,000 independent latent panels.
+
+Seven stress worlds add 70 policy rows, each with 2,000 independent replications, budget 120 and validation cost 5. Underestimated bias uses true SD 0.70 and assumed SD 0.15; overestimated bias uses true SD zero and assumed SD 0.70. The validation-bias world adds an independent persistent validation offset with SD 0.35 while the update treats validation as unbiased. The heavy-tail world replaces Gaussian packet noise with Student-$t_3$ noise scaled to the same packet variance. It draws heavy-tailed \emph{packet} means directly; a packet is not implemented as an average of 20 individual heavy-tailed observations. Unequal noise multiplies each unit's noise SD by a lognormal factor with log SD 0.4 while inference keeps the common SD. Target drift adds independent $N(0,0.35^2)$ changes after initial observations; all later observations measure the changed target while inference assumes a static state. Shared-group bias uses a single SD-0.70 offset per group, but inference treats offsets as independent. Unless specified otherwise, true and assumed bias SDs are 0.35.
+
+All seven stresses are deliberately misspecified relative to the exact propositions. The purpose is to locate failures, not to claim robustness from passing a chosen subset. Uniform/blind baselines use the same observation law as other policies within a world. Unit-mean target MSE and interval coverage concern the post-drift target where applicable. Unbounded Gaussian targets are a controlled mathematical world, not a generative model claiming that NHS scores can lie outside their scale.
+
+\section{Public Microdata Construction and Temporal Separation}
+\subsection{Source and cleaning}
+The downloaded 2023 BRFSS ASCII file contains 433,323 records; the 2024 file contains 457,670. Official SAS import programs and variable-layout documentation determine required ASCII offsets. Reading streams from ZIP members avoids expanding gigabyte-size text files. The required variables are state, core mental-health days, employment, final combined survey weight, stratum, PSU and the supplied mental-health category used for validation. Core outcome codes 1--30 and 88 are valid; 77, 99 and blanks are excluded. Employment codes 1 and 2 denote employed for wages and self-employed. The score is a transparent rescaling, not a newly validated wellbeing questionnaire or a measure of job-caused distress.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lrr}\toprule
+Cleaning stage & 2023 & 2024\\\midrule
+Complete public file & 433,323 & 457,670\\
+Employed/self-employed before outcome filtering & 215,794 & 225,524\\
+Employed with valid outcome, all areas & 212,989 & 222,734\\
+Common-state/DC complete-outcome frame & 206,098 & 214,151\\
+Number of common areas & 48 & 48\\
+Minimum records per included area & 1,247 & 1,232\\
+Maximum records per included area & 13,474 & 22,708\\\bottomrule
+\end{tabular}
+\caption{Executed BRFSS cohort construction. The cross-year intersection excludes territories, Kentucky and Pennsylvania (absent from 2023), and Tennessee (absent from 2024). Annual files are independent cross-sections, not a person panel.}
+\end{table}
+
+All 420,249 cleaned primary records were independently compared with the original ASCII slices. All 457,670 original 2024 records were also checked against the official SAS-transport file: categorical/design fields agree, and the maximum absolute weight discrepancy is $4.997\times10^{-5}$ from the ASCII representation's decimal precision. Four employed Illinois records have a core mental-health response inconsistent with the supplied categorical derivative. The same discrepancy exists in both original formats. We keep the core responses, record the discrepancy and do not selectively correct or exclude those records. This check demonstrates why matching aggregate codebook frequencies alone is insufficient.
+
+The actual compressed ASCII sizes were 60,057,185 and 53,411,907 bytes. The acquired 2024 text has 2,061-character records, despite a stale longer-file description on the annual webpage. Source offsets are verified against the actual import programs and layout entries; page descriptions do not override measured files. Retrieval timestamps, resolved URLs, byte counts, SHA-256 hashes and ZIP member CRCs identify the downloaded releases. These are locally computed identity checks, not publisher-supplied hashes or claims of access to the first published vintage.
+
+\subsection{Targets and the sampling mechanism}
+For area $i$ and year $y$, let $p_{iy}(x)$ be the empirical probability of score $x$ among complete employed records. The primary target is $\theta_{i,2024}=\sum_xp_{i,2024}(x)x$. All 2024 means are reserved for final evaluation. A fixed 2023 common target prior uses $\mu=8.55693$ and $\tau=0.13882$, calculated from its 48 area means. The 2023 within-area variance supplies packet-noise calibration. No held-out 2024 full-frame moment is given to the action selector.
+
+For a random sign $s_i\in\{-1,+1\}$ fixed throughout a replication, the ordinary sampler uses
+\[
+ p_{i,2024}^{(s_i)}(x)=\frac{p_{i,2024}(x)\exp\{s_i\kappa(x-\mu_{i,2023})/\sigma_{i,2023}\}}
+ {\sum_zp_{i,2024}(z)\exp\{s_i\kappa(z-\mu_{i,2023})/\sigma_{i,2023}\}}.
+\]
+Centering cancels from the normalisation; the scale remains frozen to 2023. The same plus/minus construction on 2023 gives two hypothetical mean offsets. Their midpoint is the assumed bias mean; their population SD is the assumed bias SD. The average of the two within-law variances supplies ordinary noise. This centre is not generally zero because the outcome distribution is asymmetric. For $\kappa=0.25$ and 0.50, the average calibrated bias SDs are approximately 0.6865 and 1.4952, respectively. These are deliberately strong controlled tilts relative to the between-area spread, not plausible-bias estimates derived from actual recruitment validation.
+
+Validation draws uniformly from the hidden empirical distribution except in its separate failure scenario. There it has an independent persistent sign and tilt 0.25, yet the update continues to assume an unbiased channel. The exact two-sign mechanism is not fitted as a discrete posterior; the policy deliberately uses the same moment-matched Gaussian approximation. Its calibration is favourable because it knows a hypothetical sampling-law family, but it is not an oracle using realised 2024 offsets or reference means.
+
+Weighted sensitivity replaces $p_{iy}$ by the empirical probability proportional to each record's final survey weight. Its target is $\sum_jw_jx_j/\sum_jw_j$ in the retained finite file. The common 2023 prior has $\mu=8.41342$ and $\tau=0.14436$. Sampling in proportion to full-frame weights is an additional offline assumption. Retaining stratum and PSU information does not turn this replay into complex-survey population inference. A Kish weight-concentration count, when reported in source diagnostics, is not an effective sample size accounting for clustering, stratification or outcome-specific design effects.
+
+\subsection{What is independently observed}
+Only the original recorded outcomes, employment categories, geography and design fields are observed. The additional recruitment laws, channel validity, signs, packet costs, repeated sampling and review capacities are constructed. Full-file means are evaluation references within those laws. The replay is therefore stronger than a Gaussian-only simulation in outcome realism but weaker than a prospective measurement experiment in recruitment validity. The NHS and BRFSS sources answer different questions and are never pooled as if they measured the same people or construct.
+
+\section{NHS Illustration and Proposed Use}
+The retained historical cohort has 190 complete-five-year trust reporting units and 189 underlying legal entities; two reporting sectors belong to one legal entity. Group sizes are 110 acute/acute-community, 43 mental-health/learning-disability and related, 13 community, 13 acute specialist and 11 ambulance units. Applying $k_g=\lfloor0.2|g|\rfloor$ gives 22, 8, 2, 2 and 2 slots, totalling 36. These are modelled review capacities, not existing NHS allocation rules. The complete-five-year restriction defines an illustration cohort; it does not imply all NHS trusts were stable or comparable throughout the period.
+
+For each assumed bias scale $\{0,0.15,0.35,0.70\}$ and precision multiplier $\{1,0.25\}$, initialise a Gaussian prior with group-mean plug-in centre and $\tau=0.35$, then condition on observed 2025 burnout scores using variance $2.5^2/(n_i f)$. Here $n_i$ is the reported nominal composite response count and $f$ is a sensitivity multiplier. Neither $2.5$ nor $f$ is estimated from respondent microdata. The 2025 group-mean plug-in also means this is an illustrative conditional state, not a fully integrated empirical-Bayes uncertainty analysis. Candidate packets have size 20, assumed individual SD 2.5, ordinary cost one and validation cost five. No future outcomes are drawn: the output is an initial one-step value table under stated assumptions.
+
+At $f=1$, average posterior SD rises from approximately 0.0477 with zero assumed bias to 0.2488 at bias SD 0.35; the latter is close to the repeat-only floor SD 0.2475. This does not empirically establish that NHS nonresponse bias is 0.35, nor that a validation packet of that cost exists. It indicates which unverifiable assumptions drive the apparent preference for a new channel. The machine-readable output labels every row as a model-conditional scenario with no new NHS observations.
+
+A possible operational sequence is: retain routine access to staff listening; agree the review decision and comparison groups; define the target construct; assess whether any alternative measurement can credibly target it; account for invitation, response, completion and analysis costs; inspect how the provisional set changes under plausible assumptions; and only then consider additional acquisition. Staff representatives and organisational users would need to review burdens, confidentiality and overrides. This sequence is a proposed study design, not a workflow validated with NHS staff. Thresholds suppressing small survey counts protect confidentiality and must not be treated as sufficient sample-size criteria for accurate ranking. Quarterly engagement scores and the annual burnout composite must not be substituted without a measurement argument.
+
+\section{Independent Verification and Reproduction}
+The theoretical verifier compares 60 closed-form Gaussian gains with numerical quadrature (maximum error below $5\times10^{-16}$), checks 200 shared-shift invariance cases, and verifies the two-unit irreducible Bayes risk using 400,000 Monte Carlo draws. The exact risk is 0.0475387; the simulation estimate is 0.0477082 with MCSE 0.0001909. A separate allocation verifier includes unequal group sizes, stable ties and 120 general covariance updates. The implementation audit uses 700 successive full-matrix updates, 80 numerical expected-top-$k$ integrations, small-seed step-by-step comparisons of all ten policies, and independent recomputation of 240 replay calibration rows.
+
+Four complete saved primary result rows were independently reproduced with full-matrix posterior arithmetic, two using 2,000 synthetic replications and two using 1,000 replay replications. Tiny differences in arithmetic order can choose another mathematically tied acquisition: six synthetic paths exhibited near-tied actions whose maximum independent value difference was $1.73\times10^{-18}$. Re-evaluation on the executed paths reproduces saved metrics. Perturbing the hidden 2024 reference metadata changes evaluation MSE but leaves all ten policies' streams, actions and posteriors unchanged. This is a targeted leakage check plus code inspection, not a proof against every possible implementation error.
+
+The numerical environment uses Python 3.13.1, NumPy 2.5.3, pandas 3.0.5, SciPy 1.18.1 and Matplotlib 3.11.1. Primary synthetic and replay runs took approximately 95 and 74 seconds, respectively, in this local CPU environment. The exploratory budget extension took 45 seconds with measured peak resident memory approximately 1.08 GB. These are single-run execution measurements, not portable performance guarantees. No GPU, model training or private service was used.
+
+The repository includes environment requirements, scripts for verified download and parsing, manifest hashes, exact random seeds, summary results and paper-generation commands. Run the primary simulations, primary replay, NHS scenarios, exploratory extension and independent verifiers separately; the report script regenerates tables and figures from CSVs. Changes to upstream releases may require retrieval of the recorded version rather than silently accepting new bytes. Primary source snapshots preserve code and protocol versions at execution; later report or audit scripts do not retroactively preregister a result.
+
+\section{Complete Primary Mean-Regret Grid}
+The following compact tables contain every declared primary policy-setting mean regret: 240 Gaussian, 70 stress and 180 replay rows. Full precision, MCSE, paired comparisons, overlap, MSE, coverage, spending and allocation counts are in the accompanying CSVs and workbook. Table abbreviations are U (uniform ordinary), UB (uniform bias blind), V (maximum variance), B (boundary heuristic), O (ordinary KG), OB (bias-blind ordinary KG), E (equal-action mixture), M (cost-balanced mixture), A (validation-only uniform), and T (two-channel KG). Lower values are better. No ranking is inferred across different worlds or estimands.
+\input{tables/compact_grid}

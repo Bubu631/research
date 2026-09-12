@@ -1,0 +1,35 @@
+{
+  "full": {
+    "pages": 24,
+    "sha256": "bca5d806c94ef2c5797af210c66776606539780190f35a4d44fc04d932246f84",
+    "no_overfull": true,
+    "references_resolved": true,
+    "visual_review": "All pages rendered; contact sheets inspected and final landscape table checked at full resolution.",
+    "anonymous_text_and_metadata_checked": false
+  },
+  "anonymous": {
+    "pages": 6,
+    "sha256": "f17c02528864d1f795c6d2ffb716783ebfe74c4816fc5e291e9a3a3baea4def0",
+    "no_overfull": true,
+    "references_resolved": true,
+    "visual_review": "All pages rendered; contact sheets inspected and final landscape table checked at full resolution.",
+    "anonymous_text_and_metadata_checked": true
+  },
+  "supplement": {
+    "pages": 15,
+    "sha256": "05546995cd24cbbc24c155f1b2604ac7912291c69f5a807af35b411772641e80",
+    "no_overfull": true,
+    "references_resolved": true,
+    "visual_review": "All pages rendered; contact sheets inspected and final landscape table checked at full resolution.",
+    "anonymous_text_and_metadata_checked": true
+  },
+  "arxiv_source_clean_build": {
+    "pages": 24,
+    "extracted_text_exactly_matches_signed_pdf": true,
+    "environment": "Same local TeX installation, fresh extracted source archive; not a server-side arXiv compilation test."
+  },
+  "anonymous_source_clean_build": {
+    "pages": 6,
+    "extracted_text_exactly_matches_anonymous_pdf": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "official_url": "https://aaai.org/authorkit27/",
+  "retrieved_on": "2026-09-11",
+  "download_sha256": "e28c6ac9bc6eb3b4e2d849547d2cefb5162610ee39d0a12e0dc62d1126b44a7d",
+  "files": {
+    "aaai2027.sty": "391bce82815bf698b8e382dd3ae7e30c75d7ab46df140cb295b1266016bc8623",
+    "aaai2027.bst": "5db7765ba99de5c1e4686f9b3940a0add9c5e702f2164514462bec130ccb6e3c"
+  },
+  "note": "Official style and bibliography style copied unchanged from AuthorKit27; anonymous mode used. No submission is claimed."
+}

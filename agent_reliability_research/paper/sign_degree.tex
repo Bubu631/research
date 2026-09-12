@@ -1,0 +1,20 @@
+\begin{theorem}[Exact degree of sign-separated advantages]\label{thm:sign-degree}
+For binary rewards, population standard deviation, zero stabilizer, and zero advantages on constant groups, every component of $\Phi=(A^+,A^-)$ has Boolean degree
+\[
+ d_G^{\rm split}=\begin{cases}G,&G\text{ even},\\G-1,&G\text{ odd}.\end{cases}
+\]
+Consequently, pointwise unbiased estimation of the complete vector by an adaptive randomized query algorithm requires a hard cap of at least $d_G^{\rm split}$.
+\end{theorem}
+\begin{proof}
+Fix $i$ and put $f(x)=[x(G-x)]^{-1/2}$. Then $A_i^+=r_i a(K)$, where $a(k)=(G-k)f(k)$ for $1\le k<G$ and $a(G)=0$. A monomial on $\ell$ variables containing $i$ has coefficient $\Delta^{\ell-1}a(1)$; monomials not containing $i$ vanish. Directly using $\binom{G-1}{k-1}(G-k)=(G-1)\binom{G-2}{k-1}$, the full-degree coefficient is
+\[
+ c_{[G]}=-(G-1)\Delta^{G-2}f(1).
+\]
+The function $f$ is symmetric about $G/2$ and has strictly positive even derivatives, as follows from the positive-coefficient series of $(1-t^2)^{-1/2}$. Thus even-order differences are positive, while the odd-order difference over $1,\ldots,G-1$ vanishes by symmetry. This proves degree $G$ for even $G$. For odd $G$, the full coefficient vanishes, but any size-$(G-1)$ subset containing $i$ has coefficient
+\[
+ \Delta^{G-2}f(1)-(G-2)\Delta^{G-3}f(1)
+ =-(G-2)\Delta^{G-3}f(1)<0.
+\]
+Finally $A_i^-(r)=-A_i^+(1-r)$ preserves degree. The hard-cap conclusion follows from the same decision-tree polynomial argument as Theorem~\ref{thm:degree}.
+\end{proof}
+This result applies to the vector used by our clipped-surrogate construction. Particular scalar clipping weights can cause additional cancellations. As with Theorem~\ref{thm:degree}, exact degree alone does not establish that useful approximation requires nearly complete verification.

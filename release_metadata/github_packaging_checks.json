@@ -1,0 +1,25 @@
+{
+  "archive_files_compared": 1178,
+  "only_changed_original_files": [
+    "research_release/README.md",
+    "research_release/papers/edit_localization/README.md",
+    "nhs_aisi_research/README.md",
+    "nhs_wellbeing_research/README.md",
+    "agent_reliability_research/README.md"
+  ],
+  "local_documentation_links_checked": 152,
+  "broken_links": [],
+  "pdf_release_copies": "All four main papers and the preceding NHS study match their original release PDF bytes",
+  "tests": {
+    "research_release": {
+      "passed": 18,
+      "skipped": 3,
+      "skip_reason": "Optional public-model dependencies absent in the verification environment"
+    },
+    "agent_reliability_research": {
+      "passed": 9,
+      "skipped": 0
+    }
+  },
+  "scope": "Packaging checks and existing unit tests; no scientific experiment reruns or new performance claims"
+}

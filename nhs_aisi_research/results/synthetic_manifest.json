@@ -1,0 +1,36 @@
+{
+  "completed": true,
+  "reps": 2000,
+  "units": 40,
+  "seed": 2026091107,
+  "base_worlds": 4,
+  "paired_cells": 24,
+  "shared_worlds_across_cost_and_budget": true,
+  "stress_worlds": 7,
+  "policies": [
+    "uniform",
+    "uniform_blind",
+    "uncertainty",
+    "boundary",
+    "bias_blind_kg",
+    "ordinary_kg",
+    "two_channel_uniform",
+    "balanced_mix",
+    "validation_only",
+    "two_channel_kg"
+  ],
+  "elapsed_seconds": 95.10154766635969,
+  "not_nhs_measurements": true,
+  "recorded_at_utc": "2026-09-11T21:30:49.074307+00:00",
+  "python": "3.13.1",
+  "numpy": "2.5.3",
+  "platform": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "source_sha256": {
+    "experiments/allocation.py": "35e05926fd8e8a313ffb321dfab415eeea1e3124dadcc52f91030a6a29dfcd11",
+    "experiments/common.py": "92f862bfa7d4b392dacedc693955f7976a6c98b17276df41972a1f1586caa88a",
+    "experiments/synthetic.py": "79a17a2db0a60fe047420a67a8afa75b943ad028bfaa4982ccb42744ec755e2f",
+    "experiments/verify_theory.py": "99fbf8556f74282e470ce1a2fa5913053211639a658e6275138e915036df6800"
+  },
+  "protocol_sha256": "99b93e0f752f0512609376d30f48a1d31431e46c624569b02f9a279917073937",
+  "source_snapshot": "results/provenance/a97d2b1522aa1ea0"
+}

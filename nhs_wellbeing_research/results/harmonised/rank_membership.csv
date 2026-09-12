@@ -1,0 +1,1331 @@
+org_code,org_name,benchmark_group,ratio,centred_score,burnout_n,working_posterior_score,selected
+R0A,Manchester University NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.0906859565449798,10685.0,0.0906859565449798,0
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.15991583525017994,4681.0,0.15991583525017994,0
+R0D,University Hospitals Dorset NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.054425423264566675,5519.0,0.054425423264566675,0
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.04316399419076866,2399.0,-0.04316399419076866,0
+R1D,Shropshire Community Health NHS Trust,Community Trusts,0.0,-0.05080991493862097,995.0,-0.05080991493862097,0
+R1F1,Isle of Wight NHS Trust (acute sector),Acute&Acute Community Trusts,0.0,-0.2362436637650669,1420.0,-0.2362436637650669,1
+R1F2,Isle of Wight NHS Trust (ambulance sector),Ambulance Trusts,0.0,0.06192589567564166,170.0,0.06192589567564166,0
+R1H,Barts Health NHS Trust,Acute&Acute Community Trusts,0.0,-0.030342645655079714,9566.0,-0.030342645655079714,0
+R1K,London North West University Healthcare NHS Trust,Acute&Acute Community Trusts,0.0,0.09177192718447902,4285.0,0.09177192718447902,0
+R1L,Essex Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.0361993077042575,3632.0,0.0361993077042575,0
+RA2,Royal Surrey County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.21510258901685564,2383.0,0.21510258901685564,0
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.16612796468165225,8285.0,0.16612796468165225,0
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.1475740926363862,3212.0,0.1475740926363862,0
+RAJ,Mid and South Essex NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.47972178411698785,6465.0,-0.47972178411698785,1
+RAN,Royal National Orthopaedic Hospital NHS Trust,Acute Specialist Trusts,0.0,0.15760595573699998,773.0,0.15760595573699998,0
+RAS,The Hillingdon Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.05963488021610974,1970.0,0.05963488021610974,0
+RAT,North East London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.06866386119844492,3955.0,-0.06866386119844492,0
+RBD,Dorset County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.06683423975127312,1616.0,0.06683423975127312,0
+RBK,Walsall Healthcare NHS Trust,Acute&Acute Community Trusts,0.0,-0.2900634770751713,2314.0,-0.2900634770751713,1
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.2238559838903038,2794.0,-0.2238559838903038,1
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Acute Specialist Trusts,0.0,0.4603550858652472,1134.0,0.4603550858652472,0
+RBS,Alder Hey Children's NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.09118586071536594,2417.0,0.09118586071536594,0
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.21724842006916756,2321.0,0.21724842006916756,0
+RBV,The Christie NHS Foundation Trust,Acute Specialist Trusts,0.0,0.15365811845284227,1947.0,0.15365811845284227,0
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.053814068548033056,3542.0,0.053814068548033056,0
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.044793230231823244,5839.0,-0.044793230231823244,0
+RCD,Harrogate and District NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.29025904817153414,3330.0,0.29025904817153414,0
+RCF,Airedale NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.032951308282498815,1473.0,0.032951308282498815,0
+RCU,Sheffield Children's NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.22986159642043802,2212.0,0.22986159642043802,0
+RCX,The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.24941726281310306,2188.0,-0.24941726281310306,1
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.07238347594020933,3322.0,-0.07238347594020933,0
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.0650624594621636,2646.0,0.0650624594621636,0
+RDE,East Suffolk and North Essex NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.1164580673710427,6181.0,-0.1164580673710427,0
+RDR,Sussex Community NHS Foundation Trust,Community Trusts,0.0,0.2598428581841832,4042.0,0.2598428581841832,0
+RDU,Frimley Health NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.2717764410572938,5683.0,0.2717764410572938,0
+RDY,Dorset Healthcare University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.09372723422492601,3551.0,0.09372723422492601,0
+REF,Royal Cornwall Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,-0.2654278848361802,3848.0,-0.2654278848361802,1
+REM,Liverpool University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.04181205661655962,4448.0,-0.04181205661655962,0
+REN,The Clatterbridge Cancer Centre NHS Foundation Trust,Acute Specialist Trusts,0.0,-0.06890142777779573,1209.0,-0.06890142777779573,0
+REP,Liverpool Women's NHS Foundation Trust,Acute Specialist Trusts,0.0,-0.3472722564323272,772.0,-0.3472722564323272,1
+RET,The Walton Centre NHS Foundation Trust,Acute Specialist Trusts,0.0,0.04509932879111833,578.0,0.04509932879111833,0
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Acute&Acute Community Trusts,0.0,-0.21835090616254327,4158.0,-0.21835090616254327,1
+RFF,Barnsley Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.1939455313467695,2219.0,0.1939455313467695,0
+RFR,The Rotherham NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.1617661812944684,3137.0,0.1617661812944684,0
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.06048538889567823,2972.0,0.06048538889567823,0
+RGD,Leeds and York Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.041108379797606176,1497.0,-0.041108379797606176,0
+RGM,Royal Papworth Hospital NHS Foundation Trust,Acute Specialist Trusts,0.0,-0.029112601068380428,1177.0,-0.029112601068380428,0
+RGN,North West Anglia NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.48334904502659626,3216.0,-0.48334904502659626,1
+RGP,James Paget University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.1820586651788716,1657.0,-0.1820586651788716,1
+RGR,West Suffolk NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.20189694478201403,2435.0,-0.20189694478201403,1
+RGT,Cambridge University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.017349402359115196,6990.0,-0.017349402359115196,0
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.3576021937276703,4456.0,-0.3576021937276703,1
+RHM,University Hospital Southampton NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.044031415969589816,4801.0,-0.044031415969589816,0
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.06101834062328226,10718.0,-0.06101834062328226,0
+RHU,Portsmouth Hospitals University NHS Trust,Acute&Acute Community Trusts,0.0,-0.13974506048562585,3768.0,-0.13974506048562585,0
+RHW,Royal Berkshire NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.34240259320226496,4156.0,0.34240259320226496,0
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.18563532410125116,11816.0,0.18563532410125116,0
+RJ2,Lewisham and Greenwich NHS Trust,Acute&Acute Community Trusts,0.0,0.07226427628988663,4770.0,0.07226427628988663,0
+RJ6,Croydon Health Services NHS Trust,Acute&Acute Community Trusts,0.0,0.08454799264962709,2037.0,0.08454799264962709,0
+RJ7,St George's University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.05488008361745145,4453.0,-0.05488008361745145,0
+RJ8,Cornwall Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.20568636458614709,3068.0,-0.20568636458614709,1
+RJC,South Warwickshire University NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.25155647921335866,2605.0,0.25155647921335866,0
+RJE,University Hospitals of North Midlands NHS Trust,Acute&Acute Community Trusts,0.0,-0.06357544130208392,5372.0,-0.06357544130208392,0
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.004087939251462558,3271.0,0.004087939251462558,0
+RJN,East Cheshire NHS Trust,Acute&Acute Community Trusts,0.0,-0.018112749698718567,1321.0,-0.018112749698718567,0
+RJR,Countess of Chester Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.3243968473392149,2188.0,-0.3243968473392149,1
+RJZ,King's College Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.09772833507621126,6353.0,-0.09772833507621126,0
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.1095986424994786,3596.0,-0.1095986424994786,0
+RK9,University Hospitals Plymouth NHS Trust,Acute&Acute Community Trusts,0.0,-0.07391605398440149,5422.0,-0.07391605398440149,0
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Acute&Acute Community Trusts,0.0,-0.008695558288667193,6305.0,-0.008695558288667193,0
+RKE,Whittington Health NHS Trust,Acute&Acute Community Trusts,0.0,0.2985132680637781,2483.0,0.2985132680637781,0
+RKL,West London NHS Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.14792337736591232,4133.0,0.14792337736591232,0
+RL1,The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,0.0,-0.15607977115558924,822.0,-0.15607977115558924,0
+RL4,The Royal Wolverhampton NHS Trust,Acute&Acute Community Trusts,0.0,-0.2155139000900279,3372.0,-0.2155139000900279,1
+RLQ,Wye Valley NHS Trust,Acute&Acute Community Trusts,0.0,0.06970247404205043,1976.0,0.06970247404205043,0
+RLT,George Eliot Hospital NHS Trust,Acute&Acute Community Trusts,0.0,0.11264984170739822,1634.0,0.11264984170739822,0
+RLY,North Staffordshire Combined Healthcare NHS Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.27414657644474705,1295.0,0.27414657644474705,0
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.4016390355802715,4723.0,-0.4016390355802715,1
+RMC,Bolton NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.17844407666584328,2678.0,-0.17844407666584328,1
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.004600754143265995,2236.0,-0.004600754143265995,0
+RMY,Norfolk and Suffolk NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.4032629543355126,3589.0,-0.4032629543355126,1
+RN3,Great Western Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.10322289366013582,3628.0,0.10322289366013582,0
+RN5,Hampshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.13504907097822993,4192.0,0.13504907097822993,0
+RN7,Dartford and Gravesham NHS Trust,Acute&Acute Community Trusts,0.0,0.13712042989923479,1909.0,0.13712042989923479,0
+RNA,The Dudley Group NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.26262037722419596,2397.0,-0.26262037722419596,1
+RNK,Tavistock and Portman NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.038136289721117045,392.0,0.038136289721117045,0
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.1021564913705344,3822.0,0.1021564913705344,0
+RNQ,Kettering General Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.14344745566944006,2595.0,-0.14344745566944006,1
+RNS,Northampton General Hospital NHS Trust,Acute&Acute Community Trusts,0.0,-0.1071334401328965,3144.0,-0.1071334401328965,0
+RNU,Oxford Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.09265293636601513,4537.0,0.09265293636601513,0
+RNZ,Salisbury NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.05045405425878435,2465.0,0.05045405425878435,0
+RP1,Northamptonshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.09863794795667502,3233.0,0.09863794795667502,0
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Acute Specialist Trusts,0.0,-0.24713011720155365,2877.0,-0.24713011720155365,1
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.08860369394815759,3870.0,0.08860369394815759,0
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Acute Specialist Trusts,0.0,-0.043432153604441304,1706.0,-0.043432153604441304,0
+RP7,Lincolnshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.014872075719287281,1782.0,-0.014872075719287281,0
+RPA,Medway NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.09354450424386052,2186.0,-0.09354450424386052,0
+RPC,Queen Victoria Hospital NHS Foundation Trust,Acute Specialist Trusts,0.0,-0.0825102031326006,690.0,-0.0825102031326006,0
+RPG,Oxleas NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.1955342131138691,2849.0,0.1955342131138691,0
+RPY,The Royal Marsden NHS Foundation Trust,Acute Specialist Trusts,0.0,-0.0001336732596479706,2440.0,-0.0001336732596479706,0
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.0569094478874872,3964.0,0.0569094478874872,0
+RQW,The Princess Alexandra Hospital NHS Trust,Acute&Acute Community Trusts,0.0,-0.17332990571483098,2613.0,-0.17332990571483098,1
+RQX,Homerton Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.10313045212301919,2172.0,-0.10313045212301919,0
+RQY,South West London and St George's Mental Health NHS Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.06467361174597297,2050.0,-0.06467361174597297,0
+RR7,Gateshead Health NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.12806934920081936,1751.0,-0.12806934920081936,0
+RR8,Leeds Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,-0.03059968465618823,10126.0,-0.03059968465618823,0
+RRE,Midlands Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.26078668899275126,5528.0,0.26078668899275126,0
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Acute&Acute Community Trusts,0.0,0.1699883573034704,3515.0,0.1699883573034704,0
+RRJ,The Royal Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,0.0,0.15785371478611854,788.0,0.15785371478611854,0
+RRK,University Hospitals Birmingham NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.08867062750397192,9709.0,-0.08867062750397192,0
+RRU,London Ambulance Service NHS Trust,Ambulance Trusts,0.0,-0.09735392636687656,5992.0,-0.09735392636687656,0
+RRV,University College London Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.18083527079619177,6309.0,0.18083527079619177,0
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.01748403928667841,2248.0,-0.01748403928667841,0
+RT2,Pennine Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.1470583719043166,1953.0,-0.1470583719043166,1
+RT5,Leicestershire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.07037639742826851,3905.0,0.07037639742826851,0
+RTD,The Newcastle upon Tyne Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.03385492528282086,10294.0,-0.03385492528282086,0
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.051886883038845255,4305.0,-0.051886883038845255,0
+RTF,Northumbria Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.39207444378062917,6629.0,0.39207444378062917,0
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.24184375876351272,8141.0,-0.24184375876351272,1
+RTH,Oxford University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.07313409790511738,6057.0,0.07313409790511738,0
+RTK,Ashford and St Peter's Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.25694255307911007,2213.0,0.25694255307911007,0
+RTP,Surrey and Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,0.0,0.15996006726563294,2802.0,0.15996006726563294,0
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.11053113921262447,2630.0,0.11053113921262447,0
+RTR,South Tees Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.24789080880853742,3006.0,-0.24789080880853742,1
+RV3,Central and North West London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.035569104583644595,6209.0,0.035569104583644595,0
+RV5,South London and Maudsley NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.001712990382316093,3305.0,0.001712990382316093,0
+RV9,Humber Teaching NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.12266807461075846,2165.0,0.12266807461075846,0
+RVJ,North Bristol NHS Trust,Acute&Acute Community Trusts,0.0,0.17780745521359798,6015.0,0.17780745521359798,0
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.15251651498862007,2724.0,0.15251651498862007,0
+RVR,Epsom and St Helier University Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,0.13627656237314678,3440.0,0.13627656237314678,0
+RVV,East Kent Hospitals University NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.2352730746078313,5367.0,-0.2352730746078313,1
+RVW,North Tees and Hartlepool NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.12907135772018297,2111.0,0.12907135772018297,0
+RW4,Mersey Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.1658724325884524,4491.0,0.1658724325884524,0
+RW5,Lancashire and South Cumbria NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.23462505121003474,3543.0,-0.23462505121003474,1
+RWA,Hull University Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,-0.09787510315028669,4704.0,-0.09787510315028669,0
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,-0.10670692366204282,5008.0,-0.10670692366204282,0
+RWE,University Hospitals of Leicester NHS Trust,Acute&Acute Community Trusts,0.0,0.14596402709582534,11467.0,0.14596402709582534,0
+RWF,Maidstone and Tunbridge Wells NHS Trust,Acute&Acute Community Trusts,0.0,0.08585932401741037,3394.0,0.08585932401741037,0
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,0.06532023592677394,3482.0,0.06532023592677394,0
+RWH,East and North Hertfordshire Teaching NHS Trust,Acute&Acute Community Trusts,0.0,0.04323481335399215,2744.0,0.04323481335399215,0
+RWJ,Stockport NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.1359366985394388,3029.0,0.1359366985394388,0
+RWP,Worcestershire Acute Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,0.1415391097798686,3862.0,0.1415391097798686,0
+RWR,Hertfordshire Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.05853122755525053,2708.0,0.05853122755525053,0
+RWV,Devon Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.08116591482340496,1956.0,-0.08116591482340496,0
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.08034920950286395,1812.0,0.08034920950286395,0
+RWX,Berkshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.24703816904090026,3340.0,0.24703816904090026,0
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Acute&Acute Community Trusts,0.0,0.01879448139344042,3360.0,0.01879448139344042,0
+RX1,Nottingham University Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,-0.14962115755071626,8970.0,-0.14962115755071626,1
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",0.0,0.0008525379745574213,4229.0,0.0008525379745574213,0
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",0.0,-0.04863046473174304,4582.0,-0.04863046473174304,0
+RX6,North East Ambulance Service NHS Foundation Trust,Ambulance Trusts,0.0,0.38144302206690384,1842.0,0.38144302206690384,0
+RX7,North West Ambulance Service NHS Trust,Ambulance Trusts,0.0,0.19348957236635922,4117.0,0.19348957236635922,0
+RX8,Yorkshire Ambulance Service NHS Trust,Ambulance Trusts,0.0,0.23003237093814555,4691.0,0.23003237093814555,0
+RX9,East Midlands Ambulance Service NHS Trust,Ambulance Trusts,0.0,-0.01212571534425333,2718.0,-0.01212571534425333,0
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.0511058455714446,2249.0,0.0511058455714446,0
+RXC,East Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,0.0,-0.08050959611604025,4296.0,-0.08050959611604025,0
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.09460208965102002,1989.0,-0.09460208965102002,0
+RXF,Mid Yorkshire Teaching NHS Trust,Acute&Acute Community Trusts,0.0,-0.03625792880812195,3671.0,-0.03625792880812195,0
+RXG,South West Yorkshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.23128097355494592,2871.0,0.23128097355494592,0
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Acute&Acute Community Trusts,0.0,-0.06118759379520178,2964.0,-0.06118759379520178,0
+RXM,Derbyshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.061460255937185515,2160.0,0.061460255937185515,0
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.005792701047611537,4261.0,-0.005792701047611537,0
+RXP,County Durham and Darlington NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.14361914007096122,3096.0,-0.14361914007096122,1
+RXQ,Buckinghamshire Healthcare NHS Trust,Acute&Acute Community Trusts,0.0,0.320138696709547,4557.0,0.320138696709547,0
+RXV,Greater Manchester Mental Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.15532093874798392,2847.0,-0.15532093874798392,1
+RXW,The Shrewsbury and Telford Hospital NHS Trust,Acute&Acute Community Trusts,0.0,-0.05262681686703452,3797.0,-0.05262681686703452,0
+RXX,Surrey and Borders Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.07913953168137322,2006.0,-0.07913953168137322,0
+RXY,Kent and Medway NHS and Social Care Partnership Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.07668552409323404,1999.0,-0.07668552409323404,0
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Community Trusts,0.0,-0.4083404003823343,819.0,-0.4083404003823343,1
+RY3,Norfolk Community Health and Care NHS Trust,Community Trusts,0.0,-0.033163078228422904,1677.0,-0.033163078228422904,0
+RY4,Hertfordshire Community NHS Trust,Community Trusts,0.0,0.23218528459628374,1662.0,0.23218528459628374,0
+RY5,Lincolnshire Community Health Services NHS Trust,Community Trusts,0.0,-0.2147943415725697,1509.0,-0.2147943415725697,1
+RY6,Leeds Community Healthcare NHS Trust,Community Trusts,0.0,-0.03807015946200831,1783.0,-0.03807015946200831,0
+RY7,Wirral Community Health and Care NHS Foundation Trust,Community Trusts,0.0,-0.21079699402689922,861.0,-0.21079699402689922,0
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Community Trusts,0.0,0.06612763276128764,3150.0,0.06612763276128764,0
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Ambulance Trusts,0.0,-0.2554701999107696,2987.0,-0.2554701999107696,1
+RYC,East of England Ambulance Service NHS Trust,Ambulance Trusts,0.0,-0.14238275358049712,3978.0,-0.14238275358049712,0
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Ambulance Trusts,0.0,0.005218746681970643,3621.0,0.005218746681970643,0
+RYE,South Central Ambulance Service NHS Foundation Trust,Ambulance Trusts,0.0,-0.23886591673362112,2091.0,-0.23886591673362112,1
+RYF,South Western Ambulance Service NHS Foundation Trust,Ambulance Trusts,0.0,-0.1259110957930032,3329.0,-0.1259110957930032,0
+RYG,Coventry and Warwickshire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.09022398110889362,2023.0,-0.09022398110889362,0
+RYJ,Imperial College Healthcare NHS Trust,Acute&Acute Community Trusts,0.0,0.09854685852794454,8648.0,0.09854685852794454,0
+RYR,University Hospitals Sussex NHS Foundation Trust,Acute&Acute Community Trusts,0.0,-0.0021661043939360525,8266.0,-0.0021661043939360525,0
+RYV,Cambridgeshire Community Services NHS Trust,Community Trusts,0.0,0.15579834322723585,1466.0,0.15579834322723585,0
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Community Trusts,0.0,-0.13072664355898933,3479.0,-0.13072664355898933,0
+RYX,Central London Community Healthcare NHS Trust,Community Trusts,0.0,0.09754804723572708,3243.0,0.09754804723572708,0
+RYY,Kent Community Health NHS Foundation Trust,Community Trusts,0.0,0.27519936616512286,3496.0,0.27519936616512286,0
+TAD,Bradford District Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,0.09748290434842843,1689.0,0.09748290434842843,0
+TAH,Sheffield Health and Social Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.14853601418061935,1684.0,-0.14853601418061935,1
+TAJ,Black Country Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0.0,-0.27223778294691936,2526.0,-0.27223778294691936,1
+R0A,Manchester University NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.0906859565449798,10685.0,0.0906011636917353,0
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.15991583525017994,4681.0,0.1595749360064149,0
+R0D,University Hospitals Dorset NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.054425423264566675,5519.0,0.05432698697723702,0
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.04316399419076866,2399.0,-0.04298481613269158,0
+R1D,Shropshire Community Health NHS Trust,Community Trusts,10.0,-0.05080991493862097,995.0,-0.05030434364569936,0
+R1F1,Isle of Wight NHS Trust (acute sector),Acute&Acute Community Trusts,10.0,-0.2362436637650669,1420.0,-0.23459161017230418,1
+R1F2,Isle of Wight NHS Trust (ambulance sector),Ambulance Trusts,10.0,0.06192589567564166,170.0,0.058485568138106014,0
+R1H,Barts Health NHS Trust,Acute&Acute Community Trusts,10.0,-0.030342645655079714,9566.0,-0.030310959517177587,0
+R1K,London North West University Healthcare NHS Trust,Acute&Acute Community Trusts,10.0,0.09177192718447902,4285.0,0.09155825564272237,0
+R1L,Essex Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.0361993077042575,3632.0,0.03609991366882571,0
+RA2,Royal Surrey County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.21510258901685564,2383.0,0.21420370648857792,0
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.16612796468165225,8285.0,0.16592768985985398,0
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.1475740926363862,3212.0,0.1471160724854353,0
+RAJ,Mid and South Essex NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.47972178411698785,6465.0,-0.47898090105271457,1
+RAN,Royal National Orthopaedic Hospital NHS Trust,Acute Specialist Trusts,10.0,0.15760595573699998,773.0,0.1555931082818659,0
+RAS,The Hillingdon Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.05963488021610974,1970.0,0.05933369395239202,0
+RAT,North East London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.06866386119844492,3955.0,-0.06849068626477922,0
+RBD,Dorset County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.06683423975127312,1616.0,0.06642320506645595,0
+RBK,Walsall Healthcare NHS Trust,Acute&Acute Community Trusts,10.0,-0.2900634770751713,2314.0,-0.28881535540100967,1
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.2238559838903038,2794.0,-0.2230576387266437,1
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Acute Specialist Trusts,10.0,0.4603550858652472,1134.0,0.4563310029468447,0
+RBS,Alder Hey Children's NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.09118586071536594,2417.0,0.09081014641493179,0
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.21724842006916756,2321.0,0.21631642341507418,0
+RBV,The Christie NHS Foundation Trust,Acute Specialist Trusts,10.0,0.15365811845284227,1947.0,0.15287294666718645,0
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.053814068548033056,3542.0,0.05366256497667035,0
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.044793230231823244,5839.0,-0.04471664751643288,0
+RCD,Harrogate and District NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.29025904817153414,3330.0,0.2893900091051523,0
+RCF,Airedale NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.032951308282498815,1473.0,0.032729114700013995,0
+RCU,Sheffield Children's NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.22986159642043802,2212.0,0.22882711578848286,0
+RCX,The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.24941726281310306,2188.0,-0.24828251639448112,1
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.07238347594020933,3322.0,-0.0721662386174596,0
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.0650624594621636,2646.0,0.06481749538286329,0
+RDE,East Suffolk and North Essex NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.1164580673710427,6181.0,-0.11626995871756014,0
+RDR,Sussex Community NHS Foundation Trust,Community Trusts,10.0,0.2598428581841832,4042.0,0.2592015875568777,0
+RDU,Frimley Health NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.2717764410572938,5683.0,0.2712990540187249,0
+RDY,Dorset Healthcare University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.09372723422492601,3551.0,0.09346402941103968,0
+REF,Royal Cornwall Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,-0.2654278848361802,3848.0,-0.26473989135552656,1
+REM,Liverpool University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.04181205661655962,4448.0,-0.041718265551919514,0
+REN,The Clatterbridge Cancer Centre NHS Foundation Trust,Acute Specialist Trusts,10.0,-0.06890142777779573,1209.0,-0.06833619867379412,0
+REP,Liverpool Women's NHS Foundation Trust,Acute Specialist Trusts,10.0,-0.3472722564323272,772.0,-0.34283143473881916,1
+RET,The Walton Centre NHS Foundation Trust,Acute Specialist Trusts,10.0,0.04509932879111833,578.0,0.04433233340351428,0
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Acute&Acute Community Trusts,10.0,-0.21835090616254327,4158.0,-0.21782703162760433,1
+RFF,Barnsley Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.1939455313467695,2219.0,0.19307543026401144,0
+RFR,The Rotherham NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.1617661812944684,3137.0,0.16125214830656096,0
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.06048538889567823,2972.0,0.0602825539228557,0
+RGD,Leeds and York Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.041108379797606176,1497.0,-0.040835596919055375,0
+RGM,Royal Papworth Hospital NHS Foundation Trust,Acute Specialist Trusts,10.0,-0.029112601068380428,1177.0,-0.028867339054324988,0
+RGN,North West Anglia NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.48334904502659626,3216.0,-0.4818507528845423,1
+RGP,James Paget University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.1820586651788716,1657.0,-0.18096653161451123,1
+RGR,West Suffolk NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.20189694478201403,2435.0,-0.2010711904066275,1
+RGT,Cambridge University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.017349402359115196,6990.0,-0.017324617498602174,0
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.3576021937276703,4456.0,-0.35680147229075215,1
+RHM,University Hospital Southampton NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.044031415969589816,4801.0,-0.04393989359176901,0
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.06101834062328226,10718.0,-0.06096146297542313,0
+RHU,Portsmouth Hospitals University NHS Trust,Acute&Acute Community Trusts,10.0,-0.13974506048562585,3768.0,-0.13937516884855433,0
+RHW,Royal Berkshire NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.34240259320226496,4156.0,0.3415806954749432,0
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.18563532410125116,11816.0,0.18547835190092876,0
+RJ2,Lewisham and Greenwich NHS Trust,Acute&Acute Community Trusts,10.0,0.07226427628988663,4770.0,0.07211309579555633,0
+RJ6,Croydon Health Services NHS Trust,Acute&Acute Community Trusts,10.0,0.08454799264962709,2037.0,0.08413495897766995,0
+RJ7,St George's University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.05488008361745145,4453.0,-0.05475711681570946,0
+RJ8,Cornwall Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.20568636458614709,3068.0,-0.20501811778762158,1
+RJC,South Warwickshire University NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.25155647921335866,2605.0,0.25059450414944523,0
+RJE,University Hospitals of North Midlands NHS Trust,Acute&Acute Community Trusts,10.0,-0.06357544130208392,5372.0,-0.06345731524986899,0
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.004087939251462558,3271.0,0.004075479820644324,0
+RJN,East Cheshire NHS Trust,Acute&Acute Community Trusts,10.0,-0.018112749698718567,1321.0,-0.017976665929381838,0
+RJR,Countess of Chester Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.3243968473392149,2188.0,-0.3229209745123759,1
+RJZ,King's College Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.09772833507621126,6353.0,-0.09757474661938867,0
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.1095986424994786,3596.0,-0.10929470838273017,0
+RK9,University Hospitals Plymouth NHS Trust,Acute&Acute Community Trusts,10.0,-0.07391605398440149,5422.0,-0.07377997877456274,0
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Acute&Acute Community Trusts,10.0,-0.008695558288667193,6305.0,-0.008681788600165741,0
+RKE,Whittington Health NHS Trust,Acute&Acute Community Trusts,10.0,0.2985132680637781,2483.0,0.29731586225525913,0
+RKL,West London NHS Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.14792337736591232,4133.0,0.1475663332496538,0
+RL1,The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,10.0,-0.15607977115558924,822.0,-0.15420381236766148,0
+RL4,The Royal Wolverhampton NHS Trust,Acute&Acute Community Trusts,10.0,-0.2155139000900279,3372.0,-0.21487666206492434,1
+RLQ,Wye Valley NHS Trust,Acute&Acute Community Trusts,10.0,0.06970247404205043,1976.0,0.06935150488776014,0
+RLT,George Eliot Hospital NHS Trust,Acute&Acute Community Trusts,10.0,0.11264984170739822,1634.0,0.1119646236921464,0
+RLY,North Staffordshire Combined Healthcare NHS Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.27414657644474705,1295.0,0.272045836395362,0
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.4016390355802715,4723.0,-0.4007904426464446,1
+RMC,Bolton NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.17844407666584328,2678.0,-0.1777802222139614,1
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.004600754143265995,2236.0,-0.004580269930695799,0
+RMY,Norfolk and Suffolk NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.4032629543355126,3589.0,-0.4021424682162142,1
+RN3,Great Western Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.10322289366013582,3628.0,0.10293915838344496,0
+RN5,Hampshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.13504907097822993,4192.0,0.13472767861512133,0
+RN7,Dartford and Gravesham NHS Trust,Acute&Acute Community Trusts,10.0,0.13712042989923479,1909.0,0.1364058888367062,0
+RNA,The Dudley Group NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.26262037722419596,2397.0,-0.26152930793784696,1
+RNK,Tavistock and Portman NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.038136289721117045,392.0,0.037187625797706174,0
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.1021564913705344,3822.0,0.10188990344942131,0
+RNQ,Kettering General Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.14344745566944006,2595.0,-0.14289679365151514,1
+RNS,Northampton General Hospital NHS Trust,Acute&Acute Community Trusts,10.0,-0.1071334401328965,3144.0,-0.10679376530685687,0
+RNU,Oxford Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.09265293636601513,4537.0,0.09244916918685081,0
+RNZ,Salisbury NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.05045405425878435,2465.0,0.0502501994941024,0
+RP1,Northamptonshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.09863794795667502,3233.0,0.09833379147207225,0
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Acute Specialist Trusts,10.0,-0.24713011720155365,2877.0,-0.24627410709694142,1
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.08860369394815759,3870.0,0.08837533391220873,0
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Acute Specialist Trusts,10.0,-0.043432153604441304,1706.0,-0.04317905247621029,0
+RP7,Lincolnshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.014872075719287281,1782.0,-0.014789084225318043,0
+RPA,Medway NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.09354450424386052,2186.0,-0.09311852744857882,0
+RPC,Queen Victoria Hospital NHS Foundation Trust,Acute Specialist Trusts,10.0,-0.0825102031326006,690.0,-0.08133148594499201,0
+RPG,Oxleas NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.1955342131138691,2849.0,0.194850287919347,0
+RPY,The Royal Marsden NHS Foundation Trust,Acute Specialist Trusts,10.0,-0.0001336732596479706,2440.0,-0.00013312765450655033,0
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.0569094478874872,3964.0,0.05676624343885235,0
+RQW,The Princess Alexandra Hospital NHS Trust,Acute&Acute Community Trusts,10.0,-0.17332990571483098,2613.0,-0.17266909783944084,1
+RQX,Homerton Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.10313045212301919,2172.0,-0.10265781027094302,0
+RQY,South West London and St George's Mental Health NHS Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.06467361174597297,2050.0,-0.06435966217439058,0
+RR7,Gateshead Health NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.12806934920081936,1751.0,-0.12734209565623777,0
+RR8,Leeds Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,-0.03059968465618823,10126.0,-0.03056949554346508,0
+RRE,Midlands Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.26078668899275126,5528.0,0.26031578489561735,0
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Acute&Acute Community Trusts,10.0,0.1699883573034704,3515.0,0.16950612082885064,0
+RRJ,The Royal Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,10.0,0.15785371478611854,788.0,0.15587559805947543,0
+RRK,University Hospitals Birmingham NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.08867062750397192,9709.0,-0.08857939319231024,0
+RRU,London Ambulance Service NHS Trust,Ambulance Trusts,10.0,-0.09735392636687656,5992.0,-0.09719172389042392,0
+RRV,University College London Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.18083527079619177,6309.0,0.1805490937574258,0
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.01748403928667841,2248.0,-0.017406607757508002,0
+RT2,Pennine Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.1470583719043166,1953.0,-0.14630922074841074,1
+RT5,Leicestershire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.07037639742826851,3905.0,0.0701966365152972,0
+RTD,The Newcastle upon Tyne Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.03385492528282086,10294.0,-0.033822069182973404,0
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.051886883038845255,4305.0,-0.051766635337712356,0
+RTF,Northumbria Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.39207444378062917,6629.0,0.39148388128058303,0
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.24184375876351272,8141.0,-0.24154705436066212,1
+RTH,Oxford University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.07313409790511738,6057.0,0.07301355381758629,0
+RTK,Ashford and St Peter's Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.25694255307911007,2213.0,0.25578671613318515,0
+RTP,Surrey and Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,10.0,0.15996006726563294,2802.0,0.15939121923126012,0
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.11053113921262447,2630.0,0.11011246065500091,0
+RTR,South Tees Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.24789080880853742,3006.0,-0.24706888968118815,1
+RV3,Central and North West London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.035569104583644595,6209.0,0.035511910332826704,0
+RV5,South London and Maudsley NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.001712990382316093,3305.0,0.0017078229905142346,0
+RV9,Humber Teaching NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.12266807461075846,2165.0,0.12210408346312279,0
+RVJ,North Bristol NHS Trust,Acute&Acute Community Trusts,10.0,0.17780745521359798,6015.0,0.17751233910535963,0
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.15251651498862007,2724.0,0.15195866379992726,0
+RVR,Epsom and St Helier University Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,0.13627656237314678,3440.0,0.13588155784452896,0
+RVV,East Kent Hospitals University NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.2352730746078313,5367.0,-0.2348355200707143,1
+RVW,North Tees and Hartlepool NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.12907135772018297,2111.0,0.12846281760834807,0
+RW4,Mersey Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.1658724325884524,4491.0,0.165503909076814,0
+RW5,Lancashire and South Cumbria NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.23462505121003474,3543.0,-0.23396469362148978,1
+RWA,Hull University Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,-0.09787510315028669,4704.0,-0.0976674767116989,0
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,-0.10670692366204282,5008.0,-0.10649427534864696,0
+RWE,University Hospitals of Leicester NHS Trust,Acute&Acute Community Trusts,10.0,0.14596402709582534,11467.0,0.14583684749567213,0
+RWF,Maidstone and Tunbridge Wells NHS Trust,Acute&Acute Community Trusts,10.0,0.08585932401741037,3394.0,0.08560709333580811,0
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,0.06532023592677394,3482.0,0.06513317912285993,0
+RWH,East and North Hertfordshire Teaching NHS Trust,Acute&Acute Community Trusts,10.0,0.04323481335399215,2744.0,0.0430778241987489,0
+RWJ,Stockport NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.1359366985394388,3029.0,0.13548939120630477,0
+RWP,Worcestershire Acute Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,0.1415391097798686,3862.0,0.14117356455832972,0
+RWR,Hertfordshire Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.05853122755525053,2708.0,0.058315880875503476,0
+RWV,Devon Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.08116591482340496,1956.0,-0.08075306683345884,0
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.08034920950286395,1812.0,0.07990821493918193,0
+RWX,Berkshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.24703816904090026,3340.0,0.24630074167062893,0
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Acute&Acute Community Trusts,10.0,0.01879448139344042,3360.0,0.018738711418979172,0
+RX1,Nottingham University Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,-0.14962115755071626,8970.0,-0.1494545415623524,1
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",10.0,0.0008525379745574213,4229.0,0.0008505267974530159,0
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",10.0,-0.04863046473174304,4582.0,-0.04852456215175231,0
+RX6,North East Ambulance Service NHS Foundation Trust,Ambulance Trusts,10.0,0.38144302206690384,1842.0,0.37938339451794645,0
+RX7,North West Ambulance Service NHS Trust,Ambulance Trusts,10.0,0.19348957236635922,4117.0,0.19302073405192657,0
+RX8,Yorkshire Ambulance Service NHS Trust,Ambulance Trusts,10.0,0.23003237093814555,4691.0,0.2295430444736951,0
+RX9,East Midlands Ambulance Service NHS Trust,Ambulance Trusts,10.0,-0.01212571534425333,2718.0,-0.012081266241085244,0
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.0511058455714446,2249.0,0.05087961340866707,0
+RXC,East Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,10.0,-0.08050959611604025,4296.0,-0.08032262538655571,0
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.09460208965102002,1989.0,-0.09412884257922902,0
+RXF,Mid Yorkshire Teaching NHS Trust,Acute&Acute Community Trusts,10.0,-0.03625792880812195,3671.0,-0.036159428594027626,0
+RXG,South West Yorkshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.23128097355494592,2871.0,0.23047819336211378,0
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Acute&Acute Community Trusts,10.0,-0.06118759379520178,2964.0,-0.06098185205412847,0
+RXM,Derbyshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.061460255937185515,2160.0,0.061177028951299874,0
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.005792701047611537,4261.0,-0.0057791381793193064,0
+RXP,County Durham and Darlington NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.14361914007096122,3096.0,-0.1431567474757553,1
+RXQ,Buckinghamshire Healthcare NHS Trust,Acute&Acute Community Trusts,10.0,0.320138696709547,4557.0,0.3194377142337214,0
+RXV,Greater Manchester Mental Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.15532093874798392,2847.0,-0.15477728827984258,1
+RXW,The Shrewsbury and Telford Hospital NHS Trust,Acute&Acute Community Trusts,10.0,-0.05262681686703452,3797.0,-0.05248857989076178,0
+RXX,Surrey and Borders Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.07913953168137322,2006.0,-0.07874697448057276,0
+RXY,Kent and Medway NHS and Social Care Partnership Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.07668552409323404,1999.0,-0.07630381416743395,0
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Community Trusts,10.0,-0.4083404003823343,819.0,-0.40341470194587675,1
+RY3,Norfolk Community Health and Care NHS Trust,Community Trusts,10.0,-0.033163078228422904,1677.0,-0.03296649803738306,0
+RY4,Hertfordshire Community NHS Trust,Community Trusts,10.0,0.23218528459628374,1662.0,0.23079661662621026,0
+RY5,Lincolnshire Community Health Services NHS Trust,Community Trusts,10.0,-0.2147943415725697,1509.0,-0.21338029060764166,1
+RY6,Leeds Community Healthcare NHS Trust,Community Trusts,10.0,-0.03807015946200831,1783.0,-0.03785783286155093,0
+RY7,Wirral Community Health and Care NHS Foundation Trust,Community Trusts,10.0,-0.21079699402689922,861.0,-0.20837682187963288,0
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Community Trusts,10.0,0.06612763276128764,3150.0,0.06591836810065065,0
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Ambulance Trusts,10.0,-0.2554701999107696,2987.0,-0.2546177801579809,1
+RYC,East of England Ambulance Service NHS Trust,Ambulance Trusts,10.0,-0.14238275358049712,3978.0,-0.14202572561264232,0
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Ambulance Trusts,10.0,0.005218746681970643,3621.0,0.005204373928784274,0
+RYE,South Central Ambulance Service NHS Foundation Trust,Ambulance Trusts,10.0,-0.23886591673362112,2091.0,-0.23772900137553626,1
+RYF,South Western Ambulance Service NHS Foundation Trust,Ambulance Trusts,10.0,-0.1259110957930032,3329.0,-0.12553400356241617,0
+RYG,Coventry and Warwickshire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.09022398110889362,2023.0,-0.0897801838579891,0
+RYJ,Imperial College Healthcare NHS Trust,Acute&Acute Community Trusts,10.0,0.09854685852794454,8648.0,0.09843303679252302,0
+RYR,University Hospitals Sussex NHS Foundation Trust,Acute&Acute Community Trusts,10.0,-0.0021661043939360525,8266.0,-0.0021634870614155883,0
+RYV,Cambridgeshire Community Services NHS Trust,Community Trusts,10.0,0.15579834322723585,1466.0,0.15474279889642803,0
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Community Trusts,10.0,-0.13072664355898933,3479.0,-0.13035196129026194,0
+RYX,Central London Community Healthcare NHS Trust,Community Trusts,10.0,0.09754804723572708,3243.0,0.09724817620210971,0
+RYY,Kent Community Health NHS Foundation Trust,Community Trusts,10.0,0.27519936616512286,3496.0,0.27441442787029935,0
+TAD,Bradford District Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,0.09748290434842843,1689.0,0.09690913798969725,0
+TAH,Sheffield Health and Social Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.14853601418061935,1684.0,-0.14765917820552715,1
+TAJ,Black Country Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",10.0,-0.27223778294691936,2526.0,-0.27116429011195514,1
+R0A,Manchester University NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.0906859565449798,10685.0,0.09043205279357061,0
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.15991583525017994,4681.0,0.15889747926259654,0
+R0D,University Hospitals Dorset NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.054425423264566675,5519.0,0.05413117877043494,0
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.04316399419076866,2399.0,-0.0426308859875068,0
+R1D,Shropshire Community Health NHS Trust,Community Trusts,30.0,-0.05080991493862097,995.0,-0.0493227954770028,0
+R1F1,Isle of Wight NHS Trust (acute sector),Acute&Acute Community Trusts,30.0,-0.2362436637650669,1420.0,-0.23135586382509998,1
+R1F2,Isle of Wight NHS Trust (ambulance sector),Ambulance Trusts,30.0,0.06192589567564166,170.0,0.052637011324295414,0
+R1H,Barts Health NHS Trust,Acute&Acute Community Trusts,30.0,-0.030342645655079714,9566.0,-0.030247785362285593,0
+R1K,London North West University Healthcare NHS Trust,Acute&Acute Community Trusts,30.0,0.09177192718447902,4285.0,0.09113388365828333,0
+R1L,Essex Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.0361993077042575,3632.0,0.035902754118477126,0
+RA2,Royal Surrey County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.21510258901685564,2383.0,0.21242829242733816,0
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.16612796468165225,8285.0,0.16552858537432216,0
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.1475740926363862,3212.0,0.14620850880569786,0
+RAJ,Mid and South Essex NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.47972178411698785,6465.0,-0.47750597910951914,1
+RAN,Royal National Orthopaedic Hospital NHS Trust,Acute Specialist Trusts,30.0,0.15760595573699998,773.0,0.1517178129323798,0
+RAS,The Hillingdon Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.05963488021610974,1970.0,0.0587403570128681,0
+RAT,North East London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.06866386119844492,3955.0,-0.06814694379920945,0
+RBD,Dorset County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.06683423975127312,1616.0,0.06561611873515029,0
+RBK,Walsall Healthcare NHS Trust,Acute&Acute Community Trusts,30.0,-0.2900634770751713,2314.0,-0.2863510605597041,1
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.2238559838903038,2794.0,-0.2214779104070499,1
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Acute Specialist Trusts,30.0,0.4603550858652472,1134.0,0.44849026406459647,0
+RBS,Alder Hey Children's NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.09118586071536594,2417.0,0.09006793026115222,0
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.21724842006916756,2321.0,0.21447621564463543,0
+RBV,The Christie NHS Foundation Trust,Acute Specialist Trusts,30.0,0.15365811845284227,1947.0,0.15132643228512085,0
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.053814068548033056,3542.0,0.05336210268676738,0
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.044793230231823244,5839.0,-0.04456426500657964,0
+RCD,Harrogate and District NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.29025904817153414,3330.0,0.28766744952714546,0
+RCF,Airedale NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.032951308282498815,1473.0,0.03229359753833716,0
+RCU,Sheffield Children's NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.22986159642043802,2212.0,0.22678583910883537,0
+RCX,The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.24941726281310306,2188.0,-0.2460437200338456,1
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.07238347594020933,3322.0,-0.07173565246819075,0
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.0650624594621636,2646.0,0.06433305969240839,0
+RDE,East Suffolk and North Essex NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.1164580673710427,6181.0,-0.115895558592886,0
+RDR,Sussex Community NHS Foundation Trust,Community Trusts,30.0,0.2598428581841832,4042.0,0.2579284952800758,0
+RDU,Frimley Health NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.2717764410572938,5683.0,0.2703492936335727,0
+RDY,Dorset Healthcare University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.09372723422492601,3551.0,0.0929420298052813,0
+REF,Royal Cornwall Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,-0.2654278848361802,3848.0,-0.26337454895554957,1
+REM,Liverpool University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.04181205661655962,4448.0,-0.041531940113992236,0
+REN,The Clatterbridge Cancer Centre NHS Foundation Trust,Acute Specialist Trusts,30.0,-0.06890142777779573,1209.0,-0.06723311233523409,0
+REP,Liverpool Women's NHS Foundation Trust,Acute Specialist Trusts,30.0,-0.3472722564323272,772.0,-0.33428202240119276,1
+RET,The Walton Centre NHS Foundation Trust,Acute Specialist Trusts,30.0,0.04509932879111833,578.0,0.04287403296260921,0
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Acute&Acute Community Trusts,30.0,-0.21835090616254327,4158.0,-0.21678678792355657,1
+RFF,Barnsley Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.1939455313467695,2219.0,0.19135844111092998,0
+RFR,The Rotherham NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.1617661812944684,3137.0,0.16023382087803834,0
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.06048538889567823,2972.0,0.05988093797400256,0
+RGD,Leeds and York Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.041108379797606176,1497.0,-0.04030074954617973,0
+RGM,Royal Papworth Hospital NHS Foundation Trust,Acute Specialist Trusts,30.0,-0.029112601068380428,1177.0,-0.028389007007028802,0
+RGN,North West Anglia NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.48334904502659626,3216.0,-0.4788818634644281,1
+RGP,James Paget University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.1820586651788716,1657.0,-0.17882110741042692,1
+RGR,West Suffolk NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.20189694478201403,2435.0,-0.19943978115383534,1
+RGT,Cambridge University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.017349402359115196,6990.0,-0.01727525961399077,0
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.3576021937276703,4456.0,-0.3552107390215111,1
+RHM,University Hospital Southampton NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.044031415969589816,4801.0,-0.043757985524736226,0
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.06101834062328226,10718.0,-0.06084802519541676,0
+RHU,Portsmouth Hospitals University NHS Trust,Acute&Acute Community Trusts,30.0,-0.13974506048562585,3768.0,-0.1386412290441912,0
+RHW,Royal Berkshire NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.34240259320226496,4156.0,0.33994868068528744,0
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.18563532410125116,11816.0,0.18516520256461114,0
+RJ2,Lewisham and Greenwich NHS Trust,Acute&Acute Community Trusts,30.0,0.07226427628988663,4770.0,0.07181262456307484,0
+RJ6,Croydon Health Services NHS Trust,Acute&Acute Community Trusts,30.0,0.08454799264962709,2037.0,0.08332088100014048,0
+RJ7,St George's University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.05488008361745145,4453.0,-0.05451282898695322,0
+RJ8,Cornwall Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.20568636458614709,3068.0,-0.20369456634935418,1
+RJC,South Warwickshire University NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.25155647921335866,2605.0,0.2486924585771534,0
+RJE,University Hospitals of North Midlands NHS Trust,Acute&Acute Community Trusts,30.0,-0.06357544130208392,5372.0,-0.0632223751711949,0
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.004087939251462558,3271.0,0.004050787425487436,0
+RJN,East Cheshire NHS Trust,Acute&Acute Community Trusts,30.0,-0.018112749698718567,1321.0,-0.017710542081426518,0
+RJR,Countess of Chester Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.3243968473392149,2188.0,-0.3200091532814257,1
+RJZ,King's College Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.09772833507621126,6353.0,-0.09726901343242521,0
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.1095986424994786,3596.0,-0.10869186939551159,0
+RK9,University Hospitals Plymouth NHS Trust,Acute&Acute Community Trusts,30.0,-0.07391605398440149,5422.0,-0.07350932588103903,0
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Acute&Acute Community Trusts,30.0,-0.008695558288667193,6305.0,-0.008654379638523545,0
+RKE,Whittington Health NHS Trust,Acute&Acute Community Trusts,30.0,0.2985132680637781,2483.0,0.29494963971442933,0
+RKL,West London NHS Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.14792337736591232,4133.0,0.1468573909808589,0
+RL1,The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,30.0,-0.15607977115558924,822.0,-0.1505840045656037,0
+RL4,The Royal Wolverhampton NHS Trust,Acute&Acute Community Trusts,30.0,-0.2155139000900279,3372.0,-0.21361342478059203,1
+RLQ,Wye Valley NHS Trust,Acute&Acute Community Trusts,30.0,0.06970247404205043,1976.0,0.06866006416106264,0
+RLT,George Eliot Hospital NHS Trust,Acute&Acute Community Trusts,30.0,0.11264984170739822,1634.0,0.11061889504200041,0
+RLY,North Staffordshire Combined Healthcare NHS Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.27414657644474705,1295.0,0.2679394841478849,0
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.4016390355802715,4723.0,-0.39910396908176354,1
+RMC,Bolton NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.17844407666584328,2678.0,-0.17646722204989965,1
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.004600754143265995,2236.0,-0.00453984389423776,0
+RMY,Norfolk and Suffolk NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.4032629543355126,3589.0,-0.3999200727024467,1
+RN3,Great Western Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.10322289366013582,3628.0,0.10237634177117899,0
+RN5,Hampshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.13504907097822993,4192.0,0.13408946128392704,0
+RN7,Dartford and Gravesham NHS Trust,Acute&Acute Community Trusts,30.0,0.13712042989923479,1909.0,0.13499891731698774,0
+RNA,The Dudley Group NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.26262037722419596,2397.0,-0.25937414264787706,1
+RNK,Tavistock and Portman NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.038136289721117045,392.0,0.03542517907743574,0
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.1021564913705344,3822.0,0.10136088006702557,0
+RNQ,Kettering General Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.14344745566944006,2595.0,-0.141808056176075,1
+RNS,Northampton General Hospital NHS Trust,Acute&Acute Community Trusts,30.0,-0.1071334401328965,3144.0,-0.10612083672899389,0
+RNU,Oxford Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.09265293636601513,4537.0,0.09204431186612888,0
+RNZ,Salisbury NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.05045405425878435,2465.0,0.04984739228372883,0
+RP1,Northamptonshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.09863794795667502,3233.0,0.0977310713282042,0
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Acute Specialist Trusts,30.0,-0.24713011720155365,2877.0,-0.24457975479493288,1
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.08860369394815759,3870.0,0.0879221270716333,0
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Acute Specialist Trusts,30.0,-0.043432153604441304,1706.0,-0.04268159795459497,0
+RP7,Lincolnshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.014872075719287281,1782.0,-0.014625849300093783,0
+RPA,Medway NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.09354450424386052,2186.0,-0.09227810752575771,0
+RPC,Queen Victoria Hospital NHS Foundation Trust,Acute Specialist Trusts,30.0,-0.0825102031326006,690.0,-0.07907227800207557,0
+RPG,Oxleas NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.1955342131138691,2849.0,0.1934966909209493,0
+RPY,The Royal Marsden NHS Foundation Trust,Acute Specialist Trusts,30.0,-0.0001336732596479706,2440.0,-0.0001320496977898981,0
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.0569094478874872,3964.0,0.05648198583525269,0
+RQW,The Princess Alexandra Hospital NHS Trust,Acute&Acute Community Trusts,30.0,-0.17332990571483098,2613.0,-0.17136248340251733,1
+RQX,Homerton Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.10313045212301919,2172.0,-0.10172540509137043,0
+RQY,South West London and St George's Mental Health NHS Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.06467361174597297,2050.0,-0.06374081926886759,0
+RR7,Gateshead Health NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.12806934920081936,1751.0,-0.1259120889672289,0
+RR8,Leeds Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,-0.03059968465618823,10126.0,-0.030509295670397996,0
+RRE,Midlands Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.26078668899275126,5528.0,0.2593790602288465,0
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Acute&Acute Community Trusts,30.0,0.1699883573034704,3515.0,0.16854980985097276,0
+RRJ,The Royal Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,30.0,0.15785371478611854,788.0,0.15206445874261784,0
+RRK,University Hospitals Birmingham NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.08867062750397192,9709.0,-0.08839748664504195,0
+RRU,London Ambulance Service NHS Trust,Ambulance Trusts,30.0,-0.09735392636687656,5992.0,-0.09686893503658658,0
+RRV,University College London Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.18083527079619177,6309.0,0.17997944840718944,0
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.01748403928667841,2248.0,-0.017253784159988177,0
+RT2,Pennine Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.1470583719043166,1953.0,-0.1448335856425266,1
+RT5,Leicestershire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.07037639742826851,3905.0,0.06983985564355491,0
+RTD,The Newcastle upon Tyne Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.03385492528282086,10294.0,-0.033756547933103245,0
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.051886883038845255,4305.0,-0.05152780426348993,0
+RTF,Northumbria Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.39207444378062917,6629.0,0.39030807746235036,0
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.24184375876351272,8141.0,-0.2409558242679913,1
+RTH,Oxford University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.07313409790511738,6057.0,0.07277365385432824,0
+RTK,Ashford and St Peter's Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.25694255307911007,2213.0,0.25350596075081167,0
+RTP,Surrey and Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,30.0,0.15996006726563294,2802.0,0.15826557502764954,0
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.11053113921262447,2630.0,0.10928454741699337,0
+RTR,South Tees Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.24789080880853742,3006.0,-0.24544129488750444,1
+RV3,Central and North West London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.035569104583644595,6209.0,0.03539807186405663,0
+RV5,South London and Maudsley NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.001712990382316093,3305.0,0.0016975811734796663,0
+RV9,Humber Teaching NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.12266807461075846,2165.0,0.1209915177823654,0
+RVJ,North Bristol NHS Trust,Acute&Acute Community Trusts,30.0,0.17780745521359798,6015.0,0.1769250360810243,0
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.15251651498862007,2724.0,0.15085511504321025,0
+RVR,Epsom and St Helier University Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,0.13627656237314678,3440.0,0.13509837883677953,0
+RVV,East Kent Hospitals University NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.2352730746078313,5367.0,-0.23396527541601458,1
+RVW,North Tees and Hartlepool NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.12907135772018297,2111.0,0.12726279128785906,0
+RW4,Mersey Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.1658724325884524,4491.0,0.16477175287651843,0
+RW5,Lancashire and South Cumbria NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.23462505121003474,3543.0,-0.23265506757267088,1
+RWA,Hull University Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,-0.09787510315028669,4704.0,-0.09725485534832035,0
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,-0.10670692366204282,5008.0,-0.10607151125436888,0
+RWE,University Hospitals of Leicester NHS Trust,Acute&Acute Community Trusts,30.0,0.14596402709582534,11467.0,0.14558315201424973,0
+RWF,Maidstone and Tunbridge Wells NHS Trust,Acute&Acute Community Trusts,30.0,0.08585932401741037,3394.0,0.08510705190277185,0
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,0.06532023592677394,3482.0,0.06476226124630605,0
+RWH,East and North Hertfordshire Teaching NHS Trust,Acute&Acute Community Trusts,30.0,0.04323481335399215,2744.0,0.04276724147200955,0
+RWJ,Stockport NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.1359366985394388,3029.0,0.13460355013924816,0
+RWP,Worcestershire Acute Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,0.1415391097798686,3862.0,0.1404481094475469,0
+RWR,Hertfordshire Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.05853122755525053,2708.0,0.05788990658130695,0
+RWV,Devon Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.08116591482340496,1956.0,-0.07993984360250761,0
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.08034920950286395,1812.0,0.07904059045558604,0
+RWX,Berkshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.24703816904090026,3340.0,0.24483901620077358,0
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Acute&Acute Community Trusts,30.0,0.01879448139344042,3360.0,0.018628158549250682,0
+RX1,Nottingham University Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,-0.14962115755071626,8970.0,-0.14912242035888054,1
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",30.0,0.0008525379745574213,4229.0,0.0008465327763332554,0
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",30.0,-0.04863046473174304,4582.0,-0.04831413473565625,0
+RX6,North East Ambulance Service NHS Foundation Trust,Ambulance Trusts,30.0,0.38144302206690384,1842.0,0.37533015312352397,0
+RX7,North West Ambulance Service NHS Trust,Ambulance Trusts,30.0,0.19348957236635922,4117.0,0.19208984071191246,0
+RX8,Yorkshire Ambulance Service NHS Trust,Ambulance Trusts,30.0,0.23003237093814555,4691.0,0.22857061047889024,0
+RX9,East Midlands Ambulance Service NHS Trust,Ambulance Trusts,30.0,-0.01212571534425333,2718.0,-0.01199333853918506,0
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.0511058455714446,2249.0,0.050433105173400126,0
+RXC,East Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,30.0,-0.08050959611604025,4296.0,-0.07995127714158781,0
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.09460208965102002,1989.0,-0.0931964122416438,0
+RXF,Mid Yorkshire Teaching NHS Trust,Acute&Acute Community Trusts,30.0,-0.03625792880812195,3671.0,-0.0359640250350218,0
+RXG,South West Yorkshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.23128097355494592,2871.0,0.22888923649646667,0
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Acute&Acute Community Trusts,30.0,-0.06118759379520178,2964.0,-0.060574491652965294,0
+RXM,Derbyshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.061460255937185515,2160.0,0.0606183346229775,0
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.005792701047611537,4261.0,-0.005752202088993885,0
+RXP,County Durham and Darlington NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.14361914007096122,3096.0,-0.14224083738314008,1
+RXQ,Buckinghamshire Healthcare NHS Trust,Acute&Acute Community Trusts,30.0,0.320138696709547,4557.0,0.31804491844460553,0
+RXV,Greater Manchester Mental Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.15532093874798392,2847.0,-0.15370132520525207,1
+RXW,The Shrewsbury and Telford Hospital NHS Trust,Acute&Acute Community Trusts,30.0,-0.05262681686703452,3797.0,-0.05221427322815001,0
+RXX,Surrey and Borders Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.07913953168137322,2006.0,-0.07797342856229601,0
+RXY,Kent and Medway NHS and Social Care Partnership Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.07668552409323404,1999.0,-0.07555168194301372,0
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Community Trusts,30.0,-0.4083404003823343,819.0,-0.393911410969531,1
+RY3,Norfolk Community Health and Care NHS Trust,Community Trusts,30.0,-0.033163078228422904,1677.0,-0.03258024732809913,0
+RY4,Hertfordshire Community NHS Trust,Community Trusts,30.0,0.23218528459628374,1662.0,0.22806852423110138,0
+RY5,Lincolnshire Community Health Services NHS Trust,Community Trusts,30.0,-0.2147943415725697,1509.0,-0.21060731737037536,1
+RY6,Leeds Community Healthcare NHS Trust,Community Trusts,30.0,-0.03807015946200831,1783.0,-0.03744020646484326,0
+RY7,Wirral Community Health and Care NHS Foundation Trust,Community Trusts,30.0,-0.21079699402689922,861.0,-0.20369945214047164,0
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Community Trusts,30.0,0.06612763276128764,3150.0,0.06550378716920002,0
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Ambulance Trusts,30.0,-0.2554701999107696,2987.0,-0.25292989298424556,1
+RYC,East of England Ambulance Service NHS Trust,Ambulance Trusts,30.0,-0.14238275358049712,3978.0,-0.1413170144069904,0
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Ambulance Trusts,30.0,0.005218746681970643,3621.0,0.005175864622135223,0
+RYE,South Central Ambulance Service NHS Foundation Trust,Ambulance Trusts,30.0,-0.23886591673362112,2091.0,-0.23548733233852037,1
+RYF,South Western Ambulance Service NHS Foundation Trust,Ambulance Trusts,30.0,-0.1259110957930032,3329.0,-0.12478655489577481,0
+RYG,Coventry and Warwickshire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.09022398110889362,2023.0,-0.08890555956322056,0
+RYJ,Imperial College Healthcare NHS Trust,Acute&Acute Community Trusts,30.0,0.09854685852794454,8648.0,0.09820618028919846,0
+RYR,University Hospitals Sussex NHS Foundation Trust,Acute&Acute Community Trusts,30.0,-0.0021661043939360525,8266.0,-0.00215827132597341,0
+RYV,Cambridgeshire Community Services NHS Trust,Community Trusts,30.0,0.15579834322723585,1466.0,0.15267404490048644,0
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Community Trusts,30.0,-0.13072664355898933,3479.0,-0.12960900340317008,0
+RYX,Central London Community Healthcare NHS Trust,Community Trusts,30.0,0.09754804723572708,3243.0,0.0966539313123932,0
+RYY,Kent Community Health NHS Foundation Trust,Community Trusts,30.0,0.27519936616512286,3496.0,0.27285790814329824,0
+TAD,Bradford District Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,0.09748290434842843,1689.0,0.09578163202123072,0
+TAH,Sheffield Health and Social Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.14853601418061935,1684.0,-0.1459362006302001,1
+TAJ,Black Country Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",30.0,-0.27223778294691936,2526.0,-0.26904250380434985,1
+R0A,Manchester University NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.0906859565449798,10685.0,0.08984510391127576,0
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.15991583525017994,4681.0,0.1565710154373755,0
+R0D,University Hospitals Dorset NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.054425423264566675,5519.0,0.05345682701497481,0
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.04316399419076866,2399.0,-0.04143674352287075,0
+R1D,Shropshire Community Health NHS Trust,Community Trusts,100.0,-0.05080991493862097,995.0,-0.04616974005838161,0
+R1F1,Isle of Wight NHS Trust (acute sector),Acute&Acute Community Trusts,100.0,-0.2362436637650669,1420.0,-0.22070131746473357,1
+R1F2,Isle of Wight NHS Trust (ambulance sector),Ambulance Trusts,100.0,0.06192589567564166,170.0,0.03899037875873734,0
+R1H,Barts Health NHS Trust,Acute&Acute Community Trusts,100.0,-0.030342645655079714,9566.0,-0.03002873456822807,0
+R1K,London North West University Healthcare NHS Trust,Acute&Acute Community Trusts,100.0,0.09177192718447902,4285.0,0.0896790668153917,0
+R1L,Essex Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.0361993077042575,3632.0,0.03522933697263217,0
+RA2,Royal Surrey County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.21510258901685564,2383.0,0.20643957697429197,0
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.16612796468165225,8285.0,0.16414671286672497,0
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.1475740926363862,3212.0,0.14311835312441804,0
+RAJ,Mid and South Essex NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.47972178411698785,6465.0,-0.4724145216018776,1
+RAN,Royal National Orthopaedic Hospital NHS Trust,Acute Specialist Trusts,100.0,0.15760595573699998,773.0,0.13955258165486942,0
+RAS,The Hillingdon Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.05963488021610974,1970.0,0.05675396812837498,0
+RAT,North East London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.06866386119844492,3955.0,-0.06697054772869288,0
+RBD,Dorset County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.06683423975127312,1616.0,0.06293947053499846,0
+RBK,Walsall Healthcare NHS Trust,Acute&Acute Community Trusts,100.0,-0.2900634770751713,2314.0,-0.27804759152938957,1
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.2238559838903038,2794.0,-0.2161208082202864,1
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Acute Specialist Trusts,100.0,0.4603550858652472,1134.0,0.42304916318572966,0
+RBS,Alder Hey Children's NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.09118586071536594,2417.0,0.08756306132262195,0
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.21724842006916756,2321.0,0.20827492068588924,0
+RBV,The Christie NHS Foundation Trust,Acute Specialist Trusts,100.0,0.15365811845284227,1947.0,0.14615161535304538,0
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.053814068548033056,3542.0,0.05233647193770816,0
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.044793230231823244,5839.0,-0.044039008473415714,0
+RCD,Harrogate and District NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.29025904817153414,3330.0,0.28179668525108126,0
+RCF,Airedale NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.032951308282498815,1473.0,0.030856501652969333,0
+RCU,Sheffield Children's NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.22986159642043802,2212.0,0.21991948584861978,0
+RCX,The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.24941726281310306,2188.0,-0.23851615866917375,1
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.07238347594020933,3322.0,-0.07026823701735109,0
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.0650624594621636,2646.0,0.06269310551233974,0
+RDE,East Suffolk and North Essex NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.1164580673710427,6181.0,-0.11460393479070449,0
+RDR,Sussex Community NHS Foundation Trust,Community Trusts,100.0,0.2598428581841832,4042.0,0.25356949125554523,0
+RDU,Frimley Health NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.2717764410572938,5683.0,0.26707686573207695,0
+RDY,Dorset Healthcare University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.09372723422492601,3551.0,0.09116006812728356,0
+REF,Royal Cornwall Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,-0.2654278848361802,3848.0,-0.2587047874492455,1
+REM,Liverpool University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.04181205661655962,4448.0,-0.04089270620722454,0
+REN,The Clatterbridge Cancer Centre NHS Foundation Trust,Acute Specialist Trusts,100.0,-0.06890142777779573,1209.0,-0.06363775873441944,0
+REP,Liverpool Women's NHS Foundation Trust,Acute Specialist Trusts,100.0,-0.3472722564323272,772.0,-0.30744745638274834,1
+RET,The Walton Centre NHS Foundation Trust,Acute Specialist Trusts,100.0,0.04509932879111833,578.0,0.03844751038534867,0
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Acute&Acute Community Trusts,100.0,-0.21835090616254327,4158.0,-0.2132228905175798,1
+RFF,Barnsley Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.1939455313467695,2219.0,0.18558220528610672,0
+RFR,The Rotherham NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.1617661812944684,3137.0,0.15676877068914039,0
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.06048538889567823,2972.0,0.058516463475897035,0
+RGD,Leeds and York Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.041108379797606176,1497.0,-0.03853427962242733,0
+RGM,Royal Papworth Hospital NHS Foundation Trust,Acute Specialist Trusts,100.0,-0.029112601068380428,1177.0,-0.026832835910324013,0
+RGN,North West Anglia NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.48334904502659626,3216.0,-0.468772777082489,1
+RGP,James Paget University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.1820586651788716,1657.0,-0.17169676050164498,1
+RGR,West Suffolk NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.20189694478201403,2435.0,-0.1939325682620135,1
+RGT,Cambridge University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.017349402359115196,6990.0,-0.017104699928098058,0
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.3576021937276703,4456.0,-0.3497531552349647,1
+RHM,University Hospital Southampton NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.044031415969589816,4801.0,-0.04313299899408298,0
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.06101834062328226,10718.0,-0.060454296062150054,0
+RHU,Portsmouth Hospitals University NHS Trust,Acute&Acute Community Trusts,100.0,-0.13974506048562585,3768.0,-0.1361322099043015,0
+RHW,Royal Berkshire NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.34240259320226496,4156.0,0.33435741948980574,0
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.18563532410125116,11816.0,0.18407745800439607,0
+RJ2,Lewisham and Greenwich NHS Trust,Acute&Acute Community Trusts,100.0,0.07226427628988663,4770.0,0.07078041024697315,0
+RJ6,Croydon Health Services NHS Trust,Acute&Acute Community Trusts,100.0,0.08454799264962709,2037.0,0.08059160553452989,0
+RJ7,St George's University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.05488008361745145,4453.0,-0.053674722677028615,0
+RJ8,Cornwall Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.20568636458614709,3068.0,-0.19919373944138233,1
+RJC,South Warwickshire University NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.25155647921335866,2605.0,0.24225679421471324,0
+RJE,University Hospitals of North Midlands NHS Trust,Acute&Acute Community Trusts,100.0,-0.06357544130208392,5372.0,-0.0624136094069435,0
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.004087939251462558,3271.0,0.003966671400633054,0
+RJN,East Cheshire NHS Trust,Acute&Acute Community Trusts,100.0,-0.018112749698718567,1321.0,-0.016838101584804522,0
+RJR,Countess of Chester Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.3243968473392149,2188.0,-0.3102186634520115,1
+RJZ,King's College Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.09772833507621126,6353.0,-0.09621387149220054,0
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.1095986424994786,3596.0,-0.10663331126302084,0
+RK9,University Hospitals Plymouth NHS Trust,Acute&Acute Community Trusts,100.0,-0.07391605398440149,5422.0,-0.07257748002597335,0
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Acute&Acute Community Trusts,100.0,-0.008695558288667193,6305.0,-0.008559796254495966,0
+RKE,Whittington Health NHS Trust,Acute&Acute Community Trusts,100.0,0.2985132680637781,2483.0,0.2869564245460166,0
+RKL,West London NHS Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.14792337736591232,4133.0,0.14442884919757043,0
+RL1,The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,100.0,-0.15607977115558924,822.0,-0.13915137949012402,0
+RL4,The Royal Wolverhampton NHS Trust,Acute&Acute Community Trusts,100.0,-0.2155139000900279,3372.0,-0.2093067025067898,1
+RLQ,Wye Valley NHS Trust,Acute&Acute Community Trusts,100.0,0.06970247404205043,1976.0,0.06634493675678788,0
+RLT,George Eliot Hospital NHS Trust,Acute&Acute Community Trusts,100.0,0.11264984170739822,1634.0,0.10615331104376512,0
+RLY,North Staffordshire Combined Healthcare NHS Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.27414657644474705,1295.0,0.25449449211179026,0
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.4016390355802715,4723.0,-0.39331145864516326,1
+RMC,Bolton NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.17844407666584328,2678.0,-0.17202060378370349,1
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.004600754143265995,2236.0,-0.004403804051516595,0
+RMY,Norfolk and Suffolk NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.4032629543355126,3589.0,-0.39233145652213464,1
+RN3,Great Western Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.10322289366013582,3628.0,0.10045403921646265,0
+RN5,Hampshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.13504907097822993,4192.0,0.13190254089952,0
+RN7,Dartford and Gravesham NHS Trust,Acute&Acute Community Trusts,100.0,0.13712042989923479,1909.0,0.13029512228852125,0
+RNA,The Dudley Group NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.26262037722419596,2397.0,-0.2521029412120135,1
+RNK,Tavistock and Portman NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.038136289721117045,392.0,0.03038501132251602,0
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.1021564913705344,3822.0,0.09955178735802714,0
+RNQ,Kettering General Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.14344745566944006,2595.0,-0.13812473004163153,1
+RNS,Northampton General Hospital NHS Trust,Acute&Acute Community Trusts,100.0,-0.1071334401328965,3144.0,-0.10383092964791202,0
+RNU,Oxford Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.09265293636601513,4537.0,0.09065481395139328,0
+RNZ,Salisbury NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.05045405425878435,2465.0,0.04848703459957249,0
+RP1,Northamptonshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.09863794795667502,3233.0,0.09567851357453656,0
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Acute Specialist Trusts,100.0,-0.24713011720155365,2877.0,-0.23882880322098415,1
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.08860369394815759,3870.0,0.08637186286634004,0
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Acute Specialist Trusts,100.0,-0.043432153604441304,1706.0,-0.041027272452478884,0
+RP7,Lincolnshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.014872075719287281,1782.0,-0.014081848529101985,0
+RPA,Medway NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.09354450424386052,2186.0,-0.08945244369076076,0
+RPC,Queen Victoria Hospital NHS Foundation Trust,Acute Specialist Trusts,100.0,-0.0825102031326006,690.0,-0.07206587362214482,0
+RPG,Oxleas NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.1955342131138691,2849.0,0.18890368706728147,0
+RPY,The Royal Marsden NHS Foundation Trust,Acute Specialist Trusts,100.0,-0.0001336732596479706,2440.0,-0.0001284105328901765,0
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.0569094478874872,3964.0,0.05550911698474391,0
+RQW,The Princess Alexandra Hospital NHS Trust,Acute&Acute Community Trusts,100.0,-0.17332990571483098,2613.0,-0.16694104077878855,1
+RQX,Homerton Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.10313045212301919,2172.0,-0.09859125968802715,0
+RQY,South West London and St George's Mental Health NHS Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.06467361174597297,2050.0,-0.06166553678104399,0
+RR7,Gateshead Health NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.12806934920081936,1751.0,-0.1211504216372959,0
+RR8,Leeds Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,-0.03059968465618823,10126.0,-0.030300450501521806,0
+RRE,Midlands Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.26078668899275126,5528.0,0.2561529525145574,0
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Acute&Acute Community Trusts,100.0,0.1699883573034704,3515.0,0.165286051430622,0
+RRJ,The Royal Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,100.0,0.15785371478611854,788.0,0.14007739555344753,0
+RRK,University Hospitals Birmingham NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.08867062750397192,9709.0,-0.08776665536100146,0
+RRU,London Ambulance Service NHS Trust,Ambulance Trusts,100.0,-0.09735392636687656,5992.0,-0.09575586454207557,0
+RRV,University College London Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.18083527079619177,6309.0,0.17801368754145325,0
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.01748403928667841,2248.0,-0.016739403882646112,0
+RT2,Pennine Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.1470583719043166,1953.0,-0.13989527536733087,1
+RT5,Leicestershire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.07037639742826851,3905.0,0.06861918400933548,0
+RTD,The Newcastle upon Tyne Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.03385492528282086,10294.0,-0.03352920924200095,0
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.051886883038845255,4305.0,-0.05070897422979088,0
+RTF,Northumbria Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.39207444378062917,6629.0,0.38624780618543486,0
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.24184375876351272,8141.0,-0.23890911783688354,1
+RTH,Oxford University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.07313409790511738,6057.0,0.07194627757207991,0
+RTK,Ashford and St Peter's Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.25694255307911007,2213.0,0.24583392562216627,0
+RTP,Surrey and Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,100.0,0.15996006726563294,2802.0,0.15444800429989786,0
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.11053113921262447,2630.0,0.10648237953450634,0
+RTR,South Tees Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.24789080880853742,3006.0,-0.2399097782609348,1
+RV3,Central and North West London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.035569104583644595,6209.0,0.035005321027080254,0
+RV5,South London and Maudsley NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.001712990382316093,3305.0,0.0016626822947297172,0
+RV9,Humber Teaching NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.12266807461075846,2165.0,0.11725226557717089,0
+RVJ,North Bristol NHS Trust,Acute&Acute Community Trusts,100.0,0.17780745521359798,6015.0,0.17489972904493734,0
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.15251651498862007,2724.0,0.14711578853718166,0
+RVR,Epsom and St Helier University Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,0.13627656237314678,3440.0,0.13242694196712568,0
+RVV,East Kent Hospitals University NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.2352730746078313,5367.0,-0.23096956126216034,1
+RVW,North Tees and Hartlepool NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.12907135772018297,2111.0,0.1232336662810069,0
+RW4,Mersey Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.1658724325884524,4491.0,0.16225944124477018,0
+RW5,Lancashire and South Cumbria NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.23462505121003474,3543.0,-0.22818461609584217,1
+RWA,Hull University Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,-0.09787510315028669,4704.0,-0.09583773630702509,0
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,-0.10670692366204282,5008.0,-0.1046179079286434,0
+RWE,University Hospitals of Leicester NHS Trust,Acute&Acute Community Trusts,100.0,0.14596402709582534,11467.0,0.14470212662815157,0
+RWF,Maidstone and Tunbridge Wells NHS Trust,Acute&Acute Community Trusts,100.0,0.08585932401741037,3394.0,0.08340198789785082,0
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,0.06532023592677394,3482.0,0.0634966670845971,0
+RWH,East and North Hertfordshire Teaching NHS Trust,Acute&Acute Community Trusts,100.0,0.04323481335399215,2744.0,0.04171460191397837,0
+RWJ,Stockport NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.1359366985394388,3029.0,0.13159228503546183,0
+RWP,Worcestershire Acute Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,0.1415391097798686,3862.0,0.13796669408628284,0
+RWR,Hertfordshire Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.05853122755525053,2708.0,0.05644678212949375,0
+RWV,Devon Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.08116591482340496,1956.0,-0.07721815632032106,0
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.08034920950286395,1812.0,0.07614684498911584,0
+RWX,Berkshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.24703816904090026,3340.0,0.23985682691761828,0
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Acute&Acute Community Trusts,100.0,0.01879448139344042,3360.0,0.018251288289583764,0
+RX1,Nottingham University Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,-0.14962115755071626,8970.0,-0.14797153067584617,1
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",100.0,0.0008525379745574213,4229.0,0.000832844327651498,0
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",100.0,-0.04863046473174304,4582.0,-0.04759179611295314,0
+RX6,North East Ambulance Service NHS Foundation Trust,Ambulance Trusts,100.0,0.38144302206690384,1842.0,0.36180125985954525,0
+RX7,North West Ambulance Service NHS Trust,Ambulance Trusts,100.0,0.19348957236635922,4117.0,0.18890124956895918,0
+RX8,Yorkshire Ambulance Service NHS Trust,Ambulance Trusts,100.0,0.23003237093814555,4691.0,0.22523102735772088,0
+RX9,East Midlands Ambulance Service NHS Trust,Ambulance Trusts,100.0,-0.01212571534425333,2718.0,-0.011695420264613395,0
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.0511058455714446,2249.0,0.04893020293323921,0
+RXC,East Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,100.0,-0.08050959611604025,4296.0,-0.0786781676329638,0
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.09460208965102002,1989.0,-0.09007350709233068,0
+RXF,Mid Yorkshire Teaching NHS Trust,Acute&Acute Community Trusts,100.0,-0.03625792880812195,3671.0,-0.03529643507149713,0
+RXG,South West Yorkshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.23128097355494592,2871.0,0.2234963564713059,0
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Acute&Acute Community Trusts,100.0,-0.06118759379520178,2964.0,-0.05919060966350459,0
+RXM,Derbyshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.061460255937185515,2160.0,0.05874077558598262,0
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.005792701047611537,4261.0,-0.005659871397356743,0
+RXP,County Durham and Darlington NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.14361914007096122,3096.0,-0.13912542479965453,1
+RXQ,Buckinghamshire Healthcare NHS Trust,Acute&Acute Community Trusts,100.0,0.320138696709547,4557.0,0.3132643420453952,0
+RXV,Greater Manchester Mental Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.15532093874798392,2847.0,-0.1500504623737734,1
+RXW,The Shrewsbury and Telford Hospital NHS Trust,Acute&Acute Community Trusts,100.0,-0.05262681686703452,3797.0,-0.05127637250298436,0
+RXX,Surrey and Borders Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.07913953168137322,2006.0,-0.07538171916089016,0
+RXY,Kent and Medway NHS and Social Care Partnership Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.07668552409323404,1999.0,-0.07303209274053113,0
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Community Trusts,100.0,-0.4083404003823343,819.0,-0.36390727738099216,1
+RY3,Norfolk Community Health and Care NHS Trust,Community Trusts,100.0,-0.033163078228422904,1677.0,-0.031296838598235906,0
+RY4,Hertfordshire Community NHS Trust,Community Trusts,100.0,0.23218528459628374,1662.0,0.21900791316630172,0
+RY5,Lincolnshire Community Health Services NHS Trust,Community Trusts,100.0,-0.2147943415725697,1509.0,-0.20144478647172637,1
+RY6,Leeds Community Healthcare NHS Trust,Community Trusts,100.0,-0.03807015946200831,1783.0,-0.03604837722823198,0
+RY7,Wirral Community Health and Care NHS Foundation Trust,Community Trusts,100.0,-0.21079699402689922,861.0,-0.18886182295229995,0
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Community Trusts,100.0,0.06612763276128764,3150.0,0.06409293636863264,0
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Ambulance Trusts,100.0,-0.2554701999107696,2987.0,-0.24719452126124677,1
+RYC,East of England Ambulance Service NHS Trust,Ambulance Trusts,100.0,-0.14238275358049712,3978.0,-0.13889126869622795,0
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Ambulance Trusts,100.0,0.005218746681970643,3621.0,0.0050784954946024455,0
+RYE,South Central Ambulance Service NHS Foundation Trust,Ambulance Trusts,100.0,-0.23886591673362112,2091.0,-0.2279637753947977,1
+RYF,South Western Ambulance Service NHS Foundation Trust,Ambulance Trusts,100.0,-0.1259110957930032,3329.0,-0.12223914782586982,0
+RYG,Coventry and Warwickshire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.09022398110889362,2023.0,-0.08597414685977003,0
+RYJ,Imperial College Healthcare NHS Trust,Acute&Acute Community Trusts,100.0,0.09854685852794454,8648.0,0.09742035122881394,0
+RYR,University Hospitals Sussex NHS Foundation Trust,Acute&Acute Community Trusts,100.0,-0.0021661043939360525,8266.0,-0.0021402126368964152,0
+RYV,Cambridgeshire Community Services NHS Trust,Community Trusts,100.0,0.15579834322723585,1466.0,0.1458495345920356,0
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Community Trusts,100.0,-0.13072664355898933,3479.0,-0.1270740410566426,0
+RYX,Central London Community Healthcare NHS Trust,Community Trusts,100.0,0.09754804723572708,3243.0,0.09463006795855905,0
+RYY,Kent Community Health NHS Foundation Trust,Community Trusts,100.0,0.27519936616512286,3496.0,0.26754643607154327,0
+TAD,Bradford District Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,0.09748290434842843,1689.0,0.0920338878951904,0
+TAH,Sheffield Health and Social Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.14853601418061935,1684.0,-0.14021000441713172,1
+TAJ,Black Country Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",100.0,-0.27223778294691936,2526.0,-0.2618707691256353,1
+R0A,Manchester University NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.0906859565449798,10685.0,0.08820932596113874,0
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.15991583525017994,4681.0,0.15028428524515003,0
+R0D,University Hospitals Dorset NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.054425423264566675,5519.0,0.05161950695946786,0
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.04316399419076866,2399.0,-0.03836621788205039,0
+R1D,Shropshire Community Health NHS Trust,Community Trusts,300.0,-0.05080991493862097,995.0,-0.03903927827330337,0
+R1F1,Isle of Wight NHS Trust (acute sector),Acute&Acute Community Trusts,300.0,-0.2362436637650669,1420.0,-0.19503837357348547,1
+R1F2,Isle of Wight NHS Trust (ambulance sector),Ambulance Trusts,300.0,0.06192589567564166,170.0,0.02239872822310443,0
+R1H,Barts Health NHS Trust,Acute&Acute Community Trusts,300.0,-0.030342645655079714,9566.0,-0.02942000287213587,0
+R1K,London North West University Healthcare NHS Trust,Acute&Acute Community Trusts,300.0,0.09177192718447902,4285.0,0.08576722093467669,0
+R1L,Essex Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.0361993077042575,3632.0,0.03343740731990418,0
+RA2,Royal Surrey County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.21510258901685564,2383.0,0.19105086456472867,0
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.16612796468165225,8285.0,0.16032267762230504,0
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.1475740926363862,3212.0,0.13496810522439423,0
+RAJ,Mid and South Essex NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.47972178411698785,6465.0,-0.4584480908080305,1
+RAN,Royal National Orthopaedic Hospital NHS Trust,Acute Specialist Trusts,300.0,0.15760595573699998,773.0,0.11354091685433455,0
+RAS,The Hillingdon Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.05963488021610974,1970.0,0.05175361851354017,0
+RAT,North East London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.06866386119844492,3955.0,-0.06382269589655691,0
+RBD,Dorset County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.06683423975127312,1616.0,0.056369588433224094,0
+RBK,Walsall Healthcare NHS Trust,Acute&Acute Community Trusts,300.0,-0.2900634770751713,2314.0,-0.25677386608720215,1
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.2238559838903038,2794.0,-0.20215049094683543,1
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Acute Specialist Trusts,300.0,0.4603550858652472,1134.0,0.3640464904959486,0
+RBS,Alder Hey Children's NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.09118586071536594,2417.0,0.08111749184727254,0
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.21724842006916756,2321.0,0.19238213772626397,0
+RBV,The Christie NHS Foundation Trust,Acute Specialist Trusts,300.0,0.15365811845284227,1947.0,0.13314301585566707,0
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.053814068548033056,3542.0,0.04961203300289773,0
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.044793230231823244,5839.0,-0.04260427941417428,0
+RCD,Harrogate and District NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.29025904817153414,3330.0,0.2662706970829776,0
+RCF,Airedale NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.032951308282498815,1473.0,0.02737579080661069,0
+RCU,Sheffield Children's NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.22986159642043802,2212.0,0.2024099726441118,0
+RCX,The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.24941726281310306,2188.0,-0.2193428340173109,1
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.07238347594020933,3322.0,-0.0663881576679667,0
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.0650624594621636,2646.0,0.0584369544252834,0
+RDE,East Suffolk and North Essex NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.1164580673710427,6181.0,-0.11106732208307589,0
+RDR,Sussex Community NHS Foundation Trust,Community Trusts,300.0,0.2598428581841832,4042.0,0.24188964366201482,0
+RDU,Frimley Health NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.2717764410572938,5683.0,0.2581490079439413,0
+RDY,Dorset Healthcare University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.09372723422492601,3551.0,0.08642570987606135,0
+REF,Royal Cornwall Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,-0.2654278848361802,3848.0,-0.2462310754217988,1
+REM,Liverpool University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.04181205661655962,4448.0,-0.03917018277810809,0
+REN,The Clatterbridge Cancer Centre NHS Foundation Trust,Acute Specialist Trusts,300.0,-0.06890142777779573,1209.0,-0.05520333080407888,0
+REP,Liverpool Women's NHS Foundation Trust,Acute Specialist Trusts,300.0,-0.3472722564323272,772.0,-0.25008785631134006,1
+RET,The Walton Centre NHS Foundation Trust,Acute Specialist Trusts,300.0,0.04509932879111833,578.0,0.029689535354517536,0
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Acute&Acute Community Trusts,300.0,-0.21835090616254327,4158.0,-0.20365703629965343,1
+RFF,Barnsley Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.1939455313467695,2219.0,0.1708476117739109,0
+RFR,The Rotherham NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.1617661812944684,3137.0,0.1476463516790071,0
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.06048538889567823,2972.0,0.05493966252993756,0
+RGD,Leeds and York Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.041108379797606176,1497.0,-0.034245545106853896,0
+RGM,Royal Papworth Hospital NHS Foundation Trust,Acute Specialist Trusts,300.0,-0.029112601068380428,1177.0,-0.02319941195496531,0
+RGN,North West Anglia NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.48334904502659626,3216.0,-0.44210765893217674,1
+RGP,James Paget University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.1820586651788716,1657.0,-0.15414982534562607,1
+RGR,West Suffolk NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.20189694478201403,2435.0,-0.17975102762128123,1
+RGT,Cambridge University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.017349402359115196,6990.0,-0.016635435183842966,0
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.3576021937276703,4456.0,-0.33504528495595015,1
+RHM,University Hospital Southampton NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.044031415969589816,4801.0,-0.04144184043716932,0
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.06101834062328226,10718.0,-0.05935692274463054,0
+RHU,Portsmouth Hospitals University NHS Trust,Acute&Acute Community Trusts,300.0,-0.13974506048562585,3768.0,-0.12943937755895726,1
+RHW,Royal Berkshire NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.34240259320226496,4156.0,0.3193503539830819,0
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.18563532410125116,11816.0,0.18103887335592472,0
+RJ2,Lewisham and Greenwich NHS Trust,Acute&Acute Community Trusts,300.0,0.07226427628988663,4770.0,0.06798828361001168,0
+RJ6,Croydon Health Services NHS Trust,Acute&Acute Community Trusts,300.0,0.08454799264962709,2037.0,0.07369459179601642,0
+RJ7,St George's University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.05488008361745145,4453.0,-0.05141616081390939,0
+RJ8,Cornwall Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.20568636458614709,3068.0,-0.1873651325861934,1
+RJC,South Warwickshire University NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.25155647921335866,2605.0,0.22557818531869167,0
+RJE,University Hospitals of North Midlands NHS Trust,Acute&Acute Community Trusts,300.0,-0.06357544130208392,5372.0,-0.060212847439138725,0
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.004087939251462558,3271.0,0.0037445111429666835,0
+RJN,East Cheshire NHS Trust,Acute&Acute Community Trusts,300.0,-0.018112749698718567,1321.0,-0.01476060601604394,0
+RJR,Countess of Chester Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.3243968473392149,2188.0,-0.2852814718561906,1
+RJZ,King's College Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.09772833507621126,6353.0,-0.09332152603925599,0
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.1095986424994786,3596.0,-0.10115932197847151,0
+RK9,University Hospitals Plymouth NHS Trust,Acute&Acute Community Trusts,300.0,-0.07391605398440149,5422.0,-0.07004069288770096,0
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Acute&Acute Community Trusts,300.0,-0.008695558288667193,6305.0,-0.008300604846335602,0
+RKE,Whittington Health NHS Trust,Acute&Acute Community Trusts,300.0,0.2985132680637781,2483.0,0.26633433151360436,0
+RKL,West London NHS Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.14792337736591232,4133.0,0.13791277208511518,0
+RL1,The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,300.0,-0.15607977115558924,822.0,-0.11434721202307875,0
+RL4,The Royal Wolverhampton NHS Trust,Acute&Acute Community Trusts,300.0,-0.2155139000900279,3372.0,-0.19790655531143084,1
+RLQ,Wye Valley NHS Trust,Acute&Acute Community Trusts,300.0,0.06970247404205043,1976.0,0.06051497746357278,0
+RLT,George Eliot Hospital NHS Trust,Acute&Acute Community Trusts,300.0,0.11264984170739822,1634.0,0.09517571941566116,0
+RLY,North Staffordshire Combined Healthcare NHS Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.27414657644474705,1295.0,0.22258295705075073,0
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.4016390355802715,4723.0,-0.37765103823325147,1
+RMC,Bolton NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.17844407666584328,2678.0,-0.1604678432878201,1
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.004600754143265995,2236.0,-0.0040565008928796385,0
+RMY,Norfolk and Suffolk NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.4032629543355126,3589.0,-0.3721549866572782,1
+RN3,Great Western Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.10322289366013582,3628.0,0.0953392714355837,0
+RN5,Hampshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.13504907097822993,4192.0,0.12602976525840157,0
+RN7,Dartford and Gravesham NHS Trust,Acute&Acute Community Trusts,300.0,0.13712042989923479,1909.0,0.11849837061006754,0
+RNA,The Dudley Group NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.26262037722419596,2397.0,-0.23340787697678816,1
+RNK,Tavistock and Portman NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.038136289721117045,392.0,0.021603216142598095,0
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.1021564913705344,3822.0,0.09472152111067017,0
+RNQ,Kettering General Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.14344745566944006,2595.0,-0.12858243435654473,0
+RNS,Northampton General Hospital NHS Trust,Acute&Acute Community Trusts,300.0,-0.1071334401328965,3144.0,-0.09780125893665115,0
+RNU,Oxford Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.09265293636601513,4537.0,0.08690642387690936,0
+RNZ,Salisbury NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.05045405425878435,2465.0,0.04497983499020016,0
+RP1,Northamptonshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.09863794795667502,3233.0,0.09026223768579969,0
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Acute Specialist Trusts,300.0,-0.24713011720155365,2877.0,-0.2237939399398394,1
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.08860369394815759,3870.0,0.08222932747706713,0
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Acute Specialist Trusts,300.0,-0.043432153604441304,1706.0,-0.036936816574863834,0
+RP7,Lincolnshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.014872075719287281,1782.0,-0.012729125327459144,0
+RPA,Medway NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.09354450424386052,2186.0,-0.08225594781861588,0
+RPC,Queen Victoria Hospital NHS Foundation Trust,Acute Specialist Trusts,300.0,-0.0825102031326006,690.0,-0.057507111274236786,0
+RPG,Oxleas NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.1955342131138691,2849.0,0.17690599338247479,0
+RPY,The Royal Marsden NHS Foundation Trust,Acute Specialist Trusts,300.0,-0.0001336732596479706,2440.0,-0.00011903750129235339,0
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.0569094478874872,3964.0,0.05290549986538444,0
+RQW,The Princess Alexandra Hospital NHS Trust,Acute&Acute Community Trusts,300.0,-0.17332990571483098,2613.0,-0.15547924601196475,1
+RQX,Homerton Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.10313045212301919,2172.0,-0.09061462055469162,0
+RQY,South West London and St George's Mental Health NHS Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.06467361174597297,2050.0,-0.056417405991167915,0
+RR7,Gateshead Health NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.12806934920081936,1751.0,-0.109336631131465,0
+RR8,Leeds Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,-0.03059968465618823,10126.0,-0.02971920264996758,0
+RRE,Midlands Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.26078668899275126,5528.0,0.24736252861220467,0
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Acute&Acute Community Trusts,300.0,0.1699883573034704,3515.0,0.15662098975667063,0
+RRJ,The Royal Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,300.0,0.15785371478611854,788.0,0.11432787431200497,0
+RRK,University Hospitals Birmingham NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.08867062750397192,9709.0,-0.08601290063303661,0
+RRU,London Ambulance Service NHS Trust,Ambulance Trusts,300.0,-0.09735392636687656,5992.0,-0.09271213076769301,0
+RRV,University College London Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.18083527079619177,6309.0,0.17262667929386802,0
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.01748403928667841,2248.0,-0.01542547893110403,0
+RT2,Pennine Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.1470583719043166,1953.0,-0.1274766978824369,1
+RT5,Leicestershire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.07037639742826851,3905.0,0.06535548916941464,0
+RTD,The Newcastle upon Tyne Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.03385492528282086,10294.0,-0.03289622435919935,0
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.051886883038845255,4305.0,-0.048506630072145236,0
+RTF,Northumbria Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.39207444378062917,6629.0,0.3750990745882221,0
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.24184375876351272,8141.0,-0.2332484350306548,1
+RTH,Oxford University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.07313409790511738,6057.0,0.0696827483107277,0
+RTK,Ashford and St Peter's Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.25694255307911007,2213.0,0.22626894944849604,0
+RTP,Surrey and Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,300.0,0.15996006726563294,2802.0,0.14449004141789282,0
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.11053113921262447,2630.0,0.09921395772327725,0
+RTR,South Tees Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.24789080880853742,3006.0,-0.22539618006003131,1
+RV3,Central and North West London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.035569104583644595,6209.0,0.033929723515109735,0
+RV5,South London and Maudsley NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.001712990382316093,3305.0,0.0015704391715824376,0
+RV9,Humber Teaching NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.12266807461075846,2165.0,0.10773889717334363,0
+RVJ,North Bristol NHS Trust,Acute&Acute Community Trusts,300.0,0.17780745521359798,6015.0,0.16936054522720378,0
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.15251651498862007,2724.0,0.13738590834292363,0
+RVR,Epsom and St Helier University Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,0.13627656237314678,3440.0,0.12534528731647726,0
+RVV,East Kent Hospitals University NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.2352730746078313,5367.0,-0.22281817388745906,1
+RVW,North Tees and Hartlepool NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.12907135772018297,2111.0,0.11301104775914816,0
+RW4,Mersey Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.1658724325884524,4491.0,0.15548593086093504,0
+RW5,Lancashire and South Cumbria NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.23462505121003474,3543.0,-0.21630927828185095,1
+RWA,Hull University Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,-0.09787510315028669,4704.0,-0.09200729121082107,0
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,-0.10670692366204282,5008.0,-0.10067601237745111,0
+RWE,University Hospitals of Leicester NHS Trust,Acute&Acute Community Trusts,300.0,0.14596402709582534,11467.0,0.14224267006950192,0
+RWF,Maidstone and Tunbridge Wells NHS Trust,Acute&Acute Community Trusts,300.0,0.08585932401741037,3394.0,0.07888644984165966,0
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,0.06532023592677394,3482.0,0.060138831702016615,0
+RWH,East and North Hertfordshire Teaching NHS Trust,Acute&Acute Community Trusts,300.0,0.04323481335399215,2744.0,0.0389738264925606,0
+RWJ,Stockport NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.1359366985394388,3029.0,0.12368647037427458,0
+RWP,Worcestershire Acute Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,0.1415391097798686,3862.0,0.13133686736421252,0
+RWR,Hertfordshire Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.05853122755525053,2708.0,0.05269367161556464,0
+RWV,Devon Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.08116591482340496,1956.0,-0.07037257508625004,0
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.08034920950286395,1812.0,0.06893596951666169,0
+RWX,Berkshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.24703816904090026,3340.0,0.22667788038368322,0
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Acute&Acute Community Trusts,300.0,0.01879448139344042,3360.0,0.017253950131683012,0
+RX1,Nottingham University Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,-0.14962115755071626,8970.0,-0.14477904889211704,1
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",300.0,0.0008525379745574213,4229.0,0.000796066039832929,0
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",300.0,-0.04863046473174304,4582.0,-0.04564211171668304,0
+RX6,North East Ambulance Service NHS Foundation Trust,Ambulance Trusts,300.0,0.38144302206690384,1842.0,0.32801962962055875,0
+RX7,North West Ambulance Service NHS Trust,Ambulance Trusts,300.0,0.19348957236635922,4117.0,0.18034787625816184,0
+RX8,Yorkshire Ambulance Service NHS Trust,Ambulance Trusts,300.0,0.23003237093814555,4691.0,0.21620554038686451,0
+RX9,East Midlands Ambulance Service NHS Trust,Ambulance Trusts,300.0,-0.01212571534425333,2718.0,-0.010920375846812642,0
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.0511058455714446,2249.0,0.045091034401796355,0
+RXC,East Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,300.0,-0.08050959611604025,4296.0,-0.07525440054710812,0
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.09460208965102002,1989.0,-0.0822033885172035,0
+RXF,Mid Yorkshire Teaching NHS Trust,Acute&Acute Community Trusts,300.0,-0.03625792880812195,3671.0,-0.03351872491931899,0
+RXG,South West Yorkshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.23128097355494592,2871.0,0.20940008674747707,0
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Acute&Acute Community Trusts,300.0,-0.06118759379520178,2964.0,-0.05556373407137809,0
+RXM,Derbyshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.061460255937185515,2160.0,0.053965102774114114,0
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.005792701047611537,4261.0,-0.00541168585044349,0
+RXP,County Durham and Darlington NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.14361914007096122,3096.0,-0.13093193688448054,1
+RXQ,Buckinghamshire Healthcare NHS Trust,Acute&Acute Community Trusts,300.0,0.320138696709547,4557.0,0.30036484268178004,0
+RXV,Greater Manchester Mental Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.15532093874798392,2847.0,-0.1405143668940293,1
+RXW,The Shrewsbury and Telford Hospital NHS Trust,Acute&Acute Community Trusts,300.0,-0.05262681686703452,3797.0,-0.0487732544896583,0
+RXX,Surrey and Borders Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.07913953168137322,2006.0,-0.06884384239064817,0
+RXY,Kent and Medway NHS and Social Care Partnership Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.07668552409323404,1999.0,-0.06667871364174634,0
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Community Trusts,300.0,-0.4083404003823343,819.0,-0.29886576221012673,1
+RY3,Norfolk Community Health and Care NHS Trust,Community Trusts,300.0,-0.033163078228422904,1677.0,-0.028130744658100764,0
+RY4,Hertfordshire Community NHS Trust,Community Trusts,300.0,0.23218528459628374,1662.0,0.19668294750205076,0
+RY5,Lincolnshire Community Health Services NHS Trust,Community Trusts,300.0,-0.2147943415725697,1509.0,-0.1791733894046477,1
+RY6,Leeds Community Healthcare NHS Trust,Community Trusts,300.0,-0.03807015946200831,1783.0,-0.032587179222640816,0
+RY7,Wirral Community Health and Care NHS Foundation Trust,Community Trusts,300.0,-0.21079699402689922,861.0,-0.15632748652640846,0
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Community Trusts,300.0,0.06612763276128764,3150.0,0.060377403825523486,0
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Ambulance Trusts,300.0,-0.2554701999107696,2987.0,-0.23215378373394244,1
+RYC,East of England Ambulance Service NHS Trust,Ambulance Trusts,300.0,-0.14238275358049712,3978.0,-0.13239798825227153,0
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Ambulance Trusts,300.0,0.005218746681970643,3621.0,0.004819454663457205,0
+RYE,South Central Ambulance Service NHS Foundation Trust,Ambulance Trusts,300.0,-0.23886591673362112,2091.0,-0.2088952872814729,1
+RYF,South Western Ambulance Service NHS Foundation Trust,Ambulance Trusts,300.0,-0.1259110957930032,3329.0,-0.11550235268528732,0
+RYG,Coventry and Warwickshire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.09022398110889362,2023.0,-0.0785721540177752,0
+RYJ,Imperial College Healthcare NHS Trust,Acute&Acute Community Trusts,300.0,0.09854685852794454,8648.0,0.09524287355271172,0
+RYR,University Hospitals Sussex NHS Foundation Trust,Acute&Acute Community Trusts,300.0,-0.0021661043939360525,8266.0,-0.0020902426944052546,0
+RYV,Cambridgeshire Community Services NHS Trust,Community Trusts,300.0,0.15579834322723585,1466.0,0.12933203350573486,0
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Community Trusts,300.0,-0.13072664355898933,3479.0,-0.12034876764798198,0
+RYX,Central London Community Healthcare NHS Trust,Community Trusts,300.0,0.09754804723572708,3243.0,0.08928826338850208,0
+RYY,Kent Community Health NHS Foundation Trust,Community Trusts,300.0,0.27519936616512286,3496.0,0.253450206563032,0
+TAD,Bradford District Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,0.09748290434842843,1689.0,0.08277960052513605,0
+TAH,Sheffield Health and Social Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.14853601418061935,1684.0,-0.12607593139121118,1
+TAJ,Black Country Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",300.0,-0.27223778294691936,2526.0,-0.24333780598864768,1
+R0A,Manchester University NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.0906859565449798,10685.0,0.08292507023389895,0
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.15991583525017994,4681.0,0.13176659475551705,0
+R0D,University Hospitals Dorset NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.054425423264566675,5519.0,0.046076685227357486,0
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.04316399419076866,2399.0,-0.0304649667736552,0
+R1D,Shropshire Community Health NHS Trust,Community Trusts,1000.0,-0.05080991493862097,995.0,-0.025341285896705697,0
+R1F1,Isle of Wight NHS Trust (acute sector),Acute&Acute Community Trusts,1000.0,-0.2362436637650669,1420.0,-0.1386223151018161,1
+R1F2,Isle of Wight NHS Trust (ambulance sector),Ambulance Trusts,1000.0,0.06192589567564166,170.0,0.008997779713554772,0
+R1H,Barts Health NHS Trust,Acute&Acute Community Trusts,1000.0,-0.030342645655079714,9566.0,-0.027470920720849192,0
+R1K,London North West University Healthcare NHS Trust,Acute&Acute Community Trusts,1000.0,0.09177192718447902,4285.0,0.07440732412213673,0
+R1L,Essex Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.0361993077042575,3632.0,0.02838425854530726,0
+RA2,Royal Surrey County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.21510258901685564,2383.0,0.15151920473756045,0
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.16612796468165225,8285.0,0.1482358844789972,0
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.1475740926363862,3212.0,0.11253750843971333,0
+RAJ,Mid and South Essex NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.47972178411698785,6465.0,-0.41545898651256885,1
+RAN,Royal National Orthopaedic Hospital NHS Trust,Acute Specialist Trusts,1000.0,0.15760595573699998,773.0,0.06871370771838747,0
+RAS,The Hillingdon Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.05963488021610974,1970.0,0.039555795968261344,0
+RAT,North East London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.06866386119844492,3955.0,-0.05480637155193737,0
+RBD,Dorset County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.06683423975127312,1616.0,0.04128598296561825,0
+RBK,Walsall Healthcare NHS Trust,Acute&Acute Community Trusts,1000.0,-0.2900634770751713,2314.0,-0.2025367791043894,1
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.2238559838903038,2794.0,-0.1648533523957588,1
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Acute Specialist Trusts,1000.0,0.4603550858652472,1134.0,0.24463105312614356,0
+RBS,Alder Hey Children's NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.09118586071536594,2417.0,0.06449991962219476,0
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.21724842006916756,2321.0,0.1518318527493339,0
+RBV,The Christie NHS Foundation Trust,Acute Specialist Trusts,1000.0,0.15365811845284227,1947.0,0.10151759641251575,0
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.053814068548033056,3542.0,0.0419659689117422,0
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.044793230231823244,5839.0,-0.03824355480678695,0
+RCD,Harrogate and District NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.29025904817153414,3330.0,0.2232246259610182,0
+RCF,Airedale NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.032951308282498815,1473.0,0.019626881156538923,0
+RCU,Sheffield Children's NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.22986159642043802,2212.0,0.1582982102372381,0
+RCX,The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.24941726281310306,2188.0,-0.17118098213145214,1
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.07238347594020933,3322.0,-0.05563579525066529,0
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.0650624594621636,2646.0,0.04721757206167989,0
+RDE,East Suffolk and North Essex NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.1164580673710427,6181.0,-0.10024053953772662,0
+RDR,Sussex Community NHS Foundation Trust,Community Trusts,1000.0,0.2598428581841832,4042.0,0.20830718619208022,0
+RDU,Frimley Health NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.2717764410572938,5683.0,0.2311096086381267,0
+RDY,Dorset Healthcare University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.09372723422492601,3551.0,0.07313236843171002,0
+REF,Royal Cornwall Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,-0.2654278848361802,3848.0,-0.21067790859109353,1
+REM,Liverpool University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.04181205661655962,4448.0,-0.03413730319942313,0
+REN,The Clatterbridge Cancer Centre NHS Foundation Trust,Acute Specialist Trusts,1000.0,-0.06890142777779573,1209.0,-0.03771019745738118,0
+REP,Liverpool Women's NHS Foundation Trust,Acute Specialist Trusts,1000.0,-0.3472722564323272,772.0,-0.1512946850822554,1
+RET,The Walton Centre NHS Foundation Trust,Acute Specialist Trusts,1000.0,0.04509932879111833,578.0,0.016519272522982506,0
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Acute&Acute Community Trusts,1000.0,-0.21835090616254327,4158.0,-0.1760184311407241,1
+RFF,Barnsley Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.1939455313467695,2219.0,0.13369528861711136,0
+RFR,The Rotherham NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.1617661812944684,3137.0,0.12266388946597713,0
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.06048538889567823,2972.0,0.04525744607199287,0
+RGD,Leeds and York Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.041108379797606176,1497.0,-0.024645272149385843,0
+RGM,Royal Papworth Hospital NHS Foundation Trust,Acute Specialist Trusts,1000.0,-0.029112601068380428,1177.0,-0.01573979396301505,0
+RGN,North West Anglia NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.48334904502659626,3216.0,-0.36870268709808673,1
+RGP,James Paget University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.1820586651788716,1657.0,-0.11353827933812202,1
+RGR,West Suffolk NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.20189694478201403,2435.0,-0.14312054164314533,1
+RGT,Cambridge University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.017349402359115196,6990.0,-0.015178012827311042,0
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.3576021937276703,4456.0,-0.2920592696573495,1
+RHM,University Hospital Southampton NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.044031415969589816,4801.0,-0.036441101201517105,0
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.06101834062328226,10718.0,-0.055811108960602436,0
+RHU,Portsmouth Hospitals University NHS Trust,Acute&Acute Community Trusts,1000.0,-0.13974506048562585,3768.0,-0.11043611323612379,1
+RHW,Royal Berkshire NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.34240259320226496,4156.0,0.2759940219838272,0
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.18563532410125116,11816.0,0.1711506702231885,0
+RJ2,Lewisham and Greenwich NHS Trust,Acute&Acute Community Trusts,1000.0,0.07226427628988663,4770.0,0.059740138284706965,0
+RJ6,Croydon Health Services NHS Trust,Acute&Acute Community Trusts,1000.0,0.08454799264962709,2037.0,0.056708679956302396,0
+RJ7,St George's University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.05488008361745145,4453.0,-0.044815883430865816,0
+RJ8,Cornwall Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.20568636458614709,3068.0,-0.15512432806054555,1
+RJC,South Warwickshire University NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.25155647921335866,2605.0,0.18177659593642145,0
+RJE,University Hospitals of North Midlands NHS Trust,Acute&Acute Community Trusts,1000.0,-0.06357544130208392,5372.0,-0.05359812785229046,0
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.004087939251462558,3271.0,0.0031308005833608115,0
+RJN,East Cheshire NHS Trust,Acute&Acute Community Trusts,1000.0,-0.018112749698718567,1321.0,-0.010308893732015177,0
+RJR,Countess of Chester Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.3243968473392149,2188.0,-0.2226412490521337,1
+RJZ,King's College Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.09772833507621126,6353.0,-0.08443738783342447,0
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.1095986424994786,3596.0,-0.08575211454049718,0
+RK9,University Hospitals Plymouth NHS Trust,Acute&Acute Community Trusts,1000.0,-0.07391605398440149,5422.0,-0.062406235550206295,0
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Acute&Acute Community Trusts,1000.0,-0.008695558288667193,6305.0,-0.007505201233408167,0
+RKE,Whittington Health NHS Trust,Acute&Acute Community Trusts,1000.0,0.2985132680637781,2483.0,0.21280747763490127,0
+RKL,West London NHS Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.14792337736591232,4133.0,0.11910526371582225,0
+RL1,The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,1000.0,-0.15607977115558924,822.0,-0.07041579137754905,0
+RL4,The Royal Wolverhampton NHS Trust,Acute&Acute Community Trusts,1000.0,-0.2155139000900279,3372.0,-0.16621977838599591,1
+RLQ,Wye Valley NHS Trust,Acute&Acute Community Trusts,1000.0,0.06970247404205043,1976.0,0.0462809437859851,0
+RLT,George Eliot Hospital NHS Trust,Acute&Acute Community Trusts,1000.0,0.11264984170739822,1634.0,0.06988224804475653,0
+RLY,North Staffordshire Combined Healthcare NHS Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.27414657644474705,1295.0,0.1546927304993235,0
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.4016390355802715,4723.0,-0.3314592285594308,1
+RMC,Bolton NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.17844407666584328,2678.0,-0.12992747072080704,1
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.004600754143265995,2236.0,-0.0031790130606745254,0
+RMY,Norfolk and Suffolk NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.4032629543355126,3589.0,-0.31538695644152426,1
+RN3,Great Western Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.10322289366013582,3628.0,0.08091889762294138,0
+RN5,Hampshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.13504907097822993,4192.0,0.10903807887918719,0
+RN7,Dartford and Gravesham NHS Trust,Acute&Acute Community Trusts,1000.0,0.13712042989923479,1909.0,0.08998380910197291,0
+RNA,The Dudley Group NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.26262037722419596,2397.0,-0.18531087553912207,1
+RNK,Tavistock and Portman NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.038136289721117045,392.0,0.010739529863992731,0
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.1021564913705344,3822.0,0.08097098921986363,0
+RNQ,Kettering General Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.14344745566944006,2595.0,-0.10354552085179332,0
+RNS,Northampton General Hospital NHS Trust,Acute&Acute Community Trusts,1000.0,-0.1071334401328965,3144.0,-0.08128077600816279,0
+RNU,Oxford Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.09265293636601513,4537.0,0.0759195182034695,0
+RNZ,Salisbury NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.05045405425878435,2465.0,0.03589299963864456,0
+RP1,Northamptonshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.09863794795667502,3233.0,0.07533581047576905,0
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Acute Specialist Trusts,1000.0,-0.24713011720155365,2877.0,-0.18338750249906366,1
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.08860369394815759,3870.0,0.07040991695674947,0
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Acute Specialist Trusts,1000.0,-0.043432153604441304,1706.0,-0.02738183815564555,0
+RP7,Lincolnshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.014872075719287281,1782.0,-0.009526254109191206,0
+RPA,Medway NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.09354450424386052,2186.0,-0.06418339180071535,0
+RPC,Queen Victoria Hospital NHS Foundation Trust,Acute Specialist Trusts,1000.0,-0.0825102031326006,690.0,-0.03368759772869492,0
+RPG,Oxleas NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.1955342131138691,2849.0,0.144732910668073,0
+RPY,The Royal Marsden NHS Foundation Trust,Acute Specialist Trusts,1000.0,-0.0001336732596479706,2440.0,-9.481475393635125e-05,0
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.0569094478874872,3964.0,0.04544501438879921,0
+RQW,The Princess Alexandra Hospital NHS Trust,Acute&Acute Community Trusts,1000.0,-0.17332990571483098,2613.0,-0.12535594897117447,1
+RQX,Homerton Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.10313045212301919,2172.0,-0.07061769924690973,0
+RQY,South West London and St George's Mental Health NHS Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.06467361174597297,2050.0,-0.04346914887844085,0
+RR7,Gateshead Health NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.12806934920081936,1751.0,-0.0815156053982678,0
+RR8,Leeds Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,-0.03059968465618823,10126.0,-0.027849398420686865,0
+RRE,Midlands Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.26078668899275126,5528.0,0.2208377476642048,0
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Acute&Acute Community Trusts,1000.0,0.1699883573034704,3515.0,0.13233866576338835,0
+RRJ,The Royal Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,1000.0,0.15785371478611854,788.0,0.06956863940238334,0
+RRK,University Hospitals Birmingham NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.08867062750397192,9709.0,-0.08039061746531548,0
+RRU,London Ambulance Service NHS Trust,Ambulance Trusts,1000.0,-0.09735392636687656,5992.0,-0.08343030989564136,0
+RRV,University College London Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.18083527079619177,6309.0,0.15609381905228814,0
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.01748403928667841,2248.0,-0.012101022264917816,0
+RT2,Pennine Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.1470583719043166,1953.0,-0.09725872005727405,1
+RT5,Leicestershire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.07037639742826851,3905.0,0.05602850804431979,0
+RTD,The Newcastle upon Tyne Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.03385492528282086,10294.0,-0.03085732254837594,0
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.051886883038845255,4305.0,-0.042106132230391856,0
+RTF,Northumbria Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.39207444378062917,6629.0,0.34068180466926085,0
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.24184375876351272,8141.0,-0.2153867235634785,1
+RTH,Oxford University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.07313409790511738,6057.0,0.06277075683878361,0
+RTK,Ashford and St Peter's Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.25694255307911007,2213.0,0.17697288203052305,0
+RTP,Surrey and Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,1000.0,0.15996006726563294,2802.0,0.11788745620155275,0
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.11053113921262447,2630.0,0.08008178956727338,0
+RTR,South Tees Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.24789080880853742,3006.0,-0.18601092642997094,1
+RV3,Central and North West London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.035569104583644595,6209.0,0.030635118651664486,0
+RV5,South London and Maudsley NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.001712990382316093,3305.0,0.0013150832087235045,0
+RV9,Humber Teaching NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.12266807461075846,2165.0,0.08391038910972894,0
+RVJ,North Bristol NHS Trust,Acute&Acute Community Trusts,1000.0,0.17780745521359798,6015.0,0.15246070464858044,0
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.15251651498862007,2724.0,0.11156148948147182,0
+RVR,Epsom and St Helier University Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,0.13627656237314678,3440.0,0.10558364291973533,0
+RVV,East Kent Hospitals University NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.2352730746078313,5367.0,-0.19832112320091577,1
+RVW,North Tees and Hartlepool NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.12907135772018297,2111.0,0.08758265385641474,0
+RW4,Mersey Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.1658724325884524,4491.0,0.1356643771179639,0
+RW5,Lancashire and South Cumbria NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.23462505121003474,3543.0,-0.18297965142794478,1
+RWA,Hull University Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,-0.09787510315028669,4704.0,-0.08071607384623923,0
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,-0.10670692366204282,5008.0,-0.08894611745997177,0
+RWE,University Hospitals of Leicester NHS Trust,Acute&Acute Community Trusts,1000.0,0.14596402709582534,11467.0,0.13425599572534125,0
+RWF,Maidstone and Tunbridge Wells NHS Trust,Acute&Acute Community Trusts,1000.0,0.08585932401741037,3394.0,0.06631919565659782,0
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,0.06532023592677394,3482.0,0.05074633232865392,0
+RWH,East and North Hertfordshire Teaching NHS Trust,Acute&Acute Community Trusts,1000.0,0.04323481335399215,2744.0,0.031687053376964334,0
+RWJ,Stockport NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.1359366985394388,3029.0,0.10219713573491192,0
+RWP,Worcestershire Acute Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,0.1415391097798686,3862.0,0.11242781611885079,0
+RWR,Hertfordshire Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.05853122755525053,2708.0,0.04274610685534477,0
+RWV,Devon Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.08116591482340496,1956.0,-0.053707892217381634,0
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.08034920950286395,1812.0,0.051775521912940776,0
+RWX,Berkshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.24703816904090026,3340.0,0.19011693193470205,0
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,0.01879448139344042,3360.0,0.014483820523385278,0
+RX1,Nottingham University Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,-0.14962115755071626,8970.0,-0.1346140203841449,1
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",1000.0,0.0008525379745574213,4229.0,0.0006894976275393641,0
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",1000.0,-0.04863046473174304,4582.0,-0.03991845026887256,0
+RX6,North East Ambulance Service NHS Foundation Trust,Ambulance Trusts,1000.0,0.38144302206690384,1842.0,0.24722661739874627,0
+RX7,North West Ambulance Service NHS Trust,Ambulance Trusts,1000.0,0.19348957236635922,4117.0,0.15567648415718213,0
+RX8,Yorkshire Ambulance Service NHS Trust,Ambulance Trusts,1000.0,0.23003237093814555,4691.0,0.18961199298380615,0
+RX9,East Midlands Ambulance Service NHS Trust,Ambulance Trusts,1000.0,-0.01212571534425333,2718.0,-0.008864361028961956,0
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.0511058455714446,2249.0,0.035376130098546905,0
+RXC,East Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,1000.0,-0.08050959611604025,4296.0,-0.06530763310319278,0
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.09460208965102002,1989.0,-0.06295200947336194,0
+RXF,Mid Yorkshire Teaching NHS Trust,Acute&Acute Community Trusts,1000.0,-0.03625792880812195,3671.0,-0.02849558052978285,0
+RXG,South West Yorkshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.23128097355494592,2871.0,0.17153388661230942,0
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Acute&Acute Community Trusts,1000.0,-0.06118759379520178,2964.0,-0.045751772958874386,0
+RXM,Derbyshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.061460255937185515,2160.0,0.042010807855797694,0
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.005792701047611537,4261.0,-0.00469163641206477,0
+RXP,County Durham and Darlington NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.14361914007096122,3096.0,-0.1085558734520742,1
+RXQ,Buckinghamshire Healthcare NHS Trust,Acute&Acute Community Trusts,1000.0,0.320138696709547,4557.0,0.2625287098983994,0
+RXV,Greater Manchester Mental Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.15532093874798392,2847.0,-0.11494637707707571,1
+RXW,The Shrewsbury and Telford Hospital NHS Trust,Acute&Acute Community Trusts,1000.0,-0.05262681686703452,3797.0,-0.0416560399508297,0
+RXX,Surrey and Borders Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.07913953168137322,2006.0,-0.05281234216661167,0
+RXY,Kent and Medway NHS and Social Care Partnership Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.07668552409323404,1999.0,-0.0511151592738829,0
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Community Trusts,1000.0,-0.4083404003823343,819.0,-0.18385419896268929,1
+RY3,Norfolk Community Health and Care NHS Trust,Community Trusts,1000.0,-0.033163078228422904,1677.0,-0.020774927974996343,0
+RY4,Hertfordshire Community NHS Trust,Community Trusts,1000.0,0.23218528459628374,1662.0,0.14496316416191718,0
+RY5,Lincolnshire Community Health Services NHS Trust,Community Trusts,1000.0,-0.2147943415725697,1509.0,-0.12918479929573842,1
+RY6,Leeds Community Healthcare NHS Trust,Community Trusts,1000.0,-0.03807015946200831,1783.0,-0.024390619590643484,0
+RY7,Wirral Community Health and Care NHS Foundation Trust,Community Trusts,1000.0,-0.21079699402689922,861.0,-0.09752617509788297,0
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Community Trusts,1000.0,0.06612763276128764,3150.0,0.050193263421218326,0
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Ambulance Trusts,1000.0,-0.2554701999107696,2987.0,-0.1913944035950511,1
+RYC,East of England Ambulance Service NHS Trust,Ambulance Trusts,1000.0,-0.14238275358049712,3978.0,-0.11378035229875805,0
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Ambulance Trusts,1000.0,0.005218746681970643,3621.0,0.004089392282063557,0
+RYE,South Central Ambulance Service NHS Foundation Trust,Ambulance Trusts,1000.0,-0.23886591673362112,2091.0,-0.16158804008088054,1
+RYF,South Western Ambulance Service NHS Foundation Trust,Ambulance Trusts,1000.0,-0.1259110957930032,3329.0,-0.09682560357932724,0
+RYG,Coventry and Warwickshire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.09022398110889362,2023.0,-0.06037813886314648,0
+RYJ,Imperial College Healthcare NHS Trust,Acute&Acute Community Trusts,1000.0,0.09854685852794454,8648.0,0.08833263189776785,0
+RYR,University Hospitals Sussex NHS Foundation Trust,Acute&Acute Community Trusts,1000.0,-0.0021661043939360525,8266.0,-0.0019323353032889498,0
+RYV,Cambridgeshire Community Services NHS Trust,Community Trusts,1000.0,0.15579834322723585,1466.0,0.09261977744165764,0
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Community Trusts,1000.0,-0.13072664355898933,3479.0,-0.10154007433394147,0
+RYX,Central London Community Healthcare NHS Trust,Community Trusts,1000.0,0.09754804723572708,3243.0,0.0745576990774129,0
+RYY,Kent Community Health NHS Foundation Trust,Community Trusts,1000.0,0.27519936616512286,3496.0,0.2139895427298197,0
+TAD,Bradford District Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,0.09748290434842843,1689.0,0.061230429693006926,0
+TAH,Sheffield Health and Social Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.14853601418061935,1684.0,-0.0931947272280786,1
+TAJ,Black Country Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1000.0,-0.27223778294691936,2526.0,-0.19502910939419124,1
+R0A,Manchester University NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.0906859565449798,10685.0,0.07080595145656625,0
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.15991583525017994,4681.0,0.09745684478662835,0
+R0D,University Hospitals Dorset NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.054425423264566675,5519.0,0.035259292287491896,0
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.04316399419076866,2399.0,-0.019179555855464717,0
+R1D,Shropshire Community Health NHS Trust,Community Trusts,3000.0,-0.05080991493862097,995.0,-0.012654784822009478,0
+R1F1,Isle of Wight NHS Trust (acute sector),Acute&Acute Community Trusts,3000.0,-0.2362436637650669,1420.0,-0.07589728564398077,1
+R1F2,Isle of Wight NHS Trust (ambulance sector),Ambulance Trusts,3000.0,0.06192589567564166,170.0,0.003320947086706335,0
+R1H,Barts Health NHS Trust,Acute&Acute Community Trusts,3000.0,-0.030342645655079714,9566.0,-0.02309865894767568,0
+R1K,London North West University Healthcare NHS Trust,Acute&Acute Community Trusts,3000.0,0.09177192718447902,4285.0,0.05397978146678004,0
+R1L,Essex Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.0361993077042575,3632.0,0.01982447008170435,0
+RA2,Royal Surrey County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.21510258901685564,2383.0,0.0952237543427767,0
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.16612796468165225,8285.0,0.12196457132365873,0
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.1475740926363862,3212.0,0.07630521338507285,0
+RAJ,Mid and South Essex NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.47972178411698785,6465.0,-0.3276705054745194,1
+RAN,Royal National Orthopaedic Hospital NHS Trust,Acute Specialist Trusts,3000.0,0.15760595573699998,773.0,0.032289796921468585,0
+RAS,The Hillingdon Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.05963488021610974,1970.0,0.023637970628920767,0
+RAT,North East London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.06866386119844492,3955.0,-0.0390460921696405,0
+RBD,Dorset County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.06683423975127312,1616.0,0.023397775441520222,0
+RBK,Walsall Healthcare NHS Trust,Acute&Acute Community Trusts,3000.0,-0.2900634770751713,2314.0,-0.12630916182761506,1
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.2238559838903038,2794.0,-0.10794850172411267,1
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Acute Specialist Trusts,3000.0,0.4603550858652472,1134.0,0.1262802775450388,0
+RBS,Alder Hey Children's NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.09118586071536594,2417.0,0.040686030154890064,0
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.21724842006916756,2321.0,0.09476293609857882,0
+RBV,The Christie NHS Foundation Trust,Acute Specialist Trusts,3000.0,0.15365811845284227,1947.0,0.06047551175008772,0
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.053814068548033056,3542.0,0.02913626273267091,0
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.044793230231823244,5839.0,-0.029590187953797482,0
+RCD,Harrogate and District NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.29025904817153414,3330.0,0.15269551823241842,0
+RCF,Airedale NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.032951308282498815,1473.0,0.010851168589340656,0
+RCU,Sheffield Children's NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.22986159642043802,2212.0,0.09755446110552742,0
+RCX,The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.24941726281310306,2188.0,-0.1051898556351329,1
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.07238347594020933,3322.0,-0.03803510077085976,0
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.0650624594621636,2646.0,0.03049154582658252,0
+RDE,East Suffolk and North Essex NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.1164580673710427,6181.0,-0.07840402074070525,1
+RDR,Sussex Community NHS Foundation Trust,Community Trusts,3000.0,0.2598428581841832,4042.0,0.14914581550418465,0
+RDU,Frimley Health NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.2717764410572938,5683.0,0.17787694512594734,0
+RDY,Dorset Healthcare University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.09372723422492601,3551.0,0.05080528296942639,0
+REF,Royal Cornwall Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,-0.2654278848361802,3848.0,-0.14914814556799377,1
+REM,Liverpool University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.04181205661655962,4448.0,-0.024970465605593073,0
+REN,The Clatterbridge Cancer Centre NHS Foundation Trust,Acute Specialist Trusts,3000.0,-0.06890142777779573,1209.0,-0.019791358085852945,0
+REP,Liverpool Women's NHS Foundation Trust,Acute Specialist Trusts,3000.0,-0.3472722564323272,772.0,-0.0710748096409747,1
+RET,The Walton Centre NHS Foundation Trust,Acute Specialist Trusts,3000.0,0.04509932879111833,578.0,0.007285470106558524,0
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Acute&Acute Community Trusts,3000.0,-0.21835090616254327,4158.0,-0.12683753392342204,1
+RFF,Barnsley Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.1939455313467695,2219.0,0.08246122515012101,0
+RFR,The Rotherham NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.1617661812944684,3137.0,0.08268869329000283,0
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.06048538889567823,2972.0,0.03010090016710577,0
+RGD,Leeds and York Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.041108379797606176,1497.0,-0.013684510686461296,0
+RGM,Royal Papworth Hospital NHS Foundation Trust,Acute Specialist Trusts,3000.0,-0.029112601068380428,1177.0,-0.008203383159560393,0
+RGN,North West Anglia NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.48334904502659626,3216.0,-0.2500724788940691,1
+RGP,James Paget University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.1820586651788716,1657.0,-0.06477801335653645,0
+RGR,West Suffolk NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.20189694478201403,2435.0,-0.09045428896857483,1
+RGT,Cambridge University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.017349402359115196,6990.0,-0.012139371620642164,0
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.3576021937276703,4456.0,-0.21371719088660124,1
+RHM,University Hospital Southampton NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.044031415969589816,4801.0,-0.02709842687732351,0
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.06101834062328226,10718.0,-0.04767419265201482,0
+RHU,Portsmouth Hospitals University NHS Trust,Acute&Acute Community Trusts,3000.0,-0.13974506048562585,3768.0,-0.07780132800086262,1
+RHW,Royal Berkshire NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.34240259320226496,4156.0,0.19885762679550212,0
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.18563532410125116,11816.0,0.14804717802243408,0
+RJ2,Lewisham and Greenwich NHS Trust,Acute&Acute Community Trusts,3000.0,0.07226427628988663,4770.0,0.04436301131309643,0
+RJ6,Croydon Health Services NHS Trust,Acute&Acute Community Trusts,3000.0,0.08454799264962709,2037.0,0.034191832643893263,0
+RJ7,St George's University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.05488008361745145,4453.0,-0.03278961657701748,0
+RJ8,Cornwall Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.20568636458614709,3068.0,-0.10399567675515807,1
+RJC,South Warwickshire University NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.25155647921335866,2605.0,0.11691429586990175,0
+RJE,University Hospitals of North Midlands NHS Trust,Acute&Acute Community Trusts,3000.0,-0.06357544130208392,5372.0,-0.040793988374915775,0
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.004087939251462558,3271.0,0.0021322993607931794,0
+RJN,East Cheshire NHS Trust,Acute&Acute Community Trusts,3000.0,-0.018112749698718567,1321.0,-0.005537362266143769,0
+RJR,Countess of Chester Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.3243968473392149,2188.0,-0.13681193176141138,1
+RJZ,King's College Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.09772833507621126,6353.0,-0.0663817077664033,0
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.1095986424994786,3596.0,-0.05975086695393042,0
+RK9,University Hospitals Plymouth NHS Trust,Acute&Acute Community Trusts,3000.0,-0.07391605398440149,5422.0,-0.04758642183607514,0
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Acute&Acute Community Trusts,3000.0,-0.008695558288667193,6305.0,-0.00589204675013935,0
+RKE,Whittington Health NHS Trust,Acute&Acute Community Trusts,3000.0,0.2985132680637781,2483.0,0.13518301014086467,0
+RKL,West London NHS Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.14792337736591232,4133.0,0.0857097040029883,0
+RL1,The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,3000.0,-0.15607977115558924,822.0,-0.03356817684193991,0
+RL4,The Royal Wolverhampton NHS Trust,Acute&Acute Community Trusts,3000.0,-0.2155139000900279,3372.0,-0.11404784543370591,1
+RLQ,Wye Valley NHS Trust,Acute&Acute Community Trusts,3000.0,0.06970247404205043,1976.0,0.027679278277148646,0
+RLT,George Eliot Hospital NHS Trust,Acute&Acute Community Trusts,3000.0,0.11264984170739822,1634.0,0.039721588551982885,0
+RLY,North Staffordshire Combined Healthcare NHS Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.27414657644474705,1295.0,0.082658862979266,0
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.4016390355802715,4723.0,-0.24562231840549295,1
+RMC,Bolton NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.17844407666584328,2678.0,-0.08416224679660589,1
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.004600754143265995,2236.0,-0.001964722357590291,0
+RMY,Norfolk and Suffolk NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.4032629543355126,3589.0,-0.21965559919717026,1
+RN3,Great Western Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.10322289366013582,3628.0,0.05650160805657404,0
+RN5,Hampshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.13504907097822993,4192.0,0.0787160324722942,0
+RN7,Dartford and Gravesham NHS Trust,Acute&Acute Community Trusts,3000.0,0.13712042989923479,1909.0,0.05332305982433066,0
+RNA,The Dudley Group NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.26262037722419596,2397.0,-0.11663906692725545,1
+RNK,Tavistock and Portman NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.038136289721117045,392.0,0.0044072598970158845,0
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.1021564913705344,3822.0,0.057232792438900976,0
+RNQ,Kettering General Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.14344745566944006,2595.0,-0.06653192984132207,0
+RNS,Northampton General Hospital NHS Trust,Acute&Acute Community Trusts,3000.0,-0.1071334401328965,3144.0,-0.05482219006800562,0
+RNU,Oxford Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.09265293636601513,4537.0,0.05577369938869718,0
+RNZ,Salisbury NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.05045405425878435,2465.0,0.022757409651949393,0
+RP1,Northamptonshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.09863794795667502,3233.0,0.051162599991004386,0
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Acute Specialist Trusts,3000.0,-0.24713011720155365,2877.0,-0.12097895987559466,1
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.08860369394815759,3870.0,0.04991212453848179,0
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Acute Specialist Trusts,3000.0,-0.043432153604441304,1706.0,-0.015744847864253477,0
+RP7,Lincolnshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.014872075719287281,1782.0,-0.005542040763649087,0
+RPA,Medway NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.09354450424386052,2186.0,-0.03943083036580777,0
+RPC,Queen Victoria Hospital NHS Foundation Trust,Acute Specialist Trusts,3000.0,-0.0825102031326006,690.0,-0.015428737171136698,0
+RPG,Oxleas NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.1955342131138691,2849.0,0.09524311389321474,0
+RPY,The Royal Marsden NHS Foundation Trust,Acute Specialist Trusts,3000.0,-0.0001336732596479706,2440.0,-5.995638851857506e-05,0
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.0569094478874872,3964.0,0.032393603019241705,0
+RQW,The Princess Alexandra Hospital NHS Trust,Acute&Acute Community Trusts,3000.0,-0.17332990571483098,2613.0,-0.08068965680257498,1
+RQX,Homerton Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.10313045212301919,2172.0,-0.04331000425583869,0
+RQY,South West London and St George's Mental Health NHS Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.06467361174597297,2050.0,-0.02625364437212764,0
+RR7,Gateshead Health NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.12806934920081936,1751.0,-0.047200469469718946,0
+RR8,Leeds Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,-0.03059968465618823,10126.0,-0.02360600387235731,0
+RRE,Midlands Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.26078668899275126,5528.0,0.16904653104501982,0
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Acute&Acute Community Trusts,3000.0,0.1699883573034704,3515.0,0.0917128282304986,0
+RRJ,The Royal Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,3000.0,0.15785371478611854,788.0,0.03283757319204366,0
+RRK,University Hospitals Birmingham NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.08867062750397192,9709.0,-0.06773964296451833,0
+RRU,London Ambulance Service NHS Trust,Ambulance Trusts,3000.0,-0.09735392636687656,5992.0,-0.06487374630675316,0
+RRV,University College London Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.18083527079619177,6309.0,0.12255771011420925,0
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.01748403928667841,2248.0,-0.007489352194446087,0
+RT2,Pennine Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.1470583719043166,1953.0,-0.057986069115511865,1
+RT5,Leicestershire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.07037639742826851,3905.0,0.03980012048622571,0
+RTD,The Newcastle upon Tyne Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.03385492528282086,10294.0,-0.026215029401335785,0
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.051886883038845255,4305.0,-0.03057810150338519,0
+RTF,Northumbria Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.39207444378062917,6629.0,0.2699201877476156,0
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.24184375876351272,8141.0,-0.17672112378545526,1
+RTH,Oxford University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.07313409790511738,6057.0,0.04890948780073932,0
+RTK,Ashford and St Peter's Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.25694255307911007,2213.0,0.10907613081988692,0
+RTP,Surrey and Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,3000.0,0.15996006726563294,2802.0,0.07725062193697062,0
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.11053113921262447,2630.0,0.0516335517103379,0
+RTR,South Tees Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.24789080880853742,3006.0,-0.12406922598709016,1
+RV3,Central and North West London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.035569104583644595,6209.0,0.023981818911917613,0
+RV5,South London and Maudsley NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.001712990382316093,3305.0,0.0008979275517136697,0
+RV9,Humber Teaching NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.12266807461075846,2165.0,0.051418466898798074,0
+RVJ,North Bristol NHS Trust,Acute&Acute Community Trusts,3000.0,0.17780745521359798,6015.0,0.11863692103270014,0
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.15251651498862007,2724.0,0.07258123459626153,0
+RVR,Epsom and St Helier University Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,0.13627656237314678,3440.0,0.07279369170242624,0
+RVV,East Kent Hospitals University NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.2352730746078313,5367.0,-0.15091557205930806,1
+RVW,North Tees and Hartlepool NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.12907135772018297,2111.0,0.05331043556002861,0
+RW4,Mersey Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.1658724325884524,4491.0,0.09944374512811906,0
+RW5,Lancashire and South Cumbria NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.23462505121003474,3543.0,-0.12704822809676802,1
+RWA,Hull University Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,-0.09787510315028669,4704.0,-0.059761745225720225,0
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,-0.10670692366204282,5008.0,-0.06673180241002877,0
+RWE,University Hospitals of Leicester NHS Trust,Acute&Acute Community Trusts,3000.0,0.14596402709582534,11467.0,0.11569568664601018,0
+RWF,Maidstone and Tunbridge Wells NHS Trust,Acute&Acute Community Trusts,3000.0,0.08585932401741037,3394.0,0.04557499932985467,0
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,0.06532023592677394,3482.0,0.03508871667649288,0
+RWH,East and North Hertfordshire Teaching NHS Trust,Acute&Acute Community Trusts,3000.0,0.04323481335399215,2744.0,0.020653956797241375,0
+RWJ,Stockport NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.1359366985394388,3029.0,0.06829528277922708,0
+RWP,Worcestershire Acute Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,0.1415391097798686,3862.0,0.07965958058435625,0
+RWR,Hertfordshire Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.05853122755525053,2708.0,0.027768494081923344,0
+RWV,Devon Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.08116591482340496,1956.0,-0.03203400512400729,0
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.08034920950286395,1812.0,0.030256186122026074,0
+RWX,Berkshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.24703816904090026,3340.0,0.13014313637170455,0
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,0.01879448139344042,3360.0,0.009929159981440222,0
+RX1,Nottingham University Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,-0.14962115755071626,8970.0,-0.11212212057058686,1
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",3000.0,0.0008525379745574213,4229.0,0.000498738842772629,0
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",3000.0,-0.04863046473174304,4582.0,-0.02938865594841026,0
+RX6,North East Ambulance Service NHS Foundation Trust,Ambulance Trusts,3000.0,0.38144302206690384,1842.0,0.14510905548270073,0
+RX7,North West Ambulance Service NHS Trust,Ambulance Trusts,3000.0,0.19348957236635922,4117.0,0.11192870162038793,0
+RX8,Yorkshire Ambulance Service NHS Trust,Ambulance Trusts,3000.0,0.23003237093814555,4691.0,0.1403044925329399,0
+RX9,East Midlands Ambulance Service NHS Trust,Ambulance Trusts,3000.0,-0.01212571534425333,2718.0,-0.005763850000993449,0
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.0511058455714446,2249.0,0.021896941644156773,0
+RXC,East Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,3000.0,-0.08050959611604025,4296.0,-0.0474053213972737,0
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.09460208965102002,1989.0,-0.03771568577187388,0
+RXF,Mid Yorkshire Teaching NHS Trust,Acute&Acute Community Trusts,3000.0,-0.03625792880812195,3671.0,-0.019952459399582626,0
+RXG,South West Yorkshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.23128097355494592,2871.0,0.11309958696580646,0
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Acute&Acute Community Trusts,3000.0,-0.06118759379520178,2964.0,-0.030409126091377945,0
+RXM,Derbyshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.061460255937185515,2160.0,0.025727548996961377,0
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.005792701047611537,4261.0,-0.00339935259108563,0
+RXP,County Durham and Darlington NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.14361914007096122,3096.0,-0.0729404294061181,1
+RXQ,Buckinghamshire Healthcare NHS Trust,Acute&Acute Community Trusts,3000.0,0.320138696709547,4557.0,0.19304909896855968,0
+RXV,Greater Manchester Mental Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.15532093874798392,2847.0,-0.07562830727133747,1
+RXW,The Shrewsbury and Telford Hospital NHS Trust,Acute&Acute Community Trusts,3000.0,-0.05262681686703452,3797.0,-0.029398855913510387,0
+RXX,Surrey and Borders Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.07913953168137322,2006.0,-0.03171272484075802,0
+RXY,Kent and Medway NHS and Social Care Partnership Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.07668552409323404,1999.0,-0.030665005533581684,0
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Community Trusts,3000.0,-0.4083404003823343,819.0,-0.08757025082826181,1
+RY3,Norfolk Community Health and Care NHS Trust,Community Trusts,3000.0,-0.033163078228422904,1677.0,-0.011891058838799488,0
+RY4,Hertfordshire Community NHS Trust,Community Trusts,3000.0,0.23218528459628374,1662.0,0.0827739045471951,0
+RY5,Lincolnshire Community Health Services NHS Trust,Community Trusts,3000.0,-0.2147943415725697,1509.0,-0.07188393467132573,1
+RY6,Leeds Community Healthcare NHS Trust,Community Trusts,3000.0,-0.03807015946200831,1783.0,-0.014191740397399294,0
+RY7,Wirral Community Health and Care NHS Foundation Trust,Community Trusts,3000.0,-0.21079699402689922,861.0,-0.04700756587857038,0
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Community Trusts,3000.0,0.06612763276128764,3150.0,0.03387025092651318,0
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Ambulance Trusts,3000.0,-0.2554701999107696,2987.0,-0.12745773962476512,1
+RYC,East of England Ambulance Service NHS Trust,Ambulance Trusts,3000.0,-0.14238275358049712,3978.0,-0.08116918798269096,0
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Ambulance Trusts,3000.0,0.005218746681970643,3621.0,0.002854112933909636,0
+RYE,South Central Ambulance Service NHS Foundation Trust,Ambulance Trusts,3000.0,-0.23886591673362112,2091.0,-0.09810815790414493,1
+RYF,South Western Ambulance Service NHS Foundation Trust,Ambulance Trusts,3000.0,-0.1259110957930032,3329.0,-0.0662281620943131,0
+RYG,Coventry and Warwickshire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.09022398110889362,2023.0,-0.03633747039285125,0
+RYJ,Imperial College Healthcare NHS Trust,Acute&Acute Community Trusts,3000.0,0.09854685852794454,8648.0,0.07316562779444233,0
+RYR,University Hospitals Sussex NHS Foundation Trust,Acute&Acute Community Trusts,3000.0,-0.0021661043939360525,8266.0,-0.0015892969039832602,0
+RYV,Cambridgeshire Community Services NHS Trust,Community Trusts,3000.0,0.15579834322723585,1466.0,0.05114204459720729,0
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Community Trusts,3000.0,-0.13072664355898933,3479.0,-0.07019570812497668,0
+RYX,Central London Community Healthcare NHS Trust,Community Trusts,3000.0,0.09754804723572708,3243.0,0.050672483931677545,0
+RYY,Kent Community Health NHS Foundation Trust,Community Trusts,3000.0,0.27519936616512286,3496.0,0.14810606282531857,0
+TAD,Bradford District Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,0.09748290434842843,1689.0,0.03511380367764889,0
+TAH,Sheffield Health and Social Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.14853601418061935,1684.0,-0.05340193165673846,1
+TAJ,Black Country Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",3000.0,-0.27223778294691936,2526.0,-0.12444311250885239,1

@@ -1,0 +1,163 @@
+{
+  "scope": "Post-smoke analytical diagnostic; no outcomes or training parameters fitted.\n\nThe fixed homogeneous completion prior used in stateful_training can make the\nmodel-optimal monotone schedule coincide with whole-group residual correction.\nThe metric is coefficient-vector squared error under the completion model, not\nactual policy-gradient MSE or downstream training success.",
+  "diagnostic_timing": "after smoke, during frozen primary training; no outcome labels used",
+  "group_size": 8,
+  "rows": [
+    {
+      "unknown_candidates": 1,
+      "known_negative_labels": 7,
+      "prior_probability": 0.55,
+      "increment_second_moments": [
+        1.9799999999999995
+      ],
+      "model_optimal_survival": [
+        0.5
+      ],
+      "matches_whole_group_residual": true
+    },
+    {
+      "unknown_candidates": 2,
+      "known_negative_labels": 6,
+      "prior_probability": 0.55,
+      "increment_second_moments": [
+        1.3334327700490611,
+        1.4649348433477796
+      ],
+      "model_optimal_survival": [
+        0.5,
+        0.5
+      ],
+      "matches_whole_group_residual": true
+    },
+    {
+      "unknown_candidates": 3,
+      "known_negative_labels": 5,
+      "prior_probability": 0.55,
+      "increment_second_moments": [
+        0.959913308741549,
+        1.0284320762976185,
+        1.1109216726703774
+      ],
+      "model_optimal_survival": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "matches_whole_group_residual": true
+    },
+    {
+      "unknown_candidates": 4,
+      "known_negative_labels": 4,
+      "prior_probability": 0.55,
+      "increment_second_moments": [
+        0.7365790957811722,
+        0.7765163345526327,
+        0.8218525123982348,
+        0.8749373054065277
+      ],
+      "model_optimal_survival": [
+        0.4999999999999999,
+        0.4999999999999999,
+        0.4999999999999999,
+        0.4999999999999999
+      ],
+      "matches_whole_group_residual": true
+    },
+    {
+      "unknown_candidates": 5,
+      "known_negative_labels": 3,
+      "prior_probability": 0.55,
+      "increment_second_moments": [
+        0.6022685827993683,
+        0.6285351183428514,
+        0.6570467299284788,
+        0.6886166699538876,
+        0.7244860983869188
+      ],
+      "model_optimal_survival": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "matches_whole_group_residual": true
+    },
+    {
+      "unknown_candidates": 6,
+      "known_negative_labels": 2,
+      "prior_probability": 0.55,
+      "increment_second_moments": [
+        0.5259628534702774,
+        0.5457376788749686,
+        0.5665429409678602,
+        0.5886940802026723,
+        0.6126364874187518,
+        0.639034167227825
+      ],
+      "model_optimal_survival": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "matches_whole_group_residual": true
+    },
+    {
+      "unknown_candidates": 7,
+      "known_negative_labels": 1,
+      "prior_probability": 0.55,
+      "increment_second_moments": [
+        0.4926847653044373,
+        0.5101121233031183,
+        0.5281537254862991,
+        0.5469744679238451,
+        0.5667856964389273,
+        0.5878750964798432,
+        0.6106547850582489
+      ],
+      "model_optimal_survival": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "matches_whole_group_residual": true
+    },
+    {
+      "unknown_candidates": 8,
+      "known_negative_labels": 0,
+      "prior_probability": 0.55,
+      "increment_second_moments": [
+        0.4947613773513866,
+        0.513129629110225,
+        0.5320960637562004,
+        0.551841197758133,
+        0.5725732999379085,
+        0.5945599039608194,
+        0.6181617553522054,
+        0.643884960580543
+      ],
+      "model_optimal_survival": [
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994
+      ],
+      "matches_whole_group_residual": true
+    }
+  ],
+  "source_sha256": {
+    "experiments/stateful_model_diagnostic.py": "6566ccba659618a51eebfb534af2bd6a9dfb305fc9228e69f2ca1f2c1ec5adc7",
+    "src/reward_audit.py": "52957e5692bec6f292673fda3def95f6e9cfb70ec0e3c7267f84298c96c469bb"
+  }
+}

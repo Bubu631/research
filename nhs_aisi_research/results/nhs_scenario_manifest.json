@@ -1,0 +1,37 @@
+{
+  "source_sha256_data": {
+    "data/processed/nhs_staff_survey_panel_2021_2025.csv": "dd5a85731a37a0b031d7b1d873b64424f65e911a8bd145da143def99f7f8198b"
+  },
+  "assumptions": "2025 group-mean plug-in centre; tau=.35, individual SD=2.5, packet20, validation cost5; no new observations; nominal n times sensitivity factor, not estimated ESS",
+  "grid": {
+    "ess_factor": [
+      1.0,
+      0.25
+    ],
+    "beta": [
+      0.0,
+      0.15,
+      0.35,
+      0.7
+    ]
+  },
+  "recorded_at_utc": "2026-09-11T21:58:11.730779+00:00",
+  "python": "3.13.1",
+  "numpy": "2.5.3",
+  "platform": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "source_sha256": {
+    "experiments/allocation.py": "35e05926fd8e8a313ffb321dfab415eeea1e3124dadcc52f91030a6a29dfcd11",
+    "experiments/common.py": "92f862bfa7d4b392dacedc693955f7976a6c98b17276df41972a1f1586caa88a",
+    "experiments/nhs_scenarios.py": "33d4ea0f2bbbc6ae23468b16d1b4607db5119b120d64b1550dda62c58cfbbe95",
+    "experiments/replay.py": "53c2a1ecad8f9764a1e9fb3c9cc7b12c3083ff5bc8336657930db429dd8615b8",
+    "experiments/replay_budget_extension.py": "9846e439c4bed0fd36ce9f883f70c52101e0a5da52e3b95b01eee98ef523c731",
+    "experiments/report.py": "62ed3ad49b13a610d3cd6e0a694b03374b537ffd83a3345276ae432515b70433",
+    "experiments/synthetic.py": "79a17a2db0a60fe047420a67a8afa75b943ad028bfaa4982ccb42744ec755e2f",
+    "experiments/verify_allocation.py": "5b84f1fc2c408cf181a102fc07c5d6c66fcfabb4fa0c0b1d21f241896a7bbd3b",
+    "experiments/verify_budget_extension.py": "039aa70b80e062cc14ac7f8b5ecb692fd42806a459e6be2dfb484ab51fb58806",
+    "experiments/verify_implementation.py": "5875c8dc2500b3ad3bf168c024a98dfa974d09957cc79cc486967255ac7dd711",
+    "experiments/verify_theory.py": "99fbf8556f74282e470ce1a2fa5913053211639a658e6275138e915036df6800"
+  },
+  "protocol_sha256": "f386d991c8e2afb5059fd72e96ff866e5d2b62a945c093c4345a8ba0c6cf3a39",
+  "source_snapshot": "results/provenance/a867c5fdf60715d9"
+}

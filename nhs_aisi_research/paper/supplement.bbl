@@ -1,0 +1,92 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Altschuler et~al.(2019)Altschuler, Brunel, and
+  Malek]{altschuler2019contaminated}
+Jason Altschuler, Victor-Emmanuel Brunel, and Alan Malek.
+\newblock Best arm identification for contaminated bandits.
+\newblock \emph{Journal of Machine Learning Research}, 20\penalty0
+  (91):\penalty0 1--39, 2019.
+\newblock URL \url{https://jmlr.org/papers/v20/18-395.html}.
+
+\bibitem[Ao et~al.(2026)Ao, Chen, Gao, Li, and Simchi-Levi]{ao2026judges}
+Ruicheng Ao, Hongyu Chen, Siyang Gao, Hanwei Li, and David Simchi-Levi.
+\newblock Best arm identification with {LLM} judges and limited human, 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.21471}.
+\newblock Preprint, version 1, 29 January 2026.
+
+\bibitem[Chen et~al.(2008)Chen, He, Fu, and Lee]{chen2008subset}
+Chun-Hung Chen, Donghai He, Michael Fu, and Loo~Hay Lee.
+\newblock Efficient simulation budget allocation for selecting an optimal
+  subset.
+\newblock \emph{INFORMS Journal on Computing}, 20\penalty0 (4):\penalty0
+  579--595, 2008.
+\newblock \doi{10.1287/ijoc.1080.0268}.
+\newblock URL \url{https://pubsonline.informs.org/doi/10.1287/ijoc.1080.0268}.
+
+\bibitem[Chen et~al.(2014)Chen, Lin, King, Lyu, and
+  Chen]{chen2014combinatorial}
+Shouyuan Chen, Tian Lin, Irwin King, Michael~R. Lyu, and Wei Chen.
+\newblock Combinatorial pure exploration of multi-armed bandits.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~27, 2014.
+\newblock URL
+  \url{https://papers.nips.cc/paper_files/paper/2014/hash/d3ea0f3316d2da934d79b8b344eafee4-Abstract.html}.
+
+\bibitem[Frazier and Powell(2010)]{frazier2010paradoxes}
+Peter~I. Frazier and Warren~B. Powell.
+\newblock Paradoxes in learning and the marginal value of information.
+\newblock \emph{Decision Analysis}, 7\penalty0 (4):\penalty0 378--403, 2010.
+\newblock \doi{10.1287/deca.1100.0190}.
+\newblock URL \url{https://doi.org/10.1287/deca.1100.0190}.
+
+\bibitem[Frazier et~al.(2008)Frazier, Powell, and Dayanik]{frazier2008kg}
+Peter~I. Frazier, Warren~B. Powell, and Savas Dayanik.
+\newblock A knowledge-gradient policy for sequential information collection.
+\newblock \emph{SIAM Journal on Control and Optimization}, 47\penalty0
+  (5):\penalty0 2410--2439, 2008.
+\newblock \doi{10.1137/070693424}.
+\newblock URL \url{https://epubs.siam.org/doi/abs/10.1137/070693424}.
+
+\bibitem[Frazier et~al.(2009)Frazier, Powell, and
+  Dayanik]{frazier2009correlated}
+Peter~I. Frazier, Warren~B. Powell, and Savas Dayanik.
+\newblock The knowledge-gradient policy for correlated normal beliefs.
+\newblock \emph{INFORMS Journal on Computing}, 21\penalty0 (4):\penalty0
+  599--613, 2009.
+\newblock \doi{10.1287/ijoc.1080.0314}.
+\newblock URL
+  \url{https://people.orie.cornell.edu/pfrazier/pub/CorrelatedKG.pdf}.
+
+\bibitem[Kalyanakrishnan et~al.(2012)Kalyanakrishnan, Tewari, Auer, and
+  Stone]{kalyanakrishnan2012pac}
+Shivaram Kalyanakrishnan, Ambuj Tewari, Peter Auer, and Peter Stone.
+\newblock {PAC} subset selection in stochastic multi-armed bandits.
+\newblock In \emph{Proceedings of the 29th International Conference on Machine
+  Learning}, pages 655--662, 2012.
+\newblock URL
+  \url{https://www.cs.utexas.edu/~pstone/Papers/bib2html/b2hd-ICML12-shivaram.html}.
+
+\bibitem[Poiani et~al.(2024)Poiani, Degenne, Kaufmann, Metelli, and
+  Restelli]{poiani2024optimal}
+Riccardo Poiani, R{\'e}my Degenne, Emilie Kaufmann, Alberto~Maria Metelli, and
+  Marcello Restelli.
+\newblock Optimal multi-fidelity best-arm identification.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, 2024.
+\newblock URL
+  \url{https://papers.neurips.cc/paper_files/paper/2024/hash/dc9e095f668044e7a0909a4ea3926beb-Abstract-Conference.html}.
+
+\bibitem[Poloczek et~al.(2017)Poloczek, Wang, and Frazier]{poloczek2017miso}
+Matthias Poloczek, Jialei Wang, and Peter~I. Frazier.
+\newblock Multi-information source optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2017/hash/df1f1d20ee86704251795841e6a9405a-Abstract.html}.
+
+\end{thebibliography}

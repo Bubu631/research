@@ -1,0 +1,48 @@
+{
+  "created_at_utc": "2026-09-11T22:04:43.055446+00:00",
+  "outputs": {
+    "nhs_aisi_full_paper.pdf": {
+      "bytes": 444720,
+      "sha256": "bca5d806c94ef2c5797af210c66776606539780190f35a4d44fc04d932246f84",
+      "pages": 24
+    },
+    "nhs_aisi_anonymous.pdf": {
+      "bytes": 261126,
+      "sha256": "f17c02528864d1f795c6d2ffb716783ebfe74c4816fc5e291e9a3a3baea4def0",
+      "pages": 6
+    },
+    "nhs_aisi_supplement.pdf": {
+      "bytes": 369714,
+      "sha256": "05546995cd24cbbc24c155f1b2604ac7912291c69f5a807af35b411772641e80",
+      "pages": 15
+    },
+    "nhs_aisi_results.xlsx": {
+      "bytes": 1235485,
+      "sha256": "a0ad696183798585790f6855724e7d84b377f7e750c32619fc48871719f67417"
+    },
+    "nhs_aisi_decision_brief.pdf": {
+      "bytes": 5235,
+      "sha256": "fbf3c492e13cdda1f3d0cec799ca5db3f53f60d3ac6c57d67424a0a3b1eb3d47",
+      "pages": 1
+    },
+    "nhs_aisi_upgrade_summary_zh.md": {
+      "bytes": 3900,
+      "sha256": "c24a28cd38e87553fa9fb63505805427951c14800f3fb9dd0e24c9a4278be090"
+    },
+    "nhs_aisi_arxiv_source.zip": {
+      "bytes": 105057,
+      "sha256": "e4c25d563baa425c9cd5aaf77ad67505867e2483fd96f37027e73f8aec6b2f31"
+    },
+    "nhs_aisi_anonymous_source.zip": {
+      "bytes": 118851,
+      "sha256": "73a4458698a166e047b4081ead7fda96a5632088e06c525a29e77feb06913a8b"
+    },
+    "nhs_aisi_reproducibility.zip": {
+      "bytes": 39114926,
+      "sha256": "2aece28c7c8960f181030d5a8c6843d83a9ae3a963cbad60c268601fad41a453"
+    }
+  },
+  "original_nhs_pdf_sha256": "051d8aefbc73aed35227fa2e9ab662cb07cb028dd0b2c917b232b1698156040d",
+  "original_nhs_expected_sha256": "051d8aefbc73aed35227fa2e9ab662cb07cb028dd0b2c917b232b1698156040d",
+  "scope": "AISI-oriented upgrade, not submitted or published; previous release preserved."
+}

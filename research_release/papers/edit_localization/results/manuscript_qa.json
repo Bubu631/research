@@ -1,0 +1,38 @@
+{
+  "title": "When Edit Localization Amplifies Relative Selection Bias: Gradient Geometry, Target Mismatch, and Importance Weighting",
+  "page_count": 21,
+  "abstract_word_count_whitespace": 243,
+  "visual_qa_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "visual_qa_findings": "Every rendered page inspected; no clipping or overlaps; equations, tables, figures, references, and proofs legible.",
+  "latex_warning_lines": [],
+  "sha256": {
+    "main.pdf": "a31f28437833dc58ac19d8950cdbd51568fead57dd112e3a7a6a36460b6dd8f6",
+    "main.tex": "aae23353a5c2a814a3738e1d26c17e7bc69a84eb819e23d1d2c4e9009da60b97",
+    "public_study.tex": "ade50bff445c038ea3b3a95e4366f55af0a80f453fee335e9a6153aac510856c",
+    "full_parameter_study.tex": "fc9143da5a6bdc3137a0f3e6d432361cab1f615a95d58722823a8254e8a03d7f",
+    "references.bib": "1e18e8f37e883fa1346777074d4acda6f97481f1641066ad430053fcfb568802",
+    "public_references.bib": "55dfd4ca99dbf7aa05e09383d19d9fc60418017d24113ab3e00f1aa9cad28e50"
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "vintage": 2021,
+    "original_url": "https://www.nhsstaffsurveys.com/static/ef4edcf3bb3c11b8694713f561b2670c/Benchmark_report_excel_data_2017-2021.xlsx",
+    "cdx_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.nhsstaffsurveys.com%2Fstatic%2Fef4edcf3bb3c11b8694713f561b2670c%2FBenchmark_report_excel_data_2017-2021.xlsx&output=json&filter=statuscode%3A200&collapse=digest",
+    "discovered_from": "https://web.archive.org/web/20220511144828id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "accessed_at_utc": "2026-09-11T18:57:46.999503+00:00",
+    "captures": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,nhsstaffsurveys)/static/ef4edcf3bb3c11b8694713f561b2670c/benchmark_report_excel_data_2017-2021.xlsx",
+        "20220401110158",
+        "https://www.nhsstaffsurveys.com/static/ef4edcf3bb3c11b8694713f561b2670c/Benchmark_report_excel_data_2017-2021.xlsx",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "200",
+        "7DCC3PWPZP5DGELEBIYBJNHSJKZCVXS4",
+        "4130126"
+      ]
+    ],
+    "archive_capture": "20220401110158",
+    "url": "https://web.archive.org/web/20220401110158id_/https://www.nhsstaffsurveys.com/static/ef4edcf3bb3c11b8694713f561b2670c/Benchmark_report_excel_data_2017-2021.xlsx",
+    "cdx_digest_sha1_base32": "7DCC3PWPZP5DGELEBIYBJNHSJKZCVXS4",
+    "final_url": "https://web.archive.org/web/20220401110158id_/https://www.nhsstaffsurveys.com/static/ef4edcf3bb3c11b8694713f561b2670c/Benchmark_report_excel_data_2017-2021.xlsx",
+    "status": 200,
+    "local_file": "benchmark_vintage_2021_20220401110158.xlsx",
+    "bytes": 4223924,
+    "sha256": "ea7cdb814627be22f241f0225e2b35376eac71accbfbe7b7c03c97b7a25e442c",
+    "payload_sha1_base32": "7DCC3PWPZP5DGELEBIYBJNHSJKZCVXS4",
+    "cdx_digest_matches": true
+  },
+  {
+    "vintage": 2022,
+    "original_url": "https://www.nhsstaffsurveys.com/static/97ce0b4753776432614b5e0559fba39d/benchmark_report_excel_data_2018-2022-v2.xlsx",
+    "cdx_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.nhsstaffsurveys.com%2Fstatic%2F97ce0b4753776432614b5e0559fba39d%2Fbenchmark_report_excel_data_2018-2022-v2.xlsx&output=json&filter=statuscode%3A200&collapse=digest",
+    "discovered_from": "https://web.archive.org/web/20230609070952id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "accessed_at_utc": "2026-09-11T18:57:46.999908+00:00",
+    "captures": [],
+    "error": "No XLSX capture"
+  }
+]

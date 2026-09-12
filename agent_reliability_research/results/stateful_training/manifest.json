@@ -1,0 +1,3512 @@
+{
+  "started_utc": "2026-09-12T16:16:58.992900+00:00",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "executable": "/Users/shengweizhang/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "numpy": "2.3.5",
+    "platform": "macOS-14.6.1-arm64-arm-64bit"
+  },
+  "study": "constructed stateful tool dependency-repair policy training",
+  "no_llm_or_public_benchmark": true,
+  "parameters": {
+    "smoke": false,
+    "updates": 300,
+    "seeds": 10,
+    "horizons": [
+      12,
+      24,
+      48
+    ],
+    "policies": [
+      "full",
+      "proxy",
+      "whole_group_residual",
+      "rr_completion",
+      "naive_reward_ht",
+      "partial_replacement"
+    ],
+    "eval_episodes": 256,
+    "eval_every": 25,
+    "group_size": 8,
+    "audit_fraction": 0.5,
+    "completion_probability": 0.55,
+    "survival_exponent": 0.5,
+    "initial_preference": 0.9,
+    "learning_rate": 0.5,
+    "max_grad_norm": 1.0,
+    "output": null
+  },
+  "feature_names": [
+    "intercept",
+    "phase_edit",
+    "phase_build",
+    "phase_attest",
+    "phase_publish",
+    "source_version",
+    "requested_version",
+    "artifact_local_matches_request",
+    "published_local_matches_request",
+    "attestation_matches_current_artifact",
+    "publication_matches_current_artifact",
+    "recorded_parent_matches_current_parent_artifact",
+    "component_position",
+    "remaining_horizon",
+    "size_scaled"
+  ],
+  "action_names": [
+    "noop",
+    "edit_to_spec",
+    "build",
+    "attest",
+    "publish"
+  ],
+  "environment_checks": {
+    "correct_release": true,
+    "dependency_omission_detected": true,
+    "attestation_omission_detected": true,
+    "local_failure_detected": true
+  },
+  "notes": [
+    "Softmax policy; one on-policy SGD update, averaged action scores; no replay PPO epochs.",
+    "Query count is a resource unit. No artificial sleep or measured expensive-verifier speedup.",
+    "Cheap negatives imply reference negatives and are inferred free under every method.",
+    "Evaluation and offline diagnostic checks are separately accounted and never train the policy."
+  ],
+  "source_sha256": {
+    "experiments/stateful_training.py": "6bce903f2e237912d1eb717db98a26744af830c2c76090a769b024bc8d03d5cc",
+    "src/stateful_env.py": "4c25aa151a7e4a24ea9e5025d01ecf37e4ba84f7529fd9afd5c96e8a8f7b22bb",
+    "src/reward_audit.py": "52957e5692bec6f292673fda3def95f6e9cfb70ec0e3c7267f84298c96c469bb",
+    "docs/stateful_protocol.md": "1bcfa44e1a98fed1a86889a31e35dfe803f79e8afc7d8924111da3e2ebba794a"
+  },
+  "completed_utc": "2026-09-12T16:21:18.062049+00:00",
+  "wall_seconds": 259.06807591672987,
+  "runs": [
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 2187,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.29002363001927733,
+        "estimation_seconds": 0.011615751776844263,
+        "optimization_seconds": 0.004515789449214935,
+        "reporting_seconds": 0.29451808286830783,
+        "offline_diagnostic_seconds": 0.014817125163972378
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28604386327788234,
+        "estimation_seconds": 0.007912248373031616,
+        "optimization_seconds": 0.003508704248815775,
+        "reporting_seconds": 0.2945922068320215,
+        "offline_diagnostic_seconds": 0.015041458886116743
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1023,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.3026936259120703,
+        "estimation_seconds": 0.06263991491869092,
+        "optimization_seconds": 0.00424815621227026,
+        "reporting_seconds": 0.29904708452522755,
+        "offline_diagnostic_seconds": 0.014392042066901922
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1057,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.29271778324618936,
+        "estimation_seconds": 0.30665912525728345,
+        "optimization_seconds": 0.004156950395554304,
+        "reporting_seconds": 0.29551666881889105,
+        "offline_diagnostic_seconds": 0.019133292138576508
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1058,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2824704647064209,
+        "estimation_seconds": 0.009275388903915882,
+        "optimization_seconds": 0.0032912851311266422,
+        "reporting_seconds": 0.2922133319079876,
+        "offline_diagnostic_seconds": 0.014338833279907703
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1102,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2869210857897997,
+        "estimation_seconds": 0.010250544175505638,
+        "optimization_seconds": 0.0036618802696466446,
+        "reporting_seconds": 0.29275595815852284,
+        "offline_diagnostic_seconds": 0.01458504144102335
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 2188,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2835575514473021,
+        "estimation_seconds": 0.010351116769015789,
+        "optimization_seconds": 0.0033477856777608395,
+        "reporting_seconds": 0.2927182922139764,
+        "offline_diagnostic_seconds": 0.014701082836836576
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2879469464533031,
+        "estimation_seconds": 0.007716359104961157,
+        "optimization_seconds": 0.0035048709250986576,
+        "reporting_seconds": 0.29300808254629374,
+        "offline_diagnostic_seconds": 0.014607375022023916
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 974,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28715608175843954,
+        "estimation_seconds": 0.058923293836414814,
+        "optimization_seconds": 0.0036604516208171844,
+        "reporting_seconds": 0.2933406666852534,
+        "offline_diagnostic_seconds": 0.014933374710381031
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 996,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2894878350198269,
+        "estimation_seconds": 0.2952077556401491,
+        "optimization_seconds": 0.004175117705017328,
+        "reporting_seconds": 0.29159671114757657,
+        "offline_diagnostic_seconds": 0.014533374924212694
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 1035,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.45439915638417006,
+        "estimation_seconds": 0.024811366107314825,
+        "optimization_seconds": 0.007348519284278154,
+        "reporting_seconds": 0.39446762623265386,
+        "offline_diagnostic_seconds": 0.014830584172159433
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 1080,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2873533330857754,
+        "estimation_seconds": 0.009844208136200905,
+        "optimization_seconds": 0.0035364185459911823,
+        "reporting_seconds": 0.2935028336942196,
+        "offline_diagnostic_seconds": 0.014693915843963623
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 2209,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28636845480650663,
+        "estimation_seconds": 0.011244989465922117,
+        "optimization_seconds": 0.0035791159607470036,
+        "reporting_seconds": 0.2916321665979922,
+        "offline_diagnostic_seconds": 0.014630666933953762
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2854691417887807,
+        "estimation_seconds": 0.007700507994741201,
+        "optimization_seconds": 0.0034723584540188313,
+        "reporting_seconds": 0.2915365435183048,
+        "offline_diagnostic_seconds": 0.014369542244821787
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1059,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2904538745060563,
+        "estimation_seconds": 0.06076928647235036,
+        "optimization_seconds": 0.00380300497636199,
+        "reporting_seconds": 0.29028712678700686,
+        "offline_diagnostic_seconds": 0.014853207860141993
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1025,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28956483816727996,
+        "estimation_seconds": 0.29919804027304053,
+        "optimization_seconds": 0.003981900867074728,
+        "reporting_seconds": 0.2923185843974352,
+        "offline_diagnostic_seconds": 0.014264083001762629
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1069,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28519492084160447,
+        "estimation_seconds": 0.009698719717562199,
+        "optimization_seconds": 0.003469569608569145,
+        "reporting_seconds": 0.29166329093277454,
+        "offline_diagnostic_seconds": 0.01470295898616314
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1115,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.283853423781693,
+        "estimation_seconds": 0.009546075481921434,
+        "optimization_seconds": 0.0034706350415945053,
+        "reporting_seconds": 0.2917921682819724,
+        "offline_diagnostic_seconds": 0.014323875308036804
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 2214,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2842990350909531,
+        "estimation_seconds": 0.010708836372941732,
+        "optimization_seconds": 0.0034499443136155605,
+        "reporting_seconds": 0.2914341241121292,
+        "offline_diagnostic_seconds": 0.014503291342407465
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2852583429776132,
+        "estimation_seconds": 0.00755934976041317,
+        "optimization_seconds": 0.0035105254501104355,
+        "reporting_seconds": 0.2905179988592863,
+        "offline_diagnostic_seconds": 0.014404666144400835
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 1006,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28387171495705843,
+        "estimation_seconds": 0.05756778735667467,
+        "optimization_seconds": 0.0033505233004689217,
+        "reporting_seconds": 0.2936288327910006,
+        "offline_diagnostic_seconds": 0.014290834311395884
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 1043,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.29182562604546547,
+        "estimation_seconds": 0.3020320716314018,
+        "optimization_seconds": 0.004204149357974529,
+        "reporting_seconds": 0.2936882907524705,
+        "offline_diagnostic_seconds": 0.014464167412370443
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 1044,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28086799941956997,
+        "estimation_seconds": 0.0093825813382864,
+        "optimization_seconds": 0.003260646481066942,
+        "reporting_seconds": 0.2935399576090276,
+        "offline_diagnostic_seconds": 0.014879875350743532
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 1084,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28548470605164766,
+        "estimation_seconds": 0.00971474451944232,
+        "optimization_seconds": 0.00347160454839468,
+        "reporting_seconds": 0.28874195693060756,
+        "offline_diagnostic_seconds": 0.014798415824770927
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 2200,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.284386299084872,
+        "estimation_seconds": 0.010884652379900217,
+        "optimization_seconds": 0.003513647709041834,
+        "reporting_seconds": 0.28972208220511675,
+        "offline_diagnostic_seconds": 0.014873042237013578
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2844605459831655,
+        "estimation_seconds": 0.007810255046933889,
+        "optimization_seconds": 0.0034812018275260925,
+        "reporting_seconds": 0.2923917076550424,
+        "offline_diagnostic_seconds": 0.014208958018571138
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 1072,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28499208204448223,
+        "estimation_seconds": 0.058797660283744335,
+        "optimization_seconds": 0.003452650737017393,
+        "reporting_seconds": 0.2897916245274246,
+        "offline_diagnostic_seconds": 0.014168375171720982
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 1104,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28710304852575064,
+        "estimation_seconds": 0.31015361985191703,
+        "optimization_seconds": 0.003967934288084507,
+        "reporting_seconds": 0.29006575467064977,
+        "offline_diagnostic_seconds": 0.014359207823872566
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 1063,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28415259905159473,
+        "estimation_seconds": 0.009807080030441284,
+        "optimization_seconds": 0.003502944950014353,
+        "reporting_seconds": 0.28955779410898685,
+        "offline_diagnostic_seconds": 0.014801375102251768
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 1111,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28433771384879947,
+        "estimation_seconds": 0.009745466522872448,
+        "optimization_seconds": 0.0035520647652447224,
+        "reporting_seconds": 0.30186958285048604,
+        "offline_diagnostic_seconds": 0.014608750119805336
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 2211,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28082132851704955,
+        "estimation_seconds": 0.010228707455098629,
+        "optimization_seconds": 0.003236813936382532,
+        "reporting_seconds": 0.29067229153588414,
+        "offline_diagnostic_seconds": 0.014713125303387642
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28362851263955235,
+        "estimation_seconds": 0.00758324796333909,
+        "optimization_seconds": 0.003337395377457142,
+        "reporting_seconds": 0.2921235831454396,
+        "offline_diagnostic_seconds": 0.014374332968145609
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 1004,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.286341963801533,
+        "estimation_seconds": 0.05936537543311715,
+        "optimization_seconds": 0.0035554482601583004,
+        "reporting_seconds": 0.2899213316850364,
+        "offline_diagnostic_seconds": 0.014363250229507685
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 989,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2875656681135297,
+        "estimation_seconds": 0.28824071027338505,
+        "optimization_seconds": 0.0038452744483947754,
+        "reporting_seconds": 0.2885162909515202,
+        "offline_diagnostic_seconds": 0.014579624868929386
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 1058,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28206878947094083,
+        "estimation_seconds": 0.009017422795295715,
+        "optimization_seconds": 0.0032549407333135605,
+        "reporting_seconds": 0.29131721053272486,
+        "offline_diagnostic_seconds": 0.014436666388064623
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 1103,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.282072052359581,
+        "estimation_seconds": 0.009233738295733929,
+        "optimization_seconds": 0.003227655775845051,
+        "reporting_seconds": 0.2904466660693288,
+        "offline_diagnostic_seconds": 0.014454832766205072
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 2205,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2835002224892378,
+        "estimation_seconds": 0.010668588802218437,
+        "optimization_seconds": 0.0035251937806606293,
+        "reporting_seconds": 0.2894577505066991,
+        "offline_diagnostic_seconds": 0.014596625231206417
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2820057920180261,
+        "estimation_seconds": 0.007559825666248798,
+        "optimization_seconds": 0.0033523188903927803,
+        "reporting_seconds": 0.29028137074783444,
+        "offline_diagnostic_seconds": 0.014424124732613564
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1123,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28593987971544266,
+        "estimation_seconds": 0.059326592832803726,
+        "optimization_seconds": 0.0035907733254134655,
+        "reporting_seconds": 0.29186770832166076,
+        "offline_diagnostic_seconds": 0.014734500087797642
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1086,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2892020340077579,
+        "estimation_seconds": 0.3068735343404114,
+        "optimization_seconds": 0.004053028300404549,
+        "reporting_seconds": 0.2907930021174252,
+        "offline_diagnostic_seconds": 0.014203582890331745
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1053,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2848185026086867,
+        "estimation_seconds": 0.009881324600428343,
+        "optimization_seconds": 0.003665274940431118,
+        "reporting_seconds": 0.28857066575437784,
+        "offline_diagnostic_seconds": 0.014594916254281998
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1120,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28432728024199605,
+        "estimation_seconds": 0.009832159150391817,
+        "optimization_seconds": 0.003414367325603962,
+        "reporting_seconds": 0.29007171047851443,
+        "offline_diagnostic_seconds": 0.015009500086307526
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 2202,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28708495385944843,
+        "estimation_seconds": 0.01121166255325079,
+        "optimization_seconds": 0.0035858829505741596,
+        "reporting_seconds": 0.29159145802259445,
+        "offline_diagnostic_seconds": 0.014817625284194946
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28491250704973936,
+        "estimation_seconds": 0.007654133718460798,
+        "optimization_seconds": 0.0034056478179991245,
+        "reporting_seconds": 0.2956721247173846,
+        "offline_diagnostic_seconds": 0.014563499949872494
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1242,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28825486078858376,
+        "estimation_seconds": 0.06009646411985159,
+        "optimization_seconds": 0.003665619995445013,
+        "reporting_seconds": 0.2944014146924019,
+        "offline_diagnostic_seconds": 0.014757709112018347
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1193,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.3461807048879564,
+        "estimation_seconds": 0.3944813394919038,
+        "optimization_seconds": 0.006372605916112661,
+        "reporting_seconds": 0.34128924971446395,
+        "offline_diagnostic_seconds": 0.020370374899357557
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1045,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.42019583750516176,
+        "estimation_seconds": 0.018990743905305862,
+        "optimization_seconds": 0.006329752970486879,
+        "reporting_seconds": 0.42207804322242737,
+        "offline_diagnostic_seconds": 0.019428959116339684
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1108,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.33734168903902173,
+        "estimation_seconds": 0.013832112774252892,
+        "optimization_seconds": 0.005097540095448494,
+        "reporting_seconds": 0.32462175097316504,
+        "offline_diagnostic_seconds": 0.014935417100787163
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 2210,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.29409745754674077,
+        "estimation_seconds": 0.01130348676815629,
+        "optimization_seconds": 0.003455310594290495,
+        "reporting_seconds": 0.32407016679644585,
+        "offline_diagnostic_seconds": 0.014723875094205141
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28860240429639816,
+        "estimation_seconds": 0.00786703173071146,
+        "optimization_seconds": 0.003709697164595127,
+        "reporting_seconds": 0.2980672502890229,
+        "offline_diagnostic_seconds": 0.014413957949727774
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 1119,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2910064528696239,
+        "estimation_seconds": 0.061055710073560476,
+        "optimization_seconds": 0.0036818599328398705,
+        "reporting_seconds": 0.292841374874115,
+        "offline_diagnostic_seconds": 0.015006458852440119
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 1145,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2887883330695331,
+        "estimation_seconds": 0.316406037658453,
+        "optimization_seconds": 0.004152396693825722,
+        "reporting_seconds": 0.2924141245894134,
+        "offline_diagnostic_seconds": 0.014351041987538338
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 1107,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2844319446012378,
+        "estimation_seconds": 0.009647421538829803,
+        "optimization_seconds": 0.0034712334163486958,
+        "reporting_seconds": 0.291744667571038,
+        "offline_diagnostic_seconds": 0.014373875223100185
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 1168,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2948710937052965,
+        "estimation_seconds": 0.010322049260139465,
+        "optimization_seconds": 0.0036622448824346066,
+        "reporting_seconds": 0.2920966255478561,
+        "offline_diagnostic_seconds": 0.014537207782268524
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 2194,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2839448372833431,
+        "estimation_seconds": 0.010556175373494625,
+        "optimization_seconds": 0.0033677448518574238,
+        "reporting_seconds": 0.2906544175930321,
+        "offline_diagnostic_seconds": 0.014726624824106693
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.27970516541972756,
+        "estimation_seconds": 0.007162982132285833,
+        "optimization_seconds": 0.003201280254870653,
+        "reporting_seconds": 0.2923929989337921,
+        "offline_diagnostic_seconds": 0.014318124856799841
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 1102,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28412136482074857,
+        "estimation_seconds": 0.05871983710676432,
+        "optimization_seconds": 0.0036325594410300255,
+        "reporting_seconds": 0.29105350002646446,
+        "offline_diagnostic_seconds": 0.014921457972377539
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 1122,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2909927065484226,
+        "estimation_seconds": 0.3131715855561197,
+        "optimization_seconds": 0.004112435504794121,
+        "reporting_seconds": 0.2917355000972748,
+        "offline_diagnostic_seconds": 0.014621875248849392
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 1021,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.2858916795812547,
+        "estimation_seconds": 0.009675451554358006,
+        "optimization_seconds": 0.0034713582135736942,
+        "reporting_seconds": 0.28985808603465557,
+        "offline_diagnostic_seconds": 0.014281291048973799
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 1074,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.28194004809483886,
+        "estimation_seconds": 0.009259124286472797,
+        "optimization_seconds": 0.0033397781662642956,
+        "reporting_seconds": 0.2943317899480462,
+        "offline_diagnostic_seconds": 0.01630933443084359
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 2148,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5627289917320013,
+        "estimation_seconds": 0.013905251398682594,
+        "optimization_seconds": 0.0042933267541229725,
+        "reporting_seconds": 0.5954579622484744,
+        "offline_diagnostic_seconds": 0.023061499930918217
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.553166436497122,
+        "estimation_seconds": 0.008583710994571447,
+        "optimization_seconds": 0.003919947426766157,
+        "reporting_seconds": 0.5667505841702223,
+        "offline_diagnostic_seconds": 0.022755333688110113
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1120,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5475529069080949,
+        "estimation_seconds": 0.06158079346641898,
+        "optimization_seconds": 0.003951478749513626,
+        "reporting_seconds": 0.5650845016352832,
+        "offline_diagnostic_seconds": 0.023166208993643522
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1080,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.55161191849038,
+        "estimation_seconds": 0.30803303932771087,
+        "optimization_seconds": 0.004471199586987495,
+        "reporting_seconds": 0.5625068326480687,
+        "offline_diagnostic_seconds": 0.023211707826703787
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1057,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5481300405226648,
+        "estimation_seconds": 0.011175758205354214,
+        "optimization_seconds": 0.0038478104397654533,
+        "reporting_seconds": 0.5638080011121929,
+        "offline_diagnostic_seconds": 0.023600082844495773
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1114,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5461024288088083,
+        "estimation_seconds": 0.010930211748927832,
+        "optimization_seconds": 0.0039503928273916245,
+        "reporting_seconds": 0.5608829595148563,
+        "offline_diagnostic_seconds": 0.02374133374541998
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 2104,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5475762477144599,
+        "estimation_seconds": 0.012722920626401901,
+        "optimization_seconds": 0.0040307058952748775,
+        "reporting_seconds": 0.5638174996711314,
+        "offline_diagnostic_seconds": 0.02338125044479966
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5471637421287596,
+        "estimation_seconds": 0.00857180543243885,
+        "optimization_seconds": 0.0037979362532496452,
+        "reporting_seconds": 0.5620652502402663,
+        "offline_diagnostic_seconds": 0.0236156671307981
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 1025,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5505189462564886,
+        "estimation_seconds": 0.06154620507732034,
+        "optimization_seconds": 0.003987735137343407,
+        "reporting_seconds": 0.563845373224467,
+        "offline_diagnostic_seconds": 0.022911750245839357
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 1022,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5703271250240505,
+        "estimation_seconds": 0.31447383714839816,
+        "optimization_seconds": 0.0054177287966012955,
+        "reporting_seconds": 0.5830930420197546,
+        "offline_diagnostic_seconds": 0.024247583001852036
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 970,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.54926120582968,
+        "estimation_seconds": 0.011464463546872139,
+        "optimization_seconds": 0.0043974099680781364,
+        "reporting_seconds": 0.5641422453336418,
+        "offline_diagnostic_seconds": 0.022999125067144632
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 1031,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5503423376940191,
+        "estimation_seconds": 0.011119659524410963,
+        "optimization_seconds": 0.0039320336654782295,
+        "reporting_seconds": 0.5634838747791946,
+        "offline_diagnostic_seconds": 0.02335933269932866
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 2135,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5489995772950351,
+        "estimation_seconds": 0.012615700252354145,
+        "optimization_seconds": 0.003929195925593376,
+        "reporting_seconds": 0.5636264984495938,
+        "offline_diagnostic_seconds": 0.02349241729825735
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5457929288968444,
+        "estimation_seconds": 0.008248869329690933,
+        "optimization_seconds": 0.003714321181178093,
+        "reporting_seconds": 0.5637192102149129,
+        "offline_diagnostic_seconds": 0.023095374926924706
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1170,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5522421360947192,
+        "estimation_seconds": 0.0618407828733325,
+        "optimization_seconds": 0.004034277051687241,
+        "reporting_seconds": 0.5672301682643592,
+        "offline_diagnostic_seconds": 0.02281045773997903
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1136,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5581995900720358,
+        "estimation_seconds": 0.3208238403312862,
+        "optimization_seconds": 0.004293466452509165,
+        "reporting_seconds": 0.5727263349108398,
+        "offline_diagnostic_seconds": 0.022772167343646288
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1019,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5514978296123445,
+        "estimation_seconds": 0.011481348890811205,
+        "optimization_seconds": 0.004068579524755478,
+        "reporting_seconds": 0.5654154601506889,
+        "offline_diagnostic_seconds": 0.022998375352472067
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1059,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.549869991838932,
+        "estimation_seconds": 0.011300917714834213,
+        "optimization_seconds": 0.003989638760685921,
+        "reporting_seconds": 0.5644753780215979,
+        "offline_diagnostic_seconds": 0.022949417121708393
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 2130,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5486622541211545,
+        "estimation_seconds": 0.012669786345213652,
+        "optimization_seconds": 0.003937034867703915,
+        "reporting_seconds": 0.5642603333108127,
+        "offline_diagnostic_seconds": 0.02336891693994403
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5555059271864593,
+        "estimation_seconds": 0.008820968214422464,
+        "optimization_seconds": 0.003990201745182276,
+        "reporting_seconds": 0.5651890835724771,
+        "offline_diagnostic_seconds": 0.022711541038006544
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 995,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5531735443510115,
+        "estimation_seconds": 0.06061032507568598,
+        "optimization_seconds": 0.004014867823570967,
+        "reporting_seconds": 0.5663800830952823,
+        "offline_diagnostic_seconds": 0.022979999892413616
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 997,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5650503584183753,
+        "estimation_seconds": 0.2988693085499108,
+        "optimization_seconds": 0.00483293179422617,
+        "reporting_seconds": 0.5717858350835741,
+        "offline_diagnostic_seconds": 0.02263779193162918
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 989,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5583965978585184,
+        "estimation_seconds": 0.011981417890638113,
+        "optimization_seconds": 0.004259821027517319,
+        "reporting_seconds": 0.5626244973391294,
+        "offline_diagnostic_seconds": 0.023149000015109777
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 1052,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.55129354307428,
+        "estimation_seconds": 0.011582872364670038,
+        "optimization_seconds": 0.0040786657482385635,
+        "reporting_seconds": 0.5670777908526361,
+        "offline_diagnostic_seconds": 0.022967415861785412
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 2098,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.548825740814209,
+        "estimation_seconds": 0.012465918902307749,
+        "optimization_seconds": 0.0038348701782524586,
+        "reporting_seconds": 0.5659999996423721,
+        "offline_diagnostic_seconds": 0.022965332958847284
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5516066323034465,
+        "estimation_seconds": 0.008666574023663998,
+        "optimization_seconds": 0.00396965304389596,
+        "reporting_seconds": 0.5646621654741466,
+        "offline_diagnostic_seconds": 0.022937292233109474
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 982,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5523647931404412,
+        "estimation_seconds": 0.06055137561634183,
+        "optimization_seconds": 0.003938073292374611,
+        "reporting_seconds": 0.56579908169806,
+        "offline_diagnostic_seconds": 0.02330879122018814
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 1008,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5530693898908794,
+        "estimation_seconds": 0.2975596277974546,
+        "optimization_seconds": 0.004324741195887327,
+        "reporting_seconds": 0.5680669983848929,
+        "offline_diagnostic_seconds": 0.0227441661991179
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 985,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5472848247736692,
+        "estimation_seconds": 0.01122508617118001,
+        "optimization_seconds": 0.0039026690647006035,
+        "reporting_seconds": 0.5653969156555831,
+        "offline_diagnostic_seconds": 0.023101917002350092
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 1028,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5483319270424545,
+        "estimation_seconds": 0.011220925953239202,
+        "optimization_seconds": 0.0038791168481111526,
+        "reporting_seconds": 0.562844417989254,
+        "offline_diagnostic_seconds": 0.02298437524586916
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 2105,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5505018755793571,
+        "estimation_seconds": 0.012869325932115316,
+        "optimization_seconds": 0.0039358679205179214,
+        "reporting_seconds": 0.5744939567521214,
+        "offline_diagnostic_seconds": 0.023206000216305256
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5507637937553227,
+        "estimation_seconds": 0.008650340139865875,
+        "optimization_seconds": 0.003859111573547125,
+        "reporting_seconds": 0.5823056260123849,
+        "offline_diagnostic_seconds": 0.022680834401398897
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 1178,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5538130011409521,
+        "estimation_seconds": 0.06253762496635318,
+        "optimization_seconds": 0.004009649623185396,
+        "reporting_seconds": 0.5638605463318527,
+        "offline_diagnostic_seconds": 0.023254333063960075
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 1133,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5567071619443595,
+        "estimation_seconds": 0.31736263632774353,
+        "optimization_seconds": 0.004245077725499868,
+        "reporting_seconds": 0.5672138752415776,
+        "offline_diagnostic_seconds": 0.02340954076498747
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 1010,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5453378246165812,
+        "estimation_seconds": 0.010887963231652975,
+        "optimization_seconds": 0.0037829838693141937,
+        "reporting_seconds": 0.564509583171457,
+        "offline_diagnostic_seconds": 0.02338495897129178
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 1066,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5491429725661874,
+        "estimation_seconds": 0.011165013071149588,
+        "optimization_seconds": 0.0038779377937316895,
+        "reporting_seconds": 0.5643341257236898,
+        "offline_diagnostic_seconds": 0.023444584105163813
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 2105,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5458913668990135,
+        "estimation_seconds": 0.012361206579953432,
+        "optimization_seconds": 0.003942481707781553,
+        "reporting_seconds": 0.5622535012662411,
+        "offline_diagnostic_seconds": 0.022959083318710327
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5460309660993516,
+        "estimation_seconds": 0.008290247991681099,
+        "optimization_seconds": 0.0038323532789945602,
+        "reporting_seconds": 0.5644668308086693,
+        "offline_diagnostic_seconds": 0.02332912478595972
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1086,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5549932979047298,
+        "estimation_seconds": 0.062269136775285006,
+        "optimization_seconds": 0.004067906644195318,
+        "reporting_seconds": 0.5651856707409024,
+        "offline_diagnostic_seconds": 0.0231117089278996
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1130,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5591471921652555,
+        "estimation_seconds": 0.31928533036261797,
+        "optimization_seconds": 0.0046241614036262035,
+        "reporting_seconds": 0.5663409996777773,
+        "offline_diagnostic_seconds": 0.0229137078858912
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1002,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5495804673992097,
+        "estimation_seconds": 0.010844364296644926,
+        "optimization_seconds": 0.0037617464549839497,
+        "reporting_seconds": 0.5637737093493342,
+        "offline_diagnostic_seconds": 0.02313499990850687
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1055,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5463653756305575,
+        "estimation_seconds": 0.011033881455659866,
+        "optimization_seconds": 0.0039001284167170525,
+        "reporting_seconds": 0.5653202906250954,
+        "offline_diagnostic_seconds": 0.0233001671731472
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 2108,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5479381298646331,
+        "estimation_seconds": 0.013015503995120525,
+        "optimization_seconds": 0.004046540707349777,
+        "reporting_seconds": 0.5599573757499456,
+        "offline_diagnostic_seconds": 0.023215457797050476
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5489368778653443,
+        "estimation_seconds": 0.008549666032195091,
+        "optimization_seconds": 0.003929606638848782,
+        "reporting_seconds": 0.5691457903012633,
+        "offline_diagnostic_seconds": 0.02332687471061945
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1032,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.6524104652926326,
+        "estimation_seconds": 0.06907203420996666,
+        "optimization_seconds": 0.004437576048076153,
+        "reporting_seconds": 0.6602327488362789,
+        "offline_diagnostic_seconds": 0.02590724965557456
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1051,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5648156148381531,
+        "estimation_seconds": 0.31402746168896556,
+        "optimization_seconds": 0.005082361865788698,
+        "reporting_seconds": 0.5709746237844229,
+        "offline_diagnostic_seconds": 0.023145708721131086
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 935,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5492417877539992,
+        "estimation_seconds": 0.011491572018712759,
+        "optimization_seconds": 0.00400244165211916,
+        "reporting_seconds": 0.5669941669330001,
+        "offline_diagnostic_seconds": 0.022674791049212217
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1005,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5506568416021764,
+        "estimation_seconds": 0.011680492665618658,
+        "optimization_seconds": 0.004115657415241003,
+        "reporting_seconds": 0.5694930446334183,
+        "offline_diagnostic_seconds": 0.02537995809689164
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 2099,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.6781337521970272,
+        "estimation_seconds": 0.01579974591732025,
+        "optimization_seconds": 0.0047723581083118916,
+        "reporting_seconds": 0.7864744593389332,
+        "offline_diagnostic_seconds": 0.02346079098060727
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.555710039101541,
+        "estimation_seconds": 0.009260117076337337,
+        "optimization_seconds": 0.004336162004619837,
+        "reporting_seconds": 0.5690589169971645,
+        "offline_diagnostic_seconds": 0.02589691709727049
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 946,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5512688821181655,
+        "estimation_seconds": 0.06120595522224903,
+        "optimization_seconds": 0.004052957985550165,
+        "reporting_seconds": 0.5710943741723895,
+        "offline_diagnostic_seconds": 0.02288208296522498
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 976,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5569288851693273,
+        "estimation_seconds": 0.292813369538635,
+        "optimization_seconds": 0.004452313296496868,
+        "reporting_seconds": 0.5656246654689312,
+        "offline_diagnostic_seconds": 0.022963583935052156
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 959,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5467669530771673,
+        "estimation_seconds": 0.01104515790939331,
+        "optimization_seconds": 0.0038644899614155293,
+        "reporting_seconds": 0.5637824959121644,
+        "offline_diagnostic_seconds": 0.02294037491083145
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 1035,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5476859537884593,
+        "estimation_seconds": 0.011201668065041304,
+        "optimization_seconds": 0.003998156171292067,
+        "reporting_seconds": 0.5603176658041775,
+        "offline_diagnostic_seconds": 0.02309345919638872
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 2103,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5455170180648565,
+        "estimation_seconds": 0.012589955236762762,
+        "optimization_seconds": 0.003963734023272991,
+        "reporting_seconds": 0.5612236652523279,
+        "offline_diagnostic_seconds": 0.023459792137145996
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5457755862735212,
+        "estimation_seconds": 0.008406210225075483,
+        "optimization_seconds": 0.00380445783957839,
+        "reporting_seconds": 0.5623171264305711,
+        "offline_diagnostic_seconds": 0.022630666848272085
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 1088,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5473270397633314,
+        "estimation_seconds": 0.061192325316369534,
+        "optimization_seconds": 0.003987364005297422,
+        "reporting_seconds": 0.5643209163099527,
+        "offline_diagnostic_seconds": 0.023115917108953
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 1049,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5555454902350903,
+        "estimation_seconds": 0.30450745951384306,
+        "optimization_seconds": 0.004680512472987175,
+        "reporting_seconds": 0.5649824165739119,
+        "offline_diagnostic_seconds": 0.022873083129525185
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 954,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5437170276418328,
+        "estimation_seconds": 0.010836373548954725,
+        "optimization_seconds": 0.003793611191213131,
+        "reporting_seconds": 0.562416416592896,
+        "offline_diagnostic_seconds": 0.02321275044232607
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 1026,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 0.5472552962601185,
+        "estimation_seconds": 0.010989798232913017,
+        "optimization_seconds": 0.004008673597127199,
+        "reporting_seconds": 0.5630927057936788,
+        "offline_diagnostic_seconds": 0.02380429208278656
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 1954,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.071637589018792,
+        "estimation_seconds": 0.016476039309054613,
+        "optimization_seconds": 0.00464607635512948,
+        "reporting_seconds": 1.1676964168436825,
+        "offline_diagnostic_seconds": 0.039903417229652405
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.075529960449785,
+        "estimation_seconds": 0.010331784840673208,
+        "optimization_seconds": 0.00459744967520237,
+        "reporting_seconds": 1.1094994992017746,
+        "offline_diagnostic_seconds": 0.039523083716630936
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 939,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0807076287455857,
+        "estimation_seconds": 0.0640266234986484,
+        "optimization_seconds": 0.004461250733584166,
+        "reporting_seconds": 1.1137716234661639,
+        "offline_diagnostic_seconds": 0.03998929215595126
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 932,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.1248110011219978,
+        "estimation_seconds": 0.3026735121384263,
+        "optimization_seconds": 0.00549668213352561,
+        "reporting_seconds": 1.369183000177145,
+        "offline_diagnostic_seconds": 0.03959308285266161
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 914,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0758392829447985,
+        "estimation_seconds": 0.014201090205460787,
+        "optimization_seconds": 0.004690167028456926,
+        "reporting_seconds": 1.1156992483884096,
+        "offline_diagnostic_seconds": 0.040417916141450405
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 300,
+      "purchased_reference_queries": 998,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0735144964419305,
+        "estimation_seconds": 0.014149085152894258,
+        "optimization_seconds": 0.004518140107393265,
+        "reporting_seconds": 1.1067180410027504,
+        "offline_diagnostic_seconds": 0.03908216627314687
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 1917,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0792590728960931,
+        "estimation_seconds": 0.016341341193765402,
+        "optimization_seconds": 0.004635234363377094,
+        "reporting_seconds": 1.1139929168857634,
+        "offline_diagnostic_seconds": 0.04029729217290878
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.081831124611199,
+        "estimation_seconds": 0.009969825390726328,
+        "optimization_seconds": 0.00457410654053092,
+        "reporting_seconds": 1.1197732514701784,
+        "offline_diagnostic_seconds": 0.04013445787131786
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 886,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0828544246032834,
+        "estimation_seconds": 0.06423749588429928,
+        "optimization_seconds": 0.004511535167694092,
+        "reporting_seconds": 1.1185524598695338,
+        "offline_diagnostic_seconds": 0.04046054184436798
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 822,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0917278314009309,
+        "estimation_seconds": 0.27226536720991135,
+        "optimization_seconds": 0.004837794229388237,
+        "reporting_seconds": 1.1321371672675014,
+        "offline_diagnostic_seconds": 0.0395017908886075
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 958,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0799173703417182,
+        "estimation_seconds": 0.014513307251036167,
+        "optimization_seconds": 0.004826992284506559,
+        "reporting_seconds": 1.1220174971967936,
+        "offline_diagnostic_seconds": 0.039962916634976864
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 1,
+      "updates": 300,
+      "purchased_reference_queries": 1010,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0804311237297952,
+        "estimation_seconds": 0.014289537910372019,
+        "optimization_seconds": 0.004720435477793217,
+        "reporting_seconds": 1.1123322513885796,
+        "offline_diagnostic_seconds": 0.04006212530657649
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1886,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0825131726451218,
+        "estimation_seconds": 0.016517130192369223,
+        "optimization_seconds": 0.004635829012840986,
+        "reporting_seconds": 1.11502933409065,
+        "offline_diagnostic_seconds": 0.03973995801061392
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0805384539999068,
+        "estimation_seconds": 0.00988104147836566,
+        "optimization_seconds": 0.0045928265899419785,
+        "reporting_seconds": 1.1166600808501244,
+        "offline_diagnostic_seconds": 0.03987808292731643
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1011,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.1261967336758971,
+        "estimation_seconds": 0.06882975716143847,
+        "optimization_seconds": 0.00485445000231266,
+        "reporting_seconds": 1.1570993773639202,
+        "offline_diagnostic_seconds": 0.05572858406230807
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 997,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.314377958420664,
+        "estimation_seconds": 0.3732689945027232,
+        "optimization_seconds": 0.00694998586550355,
+        "reporting_seconds": 1.3237625863403082,
+        "offline_diagnostic_seconds": 0.03990195784717798
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 964,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.080670672468841,
+        "estimation_seconds": 0.014066163450479507,
+        "optimization_seconds": 0.0046732500195503235,
+        "reporting_seconds": 1.1137533746659756,
+        "offline_diagnostic_seconds": 0.039821041747927666
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 2,
+      "updates": 300,
+      "purchased_reference_queries": 1022,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0945757953450084,
+        "estimation_seconds": 0.014388956129550934,
+        "optimization_seconds": 0.0046774460934102535,
+        "reporting_seconds": 1.1220984999090433,
+        "offline_diagnostic_seconds": 0.03937683394178748
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 1951,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0780020928941667,
+        "estimation_seconds": 0.016478754580020905,
+        "optimization_seconds": 0.004556213039904833,
+        "reporting_seconds": 1.1172338728792965,
+        "offline_diagnostic_seconds": 0.039923416916280985
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0823992076329887,
+        "estimation_seconds": 0.009997005574405193,
+        "optimization_seconds": 0.0046143559738993645,
+        "reporting_seconds": 1.1191212050616741,
+        "offline_diagnostic_seconds": 0.039684874936938286
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 960,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0826231990940869,
+        "estimation_seconds": 0.06458295835182071,
+        "optimization_seconds": 0.004424532409757376,
+        "reporting_seconds": 1.1228178329765797,
+        "offline_diagnostic_seconds": 0.03985387505963445
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 1023,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0886395401321352,
+        "estimation_seconds": 0.3046772279776633,
+        "optimization_seconds": 0.004804988857358694,
+        "reporting_seconds": 1.1187639981508255,
+        "offline_diagnostic_seconds": 0.03988091694191098
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 995,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0765131576918066,
+        "estimation_seconds": 0.013795252423733473,
+        "optimization_seconds": 0.004503665491938591,
+        "reporting_seconds": 1.1124745034612715,
+        "offline_diagnostic_seconds": 0.039893374778330326
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 3,
+      "updates": 300,
+      "purchased_reference_queries": 1054,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.076916919555515,
+        "estimation_seconds": 0.013671410735696554,
+        "optimization_seconds": 0.004368075635284185,
+        "reporting_seconds": 1.1198727916926146,
+        "offline_diagnostic_seconds": 0.04008641606196761
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 1930,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0803900491446257,
+        "estimation_seconds": 0.01675928570330143,
+        "optimization_seconds": 0.004635651595890522,
+        "reporting_seconds": 1.1110390410758555,
+        "offline_diagnostic_seconds": 0.0392832076177001
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0745871989056468,
+        "estimation_seconds": 0.0100260847248137,
+        "optimization_seconds": 0.004578073509037495,
+        "reporting_seconds": 1.115913043729961,
+        "offline_diagnostic_seconds": 0.0398157499730587
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 951,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0872175572440028,
+        "estimation_seconds": 0.06590304290875793,
+        "optimization_seconds": 0.004637033678591251,
+        "reporting_seconds": 1.112289082724601,
+        "offline_diagnostic_seconds": 0.03997204126790166
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 987,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0930804507806897,
+        "estimation_seconds": 0.29838370718061924,
+        "optimization_seconds": 0.004649286158382893,
+        "reporting_seconds": 1.1198249156586826,
+        "offline_diagnostic_seconds": 0.0403220416046679
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 913,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0832125833258033,
+        "estimation_seconds": 0.013918125070631504,
+        "optimization_seconds": 0.004586277529597282,
+        "reporting_seconds": 1.120347707066685,
+        "offline_diagnostic_seconds": 0.039999665692448616
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 4,
+      "updates": 300,
+      "purchased_reference_queries": 968,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.077552720438689,
+        "estimation_seconds": 0.0137882218696177,
+        "optimization_seconds": 0.004641865845769644,
+        "reporting_seconds": 1.1181519152596593,
+        "offline_diagnostic_seconds": 0.03946975013241172
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 1989,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0808835485950112,
+        "estimation_seconds": 0.016588497906923294,
+        "optimization_seconds": 0.004818275570869446,
+        "reporting_seconds": 1.1127980826422572,
+        "offline_diagnostic_seconds": 0.03997304104268551
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.082187828142196,
+        "estimation_seconds": 0.009904376231133938,
+        "optimization_seconds": 0.0046517751179635525,
+        "reporting_seconds": 1.127898165024817,
+        "offline_diagnostic_seconds": 0.03974658390507102
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 911,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.077996778767556,
+        "estimation_seconds": 0.06435811892151833,
+        "optimization_seconds": 0.004332533571869135,
+        "reporting_seconds": 1.1151557499542832,
+        "offline_diagnostic_seconds": 0.04039841704070568
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 958,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0848953700624406,
+        "estimation_seconds": 0.2959111244417727,
+        "optimization_seconds": 0.004931651055812836,
+        "reporting_seconds": 1.114596251398325,
+        "offline_diagnostic_seconds": 0.03987104166299105
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 916,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0768291628919542,
+        "estimation_seconds": 0.013377819675952196,
+        "optimization_seconds": 0.004514696542173624,
+        "reporting_seconds": 1.1170506263151765,
+        "offline_diagnostic_seconds": 0.03954716678708792
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 5,
+      "updates": 300,
+      "purchased_reference_queries": 989,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0897265248931944,
+        "estimation_seconds": 0.014123321045190096,
+        "optimization_seconds": 0.004549860954284668,
+        "reporting_seconds": 1.1186486650258303,
+        "offline_diagnostic_seconds": 0.040074999909847975
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1893,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0873522856272757,
+        "estimation_seconds": 0.01630700472742319,
+        "optimization_seconds": 0.004616748541593552,
+        "reporting_seconds": 1.1110484199598432,
+        "offline_diagnostic_seconds": 0.04000945808365941
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0819220077246428,
+        "estimation_seconds": 0.01001472445204854,
+        "optimization_seconds": 0.004539098124951124,
+        "reporting_seconds": 1.1180331245996058,
+        "offline_diagnostic_seconds": 0.04005216620862484
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 985,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0786315351724625,
+        "estimation_seconds": 0.0648381607607007,
+        "optimization_seconds": 0.0045004007406532764,
+        "reporting_seconds": 1.1103069144301116,
+        "offline_diagnostic_seconds": 0.03979691630229354
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 970,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0946239097975194,
+        "estimation_seconds": 0.2980302977375686,
+        "optimization_seconds": 0.004867772106081247,
+        "reporting_seconds": 1.128251708112657,
+        "offline_diagnostic_seconds": 0.04042437486350536
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 905,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.7938637873157859,
+        "estimation_seconds": 0.023871746845543385,
+        "optimization_seconds": 0.008030697703361511,
+        "reporting_seconds": 1.6830535396002233,
+        "offline_diagnostic_seconds": 0.039928624872118235
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 6,
+      "updates": 300,
+      "purchased_reference_queries": 1027,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.1049248171038926,
+        "estimation_seconds": 0.015574934892356396,
+        "optimization_seconds": 0.005503199063241482,
+        "reporting_seconds": 1.2045765812508762,
+        "offline_diagnostic_seconds": 0.03951545897871256
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1940,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0705402866005898,
+        "estimation_seconds": 0.016765844076871872,
+        "optimization_seconds": 0.004609281197190285,
+        "reporting_seconds": 1.114663751795888,
+        "offline_diagnostic_seconds": 0.04005187517032027
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0712090781889856,
+        "estimation_seconds": 0.00985813606530428,
+        "optimization_seconds": 0.0044812425039708614,
+        "reporting_seconds": 1.1048910398967564,
+        "offline_diagnostic_seconds": 0.04018420912325382
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1025,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0786633337847888,
+        "estimation_seconds": 0.06477509113028646,
+        "optimization_seconds": 0.0044748252257704735,
+        "reporting_seconds": 1.107958794105798,
+        "offline_diagnostic_seconds": 0.03934008302167058
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1025,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0792433810420334,
+        "estimation_seconds": 0.3037056024186313,
+        "optimization_seconds": 0.004920778796076775,
+        "reporting_seconds": 1.111323836259544,
+        "offline_diagnostic_seconds": 0.03912879200652242
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 916,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0742041859775782,
+        "estimation_seconds": 0.014119045343250036,
+        "optimization_seconds": 0.0048083714209496975,
+        "reporting_seconds": 1.108917706180364,
+        "offline_diagnostic_seconds": 0.03920229198411107
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 7,
+      "updates": 300,
+      "purchased_reference_queries": 1013,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.065277342684567,
+        "estimation_seconds": 0.01315025519579649,
+        "optimization_seconds": 0.004260998219251633,
+        "reporting_seconds": 1.1044637504965067,
+        "offline_diagnostic_seconds": 0.03963208291679621
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 1942,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0732057429850101,
+        "estimation_seconds": 0.01587454415857792,
+        "optimization_seconds": 0.00425115367397666,
+        "reporting_seconds": 1.1136068315245211,
+        "offline_diagnostic_seconds": 0.040138833690434694
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0790748782455921,
+        "estimation_seconds": 0.009660541079938412,
+        "optimization_seconds": 0.0044889128766953945,
+        "reporting_seconds": 1.1122280447743833,
+        "offline_diagnostic_seconds": 0.040538915898650885
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 915,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0787450866773725,
+        "estimation_seconds": 0.0639022565446794,
+        "optimization_seconds": 0.004392989911139011,
+        "reporting_seconds": 1.1128559587523341,
+        "offline_diagnostic_seconds": 0.04037729185074568
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 918,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0887513016350567,
+        "estimation_seconds": 0.2884557037614286,
+        "optimization_seconds": 0.005095042288303375,
+        "reporting_seconds": 1.1146969571709633,
+        "offline_diagnostic_seconds": 0.04006554093211889
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 884,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0859326291829348,
+        "estimation_seconds": 0.014285797253251076,
+        "optimization_seconds": 0.004831534344702959,
+        "reporting_seconds": 1.1168239573016763,
+        "offline_diagnostic_seconds": 0.03991341730579734
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 8,
+      "updates": 300,
+      "purchased_reference_queries": 959,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0796628408133984,
+        "estimation_seconds": 0.013927705585956573,
+        "optimization_seconds": 0.0045587122440338135,
+        "reporting_seconds": 1.1132468339055777,
+        "offline_diagnostic_seconds": 0.03940141713246703
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 1951,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0774541976861656,
+        "estimation_seconds": 0.016303036827594042,
+        "optimization_seconds": 0.004523694980889559,
+        "reporting_seconds": 1.1124612893909216,
+        "offline_diagnostic_seconds": 0.03958745812997222
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0785203888081014,
+        "estimation_seconds": 0.009988580830395222,
+        "optimization_seconds": 0.0045706662349402905,
+        "reporting_seconds": 1.1134897097945213,
+        "offline_diagnostic_seconds": 0.03959316620603204
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 903,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0815442963503301,
+        "estimation_seconds": 0.06482054200023413,
+        "optimization_seconds": 0.00456273602321744,
+        "reporting_seconds": 1.1150440438650548,
+        "offline_diagnostic_seconds": 0.040545249823480844
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 934,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0879576397128403,
+        "estimation_seconds": 0.2907767458818853,
+        "optimization_seconds": 0.004853818099945784,
+        "reporting_seconds": 1.1132156676612794,
+        "offline_diagnostic_seconds": 0.03981458395719528
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 935,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0724731762893498,
+        "estimation_seconds": 0.013352264184504747,
+        "optimization_seconds": 0.004467660095542669,
+        "reporting_seconds": 1.109442999586463,
+        "offline_diagnostic_seconds": 0.03987187473103404
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 9,
+      "updates": 300,
+      "purchased_reference_queries": 979,
+      "reporting_reference_queries": 3328,
+      "offline_diagnostic_reference_queries": 2400,
+      "training_cheap_verifier_calls": 2400,
+      "reporting_cheap_verifier_calls": 3328,
+      "offline_diagnostic_cheap_verifier_calls": 2400,
+      "timings": {
+        "rollout_seconds": 1.0800673379562795,
+        "estimation_seconds": 0.01395015511661768,
+        "optimization_seconds": 0.004620114807039499,
+        "reporting_seconds": 1.1087871664203703,
+        "offline_diagnostic_seconds": 0.03983854129910469
+      }
+    }
+  ],
+  "numeric_sha256": {
+    "evaluation.csv": "3e5de44a1132528678196c3b33dfb4d7c4836e8f40eaf0c9d95e324e771c8e71",
+    "paired_endpoint.csv": "b30bd076e6f42546c1aac3887f71df5aa0d8c0c66f1ea6716bc53bfb50a7c0a1",
+    "query_ceiling_view.csv": "f152874129f169a7291d727b09b24a419e800eed441c37c2d399b2021814d3d4",
+    "summary.csv": "7a0ff84faa8c6270f342f545eede92132d0da2a1b46faf44e8641b7eeae5da6e",
+    "training.csv": "05c9031710a8a76ecd6fcd8108428e5275605fb3a36f1ce23b42e81033e425a6"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "created_at_utc": "2026-09-11T19:22:44.645Z",
+  "builder_sha256": "0043c1ddffc963db8576a70823ed0a5c54d18f243673ecd622fd78bee1955195",
+  "file": "nhs_wellbeing_results.xlsx",
+  "sha256": "c7e28a2ea1033cf696d1d176cdb499ea834e435231023ba4dd605a019f6f3b61",
+  "sources": [
+    {
+      "file": "results/harmonised/test_metrics.csv",
+      "sha256": "d165767daa53b702eedb629892e6d9eb734c73f28870650a8be0420a1e54b329"
+    },
+    {
+      "file": "results/harmonised/paired_bootstrap.csv",
+      "sha256": "60f9406401f2b33e0e680d4fbe48d8cf6d17f1bfffeedde936fc6d106aa191fe"
+    },
+    {
+      "file": "results/vintage/test_metrics.csv",
+      "sha256": "1ca6f4f1014721249d4e98cd01cf5402093fc553bdc9b9655adf3dabc4d65ba4"
+    },
+    {
+      "file": "results/vintage/paired_bootstrap.csv",
+      "sha256": "660e2f9c110df39282f1ef1c16f3f136e934b71f5de3cdaa846e39c35fbdd036"
+    },
+    {
+      "file": "results/harmonised/observational_followup.csv",
+      "sha256": "e663cfc919576876cddd6d46b4d84fcd6f98b7685b10f7f5e5ce81db220cb883"
+    },
+    {
+      "file": "results/harmonised/rank_sensitivity.csv",
+      "sha256": "4ce513149514141d3002c4746606871d589704b9adeaa8196aee9a52aa8510bf"
+    },
+    {
+      "file": "results/simulation.csv",
+      "sha256": "ff59221b940e5465e66660905a0467bf65b994fdab675ff76ff52e4997ec8fde"
+    },
+    {
+      "file": "data/processed/nhs_staff_survey_panel_2021_2025.csv",
+      "sha256": "dd5a85731a37a0b031d7b1d873b64424f65e911a8bd145da143def99f7f8198b"
+    }
+  ],
+  "sheets": [
+    {
+      "name": "Forecasts",
+      "first_row": 7,
+      "data_rows": 14,
+      "columns": [
+        "dataset",
+        "method",
+        "rmse",
+        "mae",
+        "spearman",
+        "observed_overlap_0.1",
+        "observed_overlap_0.2",
+        "observed_overlap_0.3",
+        "rmse_difference",
+        "rmse_difference_lo",
+        "rmse_difference_hi",
+        "mae_difference",
+        "mae_difference_lo",
+        "mae_difference_hi",
+        "bootstrap_repetitions"
+      ]
+    },
+    {
+      "name": "Followup",
+      "first_row": 7,
+      "data_rows": 4,
+      "columns": [
+        "selection_year",
+        "followup_year",
+        "selected_units",
+        "baseline_mean",
+        "followup_mean",
+        "observed_selected_change",
+        "corresponding_group_change",
+        "group_centred_change",
+        "retained_in_next_observed_bottom"
+      ]
+    },
+    {
+      "name": "Followup",
+      "first_row": 16,
+      "data_rows": 7,
+      "columns": [
+        "ratio",
+        "selected",
+        "retained_from_raw",
+        "overlap_with_raw",
+        "changed_members"
+      ]
+    },
+    {
+      "name": "Simulation",
+      "first_row": 7,
+      "data_rows": 20,
+      "columns": [
+        "method",
+        "n_lo",
+        "n_hi",
+        "hit_mean",
+        "hit_mcse",
+        "latent_regret_mean",
+        "latent_regret_mcse",
+        "state_mse_mean",
+        "rebound_mean",
+        "predicted_rebound_mean",
+        "rebound_residual_mean",
+        "cell_id",
+        "seed",
+        "reps",
+        "units",
+        "n_min",
+        "n_max",
+        "phi",
+        "sigma2",
+        "psi",
+        "trend",
+        "error_kind",
+        "response_bias",
+        "gaussian_exact",
+        "fraction",
+        "k",
+        "out_of_range_fraction",
+        "hit_p10",
+        "hit_p90",
+        "latent_regret_p10",
+        "latent_regret_p90",
+        "state_mse_mcse",
+        "state_mse_p10",
+        "state_mse_p90",
+        "rebound_mcse",
+        "rebound_p10",
+        "rebound_p90",
+        "predicted_rebound_mcse",
+        "predicted_rebound_p10",
+        "predicted_rebound_p90",
+        "rebound_residual_mcse",
+        "rebound_residual_p10",
+        "rebound_residual_p90"
+      ]
+    },
+    {
+      "name": "Source panel",
+      "first_row": 7,
+      "data_rows": 1190,
+      "columns": [
+        "org_code",
+        "org_name",
+        "year",
+        "benchmark_group",
+        "legal_org_code",
+        "is_trust",
+        "complete_five_year_history",
+        "historically_comparable",
+        "burnout_score",
+        "burnout_n",
+        "n_resp",
+        "response_rate",
+        "wellbeing_action",
+        "wellbeing_action_n",
+        "intent_leave",
+        "intent_leave_n",
+        "thinking_about_leaving_score",
+        "thinking_about_leaving_n",
+        "work_related_stress",
+        "work_related_stress_n",
+        "n_eligible",
+        "n_eligible_from_org_rate",
+        "n_eff",
+        "burnout_se",
+        "burnout_individual_sd"
+      ]
+    },
+    {
+      "name": "Dictionary",
+      "first_row": 7,
+      "data_rows": 31,
+      "columns": [
+        "field",
+        "definition",
+        "source_variable"
+      ]
+    },
+    {
+      "name": "Dictionary",
+      "first_row": 47,
+      "data_rows": 8,
+      "columns": [
+        "file",
+        "sha256"
+      ]
+    }
+  ],
+  "simulation_filter": {
+    "fraction": 0.2,
+    "phi": 0.85,
+    "sigma2": 6.25,
+    "psi": 0
+  },
+  "verification": "All authored cells compared with imported source matrices; recalculated; inspected; all worksheets rendered for visual review"
+}

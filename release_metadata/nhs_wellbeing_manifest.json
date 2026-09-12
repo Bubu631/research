@@ -1,0 +1,736 @@
+{
+  "created_at_utc": "2026-09-11T19:25:42.891846+00:00",
+  "builder_sha256": "29def309fb4bdc9ccaa374e35e8396b18621cde0753452ac0e6009ae2cd48a82",
+  "artifacts": {
+    "nhs_wellbeing_source.zip": {
+      "sha256": "adb8bb479665713746ed019129ceb34eb9d669e26f7165be631c8881ce04742c",
+      "bytes": 118662
+    },
+    "nhs_wellbeing_research.zip": {
+      "sha256": "7700666e353d7166b5752148b3c28e8040a911e10aeff528ffb1c1f55605214a",
+      "bytes": 1932469
+    },
+    "nhs_wellbeing_paper.pdf": {
+      "sha256": "051d8aefbc73aed35227fa2e9ab662cb07cb028dd0b2c917b232b1698156040d",
+      "bytes": 474023
+    },
+    "nhs_wellbeing_package_validation.json": {
+      "sha256": "c2bca03a54dbf85fa4d9253e52d741b1863acc72d398ef58e89cf9de222ed355",
+      "bytes": 7286
+    },
+    "nhs_wellbeing_source_validation.json": {
+      "sha256": "9e71f227be5e7a5cb6d430080ca7ec3a2dd1fdce33f2bcb4624e886e25330dcf",
+      "bytes": 2614
+    }
+  },
+  "source_archive_members": {
+    "figures/observed_followup.pdf": {
+      "sha256": "9e94c7f96c3d865e21a473fff641c69de7d568da42071f4f1fc6247937ca2314",
+      "bytes": 16344
+    },
+    "figures/rank_sensitivity.pdf": {
+      "sha256": "d956a1f09da71a966fdf53efe8696d505d8718687c05aa73c2cbb29bc0744238",
+      "bytes": 15479
+    },
+    "figures/rebound_and_pooling.pdf": {
+      "sha256": "c9057cff39ae9002ed90ff807c568379d10dda3dc8d51c329da73baf5c0cc7e5",
+      "bytes": 26079
+    },
+    "figures/simulation_regret.pdf": {
+      "sha256": "c4294b709f906a03381dfbc5ed08bfea0bf6c4633b4962c834763f0826a897d1",
+      "bytes": 23678
+    },
+    "figures/temporal_prediction.pdf": {
+      "sha256": "bbaf5bb59aa77b4e0006af2367163a7938deb640d31404335ad85a2bb56462e8",
+      "bytes": 18372
+    },
+    "main.bbl": {
+      "sha256": "f6f73f0b555df91dc223ea0e4d2cdafd08771eda0943cb23b7776d61dc5295b8",
+      "bytes": 7001
+    },
+    "main.tex": {
+      "sha256": "2e6d4e2c2a11a12db37e3c94295bb1089a8fede3daa16ee3123dc862260b3230",
+      "bytes": 64340
+    },
+    "references.bib": {
+      "sha256": "9230e8ac59bd98f74489af49c4dab9c62e8b5d8ebe9eff27f94ab2a5b5bb962e",
+      "bytes": 6930
+    },
+    "tables/cohort.tex": {
+      "sha256": "6f05eb4224a323702e0b1b92e7c6d26b50dc57244be04dc04d171acd9db7bd5b",
+      "bytes": 384
+    },
+    "tables/followup.tex": {
+      "sha256": "53bd1be617c5f72d2fe33962a09fc433a90296a61a711b9af65e3a6380d32f2a",
+      "bytes": 348
+    },
+    "tables/harmonised_metrics.tex": {
+      "sha256": "f72e8da98cfe8063bc280740a49512fff09f3f02d38a260f530e3ba3e35aa9b5",
+      "bytes": 601
+    },
+    "tables/harmonised_tuning.tex": {
+      "sha256": "8e6df3f0b427846914c08c0b4ad6d6411be7dbd4515bca225dbb462f1cae2d85",
+      "bytes": 400
+    },
+    "tables/numbers.tex": {
+      "sha256": "9e7276aa21dbac3d8adb14dd3699c706c7ac906f753934cb573f5065b9401235",
+      "bytes": 272
+    },
+    "tables/rank_thresholds.tex": {
+      "sha256": "242356e411d003f1487ad7a0daf01b2057594dbcd9eb00fc83eb8afb8eb7b165",
+      "bytes": 342
+    },
+    "tables/simulation_reference.tex": {
+      "sha256": "df99ad14c5b275c9c88ed85364eaff91a0c9b9e57345f5a50f5b30022120f336",
+      "bytes": 390
+    },
+    "tables/stress.tex": {
+      "sha256": "86ee0aac802a88f41a3347cef96825d27e7b0105f7004c48119654bf251535eb",
+      "bytes": 1361
+    },
+    "tables/vintage_metrics.tex": {
+      "sha256": "afbcceed7fb45e8800da1b768618eae967e69418b39b74a51f41fc8f187133d8",
+      "bytes": 601
+    },
+    "tables/vintage_tuning.tex": {
+      "sha256": "f2a00672461fa08df4c4f147e295aed4e9ed1a7167e375a741315d23a31776b5",
+      "bytes": 400
+    }
+  },
+  "code_archive_members": {
+    "Makefile": {
+      "sha256": "ec55219a6d394bf14719b5131582030af50d3790f9bfd204c9fb894ee2ad70d2",
+      "bytes": 3513
+    },
+    "README.md": {
+      "sha256": "78e3d299b86aeebaa77aa6442ecd9c50047645cb7b6677d6d7873f345b3b9688",
+      "bytes": 12434
+    },
+    "artifact_tools/build_release.py": {
+      "sha256": "29def309fb4bdc9ccaa374e35e8396b18621cde0753452ac0e6009ae2cd48a82",
+      "bytes": 23522
+    },
+    "artifact_tools/build_results.mjs": {
+      "sha256": "0043c1ddffc963db8576a70823ed0a5c54d18f243673ecd622fd78bee1955195",
+      "bytes": 15763
+    },
+    "artifact_tools/saved_workbook_validation.json": {
+      "sha256": "69dbb0cbeb4984c91749e1efc05605aef82ecae943c804f886cce1e032f16f42",
+      "bytes": 567
+    },
+    "artifact_tools/verify_results.py": {
+      "sha256": "b2e0ac80e0352d995144282308fe52b886d6da3fdaf70426b00802ad56a28028",
+      "bytes": 3258
+    },
+    "artifact_tools/workbook_manifest.json": {
+      "sha256": "f8f3f3aa9722405ddfb819441293d82e9db0abb16e5c226bea603edeef5aab01",
+      "bytes": 5104
+    },
+    "artifacts/nhs_wellbeing_results.xlsx": {
+      "sha256": "c7e28a2ea1033cf696d1d176cdb499ea834e435231023ba4dd605a019f6f3b61",
+      "bytes": 226809
+    },
+    "data/extracted/extraction_manifest.json": {
+      "sha256": "38b9deff69d08c33592d0a1dcc0ab9fe4c85793f8ed5b73f2cb0660866b8bc92",
+      "bytes": 4403
+    },
+    "data/processed/data_dictionary.json": {
+      "sha256": "1112ca41b302c5861e7c75b9e7d9a2633f9e065457b5fcfb376c8d0f8c7e6f4c",
+      "bytes": 6540
+    },
+    "data/processed/historical_comparability_events.csv": {
+      "sha256": "2ace2c13ab68a864732afa0d48942b70374e8922c39089f189165544ca0019a1",
+      "bytes": 5379
+    },
+    "data/processed/missingness_cells.csv": {
+      "sha256": "f850ff8b22d869ddd8c5c5baa247aea77a621fa5d8fe449133cb2b520fd6dd2f",
+      "bytes": 103445
+    },
+    "data/processed/nhs_staff_survey_panel_2021_2025.csv": {
+      "sha256": "dd5a85731a37a0b031d7b1d873b64424f65e911a8bd145da143def99f7f8198b",
+      "bytes": 1285676
+    },
+    "data/processed/organisation_cohort.csv": {
+      "sha256": "d1e2bbcb2dae375b6568621feb43b7d065980a1757b11be47923dee204a841b2",
+      "bytes": 34387
+    },
+    "data/processed/panel_manifest.json": {
+      "sha256": "a1c1570c377ef4db604bf51d0918447ca6a8feeeb4d2eec28d19c7f5928a844b",
+      "bytes": 2703
+    },
+    "data/processed/source_variable_dictionary.json": {
+      "sha256": "306377a245cea7d10aac5558c353120d53f06442c72f5c3b627719c1ac0ee4f8",
+      "bytes": 61502
+    },
+    "data/processed/validation_report.json": {
+      "sha256": "31655ee84de6616dfb4f0736a4896cd33d140bbdf780eb1a26f175d12843a6bd",
+      "bytes": 469
+    },
+    "data/source_manifest.json": {
+      "sha256": "8a0a777864475d5eab7b18f514f488cc156c7776762b27d96f4598b0b90874a1",
+      "bytes": 22258
+    },
+    "data_tools/extract_documentation.py": {
+      "sha256": "7d75c2bb03d931867afae8935a887fb9af36b5c2f2c790abb5916076bd4b9803",
+      "bytes": 1727
+    },
+    "data_tools/fetch_sources.py": {
+      "sha256": "789686fd9cb6ea3e2e7ccb64d6208086c12e163a3b97d1b2c6fe7c0ff832d430",
+      "bytes": 7132
+    },
+    "data_tools/parse_panel.py": {
+      "sha256": "685e9fde44c93398eb2c31eb41882677a12275ed7ff2da70ffcc4734cd5289d1",
+      "bytes": 16342
+    },
+    "data_tools/requirements-data.txt": {
+      "sha256": "fddb13edf996245c9f5aae59a7ea7c3ebc3a8931a60145428a696f2b9269de59",
+      "bytes": 30
+    },
+    "data_tools/validate_panel.py": {
+      "sha256": "cd6697bcae1eb2e16fb8a139c0447269b0750dc3bf90ce7dce4e60848455b016",
+      "bytes": 4578
+    },
+    "docs/analysis_protocol.md": {
+      "sha256": "39bd2d7a26a8689361f928b1bc2ac9325f2413fee91c3170e8a24c111ed07286",
+      "bytes": 9073
+    },
+    "docs/candidate_references.bib": {
+      "sha256": "69e317c0874d3cdbbe1c31e3df82e9dd7254186cca0d4e070c71268753397ee9",
+      "bytes": 5112
+    },
+    "docs/data_audit.md": {
+      "sha256": "0b0166b3fda4e7be450e55a507e7e33ff4aa3492db69cd1fe73cd8cbd168f63e",
+      "bytes": 14738
+    },
+    "docs/empirical_independent_audit.md": {
+      "sha256": "9c379f68c701e88d144977095507a0cb4779735b69609be69a2d3b5ff3b47aee",
+      "bytes": 8522
+    },
+    "docs/literature_audit.md": {
+      "sha256": "cefab7ae2fcfff45a57400d13b1e4ff0bb507fc7d2dda99606eaedc1cbe3ea51",
+      "bytes": 14109
+    },
+    "docs/pdf_visual_audit_appendix.md": {
+      "sha256": "a51426d23377566f8cd75bb3aec953acfbb41ec4712b867747d121e8d4c98745",
+      "bytes": 6628
+    },
+    "docs/pdf_visual_audit_main.md": {
+      "sha256": "978137fea95e7d8a3e54025502acc06fe7b65a849f96a3efb0500254fe3836ed",
+      "bytes": 1206
+    },
+    "docs/release_package_checks.md": {
+      "sha256": "463a6678de710e3815740be737799ba8b5f96c6f2326563c0e29986643d40bf3",
+      "bytes": 6560
+    },
+    "docs/theory_audit.md": {
+      "sha256": "bd93cfd8f031342b8d48912a431387de5a79d8469e7d821dc0048ac6626b4e3c",
+      "bytes": 25986
+    },
+    "docs/vintage_audit.md": {
+      "sha256": "584818c6ef2fea6bfbd92afdaa2b889fb30ed2310b220cdd481dac1ef26ef9e8",
+      "bytes": 12371
+    },
+    "docs/\u7b2c\u4e09\u7bc7\u8bba\u6587\u8bf4\u660e.md": {
+      "sha256": "64ef4b2e722e10f64adc41b839a014664218665e959b6f862588bbfd8a554ce5",
+      "bytes": 6678
+    },
+    "experiments/common.py": {
+      "sha256": "6dc57b5c05a181288f35993d0c3c7fb761b3b861067314885b4a505817711e1a",
+      "bytes": 4900
+    },
+    "experiments/empirical.py": {
+      "sha256": "f7ebf9e9790540a551848f9fdb5f5e1545d0fc6e35740a3684bc71dfdf3f48d5",
+      "bytes": 12344
+    },
+    "experiments/report.py": {
+      "sha256": "2ef5a3d78c93d05648f2c7012fe8d584f829e428b8b0555cd94e708e0387eed2",
+      "bytes": 13475
+    },
+    "experiments/simulate.py": {
+      "sha256": "9bfc68b772b8f60ca9a36293ac567d89e238c90900256f28d0cffa0e0a66acf5",
+      "bytes": 5717
+    },
+    "experiments/theory_checks.py": {
+      "sha256": "f0c32db43858cf40a996ffd98d43b3f6467b6d53f2883d3acd335dabd85d4949",
+      "bytes": 20482
+    },
+    "experiments/verify_empirical.py": {
+      "sha256": "059675193ef4d9dcac94f606c6c6f695b859ed4dd46cff00e1611aa7826fa52c",
+      "bytes": 24939
+    },
+    "experiments/vintage_empirical.py": {
+      "sha256": "26fba7c26d442e3938d945271194fe8e8fc16c14f54873545203b4787107ee77",
+      "bytes": 5244
+    },
+    "paper/figures/observed_followup.pdf": {
+      "sha256": "9e94c7f96c3d865e21a473fff641c69de7d568da42071f4f1fc6247937ca2314",
+      "bytes": 16344
+    },
+    "paper/figures/rank_sensitivity.pdf": {
+      "sha256": "d956a1f09da71a966fdf53efe8696d505d8718687c05aa73c2cbb29bc0744238",
+      "bytes": 15479
+    },
+    "paper/figures/rebound_and_pooling.pdf": {
+      "sha256": "c9057cff39ae9002ed90ff807c568379d10dda3dc8d51c329da73baf5c0cc7e5",
+      "bytes": 26079
+    },
+    "paper/figures/simulation_regret.pdf": {
+      "sha256": "c4294b709f906a03381dfbc5ed08bfea0bf6c4633b4962c834763f0826a897d1",
+      "bytes": 23678
+    },
+    "paper/figures/temporal_prediction.pdf": {
+      "sha256": "bbaf5bb59aa77b4e0006af2367163a7938deb640d31404335ad85a2bb56462e8",
+      "bytes": 18372
+    },
+    "paper/main.bbl": {
+      "sha256": "f6f73f0b555df91dc223ea0e4d2cdafd08771eda0943cb23b7776d61dc5295b8",
+      "bytes": 7001
+    },
+    "paper/main.pdf": {
+      "sha256": "051d8aefbc73aed35227fa2e9ab662cb07cb028dd0b2c917b232b1698156040d",
+      "bytes": 474023
+    },
+    "paper/main.tex": {
+      "sha256": "2e6d4e2c2a11a12db37e3c94295bb1089a8fede3daa16ee3123dc862260b3230",
+      "bytes": 64340
+    },
+    "paper/references.bib": {
+      "sha256": "9230e8ac59bd98f74489af49c4dab9c62e8b5d8ebe9eff27f94ab2a5b5bb962e",
+      "bytes": 6930
+    },
+    "paper/tables/cohort.tex": {
+      "sha256": "6f05eb4224a323702e0b1b92e7c6d26b50dc57244be04dc04d171acd9db7bd5b",
+      "bytes": 384
+    },
+    "paper/tables/followup.tex": {
+      "sha256": "53bd1be617c5f72d2fe33962a09fc433a90296a61a711b9af65e3a6380d32f2a",
+      "bytes": 348
+    },
+    "paper/tables/harmonised_metrics.tex": {
+      "sha256": "f72e8da98cfe8063bc280740a49512fff09f3f02d38a260f530e3ba3e35aa9b5",
+      "bytes": 601
+    },
+    "paper/tables/harmonised_tuning.tex": {
+      "sha256": "8e6df3f0b427846914c08c0b4ad6d6411be7dbd4515bca225dbb462f1cae2d85",
+      "bytes": 400
+    },
+    "paper/tables/numbers.tex": {
+      "sha256": "9e7276aa21dbac3d8adb14dd3699c706c7ac906f753934cb573f5065b9401235",
+      "bytes": 272
+    },
+    "paper/tables/rank_thresholds.tex": {
+      "sha256": "242356e411d003f1487ad7a0daf01b2057594dbcd9eb00fc83eb8afb8eb7b165",
+      "bytes": 342
+    },
+    "paper/tables/simulation_reference.tex": {
+      "sha256": "df99ad14c5b275c9c88ed85364eaff91a0c9b9e57345f5a50f5b30022120f336",
+      "bytes": 390
+    },
+    "paper/tables/stress.tex": {
+      "sha256": "86ee0aac802a88f41a3347cef96825d27e7b0105f7004c48119654bf251535eb",
+      "bytes": 1361
+    },
+    "paper/tables/vintage_metrics.tex": {
+      "sha256": "afbcceed7fb45e8800da1b768618eae967e69418b39b74a51f41fc8f187133d8",
+      "bytes": 601
+    },
+    "paper/tables/vintage_tuning.tex": {
+      "sha256": "f2a00672461fa08df4c4f147e295aed4e9ed1a7167e375a741315d23a31776b5",
+      "bytes": 400
+    },
+    "requirements.txt": {
+      "sha256": "ef8dc002ddc7bafcc1c1825631a24df0330f3e50655d2067fdf20aea1ca50cec",
+      "bytes": 456
+    },
+    "results/empirical_independent_audit.json": {
+      "sha256": "256043b1aca674ebfd12373776dd7277b14dffd5b15a2a45466c269feba538d4",
+      "bytes": 93646
+    },
+    "results/final_refresh_check.json": {
+      "sha256": "ac9cc84c9e3a836d5e31be6fd986814fa880353abb077e61b1a369288446dc6e",
+      "bytes": 883
+    },
+    "results/harmonised/analysis_cohort.csv": {
+      "sha256": "33857629a245888b5efe447435d7cdb7c89e53b52b9dc51582a38fb7f031f5e4",
+      "bytes": 1058214
+    },
+    "results/harmonised/development_grid.csv": {
+      "sha256": "a824716b18229b6ed6fb815c80e54c807ad02c350cacb74fb6361ac2d2f41419",
+      "bytes": 3062
+    },
+    "results/harmonised/frozen_2025_predictions.csv": {
+      "sha256": "258e1cc28c712eb13be2e64a92af957f19e5c1efd4f53e873ad1616edf7040f1",
+      "bytes": 45856
+    },
+    "results/harmonised/group_test_metrics.csv": {
+      "sha256": "3a70073c8ae3eafd5ee76ce44a7e6cd7d683112e8cf9b8c79633016db36651dd",
+      "bytes": 4815
+    },
+    "results/harmonised/manifest.json": {
+      "sha256": "840a95e947110af8083e2291debc169530d9593dfe5640cbbbcd3da8df0a2c16",
+      "bytes": 4371
+    },
+    "results/harmonised/observational_followup.csv": {
+      "sha256": "e663cfc919576876cddd6d46b4d84fcd6f98b7685b10f7f5e5ce81db220cb883",
+      "bytes": 689
+    },
+    "results/harmonised/paired_bootstrap.csv": {
+      "sha256": "60f9406401f2b33e0e680d4fbe48d8cf6d17f1bfffeedde936fc6d106aa191fe",
+      "bytes": 1169
+    },
+    "results/harmonised/rank_envelope.csv": {
+      "sha256": "b9e15ad14e3c5a8589a8abdc95c6fd6edf9ab00481ad39ca81cdb75626e4b061",
+      "bytes": 22107
+    },
+    "results/harmonised/rank_membership.csv": {
+      "sha256": "53d99bf715c6d967577ad857b1e396e71f997148bdee54b4818d82763dbeff25",
+      "bytes": 178841
+    },
+    "results/harmonised/rank_sensitivity.csv": {
+      "sha256": "4ce513149514141d3002c4746606871d589704b9adeaa8196aee9a52aa8510bf",
+      "bytes": 243
+    },
+    "results/harmonised/rank_thresholds.csv": {
+      "sha256": "44471db55391b78d5b1e0d3df0e7ccc1de3fd8fc8ffd939cc856dfc77454153d",
+      "bytes": 358
+    },
+    "results/harmonised/selected_hyperparameters.json": {
+      "sha256": "bfea5ed32ac7ffee15d1ba3899c17b45ca5b768537d3145a1c2cafa776755fd9",
+      "bytes": 1174
+    },
+    "results/harmonised/test_metrics.csv": {
+      "sha256": "d165767daa53b702eedb629892e6d9eb734c73f28870650a8be0420a1e54b329",
+      "bytes": 997
+    },
+    "results/pooling_curve.csv": {
+      "sha256": "0767e8497efeec6e14c6f5e2488aebf3d48205737c511d9f3ad06c75e560527d",
+      "bytes": 16214
+    },
+    "results/provenance/5a20e7e874f300e3/docs/analysis_protocol.md": {
+      "sha256": "39bd2d7a26a8689361f928b1bc2ac9325f2413fee91c3170e8a24c111ed07286",
+      "bytes": 9073
+    },
+    "results/provenance/5a20e7e874f300e3/experiments/common.py": {
+      "sha256": "6dc57b5c05a181288f35993d0c3c7fb761b3b861067314885b4a505817711e1a",
+      "bytes": 4900
+    },
+    "results/provenance/5a20e7e874f300e3/experiments/empirical.py": {
+      "sha256": "f7ebf9e9790540a551848f9fdb5f5e1545d0fc6e35740a3684bc71dfdf3f48d5",
+      "bytes": 12344
+    },
+    "results/provenance/5a20e7e874f300e3/experiments/report.py": {
+      "sha256": "9d6bd255bc7c8b6be7414e780832f3d9552280de3e68a500ef3267811dd5a9dc",
+      "bytes": 12866
+    },
+    "results/provenance/5a20e7e874f300e3/experiments/simulate.py": {
+      "sha256": "9bfc68b772b8f60ca9a36293ac567d89e238c90900256f28d0cffa0e0a66acf5",
+      "bytes": 5717
+    },
+    "results/provenance/5a20e7e874f300e3/experiments/theory_checks.py": {
+      "sha256": "f0c32db43858cf40a996ffd98d43b3f6467b6d53f2883d3acd335dabd85d4949",
+      "bytes": 20482
+    },
+    "results/provenance/5a20e7e874f300e3/experiments/verify_empirical.py": {
+      "sha256": "059675193ef4d9dcac94f606c6c6f695b859ed4dd46cff00e1611aa7826fa52c",
+      "bytes": 24939
+    },
+    "results/provenance/5a20e7e874f300e3/experiments/vintage_empirical.py": {
+      "sha256": "26fba7c26d442e3938d945271194fe8e8fc16c14f54873545203b4787107ee77",
+      "bytes": 5244
+    },
+    "results/provenance/648092710c5ac34c/docs/analysis_protocol.md": {
+      "sha256": "39bd2d7a26a8689361f928b1bc2ac9325f2413fee91c3170e8a24c111ed07286",
+      "bytes": 9073
+    },
+    "results/provenance/648092710c5ac34c/experiments/common.py": {
+      "sha256": "6dc57b5c05a181288f35993d0c3c7fb761b3b861067314885b4a505817711e1a",
+      "bytes": 4900
+    },
+    "results/provenance/648092710c5ac34c/experiments/empirical.py": {
+      "sha256": "f7ebf9e9790540a551848f9fdb5f5e1545d0fc6e35740a3684bc71dfdf3f48d5",
+      "bytes": 12344
+    },
+    "results/provenance/648092710c5ac34c/experiments/report.py": {
+      "sha256": "2ef5a3d78c93d05648f2c7012fe8d584f829e428b8b0555cd94e708e0387eed2",
+      "bytes": 13475
+    },
+    "results/provenance/648092710c5ac34c/experiments/simulate.py": {
+      "sha256": "9bfc68b772b8f60ca9a36293ac567d89e238c90900256f28d0cffa0e0a66acf5",
+      "bytes": 5717
+    },
+    "results/provenance/648092710c5ac34c/experiments/theory_checks.py": {
+      "sha256": "f0c32db43858cf40a996ffd98d43b3f6467b6d53f2883d3acd335dabd85d4949",
+      "bytes": 20482
+    },
+    "results/provenance/648092710c5ac34c/experiments/verify_empirical.py": {
+      "sha256": "059675193ef4d9dcac94f606c6c6f695b859ed4dd46cff00e1611aa7826fa52c",
+      "bytes": 24939
+    },
+    "results/provenance/648092710c5ac34c/experiments/vintage_empirical.py": {
+      "sha256": "26fba7c26d442e3938d945271194fe8e8fc16c14f54873545203b4787107ee77",
+      "bytes": 5244
+    },
+    "results/report_manifest.json": {
+      "sha256": "4f0a0b4f1d20c56a58ffce4a54283fd008e93ca6bd0b49849be37c699db968da",
+      "bytes": 4878
+    },
+    "results/simulation.csv": {
+      "sha256": "ff59221b940e5465e66660905a0467bf65b994fdab675ff76ff52e4997ec8fde",
+      "bytes": 1021094
+    },
+    "results/simulation_manifest.json": {
+      "sha256": "a5ddc3ab977c226ab7da5b6a0943846cb7ab68eb8957c30393e45e257c3bfa34",
+      "bytes": 1386
+    },
+    "results/simulation_replay_check.json": {
+      "sha256": "8fd4d284291e7cd4639705989905184094e50966a308587d26faba5e0e537292",
+      "bytes": 344
+    },
+    "results/simulation_stress.csv": {
+      "sha256": "c6a6351d17408985ee662a1c67aa5fa3cb2ba90da3b438a8d85bff2600196fb8",
+      "bytes": 34620
+    },
+    "results/theory_checks.json": {
+      "sha256": "e6db5741336faa22e39e7c19f137b69e673842cd225534f5003b80be4ff2d4cf",
+      "bytes": 7555
+    },
+    "results/vintage/development_grid.csv": {
+      "sha256": "69346735a2f6b90c2801231844e9ce57612d37e2dc628dcd321ef76099d03d3f",
+      "bytes": 3048
+    },
+    "results/vintage/frozen_2025_predictions.csv": {
+      "sha256": "9291f6687ca73b2b8d914404bf5075f35489b284ff168b9f5cf982b3d4943c75",
+      "bytes": 45891
+    },
+    "results/vintage/group_test_metrics.csv": {
+      "sha256": "046300cd4c5c5cdb88567fbdeaa4767a4f8eac049f7a22415e90b7a5b4f60c7c",
+      "bytes": 4818
+    },
+    "results/vintage/manifest.json": {
+      "sha256": "feff83cb90dffd32198a3d708d68f490d6aeb230414f3c2ef25141cd2b511fa9",
+      "bytes": 4604
+    },
+    "results/vintage/paired_bootstrap.csv": {
+      "sha256": "660e2f9c110df39282f1ef1c16f3f136e934b71f5de3cdaa846e39c35fbdd036",
+      "bytes": 1168
+    },
+    "results/vintage/score_revisions.csv": {
+      "sha256": "eaef7fb935e5bf745f1195ed99aa7c726259232c5da4c2f07a755386afeaf6f9",
+      "bytes": 96236
+    },
+    "results/vintage/selected_hyperparameters.json": {
+      "sha256": "cc7bcbc68a7b7564024bd3b824b2ff66ab7f8ab56cb23167621321ef64d28db8",
+      "bytes": 1171
+    },
+    "results/vintage/test_metrics.csv": {
+      "sha256": "1ca6f4f1014721249d4e98cd01cf5402093fc553bdc9b9655adf3dabc4d65ba4",
+      "bytes": 1003
+    },
+    "vintage_data/annual_release_current_year_panel.csv": {
+      "sha256": "b183a63b395e207a39516ef80a43b835f1e75707bc68f72196c4d2751678e5a6",
+      "bytes": 681388
+    },
+    "vintage_data/archived_benchmark_manifest.json": {
+      "sha256": "3423946e5a2bb20950d7d3604fc8b3bbf63d89a9c2067c40f656eda7ce69304f",
+      "bytes": 3685
+    },
+    "vintage_data/benchmark_discovery_attempts.json": {
+      "sha256": "f3510319fd06cbbb3da9c8e3a1113cdca5cf2acc05dbb247864362d104df21d9",
+      "bytes": 886
+    },
+    "vintage_data/benchmark_notes_2023.txt": {
+      "sha256": "ba6cbc16150d41b95eaa3577009b97abeb5d22bb9eca06749a149776b3c07286",
+      "bytes": 39944
+    },
+    "vintage_data/benchmark_notes_2024.txt": {
+      "sha256": "87c6f9bcd5e30d9f9a1c5e2db1ab201ab83c4954859ed4611d6721f1889bfd61",
+      "bytes": 40097
+    },
+    "vintage_data/benchmark_sources.json": {
+      "sha256": "20d5dc77ca6fbb2fffe952d11562cf74a3062bd6e143fa7834765d6700295eb8",
+      "bytes": 864
+    },
+    "vintage_data/benchmark_vintage_panel.csv": {
+      "sha256": "3db4af6e0c65a3412e899c048211fca1a2498e1ef5342df75fa04088c1a1a31e",
+      "bytes": 1654560
+    },
+    "vintage_data/benchmark_wayback_captures.json": {
+      "sha256": "30c24cc3b132ca886aa23637dedadc58f97547e32fc5d459eca121af807b9c5a",
+      "bytes": 2356
+    },
+    "vintage_data/cohort_and_revision_checks.json": {
+      "sha256": "7dce31cb8f999192008f7d9e81e54f8e776661de6331aadce0a20a73d33703ee",
+      "bytes": 3129
+    },
+    "vintage_data/earlier_2022_first_release_manifest.json": {
+      "sha256": "ebfb7de014f4b4798d1d463f02395a34e7f32d50ce00e759e301f2e00bcee8aa",
+      "bytes": 711
+    },
+    "vintage_data/earlier_benchmark_manifest.json": {
+      "sha256": "23b03c04b0c9a185aeb12c74c3aa7ee555cd72eb313b0833a8a29f647da0e1f0",
+      "bytes": 2607
+    },
+    "vintage_data/fetch_primary_benchmarks.py": {
+      "sha256": "da3adebceb51da7e2c99cea94b431d366991e8e10defc5ec388b8b362ac1014a",
+      "bytes": 1381
+    },
+    "vintage_data/independent_validation.json": {
+      "sha256": "86cda0b81c0063b591b8beca3d7763731dddb3998b9c7f6346bb8b7861b2f177",
+      "bytes": 3762
+    },
+    "vintage_data/parse_vintages.py": {
+      "sha256": "708cc10365f3b13ef43ff23844fd115752ff41f86a8649cf62923b9c4d667ed1",
+      "bytes": 10906
+    },
+    "vintage_data/parsing_manifest.json": {
+      "sha256": "f506784f009f5d277ca3dd83bd49a07daaefb2d8641b4ceae582d98f78b2e475",
+      "bytes": 1688
+    },
+    "vintage_data/source_manifest.json": {
+      "sha256": "ba6fa1712952de074290afda9a19321c7ae55ae35f182fe31a03af7cd4180db5",
+      "bytes": 5782
+    },
+    "vintage_data/validate_vintages.py": {
+      "sha256": "b0381259e3789167fcc8a46208eca77760b52bae3086f02de1c81ca07aa3157c",
+      "bytes": 6251
+    },
+    "vintage_data/wayback_2022_2023_page_captures.json": {
+      "sha256": "738a14e047c836e40e361ccf143f873e1a1e50cfacb374ad785e0e27bde511d8",
+      "bytes": 1722
+    },
+    "vintage_data/wayback_discovery_attempts.json": {
+      "sha256": "0960b41fd6a9574a2d515430d3c019276cc5c639df73a449c431c91db8a304ec",
+      "bytes": 3040
+    },
+    "vintage_data/wayback_earlier_pages.json": {
+      "sha256": "4f9b65bafb0700fe7e2415bd1e7483f1e08118bd44e70a758f377d4adfe71db5",
+      "bytes": 1302
+    },
+    "vintage_data/wayback_pages.json": {
+      "sha256": "c1987e9b5c83f9835987b15c9f15cb357b576ff10de60c340bbf777ee6b73c54",
+      "bytes": 1610
+    }
+  },
+  "exclusions": {
+    "paper/main.out": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/main.fdb_latexmk": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/main.aux": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/main.log": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/main.fls": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/main.blg": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/figures/temporal_prediction.png": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/figures/rebound_and_pooling.png": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/figures/observed_followup.png": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/figures/simulation_regret.png": "TeX auxiliary file, preview or non-publication artifact",
+    "paper/figures/rank_sensitivity.png": "TeX auxiliary file, preview or non-publication artifact",
+    "data_tools/__pycache__/": "symlink, dependency, cache or preview directory",
+    "experiments/__pycache__/": "symlink, dependency, cache or preview directory",
+    "results/provenance/4c6eba25b74efec5/experiments/theory_checks.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/4c6eba25b74efec5/experiments/simulate.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/4c6eba25b74efec5/experiments/verify_empirical.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/4c6eba25b74efec5/experiments/common.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/4c6eba25b74efec5/experiments/vintage_empirical.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/4c6eba25b74efec5/experiments/empirical.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/4c6eba25b74efec5/experiments/report.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/4c6eba25b74efec5/docs/analysis_protocol.md": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/1b94090b2714e44e/experiments/simulate.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/1b94090b2714e44e/experiments/common.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/1b94090b2714e44e/experiments/vintage_empirical.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/1b94090b2714e44e/experiments/empirical.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/1b94090b2714e44e/experiments/report.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/1b94090b2714e44e/docs/analysis_protocol.md": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/c281f8b78c37ec16/experiments/simulate.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/c281f8b78c37ec16/experiments/common.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/c281f8b78c37ec16/experiments/vintage_empirical.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/c281f8b78c37ec16/experiments/empirical.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/c281f8b78c37ec16/experiments/report.py": "historical snapshot not referenced by the final executed result manifests",
+    "results/provenance/c281f8b78c37ec16/docs/analysis_protocol.md": "historical snapshot not referenced by the final executed result manifests",
+    "results/initial_runs/simulation_stress.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/vintage_reporting_unit_stratified_bootstrap.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_reporting_unit_stratified_bootstrap.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/simulation_manifest.json": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/analysis_protocol_initial.md": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/simulation.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/rank_sensitivity.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/test_metrics.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/group_test_metrics.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/analysis_cohort.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/observational_followup.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/paired_bootstrap.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/rank_thresholds.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/development_grid.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/rank_membership.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/rank_envelope.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/harmonised_before_optional_unit_correction/frozen_2025_predictions.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/vintage_before_optional_unit_correction/test_metrics.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/vintage_before_optional_unit_correction/group_test_metrics.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/vintage_before_optional_unit_correction/score_revisions.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/vintage_before_optional_unit_correction/paired_bootstrap.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/vintage_before_optional_unit_correction/development_grid.csv": "raw source assets or superseded exploratory outputs",
+    "results/initial_runs/vintage_before_optional_unit_correction/frozen_2025_predictions.csv": "raw source assets or superseded exploratory outputs",
+    "vintage_data/technical_2021.pdf": "archived raw workbook, document or web-page payload",
+    "vintage_data/technical_2023.pdf": "archived raw workbook, document or web-page payload",
+    "vintage_data/technical_2022.pdf": "archived raw workbook, document or web-page payload",
+    "vintage_data/benchmark_vintage_2024_20250531050328.xlsx": "archived raw workbook, document or web-page payload",
+    "vintage_data/local_results_vintage_2021_wayback.html": "archived raw workbook, document or web-page payload",
+    "vintage_data/technical_2024.pdf": "archived raw workbook, document or web-page payload",
+    "vintage_data/benchmark_vintage_2024_20250427122552.xlsx": "archived raw workbook, document or web-page payload",
+    "vintage_data/benchmark_vintage_2021_20220401110158.xlsx": "archived raw workbook, document or web-page payload",
+    "vintage_data/local_results_vintage_2024_wayback.html.gz": "archived raw workbook, document or web-page payload",
+    "vintage_data/local_results_vintage_2022_first_release_wayback.html": "archived raw workbook, document or web-page payload",
+    "vintage_data/local_results_vintage_2023_wayback.html": "archived raw workbook, document or web-page payload",
+    "vintage_data/detailed_2022.zip": "archived raw workbook, document or web-page payload",
+    "vintage_data/local_results_vintage_2024_wayback.html": "archived raw workbook, document or web-page payload",
+    "vintage_data/detailed_2023.zip": "archived raw workbook, document or web-page payload",
+    "vintage_data/detailed_2021.zip": "archived raw workbook, document or web-page payload",
+    "vintage_data/detailed_2024.zip": "archived raw workbook, document or web-page payload",
+    "vintage_data/local_results_vintage_2022_wayback.html": "archived raw workbook, document or web-page payload",
+    "vintage_data/benchmark_vintage_2023_20240705035334.xlsx": "archived raw workbook, document or web-page payload",
+    "data/extracted/data_issue_2023.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/questionnaire_2024_nss24_questionnaire.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/questionnaire_2024_nss24_permission_to_recontact_question.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/technical_2023.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/technical_2022.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/technical_2021.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/technical_2025.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/questionnaire_2023.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/questionnaire_2022.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/technical_2024.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/questionnaire_2021.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/questionnaire_2025_nss2025_questionnaire.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/questionnaire_2025_nss2025_questionnaire_online_version.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/example_RCF_benchmark_2025.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/understanding_2025.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/extracted/benchmark_notes.txt": "third-party documentation text, restored by the download/extraction workflow",
+    "data/raw/technical_2021.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/faqs.html": "raw source assets or superseded exploratory outputs",
+    "data/raw/technical_2023.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/benchmark_2021_2025_v2.xlsx": "raw source assets or superseded exploratory outputs",
+    "data/raw/technical_2022.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/questionnaire_2021.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/technical_2025.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/questionnaire_2023.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/questionnaire_2022.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/technical_2024.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/results_archive.html": "raw source assets or superseded exploratory outputs",
+    "data/raw/data_issue_2023.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/archive_catalog.json": "raw source assets or superseded exploratory outputs",
+    "data/raw/local_results.html": "raw source assets or superseded exploratory outputs",
+    "data/raw/understanding_2025.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/detailed_2022.zip": "raw source assets or superseded exploratory outputs",
+    "data/raw/detailed_2023.zip": "raw source assets or superseded exploratory outputs",
+    "data/raw/example_RCF_benchmark_2025.pdf": "raw source assets or superseded exploratory outputs",
+    "data/raw/national_results.html": "raw source assets or superseded exploratory outputs",
+    "data/raw/detailed_2021.zip": "raw source assets or superseded exploratory outputs",
+    "data/raw/detailed_2024.zip": "raw source assets or superseded exploratory outputs",
+    "data/raw/detailed_2025.zip": "raw source assets or superseded exploratory outputs",
+    "data/raw/questionnaire_2024.zip": "raw source assets or superseded exploratory outputs",
+    "data/raw/survey_documents.html": "raw source assets or superseded exploratory outputs",
+    "data/raw/questionnaire_2025.zip": "raw source assets or superseded exploratory outputs",
+    "artifact_tools/node_modules/": "symlink, dependency, cache or preview directory",
+    "artifact_tools/preview/": "symlink, dependency, cache or preview directory",
+    "artifact_tools/repository_command_audit.json": "local temporary-checkout command log; restoration commands are documented in README/Makefile"
+  },
+  "public_bundle_root": "nhs_wellbeing_research/",
+  "timestamps": "Execution/provenance timestamps retained; deterministic archive headers are not experiment dates"
+}

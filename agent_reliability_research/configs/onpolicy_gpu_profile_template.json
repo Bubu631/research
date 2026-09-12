@@ -1,0 +1,24 @@
+{
+  "status": "unmeasured_template",
+  "hardware_description": null,
+  "gpu_count": null,
+  "allocated_gpu_memory_gb_each": null,
+  "measured_peak_gpu_memory_gb": null,
+  "setup_seconds_per_run": null,
+  "evaluation_seconds_per_run": null,
+  "diagnostic_seconds_per_run": null,
+  "shared_calibration_gpu_seconds": null,
+  "collection_seconds_p90_by_method": {
+    "sequential_completion": null,
+    "full_reference_grpo": null,
+    "whole_group_residual": null,
+    "full_group_small_batch": null,
+    "pgbc_fixed_scale": null
+  },
+  "reference_repeat_disagreement_fraction": null,
+  "fraction_groups_with_at_least_four_unknown_labels": null,
+  "reference_critical_path_fraction": null,
+  "predicted_net_wall_time_saving_fraction": null,
+  "source_and_ledger_checks_passed": null,
+  "storage_gb_estimate": null
+}

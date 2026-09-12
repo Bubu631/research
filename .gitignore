@@ -1,0 +1,29 @@
+# Local environments and caches
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.cache/
+.env
+.env.*
+!.env.example
+
+# Manuscript build intermediates (keep .bbl for reproducible TeX builds)
+*.aux
+*.log
+*.out
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Original downloads and private working materials are not research releases.
+private_sources/
+**/data/raw/
+**/data/swe_gym/raw/
+**/tokenizer_cache/
+*.partial.npz
+
+# Download this generated evidence separately from GitHub Releases.
+research_release/papers/**/public_gradients_*.npz

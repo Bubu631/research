@@ -1,0 +1,10 @@
+# Preserve exact bytes: experimental manifests use SHA-256 hashes of artifacts.
+* -text
+
+# Numerical evidence can contain hundreds of thousands of recorded rows.
+# Keep it downloadable while avoiding unhelpful full-table diffs.
+*.csv -diff
+*.jsonl -diff
+*.npz binary
+*.pdf binary
+*.xlsx binary

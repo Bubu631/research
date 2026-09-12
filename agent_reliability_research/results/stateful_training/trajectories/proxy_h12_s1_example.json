@@ -1,0 +1,23 @@
+{
+  "method": "proxy",
+  "horizon": 12,
+  "seed": 1,
+  "changed_component": 0,
+  "actions": [
+    "edit_to_spec",
+    "edit_to_spec",
+    "edit_to_spec",
+    "build",
+    "build",
+    "build",
+    "edit_to_spec",
+    "attest",
+    "attest",
+    "publish",
+    "publish",
+    "attest"
+  ],
+  "cheap_reward": 1,
+  "reference_reward_obtained_after_training": 0,
+  "bought_during_training": false
+}

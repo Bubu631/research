@@ -1,0 +1,211 @@
+{
+  "status": "passed",
+  "runtime_seconds": 0.25219106674194336,
+  "source_sha256": {
+    "experiments/verify_frozen_audit_implementation.py": "ec8e3c8a0108d1baf8fa1a73d11d486474e5251e36275c62b86f4137d38d2b33",
+    "experiments/frozen_audit_study.py": "8d2329273d5fb2941d83f2834818a15f61cfff9e417db109c1bc43d4e18406c7",
+    "src/reward_audit.py": "fd68931e2378033d106d10408b6ab08cd64fff32e6f3e9d38d4a114b9e2c7423"
+  },
+  "actual_gradient_bank_loaded": false,
+  "constructed_checks": [
+    {
+      "g": 2,
+      "scenario": "general_map",
+      "moment_max_error": 2.6645352591003757e-15,
+      "expected_model_risk": 2.6296679414906725,
+      "martingale_risk_formula_error": 8.881784197001252e-16,
+      "conditional_projected_bias_sq_max": 1.355854680848614e-31,
+      "metric_max_error": 1.1102230246251565e-16,
+      "expected_cost": 1.0,
+      "full_group_probability": 0.4361843465591707,
+      "scale_invariant_schedule_error": 5.551115123125783e-16
+    },
+    {
+      "g": 2,
+      "scenario": "ratio_one",
+      "moment_max_error": 4.440892098500626e-16,
+      "expected_model_risk": 2.448101315421066,
+      "martingale_risk_formula_error": 4.440892098500626e-16,
+      "conditional_projected_bias_sq_max": 6.162975822039155e-32,
+      "metric_max_error": 8.881784197001252e-16,
+      "expected_cost": 0.9999999999999998,
+      "full_group_probability": 0.49162921237965446,
+      "scale_invariant_schedule_error": 1.6653345369377348e-16
+    },
+    {
+      "g": 2,
+      "scenario": "degenerate_probabilities",
+      "moment_max_error": 0.0,
+      "expected_model_risk": 0.0,
+      "martingale_risk_formula_error": 0.0,
+      "conditional_projected_bias_sq_max": 7.703719777548943e-34,
+      "metric_max_error": 1.7763568394002505e-15,
+      "expected_cost": 1.0,
+      "full_group_probability": 0.5,
+      "scale_invariant_schedule_error": 0.0
+    },
+    {
+      "g": 3,
+      "scenario": "general_map",
+      "moment_max_error": 8.881784197001252e-16,
+      "expected_model_risk": 4.394708072211745,
+      "martingale_risk_formula_error": 8.881784197001252e-16,
+      "conditional_projected_bias_sq_max": 1.633188592840376e-31,
+      "metric_max_error": 1.7763568394002505e-15,
+      "expected_cost": 1.5,
+      "full_group_probability": 0.463127765825543,
+      "scale_invariant_schedule_error": 5.551115123125783e-17
+    },
+    {
+      "g": 3,
+      "scenario": "ratio_one",
+      "moment_max_error": 2.220446049250313e-16,
+      "expected_model_risk": 1.8613268507642724,
+      "martingale_risk_formula_error": 6.661338147750939e-16,
+      "conditional_projected_bias_sq_max": 6.240013019814644e-32,
+      "metric_max_error": 1.7763568394002505e-15,
+      "expected_cost": 1.5,
+      "full_group_probability": 0.48446952070922616,
+      "scale_invariant_schedule_error": 2.220446049250313e-16
+    },
+    {
+      "g": 3,
+      "scenario": "degenerate_probabilities",
+      "moment_max_error": 3.552713678800501e-15,
+      "expected_model_risk": 1.676525244562054,
+      "martingale_risk_formula_error": 6.439293542825908e-15,
+      "conditional_projected_bias_sq_max": 3.2355623065705562e-31,
+      "metric_max_error": 1.7763568394002505e-15,
+      "expected_cost": 1.4999999999999998,
+      "full_group_probability": 0.49999999999999994,
+      "scale_invariant_schedule_error": 5.551115123125783e-17
+    },
+    {
+      "g": 4,
+      "scenario": "general_map",
+      "moment_max_error": 3.552713678800501e-15,
+      "expected_model_risk": 9.072136648568138,
+      "martingale_risk_formula_error": 1.7763568394002505e-15,
+      "conditional_projected_bias_sq_max": 4.506676069866132e-31,
+      "metric_max_error": 3.552713678800501e-15,
+      "expected_cost": 1.9999999999999996,
+      "full_group_probability": 0.4999999999999999,
+      "scale_invariant_schedule_error": 0.0
+    },
+    {
+      "g": 4,
+      "scenario": "ratio_one",
+      "moment_max_error": 4.440892098500626e-16,
+      "expected_model_risk": 0.625734750233261,
+      "martingale_risk_formula_error": 3.3306690738754696e-16,
+      "conditional_projected_bias_sq_max": 5.642974737054601e-32,
+      "metric_max_error": 8.881784197001252e-16,
+      "expected_cost": 1.9999999999999998,
+      "full_group_probability": 0.3408867812345553,
+      "scale_invariant_schedule_error": 2.7755575615628914e-16
+    },
+    {
+      "g": 4,
+      "scenario": "degenerate_probabilities",
+      "moment_max_error": 0.0,
+      "expected_model_risk": 4.030155572905596,
+      "martingale_risk_formula_error": 1.7763568394002505e-15,
+      "conditional_projected_bias_sq_max": 7.095125915122577e-31,
+      "metric_max_error": 7.105427357601002e-15,
+      "expected_cost": 2.0,
+      "full_group_probability": 0.4693254878595862,
+      "scale_invariant_schedule_error": 3.3306690738754696e-16
+    },
+    {
+      "g": 6,
+      "scenario": "general_map",
+      "moment_max_error": 1.4210854715202004e-14,
+      "expected_model_risk": 8.541298052681636,
+      "martingale_risk_formula_error": 1.4210854715202004e-14,
+      "conditional_projected_bias_sq_max": 1.553069907153867e-30,
+      "metric_max_error": 1.4210854715202004e-14,
+      "expected_cost": 2.9999999999999996,
+      "full_group_probability": 0.49999999999999994,
+      "scale_invariant_schedule_error": 5.551115123125783e-17
+    },
+    {
+      "g": 6,
+      "scenario": "ratio_one",
+      "moment_max_error": 4.440892098500626e-16,
+      "expected_model_risk": 0.4653281401473424,
+      "martingale_risk_formula_error": 8.326672684688674e-16,
+      "conditional_projected_bias_sq_max": 8.339276659196731e-32,
+      "metric_max_error": 8.881784197001252e-16,
+      "expected_cost": 3.0,
+      "full_group_probability": 0.2950943918462128,
+      "scale_invariant_schedule_error": 4.996003610813204e-16
+    },
+    {
+      "g": 6,
+      "scenario": "degenerate_probabilities",
+      "moment_max_error": 1.0658141036401503e-14,
+      "expected_model_risk": 7.461234690533386,
+      "martingale_risk_formula_error": 7.105427357601002e-15,
+      "conditional_projected_bias_sq_max": 1.3435287292045357e-30,
+      "metric_max_error": 7.105427357601002e-15,
+      "expected_cost": 2.9999999999999996,
+      "full_group_probability": 0.4462678747944481,
+      "scale_invariant_schedule_error": 1.1102230246251565e-16
+    },
+    {
+      "g": 8,
+      "scenario": "general_map",
+      "moment_max_error": 2.842170943040401e-14,
+      "expected_model_risk": 16.359397463656894,
+      "martingale_risk_formula_error": 4.263256414560601e-14,
+      "conditional_projected_bias_sq_max": 4.280186708406193e-30,
+      "metric_max_error": 2.842170943040401e-14,
+      "expected_cost": 3.9999999999999996,
+      "full_group_probability": 0.33447659528319895,
+      "scale_invariant_schedule_error": 1.4432899320127035e-15
+    },
+    {
+      "g": 8,
+      "scenario": "ratio_one",
+      "moment_max_error": 2.7755575615628914e-16,
+      "expected_model_risk": 0.8524720229213834,
+      "martingale_risk_formula_error": 0.0,
+      "conditional_projected_bias_sq_max": 8.551128953079327e-32,
+      "metric_max_error": 8.881784197001252e-16,
+      "expected_cost": 3.9999999999999996,
+      "full_group_probability": 0.4880088860451828,
+      "scale_invariant_schedule_error": 2.220446049250313e-16
+    },
+    {
+      "g": 8,
+      "scenario": "degenerate_probabilities",
+      "moment_max_error": 1.4210854715202004e-14,
+      "expected_model_risk": 9.552221465811062,
+      "martingale_risk_formula_error": 1.9539925233402755e-14,
+      "conditional_projected_bias_sq_max": 4.6701995592067606e-30,
+      "metric_max_error": 3.637978807091713e-12,
+      "expected_cost": 4.0,
+      "full_group_probability": 0.005,
+      "scale_invariant_schedule_error": 6.661338147750939e-16
+    }
+  ],
+  "heldout_metadata": {
+    "groups": 49,
+    "unique_tasks": 49,
+    "unique_records": 392,
+    "source_sha256": "f689f9021f7303152d17f218524a529f871c11f9d5b6ee5b68da8af97351f0e8"
+  },
+  "paired_bootstrap": {
+    "replicates": 10000,
+    "seed": 20260916,
+    "manual_50_replicates_max_error": 9.992007221626409e-16,
+    "constant_ratio_control": 0.5,
+    "scope": "Tasks are resampled jointly across methods; conditional diagnostic, not representative-population or simultaneous inference."
+  },
+  "scope": [
+    "L=stack(score,score)/G corresponds to ratio=1; no clipping activation is tested.",
+    "Supplied p/order/L determine moments; actual reward labels are absent from the tested function.",
+    "Unit cost counts cached verdict reveals only; no real environment execution-time claim.",
+    "Current source assumes nonzero whole-group mean/replicate denominator; explicit checks recommended."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "Post-processing of all three completed native-parameter mechanisms",
+  "sample_count": 256,
+  "trainable_parameter_count": 73886208,
+  "runtime_seconds": 2212.051120916847,
+  "gram_min_eigenvalue": 1.4114894127612272e-09,
+  "mixture_edit_weight": 0.38814420276707173,
+  "mixture_identity_checks": [
+    {
+      "component": "E",
+      "signed_squared_residual": 3.311762473328503e-09,
+      "signed_relative_squared_residual": 4.970136950709572e-09
+    },
+    {
+      "component": "U",
+      "signed_squared_residual": 2.1616455085086586e-09,
+      "signed_relative_squared_residual": 7.160156864243271e-10
+    }
+  ],
+  "mixture_note": "The mixed propensity averages edit and length propensities. The three Q settings are not independent replications; the exact eight-vector Gram rank is at most six.",
+  "loss_decomposition_max_abs": 2.980232238769531e-07,
+  "independent_baseline_nll_max_abs": 1.7294001763978883e-06,
+  "gram_sha256": "fbb71e5c9a1d6a04efa2cd7a314fa0b2847655adf24457bed8a7d5fb6f90a0d3",
+  "script_sha256": "251711e6022456ad1d44fdca3ac4a9bd11132b72d892bddb1b0aa0a5b28fe532",
+  "results": [
+    {
+      "mechanism": "edit",
+      "rho_Q_0": 0.4474769985361282,
+      "rho_Q_1": 0.33102002712595496,
+      "interior_roots": [],
+      "rho_at_roots": [],
+      "minimum_alpha": 1.0,
+      "minimum_rho": 0.33102002712595496,
+      "maximum_alpha": 0.0,
+      "maximum_rho": 0.4474769985361282,
+      "monotone_increasing": false,
+      "monotone_decreasing": true,
+      "edited_bias_norm": 0.49339569133286276,
+      "untouched_bias_norm": 0.4713649778646904,
+      "selected_component_cosine": -0.011388574074128535,
+      "derivative_polynomial_descending": [
+        0.04392078108846947,
+        -0.40017801978175355,
+        -0.016364384082062568
+      ]
+    },
+    {
+      "mechanism": "length",
+      "rho_Q_0": 0.19267144207280315,
+      "rho_Q_1": 0.10497077246041847,
+      "interior_roots": [],
+      "rho_at_roots": [],
+      "minimum_alpha": 1.0,
+      "minimum_rho": 0.10497077246041847,
+      "maximum_alpha": 0.0,
+      "maximum_rho": 0.19267144207280315,
+      "monotone_increasing": false,
+      "monotone_decreasing": true,
+      "edited_bias_norm": 0.12684114558597967,
+      "untouched_bias_norm": 0.1638453374667967,
+      "selected_component_cosine": -0.012243014987051533,
+      "derivative_polynomial_descending": [
+        0.003468211682446027,
+        -0.04111202529291432,
+        -0.0002754708501305098
+      ]
+    },
+    {
+      "mechanism": "edit_length",
+      "rho_Q_0": 0.22455339953697534,
+      "rho_Q_1": 0.14285829261828387,
+      "interior_roots": [],
+      "rho_at_roots": [],
+      "minimum_alpha": 1.0,
+      "minimum_rho": 0.14285829261828387,
+      "maximum_alpha": 0.0,
+      "maximum_rho": 0.22455339953697534,
+      "monotone_increasing": false,
+      "monotone_decreasing": true,
+      "edited_bias_norm": 0.1833010896821589,
+      "untouched_bias_norm": 0.21667803122084603,
+      "selected_component_cosine": -0.008725650659779883,
+      "derivative_polynomial_descending": [
+        0.008237281920475462,
+        -0.07015210225761989,
+        -0.0015305030686981543
+      ]
+    }
+  ]
+}

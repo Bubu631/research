@@ -1,0 +1,20 @@
+\subsection{A subsequent model-only scheduling experiment}
+After the calibration-cost finding, we froze a label-free alternative using the model moments and PAVA rule, and evaluated it with fresh seed 20260914. The same grid has 135 budget settings, each with 256 groups; all methods share each group and its supplied predictor. No reference labels fit the predictor or tune this schedule. We exactly integrate stopping-depth randomness and retain every setting. The base-rate grid specifies the logistic-normal intercept, not the realized success prevalence.
+
+\begin{table}[t]
+\centering
+\caption{Subsequent model-only schedule versus whole-group residual correction at the same expected label-cost ceiling. Ratios are medians across 45 settings per regime; wins count lower group-averaged MSE. The fixed six-dimensional map is a synthetic linear-update diagnostic.}
+\label{tab:model-only}
+\begin{tabular}{lrrrr}
+\toprule
+&\multicolumn{2}{c}{Coefficient MSE}&\multicolumn{2}{c}{Six-dimensional MSE}\\
+Regime&Ratio&Wins&Ratio&Wins\\
+\midrule
+Calibrated&0.748&45/45&0.726&45/45\\
+Overconfident&1.021&18/45&0.984&26/45\\
+Shifted&2.243&0/45&1.898&0/45\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Correct-model gains coexist with substantial misspecification losses (Table~\ref{tab:model-only}); the worst shifted coefficient ratio is 6.68. The largest conditional coefficient-bias square is $2.94\times10^{-30}$, so this failure is variance rather than failed correction. Model optimality concerns coefficient risk under the supplied model and a fixed order, not the projected update or an incorrect model. Computation also increases: for $G=16$, mean scheduling CPU is 5.24\,ms and scheduling plus expected completion CPU is 10.38\,ms, versus 0.55\,ms for whole-group correction. These Python microbenchmarks exclude actual verifier execution and do not imply a training speedup. Raw groups, schedules, paired standard errors, all costs, and independent full-cube checks accompany the release.

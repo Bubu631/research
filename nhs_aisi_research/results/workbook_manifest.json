@@ -1,0 +1,2015 @@
+{
+  "created_at_utc": "2026-09-11T21:57:39.360177+00:00",
+  "source_files": [
+    {
+      "sheet": "Synthetic",
+      "path": "results/synthetic.csv",
+      "sha256": "3162608c221d187919257899e26cf43089f24ec98e6a7a81f3d986018c9d677a",
+      "rows": 240,
+      "columns": 63
+    },
+    {
+      "sheet": "Stress",
+      "path": "results/synthetic_stress.csv",
+      "sha256": "6ad80c383a2ba9be4b9f4dc12a18fc04dea829cd129651b9b56187eb5a61fae0",
+      "rows": 70,
+      "columns": 63
+    },
+    {
+      "sheet": "Replay",
+      "path": "results/replay.csv",
+      "sha256": "f70ce7987dfeac1d4f9eab9ada6452ec757aa67867b90d89c2441071998bd629",
+      "rows": 180,
+      "columns": 62
+    },
+    {
+      "sheet": "Calibration",
+      "path": "results/replay_calibration.csv",
+      "sha256": "7051e73386c65ecc7591c2bd0dfd1ea0e60af7e597e74be7a4943362b26c3d03",
+      "rows": 240,
+      "columns": 8
+    },
+    {
+      "sheet": "Allocations",
+      "path": "results/replay_allocations.csv",
+      "sha256": "642deccf1d77ee4f94676a7e777127493f2d407080fb50ee0efbafc4c9c7a3f5",
+      "rows": 8640,
+      "columns": 14
+    },
+    {
+      "sheet": "NHS summary",
+      "path": "results/nhs_scenario_summary.csv",
+      "sha256": "bdd93b42a0aeae3662f63b7d7bb53b4a081b0815e2b990a2387ab5dcdd04119b",
+      "rows": 8,
+      "columns": 10
+    },
+    {
+      "sheet": "NHS scenarios",
+      "path": "results/nhs_scenarios.csv",
+      "sha256": "34ff6adf8e5649539d5924ac84d3da09c7b084cbfea6dc5954ce11e4cedf90c5",
+      "rows": 1520,
+      "columns": 21
+    },
+    {
+      "sheet": "Exploratory",
+      "path": "results/replay_budget_extension.csv",
+      "sha256": "b9bfb084660745bd4e99cdf248c36e3e7aa1659f1e08e3433ada32b39d3dc5c3",
+      "rows": 20,
+      "columns": 63
+    }
+  ],
+  "sheets": {
+    "Results": {
+      "rows": 59,
+      "columns": 15
+    },
+    "Synthetic": {
+      "rows": 241,
+      "columns": 63
+    },
+    "Stress": {
+      "rows": 71,
+      "columns": 63
+    },
+    "Replay": {
+      "rows": 181,
+      "columns": 62
+    },
+    "Calibration": {
+      "rows": 241,
+      "columns": 8
+    },
+    "Allocations": {
+      "rows": 8641,
+      "columns": 14
+    },
+    "NHS summary": {
+      "rows": 9,
+      "columns": 10
+    },
+    "NHS scenarios": {
+      "rows": 1521,
+      "columns": 21
+    },
+    "Exploratory": {
+      "rows": 21,
+      "columns": 63
+    },
+    "ReadMe": {
+      "rows": 98,
+      "columns": 4
+    }
+  },
+  "authoring": "openpyxl, explicitly requested; artifact-tool used for recalculation and visual QA",
+  "builder_sha256": "71dd8c180777e4cc761f205463be539db4d1755f7541a1695ca811e5f605cd52",
+  "formula_expectations": {
+    "Results!G7": {
+      "formula": "='Synthetic'!H7",
+      "value": 0.11006548594876682
+    },
+    "Results!H7": {
+      "formula": "='Synthetic'!H11",
+      "value": 0.11006548594876682
+    },
+    "Results!I7": {
+      "formula": "=H7-G7",
+      "value": 0.0
+    },
+    "Results!J7": {
+      "formula": "='Synthetic'!BE11",
+      "value": 0.0
+    },
+    "Results!K7": {
+      "formula": "=I7-1.96*J7",
+      "value": 0.0
+    },
+    "Results!L7": {
+      "formula": "=I7+1.96*J7",
+      "value": 0.0
+    },
+    "Results!M7": {
+      "formula": "=IF(G7=0,\"n.a.\",I7/G7)",
+      "value": 0.0
+    },
+    "Results!N7": {
+      "formula": "='Synthetic'!AB11",
+      "value": 0.0
+    },
+    "Results!O7": {
+      "formula": "=IF(K7>0,\"Higher regret\",IF(L7<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G8": {
+      "formula": "='Synthetic'!H17",
+      "value": 0.05836006318745537
+    },
+    "Results!H8": {
+      "formula": "='Synthetic'!H21",
+      "value": 0.05836006318745537
+    },
+    "Results!I8": {
+      "formula": "=H8-G8",
+      "value": 0.0
+    },
+    "Results!J8": {
+      "formula": "='Synthetic'!BE21",
+      "value": 0.0
+    },
+    "Results!K8": {
+      "formula": "=I8-1.96*J8",
+      "value": 0.0
+    },
+    "Results!L8": {
+      "formula": "=I8+1.96*J8",
+      "value": 0.0
+    },
+    "Results!M8": {
+      "formula": "=IF(G8=0,\"n.a.\",I8/G8)",
+      "value": 0.0
+    },
+    "Results!N8": {
+      "formula": "='Synthetic'!AB21",
+      "value": 0.0
+    },
+    "Results!O8": {
+      "formula": "=IF(K8>0,\"Higher regret\",IF(L8<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G9": {
+      "formula": "='Synthetic'!H27",
+      "value": 0.11006548594876682
+    },
+    "Results!H9": {
+      "formula": "='Synthetic'!H31",
+      "value": 0.11006548594876682
+    },
+    "Results!I9": {
+      "formula": "=H9-G9",
+      "value": 0.0
+    },
+    "Results!J9": {
+      "formula": "='Synthetic'!BE31",
+      "value": 0.0
+    },
+    "Results!K9": {
+      "formula": "=I9-1.96*J9",
+      "value": 0.0
+    },
+    "Results!L9": {
+      "formula": "=I9+1.96*J9",
+      "value": 0.0
+    },
+    "Results!M9": {
+      "formula": "=IF(G9=0,\"n.a.\",I9/G9)",
+      "value": 0.0
+    },
+    "Results!N9": {
+      "formula": "='Synthetic'!AB31",
+      "value": 0.0
+    },
+    "Results!O9": {
+      "formula": "=IF(K9>0,\"Higher regret\",IF(L9<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G10": {
+      "formula": "='Synthetic'!H37",
+      "value": 0.05836006318745537
+    },
+    "Results!H10": {
+      "formula": "='Synthetic'!H41",
+      "value": 0.05836006318745537
+    },
+    "Results!I10": {
+      "formula": "=H10-G10",
+      "value": 0.0
+    },
+    "Results!J10": {
+      "formula": "='Synthetic'!BE41",
+      "value": 0.0
+    },
+    "Results!K10": {
+      "formula": "=I10-1.96*J10",
+      "value": 0.0
+    },
+    "Results!L10": {
+      "formula": "=I10+1.96*J10",
+      "value": 0.0
+    },
+    "Results!M10": {
+      "formula": "=IF(G10=0,\"n.a.\",I10/G10)",
+      "value": 0.0
+    },
+    "Results!N10": {
+      "formula": "='Synthetic'!AB41",
+      "value": 0.0
+    },
+    "Results!O10": {
+      "formula": "=IF(K10>0,\"Higher regret\",IF(L10<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G11": {
+      "formula": "='Synthetic'!H47",
+      "value": 0.11006548594876682
+    },
+    "Results!H11": {
+      "formula": "='Synthetic'!H51",
+      "value": 0.11006548594876682
+    },
+    "Results!I11": {
+      "formula": "=H11-G11",
+      "value": 0.0
+    },
+    "Results!J11": {
+      "formula": "='Synthetic'!BE51",
+      "value": 0.0
+    },
+    "Results!K11": {
+      "formula": "=I11-1.96*J11",
+      "value": 0.0
+    },
+    "Results!L11": {
+      "formula": "=I11+1.96*J11",
+      "value": 0.0
+    },
+    "Results!M11": {
+      "formula": "=IF(G11=0,\"n.a.\",I11/G11)",
+      "value": 0.0
+    },
+    "Results!N11": {
+      "formula": "='Synthetic'!AB51",
+      "value": 0.0
+    },
+    "Results!O11": {
+      "formula": "=IF(K11>0,\"Higher regret\",IF(L11<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G12": {
+      "formula": "='Synthetic'!H57",
+      "value": 0.05836006318745537
+    },
+    "Results!H12": {
+      "formula": "='Synthetic'!H61",
+      "value": 0.05836006318745537
+    },
+    "Results!I12": {
+      "formula": "=H12-G12",
+      "value": 0.0
+    },
+    "Results!J12": {
+      "formula": "='Synthetic'!BE61",
+      "value": 0.0
+    },
+    "Results!K12": {
+      "formula": "=I12-1.96*J12",
+      "value": 0.0
+    },
+    "Results!L12": {
+      "formula": "=I12+1.96*J12",
+      "value": 0.0
+    },
+    "Results!M12": {
+      "formula": "=IF(G12=0,\"n.a.\",I12/G12)",
+      "value": 0.0
+    },
+    "Results!N12": {
+      "formula": "='Synthetic'!AB61",
+      "value": 0.0
+    },
+    "Results!O12": {
+      "formula": "=IF(K12>0,\"Higher regret\",IF(L12<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G13": {
+      "formula": "='Synthetic'!H67",
+      "value": 0.12418024165047527
+    },
+    "Results!H13": {
+      "formula": "='Synthetic'!H71",
+      "value": 0.1251694488216203
+    },
+    "Results!I13": {
+      "formula": "=H13-G13",
+      "value": 0.0009892071711450207
+    },
+    "Results!J13": {
+      "formula": "='Synthetic'!BE71",
+      "value": 0.0006207339536643716
+    },
+    "Results!K13": {
+      "formula": "=I13-1.96*J13",
+      "value": -0.00022743137803714754
+    },
+    "Results!L13": {
+      "formula": "=I13+1.96*J13",
+      "value": 0.002205845720327189
+    },
+    "Results!M13": {
+      "formula": "=IF(G13=0,\"n.a.\",I13/G13)",
+      "value": 0.007965898262054434
+    },
+    "Results!N13": {
+      "formula": "='Synthetic'!AB71",
+      "value": 0.0955
+    },
+    "Results!O13": {
+      "formula": "=IF(K13>0,\"Higher regret\",IF(L13<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G14": {
+      "formula": "='Synthetic'!H77",
+      "value": 0.08044030566658741
+    },
+    "Results!H14": {
+      "formula": "='Synthetic'!H81",
+      "value": 0.07964584382530604
+    },
+    "Results!I14": {
+      "formula": "=H14-G14",
+      "value": -0.0007944618412813742
+    },
+    "Results!J14": {
+      "formula": "='Synthetic'!BE81",
+      "value": 0.0010278822818119116
+    },
+    "Results!K14": {
+      "formula": "=I14-1.96*J14",
+      "value": -0.002809111113632721
+    },
+    "Results!L14": {
+      "formula": "=I14+1.96*J14",
+      "value": 0.0012201874310699724
+    },
+    "Results!M14": {
+      "formula": "=IF(G14=0,\"n.a.\",I14/G14)",
+      "value": -0.009876414997405596
+    },
+    "Results!N14": {
+      "formula": "='Synthetic'!AB81",
+      "value": 0.46967500000000006
+    },
+    "Results!O14": {
+      "formula": "=IF(K14>0,\"Higher regret\",IF(L14<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G15": {
+      "formula": "='Synthetic'!H87",
+      "value": 0.12418024165047527
+    },
+    "Results!H15": {
+      "formula": "='Synthetic'!H91",
+      "value": 0.12410008115801802
+    },
+    "Results!I15": {
+      "formula": "=H15-G15",
+      "value": -8.016049245725132e-05
+    },
+    "Results!J15": {
+      "formula": "='Synthetic'!BE91",
+      "value": 5.3697833725489706e-05
+    },
+    "Results!K15": {
+      "formula": "=I15-1.96*J15",
+      "value": -0.00018540824655921114
+    },
+    "Results!L15": {
+      "formula": "=I15+1.96*J15",
+      "value": 2.5087261644708502e-05
+    },
+    "Results!M15": {
+      "formula": "=IF(G15=0,\"n.a.\",I15/G15)",
+      "value": -0.0006455172851320065
+    },
+    "Results!N15": {
+      "formula": "='Synthetic'!AB91",
+      "value": 0.00175
+    },
+    "Results!O15": {
+      "formula": "=IF(K15>0,\"Higher regret\",IF(L15<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G16": {
+      "formula": "='Synthetic'!H97",
+      "value": 0.08044030566658741
+    },
+    "Results!H16": {
+      "formula": "='Synthetic'!H101",
+      "value": 0.08621539142765063
+    },
+    "Results!I16": {
+      "formula": "=H16-G16",
+      "value": 0.005775085761063212
+    },
+    "Results!J16": {
+      "formula": "='Synthetic'!BE101",
+      "value": 0.0007917447012608513
+    },
+    "Results!K16": {
+      "formula": "=I16-1.96*J16",
+      "value": 0.004223266146591943
+    },
+    "Results!L16": {
+      "formula": "=I16+1.96*J16",
+      "value": 0.00732690537553448
+    },
+    "Results!M16": {
+      "formula": "=IF(G16=0,\"n.a.\",I16/G16)",
+      "value": 0.07179343381662479
+    },
+    "Results!N16": {
+      "formula": "='Synthetic'!AB101",
+      "value": 0.2734791666666666
+    },
+    "Results!O16": {
+      "formula": "=IF(K16>0,\"Higher regret\",IF(L16<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G17": {
+      "formula": "='Synthetic'!H107",
+      "value": 0.12418024165047527
+    },
+    "Results!H17": {
+      "formula": "='Synthetic'!H111",
+      "value": 0.12418024165047527
+    },
+    "Results!I17": {
+      "formula": "=H17-G17",
+      "value": 0.0
+    },
+    "Results!J17": {
+      "formula": "='Synthetic'!BE111",
+      "value": 0.0
+    },
+    "Results!K17": {
+      "formula": "=I17-1.96*J17",
+      "value": 0.0
+    },
+    "Results!L17": {
+      "formula": "=I17+1.96*J17",
+      "value": 0.0
+    },
+    "Results!M17": {
+      "formula": "=IF(G17=0,\"n.a.\",I17/G17)",
+      "value": 0.0
+    },
+    "Results!N17": {
+      "formula": "='Synthetic'!AB111",
+      "value": 0.0
+    },
+    "Results!O17": {
+      "formula": "=IF(K17>0,\"Higher regret\",IF(L17<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G18": {
+      "formula": "='Synthetic'!H117",
+      "value": 0.08044030566658741
+    },
+    "Results!H18": {
+      "formula": "='Synthetic'!H121",
+      "value": 0.08604222479332382
+    },
+    "Results!I18": {
+      "formula": "=H18-G18",
+      "value": 0.00560191912673641
+    },
+    "Results!J18": {
+      "formula": "='Synthetic'!BE121",
+      "value": 0.0006526470720632035
+    },
+    "Results!K18": {
+      "formula": "=I18-1.96*J18",
+      "value": 0.004322730865492531
+    },
+    "Results!L18": {
+      "formula": "=I18+1.96*J18",
+      "value": 0.0068811073879802885
+    },
+    "Results!M18": {
+      "formula": "=IF(G18=0,\"n.a.\",I18/G18)",
+      "value": 0.06964069915342559
+    },
+    "Results!N18": {
+      "formula": "='Synthetic'!AB121",
+      "value": 0.18958333333333333
+    },
+    "Results!O18": {
+      "formula": "=IF(K18>0,\"Higher regret\",IF(L18<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G19": {
+      "formula": "='Synthetic'!H127",
+      "value": 0.17511306202561885
+    },
+    "Results!H19": {
+      "formula": "='Synthetic'!H131",
+      "value": 0.1566831083135498
+    },
+    "Results!I19": {
+      "formula": "=H19-G19",
+      "value": -0.01842995371206904
+    },
+    "Results!J19": {
+      "formula": "='Synthetic'!BE131",
+      "value": 0.0016730704815776515
+    },
+    "Results!K19": {
+      "formula": "=I19-1.96*J19",
+      "value": -0.02170917185596124
+    },
+    "Results!L19": {
+      "formula": "=I19+1.96*J19",
+      "value": -0.015150735568176844
+    },
+    "Results!M19": {
+      "formula": "=IF(G19=0,\"n.a.\",I19/G19)",
+      "value": -0.10524602504736488
+    },
+    "Results!N19": {
+      "formula": "='Synthetic'!AB131",
+      "value": 0.735475
+    },
+    "Results!O19": {
+      "formula": "=IF(K19>0,\"Higher regret\",IF(L19<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G20": {
+      "formula": "='Synthetic'!H137",
+      "value": 0.15413720528305816
+    },
+    "Results!H20": {
+      "formula": "='Synthetic'!H141",
+      "value": 0.09815036919310967
+    },
+    "Results!I20": {
+      "formula": "=H20-G20",
+      "value": -0.05598683608994849
+    },
+    "Results!J20": {
+      "formula": "='Synthetic'!BE141",
+      "value": 0.0017438426323168497
+    },
+    "Results!K20": {
+      "formula": "=I20-1.96*J20",
+      "value": -0.059404767649289515
+    },
+    "Results!L20": {
+      "formula": "=I20+1.96*J20",
+      "value": -0.05256890453060747
+    },
+    "Results!M20": {
+      "formula": "=IF(G20=0,\"n.a.\",I20/G20)",
+      "value": -0.3632272687644365
+    },
+    "Results!N20": {
+      "formula": "='Synthetic'!AB141",
+      "value": 0.8785583333333333
+    },
+    "Results!O20": {
+      "formula": "=IF(K20>0,\"Higher regret\",IF(L20<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G21": {
+      "formula": "='Synthetic'!H147",
+      "value": 0.17511306202561885
+    },
+    "Results!H21": {
+      "formula": "='Synthetic'!H151",
+      "value": 0.1761952461149508
+    },
+    "Results!I21": {
+      "formula": "=H21-G21",
+      "value": 0.0010821840893319445
+    },
+    "Results!J21": {
+      "formula": "='Synthetic'!BE151",
+      "value": 0.0011125135855880187
+    },
+    "Results!K21": {
+      "formula": "=I21-1.96*J21",
+      "value": -0.001098342538420572
+    },
+    "Results!L21": {
+      "formula": "=I21+1.96*J21",
+      "value": 0.003262710717084461
+    },
+    "Results!M21": {
+      "formula": "=IF(G21=0,\"n.a.\",I21/G21)",
+      "value": 0.006179916431211865
+    },
+    "Results!N21": {
+      "formula": "='Synthetic'!AB151",
+      "value": 0.3401875
+    },
+    "Results!O21": {
+      "formula": "=IF(K21>0,\"Higher regret\",IF(L21<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G22": {
+      "formula": "='Synthetic'!H157",
+      "value": 0.15413720528305816
+    },
+    "Results!H22": {
+      "formula": "='Synthetic'!H161",
+      "value": 0.13641281297898888
+    },
+    "Results!I22": {
+      "formula": "=H22-G22",
+      "value": -0.017724392304069275
+    },
+    "Results!J22": {
+      "formula": "='Synthetic'!BE161",
+      "value": 0.0015842340679574774
+    },
+    "Results!K22": {
+      "formula": "=I22-1.96*J22",
+      "value": -0.020829491077265932
+    },
+    "Results!L22": {
+      "formula": "=I22+1.96*J22",
+      "value": -0.014619293530872619
+    },
+    "Results!M22": {
+      "formula": "=IF(G22=0,\"n.a.\",I22/G22)",
+      "value": -0.11499100604244207
+    },
+    "Results!N22": {
+      "formula": "='Synthetic'!AB161",
+      "value": 0.68325
+    },
+    "Results!O22": {
+      "formula": "=IF(K22>0,\"Higher regret\",IF(L22<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G23": {
+      "formula": "='Synthetic'!H167",
+      "value": 0.17511306202561885
+    },
+    "Results!H23": {
+      "formula": "='Synthetic'!H171",
+      "value": 0.1764874670912585
+    },
+    "Results!I23": {
+      "formula": "=H23-G23",
+      "value": 0.0013744050656396556
+    },
+    "Results!J23": {
+      "formula": "='Synthetic'!BE171",
+      "value": 0.0006429160523483652
+    },
+    "Results!K23": {
+      "formula": "=I23-1.96*J23",
+      "value": 0.00011428960303685987
+    },
+    "Results!L23": {
+      "formula": "=I23+1.96*J23",
+      "value": 0.002634520528242451
+    },
+    "Results!M23": {
+      "formula": "=IF(G23=0,\"n.a.\",I23/G23)",
+      "value": 0.007848672450479917
+    },
+    "Results!N23": {
+      "formula": "='Synthetic'!AB171",
+      "value": 0.130375
+    },
+    "Results!O23": {
+      "formula": "=IF(K23>0,\"Higher regret\",IF(L23<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G24": {
+      "formula": "='Synthetic'!H177",
+      "value": 0.15413720528305816
+    },
+    "Results!H24": {
+      "formula": "='Synthetic'!H181",
+      "value": 0.15101926531885185
+    },
+    "Results!I24": {
+      "formula": "=H24-G24",
+      "value": -0.003117939964206312
+    },
+    "Results!J24": {
+      "formula": "='Synthetic'!BE181",
+      "value": 0.001394096363623901
+    },
+    "Results!K24": {
+      "formula": "=I24-1.96*J24",
+      "value": -0.005850368836909158
+    },
+    "Results!L24": {
+      "formula": "=I24+1.96*J24",
+      "value": -0.0003855110915034661
+    },
+    "Results!M24": {
+      "formula": "=IF(G24=0,\"n.a.\",I24/G24)",
+      "value": -0.02022834109701493
+    },
+    "Results!N24": {
+      "formula": "='Synthetic'!AB181",
+      "value": 0.593
+    },
+    "Results!O24": {
+      "formula": "=IF(K24>0,\"Higher regret\",IF(L24<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G25": {
+      "formula": "='Synthetic'!H187",
+      "value": 0.25941371173515393
+    },
+    "Results!H25": {
+      "formula": "='Synthetic'!H191",
+      "value": 0.18408977801110255
+    },
+    "Results!I25": {
+      "formula": "=H25-G25",
+      "value": -0.07532393372405138
+    },
+    "Results!J25": {
+      "formula": "='Synthetic'!BE191",
+      "value": 0.002210930092947925
+    },
+    "Results!K25": {
+      "formula": "=I25-1.96*J25",
+      "value": -0.07965735670622931
+    },
+    "Results!L25": {
+      "formula": "=I25+1.96*J25",
+      "value": -0.07099051074187346
+    },
+    "Results!M25": {
+      "formula": "=IF(G25=0,\"n.a.\",I25/G25)",
+      "value": -0.2903621910354248
+    },
+    "Results!N25": {
+      "formula": "='Synthetic'!AB191",
+      "value": 1.0
+    },
+    "Results!O25": {
+      "formula": "=IF(K25>0,\"Higher regret\",IF(L25<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G26": {
+      "formula": "='Synthetic'!H197",
+      "value": 0.25026147124112164
+    },
+    "Results!H26": {
+      "formula": "='Synthetic'!H201",
+      "value": 0.10948317341149362
+    },
+    "Results!I26": {
+      "formula": "=H26-G26",
+      "value": -0.14077829782962803
+    },
+    "Results!J26": {
+      "formula": "='Synthetic'!BE201",
+      "value": 0.0023376308258949174
+    },
+    "Results!K26": {
+      "formula": "=I26-1.96*J26",
+      "value": -0.14536005424838205
+    },
+    "Results!L26": {
+      "formula": "=I26+1.96*J26",
+      "value": -0.136196541410874
+    },
+    "Results!M26": {
+      "formula": "=IF(G26=0,\"n.a.\",I26/G26)",
+      "value": -0.5625248550304858
+    },
+    "Results!N26": {
+      "formula": "='Synthetic'!AB201",
+      "value": 1.0
+    },
+    "Results!O26": {
+      "formula": "=IF(K26>0,\"Higher regret\",IF(L26<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G27": {
+      "formula": "='Synthetic'!H207",
+      "value": 0.25941371173515393
+    },
+    "Results!H27": {
+      "formula": "='Synthetic'!H211",
+      "value": 0.23413033855777654
+    },
+    "Results!I27": {
+      "formula": "=H27-G27",
+      "value": -0.02528337317737739
+    },
+    "Results!J27": {
+      "formula": "='Synthetic'!BE211",
+      "value": 0.0018342957935596365
+    },
+    "Results!K27": {
+      "formula": "=I27-1.96*J27",
+      "value": -0.028878592932754275
+    },
+    "Results!L27": {
+      "formula": "=I27+1.96*J27",
+      "value": -0.021688153422000502
+    },
+    "Results!M27": {
+      "formula": "=IF(G27=0,\"n.a.\",I27/G27)",
+      "value": -0.09746351882582914
+    },
+    "Results!N27": {
+      "formula": "='Synthetic'!AB211",
+      "value": 0.8078125
+    },
+    "Results!O27": {
+      "formula": "=IF(K27>0,\"Higher regret\",IF(L27<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G28": {
+      "formula": "='Synthetic'!H217",
+      "value": 0.25026147124112164
+    },
+    "Results!H28": {
+      "formula": "='Synthetic'!H221",
+      "value": 0.17428752759324004
+    },
+    "Results!I28": {
+      "formula": "=H28-G28",
+      "value": -0.0759739436478816
+    },
+    "Results!J28": {
+      "formula": "='Synthetic'!BE221",
+      "value": 0.002216839000761131
+    },
+    "Results!K28": {
+      "formula": "=I28-1.96*J28",
+      "value": -0.08031894808937341
+    },
+    "Results!L28": {
+      "formula": "=I28+1.96*J28",
+      "value": -0.07162893920638978
+    },
+    "Results!M28": {
+      "formula": "=IF(G28=0,\"n.a.\",I28/G28)",
+      "value": -0.3035782666468955
+    },
+    "Results!N28": {
+      "formula": "='Synthetic'!AB221",
+      "value": 0.9164583333333333
+    },
+    "Results!O28": {
+      "formula": "=IF(K28>0,\"Higher regret\",IF(L28<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G29": {
+      "formula": "='Synthetic'!H227",
+      "value": 0.25941371173515393
+    },
+    "Results!H29": {
+      "formula": "='Synthetic'!H231",
+      "value": 0.25075549028341815
+    },
+    "Results!I29": {
+      "formula": "=H29-G29",
+      "value": -0.008658221451735781
+    },
+    "Results!J29": {
+      "formula": "='Synthetic'!BE231",
+      "value": 0.0015342390764776267
+    },
+    "Results!K29": {
+      "formula": "=I29-1.96*J29",
+      "value": -0.011665330041631929
+    },
+    "Results!L29": {
+      "formula": "=I29+1.96*J29",
+      "value": -0.005651112861839633
+    },
+    "Results!M29": {
+      "formula": "=IF(G29=0,\"n.a.\",I29/G29)",
+      "value": -0.03337611336664931
+    },
+    "Results!N29": {
+      "formula": "='Synthetic'!AB231",
+      "value": 0.609375
+    },
+    "Results!O29": {
+      "formula": "=IF(K29>0,\"Higher regret\",IF(L29<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G30": {
+      "formula": "='Synthetic'!H237",
+      "value": 0.25026147124112164
+    },
+    "Results!H30": {
+      "formula": "='Synthetic'!H241",
+      "value": 0.21386310848093268
+    },
+    "Results!I30": {
+      "formula": "=H30-G30",
+      "value": -0.03639836276018896
+    },
+    "Results!J30": {
+      "formula": "='Synthetic'!BE241",
+      "value": 0.0019188809579981283
+    },
+    "Results!K30": {
+      "formula": "=I30-1.96*J30",
+      "value": -0.040159369437865286
+    },
+    "Results!L30": {
+      "formula": "=I30+1.96*J30",
+      "value": -0.03263735608251263
+    },
+    "Results!M30": {
+      "formula": "=IF(G30=0,\"n.a.\",I30/G30)",
+      "value": -0.14544133613407836
+    },
+    "Results!N30": {
+      "formula": "='Synthetic'!AB241",
+      "value": 0.8353750000000001
+    },
+    "Results!O30": {
+      "formula": "=IF(K30>0,\"Higher regret\",IF(L30<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G31": {
+      "formula": "='Stress'!H7",
+      "value": 0.25312219283433957
+    },
+    "Results!H31": {
+      "formula": "='Stress'!H11",
+      "value": 0.23123455099694853
+    },
+    "Results!I31": {
+      "formula": "=H31-G31",
+      "value": -0.02188764183739103
+    },
+    "Results!J31": {
+      "formula": "='Stress'!BE11",
+      "value": 0.0012875047445613265
+    },
+    "Results!K31": {
+      "formula": "=I31-1.96*J31",
+      "value": -0.02441115113673123
+    },
+    "Results!L31": {
+      "formula": "=I31+1.96*J31",
+      "value": -0.019364132538050832
+    },
+    "Results!M31": {
+      "formula": "=IF(G31=0,\"n.a.\",I31/G31)",
+      "value": -0.08647065511049755
+    },
+    "Results!N31": {
+      "formula": "='Stress'!AB11",
+      "value": 0.4520416666666667
+    },
+    "Results!O31": {
+      "formula": "=IF(K31>0,\"Higher regret\",IF(L31<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G32": {
+      "formula": "='Stress'!H17",
+      "value": 0.058846430273242295
+    },
+    "Results!H32": {
+      "formula": "='Stress'!H21",
+      "value": 0.13025610011987604
+    },
+    "Results!I32": {
+      "formula": "=H32-G32",
+      "value": 0.07140966984663374
+    },
+    "Results!J32": {
+      "formula": "='Stress'!BE21",
+      "value": 0.0016052438334311864
+    },
+    "Results!K32": {
+      "formula": "=I32-1.96*J32",
+      "value": 0.06826339193310862
+    },
+    "Results!L32": {
+      "formula": "=I32+1.96*J32",
+      "value": 0.07455594776015886
+    },
+    "Results!M32": {
+      "formula": "=IF(G32=0,\"n.a.\",I32/G32)",
+      "value": 1.2134919572021008
+    },
+    "Results!N32": {
+      "formula": "='Stress'!AB21",
+      "value": 0.8933333333333333
+    },
+    "Results!O32": {
+      "formula": "=IF(K32>0,\"Higher regret\",IF(L32<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G33": {
+      "formula": "='Stress'!H27",
+      "value": 0.14733014026735647
+    },
+    "Results!H33": {
+      "formula": "='Stress'!H31",
+      "value": 0.1458055757116162
+    },
+    "Results!I33": {
+      "formula": "=H33-G33",
+      "value": -0.0015245645557402654
+    },
+    "Results!J33": {
+      "formula": "='Stress'!BE31",
+      "value": 0.0015652752769329775
+    },
+    "Results!K33": {
+      "formula": "=I33-1.96*J33",
+      "value": -0.004592504098528901
+    },
+    "Results!L33": {
+      "formula": "=I33+1.96*J33",
+      "value": 0.0015433749870483703
+    },
+    "Results!M33": {
+      "formula": "=IF(G33=0,\"n.a.\",I33/G33)",
+      "value": -0.010347947493796413
+    },
+    "Results!N33": {
+      "formula": "='Stress'!AB31",
+      "value": 0.6794583333333333
+    },
+    "Results!O33": {
+      "formula": "=IF(K33>0,\"Higher regret\",IF(L33<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G34": {
+      "formula": "='Stress'!H37",
+      "value": 0.14926887992668128
+    },
+    "Results!H34": {
+      "formula": "='Stress'!H41",
+      "value": 0.1272877186356675
+    },
+    "Results!I34": {
+      "formula": "=H34-G34",
+      "value": -0.021981161291013768
+    },
+    "Results!J34": {
+      "formula": "='Stress'!BE41",
+      "value": 0.00143844750034647
+    },
+    "Results!K34": {
+      "formula": "=I34-1.96*J34",
+      "value": -0.02480051839169285
+    },
+    "Results!L34": {
+      "formula": "=I34+1.96*J34",
+      "value": -0.019161804190334687
+    },
+    "Results!M34": {
+      "formula": "=IF(G34=0,\"n.a.\",I34/G34)",
+      "value": -0.1472588345394606
+    },
+    "Results!N34": {
+      "formula": "='Stress'!AB41",
+      "value": 0.6632291666666666
+    },
+    "Results!O34": {
+      "formula": "=IF(K34>0,\"Higher regret\",IF(L34<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G35": {
+      "formula": "='Stress'!H47",
+      "value": 0.15721476899122724
+    },
+    "Results!H35": {
+      "formula": "='Stress'!H51",
+      "value": 0.17610906747398894
+    },
+    "Results!I35": {
+      "formula": "=H35-G35",
+      "value": 0.018894298482761696
+    },
+    "Results!J35": {
+      "formula": "='Stress'!BE51",
+      "value": 0.001985123250484146
+    },
+    "Results!K35": {
+      "formula": "=I35-1.96*J35",
+      "value": 0.01500345691181277
+    },
+    "Results!L35": {
+      "formula": "=I35+1.96*J35",
+      "value": 0.02278514005371062
+    },
+    "Results!M35": {
+      "formula": "=IF(G35=0,\"n.a.\",I35/G35)",
+      "value": 0.12018144735381711
+    },
+    "Results!N35": {
+      "formula": "='Stress'!AB51",
+      "value": 0.6951875
+    },
+    "Results!O35": {
+      "formula": "=IF(K35>0,\"Higher regret\",IF(L35<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G36": {
+      "formula": "='Stress'!H57",
+      "value": 0.16092089395819067
+    },
+    "Results!H36": {
+      "formula": "='Stress'!H61",
+      "value": 0.15001725160477888
+    },
+    "Results!I36": {
+      "formula": "=H36-G36",
+      "value": -0.010903642353411791
+    },
+    "Results!J36": {
+      "formula": "='Stress'!BE61",
+      "value": 0.001629736027799011
+    },
+    "Results!K36": {
+      "formula": "=I36-1.96*J36",
+      "value": -0.014097924967897853
+    },
+    "Results!L36": {
+      "formula": "=I36+1.96*J36",
+      "value": -0.0077093597389257295
+    },
+    "Results!M36": {
+      "formula": "=IF(G36=0,\"n.a.\",I36/G36)",
+      "value": -0.06775777890125752
+    },
+    "Results!N36": {
+      "formula": "='Stress'!AB61",
+      "value": 0.6940208333333334
+    },
+    "Results!O36": {
+      "formula": "=IF(K36>0,\"Higher regret\",IF(L36<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    },
+    "Results!G37": {
+      "formula": "='Stress'!H67",
+      "value": 0.05986843366803379
+    },
+    "Results!H37": {
+      "formula": "='Stress'!H71",
+      "value": 0.1336360280221898
+    },
+    "Results!I37": {
+      "formula": "=H37-G37",
+      "value": 0.073767594354156
+    },
+    "Results!J37": {
+      "formula": "='Stress'!BE71",
+      "value": 0.0016148678867819951
+    },
+    "Results!K37": {
+      "formula": "=I37-1.96*J37",
+      "value": 0.0706024532960633
+    },
+    "Results!L37": {
+      "formula": "=I37+1.96*J37",
+      "value": 0.07693273541224871
+    },
+    "Results!M37": {
+      "formula": "=IF(G37=0,\"n.a.\",I37/G37)",
+      "value": 1.2321617559462483
+    },
+    "Results!N37": {
+      "formula": "='Stress'!AB71",
+      "value": 0.8944375
+    },
+    "Results!O37": {
+      "formula": "=IF(K37>0,\"Higher regret\",IF(L37<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G38": {
+      "formula": "='Replay'!K7",
+      "value": 0.1476261613824071
+    },
+    "Results!H38": {
+      "formula": "='Replay'!K11",
+      "value": 0.1476261613824071
+    },
+    "Results!I38": {
+      "formula": "=H38-G38",
+      "value": 0.0
+    },
+    "Results!J38": {
+      "formula": "='Replay'!BD11",
+      "value": 0.0
+    },
+    "Results!K38": {
+      "formula": "=I38-1.96*J38",
+      "value": 0.0
+    },
+    "Results!L38": {
+      "formula": "=I38+1.96*J38",
+      "value": 0.0
+    },
+    "Results!M38": {
+      "formula": "=IF(G38=0,\"n.a.\",I38/G38)",
+      "value": 0.0
+    },
+    "Results!N38": {
+      "formula": "='Replay'!AE11",
+      "value": 0.0
+    },
+    "Results!O38": {
+      "formula": "=IF(K38>0,\"Higher regret\",IF(L38<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G39": {
+      "formula": "='Replay'!K17",
+      "value": 0.11243577573917668
+    },
+    "Results!H39": {
+      "formula": "='Replay'!K21",
+      "value": 0.11243577573917668
+    },
+    "Results!I39": {
+      "formula": "=H39-G39",
+      "value": 0.0
+    },
+    "Results!J39": {
+      "formula": "='Replay'!BD21",
+      "value": 0.0
+    },
+    "Results!K39": {
+      "formula": "=I39-1.96*J39",
+      "value": 0.0
+    },
+    "Results!L39": {
+      "formula": "=I39+1.96*J39",
+      "value": 0.0
+    },
+    "Results!M39": {
+      "formula": "=IF(G39=0,\"n.a.\",I39/G39)",
+      "value": 0.0
+    },
+    "Results!N39": {
+      "formula": "='Replay'!AE21",
+      "value": 0.0
+    },
+    "Results!O39": {
+      "formula": "=IF(K39>0,\"Higher regret\",IF(L39<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G40": {
+      "formula": "='Replay'!K27",
+      "value": 0.1476261613824071
+    },
+    "Results!H40": {
+      "formula": "='Replay'!K31",
+      "value": 0.1476261613824071
+    },
+    "Results!I40": {
+      "formula": "=H40-G40",
+      "value": 0.0
+    },
+    "Results!J40": {
+      "formula": "='Replay'!BD31",
+      "value": 0.0
+    },
+    "Results!K40": {
+      "formula": "=I40-1.96*J40",
+      "value": 0.0
+    },
+    "Results!L40": {
+      "formula": "=I40+1.96*J40",
+      "value": 0.0
+    },
+    "Results!M40": {
+      "formula": "=IF(G40=0,\"n.a.\",I40/G40)",
+      "value": 0.0
+    },
+    "Results!N40": {
+      "formula": "='Replay'!AE31",
+      "value": 0.0
+    },
+    "Results!O40": {
+      "formula": "=IF(K40>0,\"Higher regret\",IF(L40<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G41": {
+      "formula": "='Replay'!K37",
+      "value": 0.11243577573917668
+    },
+    "Results!H41": {
+      "formula": "='Replay'!K41",
+      "value": 0.11243577573917668
+    },
+    "Results!I41": {
+      "formula": "=H41-G41",
+      "value": 0.0
+    },
+    "Results!J41": {
+      "formula": "='Replay'!BD41",
+      "value": 0.0
+    },
+    "Results!K41": {
+      "formula": "=I41-1.96*J41",
+      "value": 0.0
+    },
+    "Results!L41": {
+      "formula": "=I41+1.96*J41",
+      "value": 0.0
+    },
+    "Results!M41": {
+      "formula": "=IF(G41=0,\"n.a.\",I41/G41)",
+      "value": 0.0
+    },
+    "Results!N41": {
+      "formula": "='Replay'!AE41",
+      "value": 0.0
+    },
+    "Results!O41": {
+      "formula": "=IF(K41>0,\"Higher regret\",IF(L41<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G42": {
+      "formula": "='Replay'!K47",
+      "value": 0.1476261613824071
+    },
+    "Results!H42": {
+      "formula": "='Replay'!K51",
+      "value": 0.1476261613824071
+    },
+    "Results!I42": {
+      "formula": "=H42-G42",
+      "value": 0.0
+    },
+    "Results!J42": {
+      "formula": "='Replay'!BD51",
+      "value": 0.0
+    },
+    "Results!K42": {
+      "formula": "=I42-1.96*J42",
+      "value": 0.0
+    },
+    "Results!L42": {
+      "formula": "=I42+1.96*J42",
+      "value": 0.0
+    },
+    "Results!M42": {
+      "formula": "=IF(G42=0,\"n.a.\",I42/G42)",
+      "value": 0.0
+    },
+    "Results!N42": {
+      "formula": "='Replay'!AE51",
+      "value": 0.0
+    },
+    "Results!O42": {
+      "formula": "=IF(K42>0,\"Higher regret\",IF(L42<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G43": {
+      "formula": "='Replay'!K57",
+      "value": 0.11243577573917668
+    },
+    "Results!H43": {
+      "formula": "='Replay'!K61",
+      "value": 0.11243577573917668
+    },
+    "Results!I43": {
+      "formula": "=H43-G43",
+      "value": 0.0
+    },
+    "Results!J43": {
+      "formula": "='Replay'!BD61",
+      "value": 0.0
+    },
+    "Results!K43": {
+      "formula": "=I43-1.96*J43",
+      "value": 0.0
+    },
+    "Results!L43": {
+      "formula": "=I43+1.96*J43",
+      "value": 0.0
+    },
+    "Results!M43": {
+      "formula": "=IF(G43=0,\"n.a.\",I43/G43)",
+      "value": 0.0
+    },
+    "Results!N43": {
+      "formula": "='Replay'!AE61",
+      "value": 0.0
+    },
+    "Results!O43": {
+      "formula": "=IF(K43>0,\"Higher regret\",IF(L43<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G44": {
+      "formula": "='Replay'!K67",
+      "value": 0.1797057682458315
+    },
+    "Results!H44": {
+      "formula": "='Replay'!K71",
+      "value": 0.18882356171226292
+    },
+    "Results!I44": {
+      "formula": "=H44-G44",
+      "value": 0.009117793466431406
+    },
+    "Results!J44": {
+      "formula": "='Replay'!BD71",
+      "value": 0.0011641499786889961
+    },
+    "Results!K44": {
+      "formula": "=I44-1.96*J44",
+      "value": 0.006836059508200975
+    },
+    "Results!L44": {
+      "formula": "=I44+1.96*J44",
+      "value": 0.011399527424661838
+    },
+    "Results!M44": {
+      "formula": "=IF(G44=0,\"n.a.\",I44/G44)",
+      "value": 0.050737344468312046
+    },
+    "Results!N44": {
+      "formula": "='Replay'!AE71",
+      "value": 0.7794791666666667
+    },
+    "Results!O44": {
+      "formula": "=IF(K44>0,\"Higher regret\",IF(L44<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G45": {
+      "formula": "='Replay'!K77",
+      "value": 0.1569880809835011
+    },
+    "Results!H45": {
+      "formula": "='Replay'!K81",
+      "value": 0.17554333220349322
+    },
+    "Results!I45": {
+      "formula": "=H45-G45",
+      "value": 0.01855525121999213
+    },
+    "Results!J45": {
+      "formula": "='Replay'!BD81",
+      "value": 0.0014316161677964518
+    },
+    "Results!K45": {
+      "formula": "=I45-1.96*J45",
+      "value": 0.015749283531111085
+    },
+    "Results!L45": {
+      "formula": "=I45+1.96*J45",
+      "value": 0.021361218908873176
+    },
+    "Results!M45": {
+      "formula": "=IF(G45=0,\"n.a.\",I45/G45)",
+      "value": 0.11819528657046406
+    },
+    "Results!N45": {
+      "formula": "='Replay'!AE81",
+      "value": 0.9015972222222224
+    },
+    "Results!O45": {
+      "formula": "=IF(K45>0,\"Higher regret\",IF(L45<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G46": {
+      "formula": "='Replay'!K87",
+      "value": 0.18044069748536123
+    },
+    "Results!H46": {
+      "formula": "='Replay'!K91",
+      "value": 0.18837066184838058
+    },
+    "Results!I46": {
+      "formula": "=H46-G46",
+      "value": 0.007929964363019348
+    },
+    "Results!J46": {
+      "formula": "='Replay'!BD91",
+      "value": 0.0015211002950386813
+    },
+    "Results!K46": {
+      "formula": "=I46-1.96*J46",
+      "value": 0.004948607784743533
+    },
+    "Results!L46": {
+      "formula": "=I46+1.96*J46",
+      "value": 0.010911320941295164
+    },
+    "Results!M46": {
+      "formula": "=IF(G46=0,\"n.a.\",I46/G46)",
+      "value": 0.04394775942197125
+    },
+    "Results!N46": {
+      "formula": "='Replay'!AE91",
+      "value": 1.0
+    },
+    "Results!O46": {
+      "formula": "=IF(K46>0,\"Higher regret\",IF(L46<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G47": {
+      "formula": "='Replay'!K97",
+      "value": 0.16145634873020845
+    },
+    "Results!H47": {
+      "formula": "='Replay'!K101",
+      "value": 0.1625799481737177
+    },
+    "Results!I47": {
+      "formula": "=H47-G47",
+      "value": 0.00112359944350926
+    },
+    "Results!J47": {
+      "formula": "='Replay'!BD101",
+      "value": 0.0015928304929131122
+    },
+    "Results!K47": {
+      "formula": "=I47-1.96*J47",
+      "value": -0.00199834832260044
+    },
+    "Results!L47": {
+      "formula": "=I47+1.96*J47",
+      "value": 0.00424554720961896
+    },
+    "Results!M47": {
+      "formula": "=IF(G47=0,\"n.a.\",I47/G47)",
+      "value": 0.006959153061158225
+    },
+    "Results!N47": {
+      "formula": "='Replay'!AE101",
+      "value": 1.0
+    },
+    "Results!O47": {
+      "formula": "=IF(K47>0,\"Higher regret\",IF(L47<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Interval crosses zero"
+    },
+    "Results!G48": {
+      "formula": "='Replay'!K107",
+      "value": 0.18044069748536123
+    },
+    "Results!H48": {
+      "formula": "='Replay'!K111",
+      "value": 0.19411257529833598
+    },
+    "Results!I48": {
+      "formula": "=H48-G48",
+      "value": 0.013671877812974742
+    },
+    "Results!J48": {
+      "formula": "='Replay'!BD111",
+      "value": 0.001274419526729047
+    },
+    "Results!K48": {
+      "formula": "=I48-1.96*J48",
+      "value": 0.01117401554058581
+    },
+    "Results!L48": {
+      "formula": "=I48+1.96*J48",
+      "value": 0.016169740085363673
+    },
+    "Results!M48": {
+      "formula": "=IF(G48=0,\"n.a.\",I48/G48)",
+      "value": 0.07576936912518814
+    },
+    "Results!N48": {
+      "formula": "='Replay'!AE111",
+      "value": 0.9375
+    },
+    "Results!O48": {
+      "formula": "=IF(K48>0,\"Higher regret\",IF(L48<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G49": {
+      "formula": "='Replay'!K117",
+      "value": 0.16145634873020845
+    },
+    "Results!H49": {
+      "formula": "='Replay'!K121",
+      "value": 0.1856705427211117
+    },
+    "Results!I49": {
+      "formula": "=H49-G49",
+      "value": 0.024214193990903243
+    },
+    "Results!J49": {
+      "formula": "='Replay'!BD121",
+      "value": 0.001518167711146914
+    },
+    "Results!K49": {
+      "formula": "=I49-1.96*J49",
+      "value": 0.021238585277055293
+    },
+    "Results!L49": {
+      "formula": "=I49+1.96*J49",
+      "value": 0.027189802704751194
+    },
+    "Results!M49": {
+      "formula": "=IF(G49=0,\"n.a.\",I49/G49)",
+      "value": 0.14997362557334218
+    },
+    "Results!N49": {
+      "formula": "='Replay'!AE121",
+      "value": 0.972222222222222
+    },
+    "Results!O49": {
+      "formula": "=IF(K49>0,\"Higher regret\",IF(L49<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G50": {
+      "formula": "='Replay'!K127",
+      "value": 0.18044069748536123
+    },
+    "Results!H50": {
+      "formula": "='Replay'!K131",
+      "value": 0.1949490032301212
+    },
+    "Results!I50": {
+      "formula": "=H50-G50",
+      "value": 0.014508305744759975
+    },
+    "Results!J50": {
+      "formula": "='Replay'!BD131",
+      "value": 0.0011669191560554739
+    },
+    "Results!K50": {
+      "formula": "=I50-1.96*J50",
+      "value": 0.012221144198891247
+    },
+    "Results!L50": {
+      "formula": "=I50+1.96*J50",
+      "value": 0.016795467290628703
+    },
+    "Results!M50": {
+      "formula": "=IF(G50=0,\"n.a.\",I50/G50)",
+      "value": 0.0804048418508081
+    },
+    "Results!N50": {
+      "formula": "='Replay'!AE131",
+      "value": 0.8333333333333335
+    },
+    "Results!O50": {
+      "formula": "=IF(K50>0,\"Higher regret\",IF(L50<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G51": {
+      "formula": "='Replay'!K137",
+      "value": 0.16145634873020845
+    },
+    "Results!H51": {
+      "formula": "='Replay'!K141",
+      "value": 0.19326042769966886
+    },
+    "Results!I51": {
+      "formula": "=H51-G51",
+      "value": 0.031804078969460414
+    },
+    "Results!J51": {
+      "formula": "='Replay'!BD141",
+      "value": 0.001444597852925273
+    },
+    "Results!K51": {
+      "formula": "=I51-1.96*J51",
+      "value": 0.02897266717772688
+    },
+    "Results!L51": {
+      "formula": "=I51+1.96*J51",
+      "value": 0.034635490761193946
+    },
+    "Results!M51": {
+      "formula": "=IF(G51=0,\"n.a.\",I51/G51)",
+      "value": 0.19698252326147073
+    },
+    "Results!N51": {
+      "formula": "='Replay'!AE141",
+      "value": 0.9713888888888884
+    },
+    "Results!O51": {
+      "formula": "=IF(K51>0,\"Higher regret\",IF(L51<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G52": {
+      "formula": "='Replay'!K147",
+      "value": 0.192853097213683
+    },
+    "Results!H52": {
+      "formula": "='Replay'!K151",
+      "value": 0.20393014073117216
+    },
+    "Results!I52": {
+      "formula": "=H52-G52",
+      "value": 0.011077043517489171
+    },
+    "Results!J52": {
+      "formula": "='Replay'!BD151",
+      "value": 0.0012899531151015153
+    },
+    "Results!K52": {
+      "formula": "=I52-1.96*J52",
+      "value": 0.0085487354118902
+    },
+    "Results!L52": {
+      "formula": "=I52+1.96*J52",
+      "value": 0.013605351623088142
+    },
+    "Results!M52": {
+      "formula": "=IF(G52=0,\"n.a.\",I52/G52)",
+      "value": 0.057437726837312374
+    },
+    "Results!N52": {
+      "formula": "='Replay'!AE151",
+      "value": 0.9375
+    },
+    "Results!O52": {
+      "formula": "=IF(K52>0,\"Higher regret\",IF(L52<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G53": {
+      "formula": "='Replay'!K157",
+      "value": 0.1772990852296545
+    },
+    "Results!H53": {
+      "formula": "='Replay'!K161",
+      "value": 0.19587619661975042
+    },
+    "Results!I53": {
+      "formula": "=H53-G53",
+      "value": 0.018577111390095907
+    },
+    "Results!J53": {
+      "formula": "='Replay'!BD161",
+      "value": 0.0015583714408712764
+    },
+    "Results!K53": {
+      "formula": "=I53-1.96*J53",
+      "value": 0.015522703365988206
+    },
+    "Results!L53": {
+      "formula": "=I53+1.96*J53",
+      "value": 0.02163151941420361
+    },
+    "Results!M53": {
+      "formula": "=IF(G53=0,\"n.a.\",I53/G53)",
+      "value": 0.10477838261846122
+    },
+    "Results!N53": {
+      "formula": "='Replay'!AE161",
+      "value": 0.972222222222222
+    },
+    "Results!O53": {
+      "formula": "=IF(K53>0,\"Higher regret\",IF(L53<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G54": {
+      "formula": "='Replay'!K167",
+      "value": 0.18022583247684099
+    },
+    "Results!H54": {
+      "formula": "='Replay'!K171",
+      "value": 0.20409400164334862
+    },
+    "Results!I54": {
+      "formula": "=H54-G54",
+      "value": 0.023868169166507636
+    },
+    "Results!J54": {
+      "formula": "='Replay'!BD171",
+      "value": 0.0013528485994722052
+    },
+    "Results!K54": {
+      "formula": "=I54-1.96*J54",
+      "value": 0.021216585911542112
+    },
+    "Results!L54": {
+      "formula": "=I54+1.96*J54",
+      "value": 0.02651975242147316
+    },
+    "Results!M54": {
+      "formula": "=IF(G54=0,\"n.a.\",I54/G54)",
+      "value": 0.1324347838402949
+    },
+    "Results!N54": {
+      "formula": "='Replay'!AE171",
+      "value": 0.9375
+    },
+    "Results!O54": {
+      "formula": "=IF(K54>0,\"Higher regret\",IF(L54<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G55": {
+      "formula": "='Replay'!K177",
+      "value": 0.1611570295918813
+    },
+    "Results!H55": {
+      "formula": "='Replay'!K181",
+      "value": 0.22258529349536257
+    },
+    "Results!I55": {
+      "formula": "=H55-G55",
+      "value": 0.06142826390348127
+    },
+    "Results!J55": {
+      "formula": "='Replay'!BD181",
+      "value": 0.0016128843235014207
+    },
+    "Results!K55": {
+      "formula": "=I55-1.96*J55",
+      "value": 0.05826701062941849
+    },
+    "Results!L55": {
+      "formula": "=I55+1.96*J55",
+      "value": 0.06458951717754406
+    },
+    "Results!M55": {
+      "formula": "=IF(G55=0,\"n.a.\",I55/G55)",
+      "value": 0.3811702415901061
+    },
+    "Results!N55": {
+      "formula": "='Replay'!AE181",
+      "value": 0.972222222222222
+    },
+    "Results!O55": {
+      "formula": "=IF(K55>0,\"Higher regret\",IF(L55<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G56": {
+      "formula": "='Exploratory'!L2",
+      "value": 0.17938328948016913
+    },
+    "Results!H56": {
+      "formula": "='Exploratory'!L3",
+      "value": 0.19573357516330187
+    },
+    "Results!I56": {
+      "formula": "=H56-G56",
+      "value": 0.016350285683132737
+    },
+    "Results!J56": {
+      "formula": "='Exploratory'!AW3",
+      "value": 0.0018474209649109582
+    },
+    "Results!K56": {
+      "formula": "=I56-1.96*J56",
+      "value": 0.012729340591907258
+    },
+    "Results!L56": {
+      "formula": "=I56+1.96*J56",
+      "value": 0.019971230774358216
+    },
+    "Results!M56": {
+      "formula": "=IF(G56=0,\"n.a.\",I56/G56)",
+      "value": 0.09114720624487302
+    },
+    "Results!N56": {
+      "formula": "='Exploratory'!AF3",
+      "value": 0.9375
+    },
+    "Results!O56": {
+      "formula": "=IF(K56>0,\"Higher regret\",IF(L56<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G57": {
+      "formula": "='Exploratory'!L7",
+      "value": 0.15929376392201225
+    },
+    "Results!H57": {
+      "formula": "='Exploratory'!L8",
+      "value": 0.186678582208404
+    },
+    "Results!I57": {
+      "formula": "=H57-G57",
+      "value": 0.02738481828639175
+    },
+    "Results!J57": {
+      "formula": "='Exploratory'!AW8",
+      "value": 0.002160559798634272
+    },
+    "Results!K57": {
+      "formula": "=I57-1.96*J57",
+      "value": 0.023150121081068578
+    },
+    "Results!L57": {
+      "formula": "=I57+1.96*J57",
+      "value": 0.03161951549171492
+    },
+    "Results!M57": {
+      "formula": "=IF(G57=0,\"n.a.\",I57/G57)",
+      "value": 0.17191393819910572
+    },
+    "Results!N57": {
+      "formula": "='Exploratory'!AF8",
+      "value": 0.972222222222222
+    },
+    "Results!O57": {
+      "formula": "=IF(K57>0,\"Higher regret\",IF(L57<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G58": {
+      "formula": "='Exploratory'!L12",
+      "value": 0.1367467373896112
+    },
+    "Results!H58": {
+      "formula": "='Exploratory'!L13",
+      "value": 0.14997376193451875
+    },
+    "Results!I58": {
+      "formula": "=H58-G58",
+      "value": 0.01322702454490754
+    },
+    "Results!J58": {
+      "formula": "='Exploratory'!AW13",
+      "value": 0.002295275314152954
+    },
+    "Results!K58": {
+      "formula": "=I58-1.96*J58",
+      "value": 0.008728284929167749
+    },
+    "Results!L58": {
+      "formula": "=I58+1.96*J58",
+      "value": 0.01772576416064733
+    },
+    "Results!M58": {
+      "formula": "=IF(G58=0,\"n.a.\",I58/G58)",
+      "value": 0.09672643601888531
+    },
+    "Results!N58": {
+      "formula": "='Exploratory'!AF13",
+      "value": 1.0
+    },
+    "Results!O58": {
+      "formula": "=IF(K58>0,\"Higher regret\",IF(L58<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Higher regret"
+    },
+    "Results!G59": {
+      "formula": "='Exploratory'!L17",
+      "value": 0.12421666528561405
+    },
+    "Results!H59": {
+      "formula": "='Exploratory'!L18",
+      "value": 0.09069832110740476
+    },
+    "Results!I59": {
+      "formula": "=H59-G59",
+      "value": -0.033518344178209286
+    },
+    "Results!J59": {
+      "formula": "='Exploratory'!AW18",
+      "value": 0.0022525691197543296
+    },
+    "Results!K59": {
+      "formula": "=I59-1.96*J59",
+      "value": -0.03793337965292777
+    },
+    "Results!L59": {
+      "formula": "=I59+1.96*J59",
+      "value": -0.0291033087034908
+    },
+    "Results!M59": {
+      "formula": "=IF(G59=0,\"n.a.\",I59/G59)",
+      "value": -0.26983773957495827
+    },
+    "Results!N59": {
+      "formula": "='Exploratory'!AF18",
+      "value": 1.0
+    },
+    "Results!O59": {
+      "formula": "=IF(K59>0,\"Higher regret\",IF(L59<0,\"Lower regret\",\"Interval crosses zero\"))",
+      "value": "Lower regret"
+    }
+  }
+}

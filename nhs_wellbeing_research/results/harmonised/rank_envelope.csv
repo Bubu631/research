@@ -1,0 +1,191 @@
+org_code,org_name,benchmark_group,raw_selected,selected_somewhere_0_3000,selected_everywhere_0_3000,boundary_ties
+R0A,Manchester University NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+R0D,University Hospitals Dorset NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+R1D,Shropshire Community Health NHS Trust,Community Trusts,0,0,0,stable organisation-code order
+R1F1,Isle of Wight NHS Trust (acute sector),Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+R1F2,Isle of Wight NHS Trust (ambulance sector),Ambulance Trusts,0,0,0,stable organisation-code order
+R1H,Barts Health NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+R1K,London North West University Healthcare NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+R1L,Essex Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RA2,Royal Surrey County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RAJ,Mid and South Essex NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RAN,Royal National Orthopaedic Hospital NHS Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RAS,The Hillingdon Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RAT,North East London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RBD,Dorset County Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RBK,Walsall Healthcare NHS Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RBS,Alder Hey Children's NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RBV,The Christie NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RCD,Harrogate and District NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RCF,Airedale NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RCU,Sheffield Children's NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RCX,The Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RDE,East Suffolk and North Essex NHS Foundation Trust,Acute&Acute Community Trusts,0,1,0,stable organisation-code order
+RDR,Sussex Community NHS Foundation Trust,Community Trusts,0,0,0,stable organisation-code order
+RDU,Frimley Health NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RDY,Dorset Healthcare University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+REF,Royal Cornwall Hospitals NHS Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+REM,Liverpool University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+REN,The Clatterbridge Cancer Centre NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+REP,Liverpool Women's NHS Foundation Trust,Acute Specialist Trusts,1,1,1,stable organisation-code order
+RET,The Walton Centre NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RFF,Barnsley Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RFR,The Rotherham NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RGD,Leeds and York Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RGM,Royal Papworth Hospital NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RGN,North West Anglia NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RGP,James Paget University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1,1,0,stable organisation-code order
+RGR,West Suffolk NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RGT,Cambridge University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1,1,1,stable organisation-code order
+RHM,University Hospital Southampton NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RHU,Portsmouth Hospitals University NHS Trust,Acute&Acute Community Trusts,0,1,0,stable organisation-code order
+RHW,Royal Berkshire NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJ2,Lewisham and Greenwich NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJ6,Croydon Health Services NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJ7,St George's University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJ8,Cornwall Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1,1,1,stable organisation-code order
+RJC,South Warwickshire University NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJE,University Hospitals of North Midlands NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJN,East Cheshire NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RJR,Countess of Chester Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RJZ,King's College Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RK9,University Hospitals Plymouth NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RKE,Whittington Health NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RKL,West London NHS Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RL1,The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RL4,The Royal Wolverhampton NHS Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RLQ,Wye Valley NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RLT,George Eliot Hospital NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RLY,North Staffordshire Combined Healthcare NHS Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RMC,Bolton NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RMY,Norfolk and Suffolk NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1,1,1,stable organisation-code order
+RN3,Great Western Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RN5,Hampshire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RN7,Dartford and Gravesham NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RNA,The Dudley Group NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RNK,Tavistock and Portman NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RNQ,Kettering General Hospital NHS Foundation Trust,Acute&Acute Community Trusts,1,1,0,stable organisation-code order
+RNS,Northampton General Hospital NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RNU,Oxford Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RNZ,Salisbury NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RP1,Northamptonshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Acute Specialist Trusts,1,1,1,stable organisation-code order
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RP7,Lincolnshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RPA,Medway NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RPC,Queen Victoria Hospital NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RPG,Oxleas NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RPY,The Royal Marsden NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RQW,The Princess Alexandra Hospital NHS Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RQX,Homerton Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RQY,South West London and St George's Mental Health NHS Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RR7,Gateshead Health NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RR8,Leeds Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RRE,Midlands Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RRJ,The Royal Orthopaedic Hospital NHS Foundation Trust,Acute Specialist Trusts,0,0,0,stable organisation-code order
+RRK,University Hospitals Birmingham NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RRU,London Ambulance Service NHS Trust,Ambulance Trusts,0,0,0,stable organisation-code order
+RRV,University College London Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RT2,Pennine Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1,1,1,stable organisation-code order
+RT5,Leicestershire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RTD,The Newcastle upon Tyne Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RTF,Northumbria Healthcare NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RTH,Oxford University Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RTK,Ashford and St Peter's Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RTP,Surrey and Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RTR,South Tees Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RV3,Central and North West London NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RV5,South London and Maudsley NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RV9,Humber Teaching NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RVJ,North Bristol NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RVR,Epsom and St Helier University Hospitals NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RVV,East Kent Hospitals University NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RVW,North Tees and Hartlepool NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RW4,Mersey Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RW5,Lancashire and South Cumbria NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1,1,1,stable organisation-code order
+RWA,Hull University Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWE,University Hospitals of Leicester NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWF,Maidstone and Tunbridge Wells NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWH,East and North Hertfordshire Teaching NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWJ,Stockport NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWP,Worcestershire Acute Hospitals NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWR,Hertfordshire Partnership University NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RWV,Devon Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RWX,Berkshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RX1,Nottingham University Hospitals NHS Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust","MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RX6,North East Ambulance Service NHS Foundation Trust,Ambulance Trusts,0,0,0,stable organisation-code order
+RX7,North West Ambulance Service NHS Trust,Ambulance Trusts,0,0,0,stable organisation-code order
+RX8,Yorkshire Ambulance Service NHS Trust,Ambulance Trusts,0,0,0,stable organisation-code order
+RX9,East Midlands Ambulance Service NHS Trust,Ambulance Trusts,0,0,0,stable organisation-code order
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RXC,East Sussex Healthcare NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RXF,Mid Yorkshire Teaching NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RXG,South West Yorkshire Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RXM,Derbyshire Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RXP,County Durham and Darlington NHS Foundation Trust,Acute&Acute Community Trusts,1,1,1,stable organisation-code order
+RXQ,Buckinghamshire Healthcare NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RXV,Greater Manchester Mental Health NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1,1,1,stable organisation-code order
+RXW,The Shrewsbury and Telford Hospital NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RXX,Surrey and Borders Partnership NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RXY,Kent and Medway NHS and Social Care Partnership Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Community Trusts,1,1,1,stable organisation-code order
+RY3,Norfolk Community Health and Care NHS Trust,Community Trusts,0,0,0,stable organisation-code order
+RY4,Hertfordshire Community NHS Trust,Community Trusts,0,0,0,stable organisation-code order
+RY5,Lincolnshire Community Health Services NHS Trust,Community Trusts,1,1,1,stable organisation-code order
+RY6,Leeds Community Healthcare NHS Trust,Community Trusts,0,0,0,stable organisation-code order
+RY7,Wirral Community Health and Care NHS Foundation Trust,Community Trusts,0,0,0,stable organisation-code order
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Community Trusts,0,0,0,stable organisation-code order
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Ambulance Trusts,1,1,1,stable organisation-code order
+RYC,East of England Ambulance Service NHS Trust,Ambulance Trusts,0,0,0,stable organisation-code order
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Ambulance Trusts,0,0,0,stable organisation-code order
+RYE,South Central Ambulance Service NHS Foundation Trust,Ambulance Trusts,1,1,1,stable organisation-code order
+RYF,South Western Ambulance Service NHS Foundation Trust,Ambulance Trusts,0,0,0,stable organisation-code order
+RYG,Coventry and Warwickshire Partnership NHS Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+RYJ,Imperial College Healthcare NHS Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RYR,University Hospitals Sussex NHS Foundation Trust,Acute&Acute Community Trusts,0,0,0,stable organisation-code order
+RYV,Cambridgeshire Community Services NHS Trust,Community Trusts,0,0,0,stable organisation-code order
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Community Trusts,0,0,0,stable organisation-code order
+RYX,Central London Community Healthcare NHS Trust,Community Trusts,0,0,0,stable organisation-code order
+RYY,Kent Community Health NHS Foundation Trust,Community Trusts,0,0,0,stable organisation-code order
+TAD,Bradford District Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",0,0,0,stable organisation-code order
+TAH,Sheffield Health and Social Care NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1,1,1,stable organisation-code order
+TAJ,Black Country Healthcare NHS Foundation Trust,"MH&LD, MH, LD&Community Trusts",1,1,1,stable organisation-code order

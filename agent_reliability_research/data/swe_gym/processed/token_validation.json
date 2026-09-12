@@ -1,0 +1,11 @@
+{
+  "checks_passed": true,
+  "all_records_metadata_checked": 392,
+  "independent_reconstruction_record_ids": [
+    "train.raw-00000-of-00003:516",
+    "train.raw-00000-of-00003:439",
+    "train.raw-00000-of-00003:546"
+  ],
+  "artifact_sha256": "855973ef17fb8891edebfbf8736e2e1966d281833dc46320fec497fbe6aea5b7",
+  "checker_sha256": "ac7b80bb9ad6bcf81fbd2bea5685fe5f47546900939ddc93cc31870302ba4b52"
+}

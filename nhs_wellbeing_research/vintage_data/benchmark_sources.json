@@ -1,0 +1,18 @@
+[
+  {
+    "vintage": 2023,
+    "url": "https://www.nhsstaffsurveys.com/static/7d4ab30226c8780f12de6378d8208303/benchmark_report_excel_data_2019-2023_v2.xlsx",
+    "discovered_from": "https://web.archive.org/web/20240704161813id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "archive_capture": "20240704161813",
+    "accessed_at_utc": "2026-09-11T18:50:23.508560+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "vintage": 2024,
+    "url": "https://www.nhsstaffsurveys.com/static/4393b3f78f0c9e6c06906310ee7ff6c3/Benchmark-report-Excel-data-for-2020-2024.xlsx",
+    "discovered_from": "https://web.archive.org/web/20250531050327id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "archive_capture": "20250531050327",
+    "accessed_at_utc": "2026-09-11T18:50:23.509090+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

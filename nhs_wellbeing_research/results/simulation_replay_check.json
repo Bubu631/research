@@ -1,0 +1,12 @@
+{
+  "simulation.csv": {
+    "rows": 1800,
+    "all_numeric_results_exactly_reproduced": true,
+    "method_name_change": "oracle_posterior \u2192 gaussian_posterior"
+  },
+  "simulation_stress.csv": {
+    "rows": 60,
+    "all_numeric_results_exactly_reproduced": true,
+    "method_name_change": "oracle_posterior \u2192 gaussian_posterior"
+  }
+}

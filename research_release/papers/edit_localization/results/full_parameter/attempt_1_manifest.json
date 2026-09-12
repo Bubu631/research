@@ -1,0 +1,2193 @@
+{
+  "completed": false,
+  "scope": "Full default trainable parameter mean gradients; no optimizer update",
+  "sample_count": 256,
+  "split": "same en-de reporting population",
+  "device": "mps",
+  "trainable_parameter_count": 74410496,
+  "model_parameter_count": 74410496,
+  "named_parameters": [
+    {
+      "name": "model.shared.weight",
+      "shape": [
+        58101,
+        512
+      ],
+      "count": 29747712
+    },
+    {
+      "name": "model.encoder.embed_positions.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.0.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.0.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.0.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.encoder.layers.0.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.0.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.0.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.0.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.1.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.encoder.layers.1.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.1.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.1.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.2.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.encoder.layers.2.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.2.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.2.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.3.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.encoder.layers.3.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.3.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.3.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.4.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.encoder.layers.4.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.4.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.4.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.5.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.encoder.layers.5.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.encoder.layers.5.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.encoder.layers.5.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.embed_positions.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.encoder_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.0.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.decoder.layers.0.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.0.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.0.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.encoder_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.1.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.decoder.layers.1.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.1.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.1.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.encoder_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.2.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.decoder.layers.2.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.2.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.2.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.encoder_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.3.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.decoder.layers.3.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.3.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.3.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.encoder_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.4.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.decoder.layers.4.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.4.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.4.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.self_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn.k_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn.k_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn.v_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn.v_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn.q_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn.q_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn.out_proj.weight",
+      "shape": [
+        512,
+        512
+      ],
+      "count": 262144
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn.out_proj.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.encoder_attn_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.fc1.weight",
+      "shape": [
+        2048,
+        512
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.5.fc1.bias",
+      "shape": [
+        2048
+      ],
+      "count": 2048
+    },
+    {
+      "name": "model.decoder.layers.5.fc2.weight",
+      "shape": [
+        512,
+        2048
+      ],
+      "count": 1048576
+    },
+    {
+      "name": "model.decoder.layers.5.fc2.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.final_layer_norm.weight",
+      "shape": [
+        512
+      ],
+      "count": 512
+    },
+    {
+      "name": "model.decoder.layers.5.final_layer_norm.bias",
+      "shape": [
+        512
+      ],
+      "count": 512
+    }
+  ],
+  "parameter_forms": [
+    "P_E",
+    "P_U",
+    "Qedit_E",
+    "Qedit_U",
+    "Qlength_E",
+    "Qlength_U",
+    "Qedit_length_E",
+    "Qedit_length_U"
+  ],
+  "source_ids": [
+    4074,
+    3466,
+    1173,
+    3218,
+    5419,
+    1277,
+    2754,
+    3533,
+    1285,
+    6551,
+    6224,
+    2366,
+    460,
+    5797,
+    3126,
+    3404,
+    1875,
+    3933,
+    1320,
+    5140,
+    1835,
+    4852,
+    1523,
+    3265,
+    3456,
+    5511,
+    1317,
+    987,
+    6960,
+    1189,
+    3878,
+    6325,
+    3534,
+    4093,
+    5235,
+    5840,
+    1070,
+    1652,
+    1400,
+    3952,
+    6426,
+    651,
+    3457,
+    1880,
+    4574,
+    51,
+    1195,
+    4339,
+    6301,
+    5992,
+    1527,
+    275,
+    5145,
+    5363,
+    190,
+    3263,
+    2120,
+    6697,
+    632,
+    652,
+    861,
+    4685,
+    2666,
+    2918,
+    5317,
+    6510,
+    5055,
+    1774,
+    4428,
+    4643,
+    2680,
+    5872,
+    6474,
+    4586,
+    3182,
+    1231,
+    6051,
+    1850,
+    5417,
+    6008,
+    1056,
+    2292,
+    4783,
+    489,
+    742,
+    2180,
+    2968,
+    5796,
+    3300,
+    6306,
+    3697,
+    290,
+    1851,
+    6066,
+    3022,
+    5282,
+    2601,
+    1041,
+    2005,
+    972,
+    6843,
+    1944,
+    2193,
+    6565,
+    1582,
+    1301,
+    6958,
+    1035,
+    4476,
+    3668,
+    3302,
+    3037,
+    5420,
+    1307,
+    2707,
+    2835,
+    2313,
+    4887,
+    95,
+    4489,
+    2392,
+    4635,
+    4562,
+    4335,
+    6201,
+    4450,
+    1573,
+    3982,
+    3362,
+    3818,
+    1829,
+    1108,
+    5384,
+    5053,
+    4316,
+    2535,
+    4072,
+    43,
+    2563,
+    2054,
+    2748,
+    1702,
+    132,
+    760,
+    6822,
+    6524,
+    6594,
+    1349,
+    5488,
+    5177,
+    6179,
+    482,
+    5184,
+    5790,
+    5718,
+    1587,
+    3124,
+    6125,
+    1658,
+    1331,
+    5949,
+    4507,
+    6880,
+    1548,
+    5954,
+    2794,
+    461,
+    5084,
+    3470,
+    5815,
+    5534,
+    855,
+    3288,
+    6631,
+    2518,
+    5977,
+    671,
+    690,
+    3579,
+    1393,
+    4957,
+    6553,
+    5969,
+    3865,
+    506,
+    1036,
+    88,
+    2133,
+    5414,
+    4943,
+    2514,
+    6818,
+    136,
+    4427,
+    3567,
+    4530,
+    4754,
+    3336,
+    4424,
+    2104,
+    4040,
+    5237,
+    1994,
+    5039,
+    3640,
+    5324,
+    2705,
+    4509,
+    2634,
+    1740,
+    5163,
+    2243,
+    2259,
+    5578,
+    5270,
+    257,
+    4726,
+    3057,
+    70,
+    3594,
+    2626,
+    6769,
+    2429,
+    1536,
+    3409,
+    677,
+    5614,
+    2967,
+    2614,
+    3573,
+    3357,
+    3003,
+    4650,
+    5635,
+    4099,
+    909,
+    14,
+    4453,
+    4292,
+    2572,
+    6011,
+    5957,
+    4077,
+    371,
+    1724,
+    5186,
+    6013,
+    2994,
+    5576,
+    4353,
+    3926,
+    890,
+    5836,
+    1160,
+    1323,
+    522
+  ],
+  "versions": {
+    "python": "3.13.1",
+    "torch": "2.14.0",
+    "numpy": "2.5.3"
+  },
+  "script_sha256": "d29d1ae04db5fa91d1eb0ec393329ced3f1c74fbfe467bdb0074d7e0092c1acc",
+  "helper_script_sha256": "38d844b8fdadfb46da7e229cd0f0ca547afca08e129466433c4815f8b75dc879",
+  "protocol_sha256": "a956507002fa8b400466a15bda8ab587f927ac5a07caaeacb41babcbbb1e2f28",
+  "assets": {
+    "data_url": "https://raw.githubusercontent.com/sheffieldnlp/mlqe-pe/2a670a1140416cf80507b5a829659383c878feb8/data/post-editing/train/en-de-train.tar.gz",
+    "data_revision": "2a670a1140416cf80507b5a829659383c878feb8",
+    "archive_sha256": "219cdfd4e1d89d47e6136651af5136e3942ee93b4c9c44354b232baa18c75731",
+    "data_license": "CC0-1.0",
+    "license_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "model_id": "Helsinki-NLP/opus-mt-en-de",
+    "model_revision": "6183067f769a302e3861815543b9f312c71b0ca4",
+    "model_license": "CC-BY-4.0",
+    "model_files_sha256": {
+      "target.spm": "bbd1f495eea99c8e21ae086d9146e0fa7b096c3dfdd9ba07ab8b631889df5c9b",
+      "tokenizer_config.json": "052c28be2c51ea3398bf9b9de92004270e29a51f8404f9921ec025986ffbefae",
+      "config.json": "41c7890e6f6c1f72c5c626569cfe739a8362080940edbb1747f25173f541653b",
+      "generation_config.json": "e5cccf365761fb31175fc978a75f5e857a822f173d0e447aa3a25d7cbcda15a4",
+      "README.md": "7625de996b7c4c51c217095941cf2e27d2b5cc5b4cd695c382882679f2f53710",
+      "source.spm": "678f2a1177d8389f67b66299762dcc4fc567e89b07e212ba91b0c56daecf47ce",
+      "pytorch_model.bin": "da068344b1b0c20e6d4a8f77f48e06646b90d679029006b18579e68977206bdd",
+      "vocab.json": "0d70d89fee4a8b4ef99a56d712163baadcabd5600a597f71515547ee70306329"
+    }
+  },
+  "accumulation": "float32 autograd; CPU float64 mean accumulation; blockwise float64 Gram",
+  "run_started_utc": "2026-09-11T17:23:13Z"
+}

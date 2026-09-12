@@ -1,0 +1,92 @@
+{
+  "data_issue_2023.txt": {
+    "source": "data/raw/data_issue_2023.pdf",
+    "pdf_sha256": "40fec7fdcb795bb07085f3579d687dfddee75cab61035bfedec21b005c4eb8a0",
+    "pages": 13,
+    "text_sha256": "b387cb2a73c0b96200cd992ef976c65a099abbdc6ba163322a75f55c6af8e579"
+  },
+  "example_RCF_benchmark_2025.txt": {
+    "source": "data/raw/example_RCF_benchmark_2025.pdf",
+    "pdf_sha256": "07aa8d975b7f24eacf3b30df56cea8feeeba762a4b61ec8e30fcf908fbe8b0eb",
+    "pages": 154,
+    "text_sha256": "757317e149fa52e828f6d5ee5a51db50c3538b859e8f81e3471747675b710bc2"
+  },
+  "questionnaire_2021.txt": {
+    "source": "data/raw/questionnaire_2021.pdf",
+    "pdf_sha256": "0950480e2c60d53700c797a105e381412ee79e4e340ae98915121d8220cc7e31",
+    "pages": 8,
+    "text_sha256": "73f438af9688802c3e0d20656e667338b9a2177f3777ab3de1fd4ec0e484f223"
+  },
+  "questionnaire_2022.txt": {
+    "source": "data/raw/questionnaire_2022.pdf",
+    "pdf_sha256": "600e8daa28b9ee21305eb696c4e1ffd9415a0129abbc2bb3451119934dc5b4f9",
+    "pages": 8,
+    "text_sha256": "8a8b0f94987a3eaf41dd0c8aed81f7f49f7cd7c18a0e0b6faff56518aaa67ce4"
+  },
+  "questionnaire_2023.txt": {
+    "source": "data/raw/questionnaire_2023.pdf",
+    "pdf_sha256": "f3b1c5c1fae2bb53c0bb9d205e6906bff549a59d2484650a8c8c012854f16a85",
+    "pages": 8,
+    "text_sha256": "731e685a09711ade1ba384f62f9e0082e6c075c7276082bd9481666201ad648c"
+  },
+  "technical_2021.txt": {
+    "source": "data/raw/technical_2021.pdf",
+    "pdf_sha256": "99af6c9c8264234426004256e01273fc94941c56d0da850b6b93eafc4a672aab",
+    "pages": 45,
+    "text_sha256": "11fee643b5f0ad1381f4e9a76711141e86a2846600463c3caa9128adf60ce9f7"
+  },
+  "technical_2022.txt": {
+    "source": "data/raw/technical_2022.pdf",
+    "pdf_sha256": "8dc9efdbfc34e64891cf8b57369008e3bb2950d8fc98f002d2409a262b523cc5",
+    "pages": 46,
+    "text_sha256": "8b4582ef180289e4fe781e4c30ef3f35da9effc0f7374fe6e0e7ab91726a1454"
+  },
+  "technical_2023.txt": {
+    "source": "data/raw/technical_2023.pdf",
+    "pdf_sha256": "2c680a28c461026fb0e40ce02f7da19dba165570dca734757648c747e7801ad4",
+    "pages": 43,
+    "text_sha256": "75c75dff2ca5fead55cb7ee8e0ab347f0315c0aed44d17311e336601b76ac73c"
+  },
+  "technical_2024.txt": {
+    "source": "data/raw/technical_2024.pdf",
+    "pdf_sha256": "b019e783113bbb23050a2c42549e0bc848496c4c922040dce7c808884ac10d09",
+    "pages": 44,
+    "text_sha256": "9774fb6c597e82b0485e9112cba3227f9d02ff9c981798ad5e79390a19e28910"
+  },
+  "technical_2025.txt": {
+    "source": "data/raw/technical_2025.pdf",
+    "pdf_sha256": "48a963a16c96680efe1486d6dc868fca5f41e84005e1b6675c74596cee792179",
+    "pages": 46,
+    "text_sha256": "c9d6afe079cca57873c2ddf8c4302f945b75a2fea4621ec15f99d677039a92a1"
+  },
+  "understanding_2025.txt": {
+    "source": "data/raw/understanding_2025.pdf",
+    "pdf_sha256": "da231b8faa14668194dfde8ba42ba04c46ffac4a66375325e46d419b4aec4920",
+    "pages": 10,
+    "text_sha256": "dce7d321996f1d8b0fe0744fb5ff73eb0365e668cdb219f2b6d60562d6c8af90"
+  },
+  "questionnaire_2024_nss24_permission_to_recontact_question.txt": {
+    "source": "data/raw/questionnaire_2024.zip::NSS24 Questionnaire/NSS24 Permission to recontact question.pdf",
+    "pdf_sha256": "1a07368e9a8e9c17df58490854158a370c0fae4185c19bcde56161249c7084ea",
+    "pages": 1,
+    "text_sha256": "fc8cb3a5a6f6a6bac6e4975d4ebe1daf26d5522a6b418ed16ddd44ce91406e51"
+  },
+  "questionnaire_2024_nss24_questionnaire.txt": {
+    "source": "data/raw/questionnaire_2024.zip::NSS24 Questionnaire/NSS24 Questionnaire.pdf",
+    "pdf_sha256": "37a28670dfe20f1edcb8bfbb3886b16f24c5033338256b1042484597a3287478",
+    "pages": 8,
+    "text_sha256": "fca46c1a49728ed817f8fb7b9376be2b4d985d4af2883dfee959e60f80fea129"
+  },
+  "questionnaire_2025_nss2025_questionnaire_online_version.txt": {
+    "source": "data/raw/questionnaire_2025.zip::NSS2025 Questionnaire/NSS2025 Questionnaire online version.pdf",
+    "pdf_sha256": "cc9717107260dc2b686643d1f91ea8134a96df2076fae5a170bf1e23552819a7",
+    "pages": 38,
+    "text_sha256": "ad8058641b3aece3d9df5fb2d8e88deca8d3e4aa042de24aa1549b8349339290"
+  },
+  "questionnaire_2025_nss2025_questionnaire.txt": {
+    "source": "data/raw/questionnaire_2025.zip::NSS2025 Questionnaire/NSS2025 Questionnaire.pdf",
+    "pdf_sha256": "b0224188615f5408253eb212bb9aaa7ee6630b3b5c74739f304d8f97d480e7a3",
+    "pages": 8,
+    "text_sha256": "528f0e7020a2ba3c3224c82525df33f107f206e617e360a9332cdd0e21f9ab15"
+  }
+}

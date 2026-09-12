@@ -1,0 +1,28 @@
+[
+  {
+    "vintage": 2021,
+    "archive_capture": "20220511144828",
+    "url": "https://web.archive.org/web/20220511144828id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "accessed_at_utc": "2026-09-11T18:52:46.400885+00:00",
+    "final_url": "https://web.archive.org/web/20220511144828id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "local_file": "local_results_vintage_2021_wayback.html",
+    "bytes": 348483,
+    "sha256": "40714ef4dddfb4af76ea8b46548c8f00322662f1774b9573c8e98eadabe1bb78",
+    "xlsx_links": [
+      "/static/ef4edcf3bb3c11b8694713f561b2670c/Benchmark_report_excel_data_2017-2021.xlsx"
+    ]
+  },
+  {
+    "vintage": 2022,
+    "archive_capture": "20230609070952",
+    "url": "https://web.archive.org/web/20230609070952id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "accessed_at_utc": "2026-09-11T18:52:46.401348+00:00",
+    "final_url": "https://web.archive.org/web/20230609070952id_/https://www.nhsstaffsurveys.com/results/local-results/",
+    "local_file": "local_results_vintage_2022_wayback.html",
+    "bytes": 336906,
+    "sha256": "bacf5a5b7720d2c77cfe92d64c9acd0db2d7d17fd80a9a61f7ac57268ab34ad1",
+    "xlsx_links": [
+      "/static/97ce0b4753776432614b5e0559fba39d/benchmark_report_excel_data_2018-2022-v2.xlsx"
+    ]
+  }
+]

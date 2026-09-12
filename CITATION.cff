@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the individual manuscript you use. Manuscript-specific authors and BibTeX entries are provided in citations.bib. This record identifies the repository collection."
+title: "Research on Reliable Learning and Decision-Making"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Shengwei
+    affiliation: University of Pennsylvania
+repository-code: "https://github.com/Bubu631/research"
+url: "https://github.com/Bubu631/research"
+version: 1.0.0

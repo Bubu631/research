@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "bug": "absolute variance threshold breaks scale-invariant optimality",
+  "before": [
+    0.39999999999999997,
+    0.39999999999999997,
+    0.39999999999999997
+  ],
+  "after": [
+    1.0,
+    0.15194938532959146,
+    0.048050614670408394
+  ],
+  "zero_tail_schedule": [
+    1.0,
+    0.01,
+    0.01
+  ],
+  "before_source_sha256": "52957e5692bec6f292673fda3def95f6e9cfb70ec0e3c7267f84298c96c469bb",
+  "after_source_sha256": "fd68931e2378033d106d10408b6ab08cd64fff32e6f3e9d38d4a114b9e2c7423",
+  "unit_tests_passed": 9,
+  "tests_include": "G2\u20138 and G16 full-cube model moments; 16 independent SLSQP comparisons; 1e-100 through 1e100 variance rescaling; deterministic models; zero-variance budget slack; original five audit tests"
+}

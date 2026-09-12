@@ -1,0 +1,108 @@
+{
+  "sources": {
+    "detailed_2021.zip": {
+      "url": "https://www.nhsstaffsurveys.com/static/46b2db369c445384221b113b2fb86324/Detailed-Spreadsheets.zip",
+      "final_url": "https://www.nhsstaffsurveys.com/static/46b2db369c445384221b113b2fb86324/Detailed-Spreadsheets.zip",
+      "accessed_at_utc": "2026-09-11T18:45:24.689309+00:00",
+      "downloaded_at_utc": "2026-09-11T18:45:25.372729+00:00",
+      "bytes": 10199480,
+      "sha256": "564c07eb17f05d2fecda24f5a57c4d6022476189857d5f3420fdeb796146a7b0",
+      "content_type": "application/zip",
+      "last_modified": null,
+      "etag": null,
+      "local_path": "vintage_data/detailed_2021.zip",
+      "copied_from": "data/raw/detailed_2021.zip"
+    },
+    "technical_2021.pdf": {
+      "url": "https://www.nhsstaffsurveys.com/static/ec07f816378b2ad7919dee25411f3ca3/P101614_ST21_Technical-document_Final_v1.1.pdf",
+      "final_url": "https://www.nhsstaffsurveys.com/static/ec07f816378b2ad7919dee25411f3ca3/P101614_ST21_Technical-document_Final_v1.1.pdf",
+      "accessed_at_utc": "2026-09-11T18:45:24.185612+00:00",
+      "downloaded_at_utc": "2026-09-11T18:45:24.688607+00:00",
+      "bytes": 588570,
+      "sha256": "99af6c9c8264234426004256e01273fc94941c56d0da850b6b93eafc4a672aab",
+      "content_type": "application/pdf",
+      "last_modified": null,
+      "etag": null,
+      "local_path": "vintage_data/technical_2021.pdf",
+      "copied_from": "data/raw/technical_2021.pdf"
+    },
+    "detailed_2022.zip": {
+      "url": "https://www.nhsstaffsurveys.com/static/84994bdc2016414e8ea4ed2d1e6f90c5/Detailed-spreadsheets.zip",
+      "final_url": "https://www.nhsstaffsurveys.com/static/84994bdc2016414e8ea4ed2d1e6f90c5/Detailed-spreadsheets.zip",
+      "accessed_at_utc": "2026-09-11T18:45:23.003333+00:00",
+      "downloaded_at_utc": "2026-09-11T18:45:23.798153+00:00",
+      "bytes": 10559020,
+      "sha256": "cc0cb064579d49ea4d9361191ec3f3891edeba110261d883b9535c893ac05cb2",
+      "content_type": "application/zip",
+      "last_modified": null,
+      "etag": null,
+      "local_path": "vintage_data/detailed_2022.zip",
+      "copied_from": "data/raw/detailed_2022.zip"
+    },
+    "technical_2022.pdf": {
+      "url": "https://www.nhsstaffsurveys.com/static/8dd604e04c547de7022d75c8fc4b6c97/P101646-NSS22-Technical-document-V1.1-2022-FINAL.pdf",
+      "final_url": "https://www.nhsstaffsurveys.com/static/8dd604e04c547de7022d75c8fc4b6c97/P101646-NSS22-Technical-document-V1.1-2022-FINAL.pdf",
+      "accessed_at_utc": "2026-09-11T18:45:22.562166+00:00",
+      "downloaded_at_utc": "2026-09-11T18:45:23.002374+00:00",
+      "bytes": 690137,
+      "sha256": "8dc9efdbfc34e64891cf8b57369008e3bb2950d8fc98f002d2409a262b523cc5",
+      "content_type": "application/pdf",
+      "last_modified": null,
+      "etag": null,
+      "local_path": "vintage_data/technical_2022.pdf",
+      "copied_from": "data/raw/technical_2022.pdf"
+    },
+    "detailed_2023.zip": {
+      "url": "https://www.nhsstaffsurveys.com/static/1db353afdd53058839c0f534ae2a05c3/NSS23-Detailed-spreadsheets.zip",
+      "final_url": "https://www.nhsstaffsurveys.com/static/1db353afdd53058839c0f534ae2a05c3/NSS23-Detailed-spreadsheets.zip",
+      "accessed_at_utc": "2026-09-11T18:45:21.455412+00:00",
+      "downloaded_at_utc": "2026-09-11T18:45:22.258421+00:00",
+      "bytes": 10952978,
+      "sha256": "91c2d44e62c12ca6e58a2ea0e8ebc12f32dd282b4c7d226c5112eff601a4b89a",
+      "content_type": "application/zip",
+      "last_modified": null,
+      "etag": null,
+      "local_path": "vintage_data/detailed_2023.zip",
+      "copied_from": "data/raw/detailed_2023.zip"
+    },
+    "technical_2023.pdf": {
+      "url": "https://www.nhsstaffsurveys.com/static/67edc962a64e8dabc9ef584a18f1bf5a/NHS-Staff-Survey-2023-Technical-guide_V4.pdf",
+      "final_url": "https://www.nhsstaffsurveys.com/static/67edc962a64e8dabc9ef584a18f1bf5a/NHS-Staff-Survey-2023-Technical-guide_V4.pdf",
+      "accessed_at_utc": "2026-09-11T18:45:20.988790+00:00",
+      "downloaded_at_utc": "2026-09-11T18:45:21.454410+00:00",
+      "bytes": 640101,
+      "sha256": "2c680a28c461026fb0e40ce02f7da19dba165570dca734757648c747e7801ad4",
+      "content_type": "application/pdf",
+      "last_modified": null,
+      "etag": null,
+      "local_path": "vintage_data/technical_2023.pdf",
+      "copied_from": "data/raw/technical_2023.pdf"
+    },
+    "detailed_2024.zip": {
+      "url": "https://www.nhsstaffsurveys.com/static/60718f6775613027f2fff1d8ee67a6d3/NSS24-Detailed-spreadsheets.zip",
+      "final_url": "https://www.nhsstaffsurveys.com/static/60718f6775613027f2fff1d8ee67a6d3/NSS24-Detailed-spreadsheets.zip",
+      "accessed_at_utc": "2026-09-11T18:45:19.001500+00:00",
+      "downloaded_at_utc": "2026-09-11T18:45:20.532078+00:00",
+      "bytes": 10982043,
+      "sha256": "898bea0e68e4a657855ace3a04f3f22fe00bd059898edd76d04f5dc940030ee4",
+      "content_type": "application/zip",
+      "last_modified": null,
+      "etag": null,
+      "local_path": "vintage_data/detailed_2024.zip",
+      "copied_from": "data/raw/detailed_2024.zip"
+    },
+    "technical_2024.pdf": {
+      "url": "https://www.nhsstaffsurveys.com/static/e72dc1bd37edd8026aa06b4290a33dd0/NHS-Staff-Survey-2024-Technical-Guide-V5.pdf",
+      "final_url": "https://www.nhsstaffsurveys.com/static/e72dc1bd37edd8026aa06b4290a33dd0/NHS-Staff-Survey-2024-Technical-Guide-V5.pdf",
+      "accessed_at_utc": "2026-09-11T18:45:18.531311+00:00",
+      "downloaded_at_utc": "2026-09-11T18:45:19.000634+00:00",
+      "bytes": 579806,
+      "sha256": "b019e783113bbb23050a2c42549e0bc848496c4c922040dce7c808884ac10d09",
+      "content_type": "application/pdf",
+      "last_modified": null,
+      "etag": null,
+      "local_path": "vintage_data/technical_2024.pdf",
+      "copied_from": "data/raw/technical_2024.pdf"
+    }
+  }
+}

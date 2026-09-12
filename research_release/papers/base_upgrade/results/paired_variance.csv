@@ -1,0 +1,3 @@
+method,n,trials,empirical_variance,theoretical_variance
+paired,256,20000,1.5566323159297612e-06,1.5625e-06
+independent,256,20000,0.0003115766595233449,0.00031406250000000005

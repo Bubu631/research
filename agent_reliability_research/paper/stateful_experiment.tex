@@ -1,0 +1,61 @@
+% Requires booktabs. Detailed protocol: stateful_appendix.tex.
+\subsection{Controlled training with stateful dependency tools}
+\label{sec:stateful-training}
+
+We test whether the label estimators support actual policy updates in a
+constructed release-repair environment. A component build records the current
+artifact of its parent; changing an upstream component can therefore leave
+downstream builds, attestations, and published artifacts stale. The cheap
+checker inspects only published local versions, whereas the reference checker
+executes all dependency and provenance constraints. These are deterministic
+tools and a NumPy softmax policy, not a language model or a public software
+benchmark.
+
+We run all six methods for 300 on-policy updates, with groups of eight
+trajectories, horizons $H\in\{12,24,48\}$, and ten independent training seeds
+per setting. All methods infer reference failure for free when the necessary
+cheap check fails. If $M$ candidate labels remain, each partial method purchases
+$M/2$ labels in expectation. The completion probabilities and sequential
+survival schedule are fixed before training. Evaluation uses 256 independent
+reporting episodes per checkpoint, paired across methods within a seed.
+
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}
+\toprule
+Method & $H=12$ & $H=24$ & $H=48$ \\
+\midrule
+Full-label update & $94.06\pm0.61$ & $83.44\pm1.03$ & $57.97\pm0.96$ \\
+Cheap labels only & $17.42\pm3.58$ & $19.84\pm2.92$ & $3.59\pm0.95$ \\
+Whole-group residual & $93.48\pm0.71$ & $83.24\pm1.05$ & $55.27\pm1.16$ \\
+Sequential completion & $93.55\pm0.63$ & $83.05\pm0.88$ & $56.60\pm1.72$ \\
+Reward HT then normalize & $86.84\pm0.47$ & $68.91\pm1.07$ & $32.23\pm1.24$ \\
+Partial replacement & $91.13\pm0.58$ & $75.08\pm0.68$ & $29.96\pm1.76$ \\
+\bottomrule
+\end{tabular}
+\caption{Reference-check success (\%, mean $\pm$ standard error across ten
+training seeds) after the same 2,400 training trajectories per run.
+Purchased-label counts differ. The initial mean success rates were
+$40.08\%$, $18.55\%$, and $4.96\%$, respectively.}
+\label{tab:stateful-training}
+\end{table}
+
+Sequential completion (SC) and the strong whole-group residual baseline reach similar
+mean endpoints (Table~\ref{tab:stateful-training}); all three paired,
+pointwise 95\% intervals for their difference include zero. Thus these runs do
+not establish a distinct benefit from the fixed sequential schedule. Nor does
+an interval containing zero establish equivalence to full-label training.
+Cheap-label optimization can instead improve the incomplete checker while
+retaining poor reference success: at $H=48$, its endpoint cheap success is
+$92.38\%$, versus $3.59\%$ under the reference checker.
+
+Across the 30 runs for each method, SC purchases 30,908 training labels,
+compared with 62,508 for full-label updates and 30,832 for whole-group residual
+correction. This query reduction is not a measured speedup: training takes
+29.08, 19.79, and 21.35 seconds, respectively, with these inexpensive checks.
+The scripted initialization already executes the known workflow greedily;
+this experiment measures stochastic execution reliability, not discovery of
+an unknown repair procedure. Further protocol, accounting, and inferential
+limits appear in Appendix~\ref{app:stateful-training}.

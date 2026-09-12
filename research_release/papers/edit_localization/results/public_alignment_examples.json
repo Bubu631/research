@@ -1,0 +1,1711 @@
+{
+  "selection": "First three diagnostic records in saved frozen record order, per language; no outcome-based choice",
+  "data_repository": "https://github.com/sheffieldnlp/mlqe-pe",
+  "data_revision": "2a670a1140416cf80507b5a829659383c878feb8",
+  "repository_declared_license": "CC0-1.0",
+  "scope": "Token alignment illustration only; no model forward, generated translation, or quality assessment",
+  "examples": [
+    {
+      "pair": "en-de",
+      "diagnostic_order": 1,
+      "original_line": 4207,
+      "raw_triple_sha256": "11112c311b9af993d8b43672799690e9b294e8b4183d5432a49c229a054f4cfe",
+      "source": "His averages jumped from .262 / .371 / .532 and .904 OPS to .274 / .381 / .576 and .958 OPS.",
+      "archived_mt": "Seine Durchschnittswerte sprangen von .262 / .371 / .532 und .904 OPS auf .274 / .381 / .576 und .958 OPS.",
+      "human_postedit": "Seine Durchschnittswerte sprangen von .262 / .371 / .532 und .904 OPS auf .274 / .381 / .576 und .958 OPS.",
+      "raw_archive_text": {
+        "src": "His averages jumped from .262 / .371 / .532 and .904 OPS to .274 / .381 / .576 and .958 OPS .",
+        "mt": "Seine Durchschnittswerte sprangen von .262 / .371 / .532 und .904 OPS auf .274 / .381 / .576 und .958 OPS .",
+        "pe": "Seine Durchschnittswerte sprangen von .262 / .371 / .532 und .904 OPS auf .274 / .381 / .576 und .958 OPS ."
+      },
+      "model_id": "Helsinki-NLP/opus-mt-en-de",
+      "model_revision": "6183067f769a302e3861815543b9f312c71b0ca4",
+      "source_control_token": null,
+      "pe_token_count_excluding_eos": 50,
+      "loss_normalization_length": 51,
+      "edited_tokens": 0,
+      "untouched_tokens_including_eos": 51,
+      "levenshtein_distance": 0,
+      "deletions": 0,
+      "pe_tokens": [
+        {
+          "position": 1,
+          "token_id": 3491,
+          "piece": "▁Seine",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 2,
+          "token_id": 5865,
+          "piece": "▁Durchschnitt",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 3,
+          "token_id": 12404,
+          "piece": "swerte",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 4,
+          "token_id": 42290,
+          "piece": "▁sprang",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 5,
+          "token_id": 15,
+          "piece": "en",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 6,
+          "token_id": 21,
+          "piece": "▁von",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 7,
+          "token_id": 17,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 8,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 9,
+          "token_id": 2173,
+          "piece": "26",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 10,
+          "token_id": 217,
+          "piece": "2",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 11,
+          "token_id": 293,
+          "piece": "▁/",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 12,
+          "token_id": 17,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 13,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 14,
+          "token_id": 2782,
+          "piece": "37",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 15,
+          "token_id": 365,
+          "piece": "1",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 16,
+          "token_id": 293,
+          "piece": "▁/",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 17,
+          "token_id": 17,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 18,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 19,
+          "token_id": 4748,
+          "piece": "53",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 20,
+          "token_id": 217,
+          "piece": "2",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 21,
+          "token_id": 10,
+          "piece": "▁und",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 22,
+          "token_id": 17,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 23,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 24,
+          "token_id": 1334,
+          "piece": "90",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 25,
+          "token_id": 497,
+          "piece": "4",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 26,
+          "token_id": 10441,
+          "piece": "▁OP",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 27,
+          "token_id": 142,
+          "piece": "S",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 28,
+          "token_id": 37,
+          "piece": "▁auf",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 29,
+          "token_id": 17,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 30,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 31,
+          "token_id": 2131,
+          "piece": "27",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 32,
+          "token_id": 497,
+          "piece": "4",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 33,
+          "token_id": 293,
+          "piece": "▁/",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 34,
+          "token_id": 17,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 35,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 36,
+          "token_id": 2713,
+          "piece": "38",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 37,
+          "token_id": 365,
+          "piece": "1",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 38,
+          "token_id": 293,
+          "piece": "▁/",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 39,
+          "token_id": 17,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 40,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 41,
+          "token_id": 724,
+          "piece": "5",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 42,
+          "token_id": 3745,
+          "piece": "76",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 43,
+          "token_id": 10,
+          "piece": "▁und",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 44,
+          "token_id": 17,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 45,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 46,
+          "token_id": 2434,
+          "piece": "95",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 47,
+          "token_id": 925,
+          "piece": "8",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 48,
+          "token_id": 10441,
+          "piece": "▁OP",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 49,
+          "token_id": 142,
+          "piece": "S",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 50,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 51,
+          "token_id": 0,
+          "piece": "</s>",
+          "edited": false,
+          "label": "U",
+          "is_eos": true
+        }
+      ]
+    },
+    {
+      "pair": "en-de",
+      "diagnostic_order": 2,
+      "original_line": 149,
+      "raw_triple_sha256": "29b97fc90f4604351054fa7e92d0f778114ed3bcd5239bee772f254efe9ba3a3",
+      "source": "Blue Riband would overwhelm any possible carcinotron design, while also providing enough accuracy to directly guide interceptors.",
+      "archived_mt": "Blue Riband würde jedes mögliche Karzinotron-Design überwältigen und gleichzeitig genügend Genauigkeit bieten, um Abfanggeräte direkt zu steuern.",
+      "human_postedit": "Blue Riband würde jedes mögliche Carzinotron-Design besiegen und gleichzeitig genügend Genauigkeit bieten, um Abfanggeräte direkt zu steuern.",
+      "raw_archive_text": {
+        "src": "Blue Riband would overwhelm any possible carcinotron design , while also providing enough accuracy to directly guide interceptors .",
+        "mt": "Blue Riband würde jedes mögliche Karzinotron-Design überwältigen und gleichzeitig genügend Genauigkeit bieten , um Abfanggeräte direkt zu steuern .",
+        "pe": "Blue Riband würde jedes mögliche Carzinotron-Design besiegen und gleichzeitig genügend Genauigkeit bieten , um Abfanggeräte direkt zu steuern ."
+      },
+      "model_id": "Helsinki-NLP/opus-mt-en-de",
+      "model_revision": "6183067f769a302e3861815543b9f312c71b0ca4",
+      "source_control_token": null,
+      "pe_token_count_excluding_eos": 27,
+      "loss_normalization_length": 28,
+      "edited_tokens": 2,
+      "untouched_tokens_including_eos": 26,
+      "levenshtein_distance": 5,
+      "deletions": 3,
+      "pe_tokens": [
+        {
+          "position": 1,
+          "token_id": 4394,
+          "piece": "▁Blue",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 2,
+          "token_id": 2886,
+          "piece": "▁Ri",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 3,
+          "token_id": 3734,
+          "piece": "band",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 4,
+          "token_id": 718,
+          "piece": "▁würde",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 5,
+          "token_id": 2129,
+          "piece": "▁jedes",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 6,
+          "token_id": 8790,
+          "piece": "▁mögliche",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 7,
+          "token_id": 1036,
+          "piece": "▁Car",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 8,
+          "token_id": 239,
+          "piece": "z",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 9,
+          "token_id": 1748,
+          "piece": "ino",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 10,
+          "token_id": 7011,
+          "piece": "tron",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 11,
+          "token_id": 13,
+          "piece": "-",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 12,
+          "token_id": 11042,
+          "piece": "Design",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 13,
+          "token_id": 38578,
+          "piece": "▁besiegen",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 14,
+          "token_id": 10,
+          "piece": "▁und",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 15,
+          "token_id": 2516,
+          "piece": "▁gleichzeitig",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 16,
+          "token_id": 13560,
+          "piece": "▁genügend",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 17,
+          "token_id": 18792,
+          "piece": "▁Genauigkeit",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 18,
+          "token_id": 1204,
+          "piece": "▁bieten",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 19,
+          "token_id": 2,
+          "piece": ",",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 20,
+          "token_id": 91,
+          "piece": "▁um",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 21,
+          "token_id": 498,
+          "piece": "▁Ab",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 22,
+          "token_id": 11728,
+          "piece": "fang",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 23,
+          "token_id": 5275,
+          "piece": "geräte",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 24,
+          "token_id": 1304,
+          "piece": "▁direkt",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 25,
+          "token_id": 24,
+          "piece": "▁zu",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 26,
+          "token_id": 20528,
+          "piece": "▁steuern",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 27,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 28,
+          "token_id": 0,
+          "piece": "</s>",
+          "edited": false,
+          "label": "U",
+          "is_eos": true
+        }
+      ]
+    },
+    {
+      "pair": "en-de",
+      "diagnostic_order": 3,
+      "original_line": 5037,
+      "raw_triple_sha256": "3f9bc90fb022e881f0df544670b33d6ffdd289ebad6bae22534b659d2e1b6a30",
+      "source": "Against the Hokies, he had five receptions for 105 yards and three touchdowns.",
+      "archived_mt": "Gegen die Hokies hatte er fünf Empfänge für 105 Meter und drei Touchdowns.",
+      "human_postedit": "Gegen die Hokies hatte er fünf Receptions auf 105 Yards und drei Touchdowns.",
+      "raw_archive_text": {
+        "src": "Against the Hokies , he had five receptions for 105 yards and three touchdowns .",
+        "mt": "Gegen die Hokies hatte er fünf Empfänge für 105 Meter und drei Touchdowns .",
+        "pe": "Gegen die Hokies hatte er fünf Receptions auf 105 Yards und drei Touchdowns ."
+      },
+      "model_id": "Helsinki-NLP/opus-mt-en-de",
+      "model_revision": "6183067f769a302e3861815543b9f312c71b0ca4",
+      "source_control_token": null,
+      "pe_token_count_excluding_eos": 22,
+      "loss_normalization_length": 23,
+      "edited_tokens": 7,
+      "untouched_tokens_including_eos": 16,
+      "levenshtein_distance": 7,
+      "deletions": 0,
+      "pe_tokens": [
+        {
+          "position": 1,
+          "token_id": 6252,
+          "piece": "▁Gegen",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 2,
+          "token_id": 11,
+          "piece": "▁die",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 3,
+          "token_id": 2322,
+          "piece": "▁Ho",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 4,
+          "token_id": 2954,
+          "piece": "ki",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 5,
+          "token_id": 97,
+          "piece": "es",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 6,
+          "token_id": 513,
+          "piece": "▁hatte",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 7,
+          "token_id": 110,
+          "piece": "▁er",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 8,
+          "token_id": 1766,
+          "piece": "▁fünf",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 9,
+          "token_id": 465,
+          "piece": "▁Re",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 10,
+          "token_id": 17826,
+          "piece": "ception",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 11,
+          "token_id": 6,
+          "piece": "s",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 12,
+          "token_id": 37,
+          "piece": "▁auf",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 13,
+          "token_id": 11854,
+          "piece": "▁105",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 14,
+          "token_id": 1808,
+          "piece": "▁Y",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 15,
+          "token_id": 1562,
+          "piece": "ard",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 16,
+          "token_id": 6,
+          "piece": "s",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 17,
+          "token_id": 10,
+          "piece": "▁und",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 18,
+          "token_id": 567,
+          "piece": "▁drei",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 19,
+          "token_id": 15322,
+          "piece": "▁Touch",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 20,
+          "token_id": 8582,
+          "piece": "down",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 21,
+          "token_id": 6,
+          "piece": "s",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 22,
+          "token_id": 3,
+          "piece": ".",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 23,
+          "token_id": 0,
+          "piece": "</s>",
+          "edited": false,
+          "label": "U",
+          "is_eos": true
+        }
+      ]
+    },
+    {
+      "pair": "en-zh",
+      "diagnostic_order": 1,
+      "original_line": 4207,
+      "raw_triple_sha256": "c36a474d7fd331be8bf8acf565e4fbe4df52c5c8f994e825046b2fac3e8ec129",
+      "source": "Webber collided with the Lotus of Heikki Kovalainen, flipping his Red Bull car into a somersault before landing and crashing into a tyre barrier.",
+      "archived_mt": "Webber 与 Heikki Kovalainen 的 Lotus 相撞 ， 他的红牛车在降落和撞上轮胎屏障之前 ， 撞上了一个木头。",
+      "human_postedit": "Webber 与 Heikki Kovalainen 的 Lotus 相撞 ， 他的 Red Bull 在落地前翻了一个筋斗 ， 撞上了轮胎护栏。",
+      "raw_archive_text": {
+        "src": "Webber collided with the Lotus of Heikki Kovalainen , flipping his Red Bull car into a somersault before landing and crashing into a tyre barrier .",
+        "mt": "Webber   与   Heikki   Kovalainen   的   Lotus   相撞   ，   他 的 红 牛车 在 降落 和 撞 上 轮胎 屏障 之前   ，   撞 上 了 一个 木头 。",
+        "pe": "Webber 与 Heikki   Kovalainen 的 Lotus 相撞 ， 他 的 Red   Bull 在 落地 前翻 了 一个 筋斗 ， 撞 上 了 轮胎 护栏 。"
+      },
+      "model_id": "Helsinki-NLP/opus-mt-en-zh",
+      "model_revision": "408d9bc410a388e1d9aef112a2daba955b945255",
+      "source_control_token": ">>cmn_Hans<<",
+      "pe_token_count_excluding_eos": 45,
+      "loss_normalization_length": 46,
+      "edited_tokens": 16,
+      "untouched_tokens_including_eos": 30,
+      "levenshtein_distance": 16,
+      "deletions": 0,
+      "pe_tokens": [
+        {
+          "position": 1,
+          "token_id": 142,
+          "piece": "▁We",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 2,
+          "token_id": 110,
+          "piece": "b",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 3,
+          "token_id": 8766,
+          "piece": "ber",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 4,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 5,
+          "token_id": 67,
+          "piece": "与",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 6,
+          "token_id": 250,
+          "piece": "▁He",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 7,
+          "token_id": 8867,
+          "piece": "ik",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 8,
+          "token_id": 8411,
+          "piece": "ki",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 9,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 10,
+          "token_id": 23591,
+          "piece": "Ko",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 11,
+          "token_id": 9295,
+          "piece": "val",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 12,
+          "token_id": 18097,
+          "piece": "ain",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 13,
+          "token_id": 1601,
+          "piece": "en",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 14,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 15,
+          "token_id": 12,
+          "piece": "的",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 16,
+          "token_id": 10141,
+          "piece": "▁Lo",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 17,
+          "token_id": 60,
+          "piece": "t",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 18,
+          "token_id": 2748,
+          "piece": "us",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 19,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 20,
+          "token_id": 2384,
+          "piece": "相",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 21,
+          "token_id": 13651,
+          "piece": "撞",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 22,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 23,
+          "token_id": 2,
+          "piece": ",",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 24,
+          "token_id": 10300,
+          "piece": "▁他的",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 25,
+          "token_id": 2889,
+          "piece": "▁Re",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 26,
+          "token_id": 104,
+          "piece": "d",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 27,
+          "token_id": 370,
+          "piece": "▁B",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 28,
+          "token_id": 44687,
+          "piece": "ull",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 29,
+          "token_id": 106,
+          "piece": "▁在",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 30,
+          "token_id": 6092,
+          "piece": "落",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 31,
+          "token_id": 248,
+          "piece": "地",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 32,
+          "token_id": 637,
+          "piece": "前",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 33,
+          "token_id": 10899,
+          "piece": "翻",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 34,
+          "token_id": 5912,
+          "piece": "了一个",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 35,
+          "token_id": 41147,
+          "piece": "筋",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 36,
+          "token_id": 13494,
+          "piece": "斗",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 37,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 38,
+          "token_id": 2,
+          "piece": ",",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 39,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 40,
+          "token_id": 13651,
+          "piece": "撞",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 41,
+          "token_id": 11963,
+          "piece": "上了",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 42,
+          "token_id": 34221,
+          "piece": "轮胎",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 43,
+          "token_id": 16004,
+          "piece": "护",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 44,
+          "token_id": 10017,
+          "piece": "栏",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 45,
+          "token_id": 10,
+          "piece": "。",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 46,
+          "token_id": 0,
+          "piece": "</s>",
+          "edited": false,
+          "label": "U",
+          "is_eos": true
+        }
+      ]
+    },
+    {
+      "pair": "en-zh",
+      "diagnostic_order": 2,
+      "original_line": 149,
+      "raw_triple_sha256": "7bae7dabe78e0ab95b2bee3250a50468a72d110855fd8629138ce50453504074",
+      "source": "When Richard refuses, Hurley secretly walks to the Black Rock and defuses the remaining dynamite.",
+      "archived_mt": "当理查德拒绝时, 赫利秘密地走到布莱克岩, 并拆除剩余的炸药.",
+      "human_postedit": "当理查德拒绝时 ， 赫利悄悄地走向黑岩 ， 并拆除剩余的炸药。",
+      "raw_archive_text": {
+        "src": "When Richard refuses , Hurley secretly walks to the Black Rock and defuses the remaining dynamite .",
+        "mt": "当 理查德 拒绝 时 ,   赫利 秘密 地 走 到 布莱克 岩 ,   并 拆除 剩余 的 炸药 .",
+        "pe": "当 理查德 拒绝 时 ， 赫利 悄悄地 走向 黑岩 ， 并 拆除 剩余 的 炸药 。"
+      },
+      "model_id": "Helsinki-NLP/opus-mt-en-zh",
+      "model_revision": "408d9bc410a388e1d9aef112a2daba955b945255",
+      "source_control_token": ">>cmn_Hans<<",
+      "pe_token_count_excluding_eos": 22,
+      "loss_normalization_length": 23,
+      "edited_tokens": 7,
+      "untouched_tokens_including_eos": 16,
+      "levenshtein_distance": 7,
+      "deletions": 0,
+      "pe_tokens": [
+        {
+          "position": 1,
+          "token_id": 4042,
+          "piece": "▁当",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 2,
+          "token_id": 33875,
+          "piece": "理查德",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 3,
+          "token_id": 3092,
+          "piece": "拒绝",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 4,
+          "token_id": 148,
+          "piece": "时",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 5,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 6,
+          "token_id": 2,
+          "piece": ",",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 7,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 8,
+          "token_id": 5575,
+          "piece": "赫",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 9,
+          "token_id": 1298,
+          "piece": "利",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 10,
+          "token_id": 48183,
+          "piece": "悄悄",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 11,
+          "token_id": 248,
+          "piece": "地",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 12,
+          "token_id": 14999,
+          "piece": "走向",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 13,
+          "token_id": 4653,
+          "piece": "黑",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 14,
+          "token_id": 27125,
+          "piece": "岩",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 15,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 16,
+          "token_id": 2,
+          "piece": ",",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 17,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 18,
+          "token_id": 93,
+          "piece": "并",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 19,
+          "token_id": 15776,
+          "piece": "拆除",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 20,
+          "token_id": 26264,
+          "piece": "剩余的",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 21,
+          "token_id": 21329,
+          "piece": "炸药",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 22,
+          "token_id": 10,
+          "piece": "。",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 23,
+          "token_id": 0,
+          "piece": "</s>",
+          "edited": false,
+          "label": "U",
+          "is_eos": true
+        }
+      ]
+    },
+    {
+      "pair": "en-zh",
+      "diagnostic_order": 3,
+      "original_line": 5037,
+      "raw_triple_sha256": "d662b4278c3e20a250c547f941db58f25b1cd632f21ab309a68ea3ba1ba89f0a",
+      "source": "The two friends both admired each other for their great feats and rebellions, and also of each other's brilliance.",
+      "archived_mt": "这两个朋友都钦佩对方的伟大成就和反叛 ， 也钦佩对方的辉煌。",
+      "human_postedit": "这两个朋友都钦佩对方的伟大成就和反叛 ， 也钦佩对方的光彩。",
+      "raw_archive_text": {
+        "src": "The two friends both admired each other for their great feats and rebellions , and also of each other 's brilliance .",
+        "mt": "这 两个 朋友 都 钦佩 对方 的 伟大成就 和 反叛   ，   也 钦佩 对方 的 辉煌 。",
+        "pe": "这 两个 朋友 都 钦佩 对方 的 伟大成就 和 反叛 ， 也 钦佩 对方 的 光彩 。"
+      },
+      "model_id": "Helsinki-NLP/opus-mt-en-zh",
+      "model_revision": "408d9bc410a388e1d9aef112a2daba955b945255",
+      "source_control_token": ">>cmn_Hans<<",
+      "pe_token_count_excluding_eos": 22,
+      "loss_normalization_length": 23,
+      "edited_tokens": 2,
+      "untouched_tokens_including_eos": 21,
+      "levenshtein_distance": 2,
+      "deletions": 0,
+      "pe_tokens": [
+        {
+          "position": 1,
+          "token_id": 23382,
+          "piece": "▁这两个",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 2,
+          "token_id": 3966,
+          "piece": "朋友",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 3,
+          "token_id": 291,
+          "piece": "都",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 4,
+          "token_id": 27875,
+          "piece": "钦",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 5,
+          "token_id": 6284,
+          "piece": "佩",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 6,
+          "token_id": 15338,
+          "piece": "对方",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 7,
+          "token_id": 12,
+          "piece": "的",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 8,
+          "token_id": 31998,
+          "piece": "伟大",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 9,
+          "token_id": 6862,
+          "piece": "成就",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 10,
+          "token_id": 18,
+          "piece": "和",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 11,
+          "token_id": 21953,
+          "piece": "反叛",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 12,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 13,
+          "token_id": 2,
+          "piece": ",",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 14,
+          "token_id": 8,
+          "piece": "▁",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 15,
+          "token_id": 251,
+          "piece": "也",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 16,
+          "token_id": 27875,
+          "piece": "钦",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 17,
+          "token_id": 6284,
+          "piece": "佩",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 18,
+          "token_id": 15338,
+          "piece": "对方",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 19,
+          "token_id": 12,
+          "piece": "的",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 20,
+          "token_id": 2856,
+          "piece": "光",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 21,
+          "token_id": 15208,
+          "piece": "彩",
+          "edited": true,
+          "label": "E",
+          "is_eos": false
+        },
+        {
+          "position": 22,
+          "token_id": 10,
+          "piece": "。",
+          "edited": false,
+          "label": "U",
+          "is_eos": false
+        },
+        {
+          "position": 23,
+          "token_id": 0,
+          "piece": "</s>",
+          "edited": false,
+          "label": "U",
+          "is_eos": true
+        }
+      ]
+    }
+  ]
+}

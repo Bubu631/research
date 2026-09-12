@@ -1,0 +1,11 @@
+# Executed scientific analysis environment: CPython 3.13.1, macOS arm64.
+# Versions are observed locally, not estimates of the latest package releases.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+matplotlib==3.11.1
+openpyxl==3.1.5
+
+# PDF-to-text extraction is optional and has a separate original environment:
+# data_tools/requirements-data.txt (openpyxl 3.1.5 and pypdf 6.10.0).
+# Install that file in a separate environment when reproducing PDF extraction.

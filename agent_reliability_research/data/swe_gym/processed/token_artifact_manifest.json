@@ -1,0 +1,209 @@
+{
+  "artifact_path": "/Users/shengweizhang/.cache/shengwei-agent-audit/swe_tokens.npz",
+  "artifact_sha256": "855973ef17fb8891edebfbf8736e2e1966d281833dc46320fec497fbe6aea5b7",
+  "artifact_bytes": 453446,
+  "records_in_length_table": 6055,
+  "heldout_g8_groups": 49,
+  "heldout_records": 392,
+  "no_target_records": 0,
+  "zero_encoded_target_records": 0,
+  "pad_token": "<|endoftext|>",
+  "pad_token_id": 151643,
+  "tokenizer": {
+    "model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+    "revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct/resolve/2e1fd397ee46e1388853d2af2c993145b0f1098a/tokenizer.json",
+    "bytes": 7031645,
+    "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "license": "Apache-2.0",
+    "accessed_at_utc": "2026-09-12T16:15:19.521677+00:00"
+  },
+  "schema": {
+    "input_ids": {
+      "shape": [
+        392,
+        2048
+      ],
+      "dtype": "int32"
+    },
+    "attention_mask": {
+      "shape": [
+        392,
+        2048
+      ],
+      "dtype": "uint8"
+    },
+    "score_mask": {
+      "shape": [
+        392,
+        2048
+      ],
+      "dtype": "uint8"
+    },
+    "record_ids": {
+      "shape": [
+        392
+      ],
+      "dtype": "<U29"
+    },
+    "group_ids": {
+      "shape": [
+        49
+      ],
+      "dtype": "<U24"
+    },
+    "group_record_rows": {
+      "shape": [
+        49,
+        8
+      ],
+      "dtype": "int32"
+    },
+    "source_content_sha256": {
+      "shape": [
+        392
+      ],
+      "dtype": "<U64"
+    },
+    "target_message_index": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "original_context_tokens": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "original_target_tokens": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "target_prefix_tokens_moved_to_context": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "context_tokens_dropped": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "retained_context_tokens": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "retained_target_tokens": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "input_tokens": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "trailing_messages_excluded": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    },
+    "full_transcript_tokens": {
+      "shape": [
+        392
+      ],
+      "dtype": "int32"
+    }
+  },
+  "source_sha256": {
+    "unique_records.jsonl": "41e36d07fcc357cc8d2dfdc5d1adebf12a685e3b94ba507dd4508f045c759326",
+    "heterogeneous_groups_g8.jsonl": "f689f9021f7303152d17f218524a529f871c11f9d5b6ee5b68da8af97351f0e8",
+    "source_manifest.json": "29ccf9d78425db255f141957b5866cacb8f05e19dd7d8d231926be034f074c2f"
+  },
+  "length_table_sha256": "2fdf70e18612bfb32e77853bee00d765bccac0584e6f6baf438092be36cab300",
+  "script_sha256": "7b24fb39c725950c969c81b3c8aac050f5097aba8ebf6eb51d9974c563fc6852",
+  "protocol_sha256": "4ef5582eecc88032cb2c8da660e51f8842f7add4bccc3c4ac1449b5c7d0c9e22",
+  "runtime": {
+    "numpy": "2.5.3",
+    "pyarrow": "25.0.1",
+    "tokenizers": "0.22.2"
+  },
+  "elapsed_seconds": 60.44171329168603,
+  "full_transcript_token_quantiles": {
+    "0": 707.0,
+    "25": 1572.0,
+    "50": 12645.0,
+    "75": 26143.0,
+    "90": 41068.0,
+    "95": 52052.100000000035,
+    "99": 75105.74,
+    "100": 170387.0
+  },
+  "heldout_input_token_quantiles": {
+    "0": 915.0,
+    "25": 1396.75,
+    "50": 1598.0,
+    "75": 1726.25,
+    "90": 1871.9,
+    "95": 1965.4999999999995,
+    "99": 2048.0,
+    "100": 2048.0
+  },
+  "heldout_score_token_quantiles": {
+    "0": 56.0,
+    "25": 77.75,
+    "50": 83.0,
+    "75": 190.25,
+    "90": 335.90000000000003,
+    "95": 429.49999999999966,
+    "99": 512.0,
+    "100": 512.0
+  },
+  "heldout_context_truncated_records": 274,
+  "heldout_target_prefix_moved_records": 14,
+  "serialization_case_checks": {
+    "null_content_with_tool_calls": {
+      "record_id": "train.raw-00000-of-00003:0",
+      "target_message_index": 12,
+      "target_content_is_null": true,
+      "target_has_tool_calls": true,
+      "original_target_tokens": 81,
+      "retained_target_tokens": 81
+    },
+    "text_with_tool_calls": {
+      "record_id": "train.raw-00000-of-00003:46",
+      "target_message_index": 60,
+      "target_content_is_null": false,
+      "target_has_tool_calls": true,
+      "original_target_tokens": 212,
+      "retained_target_tokens": 212
+    },
+    "text_only": {
+      "record_id": "train.raw-00000-of-00003:98",
+      "target_message_index": 42,
+      "target_content_is_null": false,
+      "target_has_tool_calls": false,
+      "original_target_tokens": 569,
+      "retained_target_tokens": 512
+    }
+  },
+  "checks": {
+    "synthetic_null_content_tool_call_fixture": true,
+    "all_frozen_heldout_groups_included": true,
+    "score_only_target_token_positions": true,
+    "persisted_arrays_identical": true,
+    "no_labels_or_test_result_in_serialized_inputs": true
+  },
+  "interpretation": "Blockwise-BPE, bounded-context final-assistant-action surrogate on fixed heterogeneous historical groups; not native chat or on-policy trajectories."
+}

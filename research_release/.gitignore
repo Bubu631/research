@@ -1,0 +1,14 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+*.aux
+*.log
+*.out
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+# Per-record vocabulary gradients are regenerable; distribute as evidence assets.
+papers/**/public_gradients_*.npz

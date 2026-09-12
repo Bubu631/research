@@ -1,0 +1,124 @@
+{
+  "status": "all checks passed",
+  "claims": "Algebra checks and counterexamples, not novelty or NHS external validation",
+  "topk_knowledge_gradient": {
+    "cases": 60,
+    "maximum_absolute_error": 4.718447854656915e-16,
+    "normal_integral_range": [
+      -12,
+      12
+    ],
+    "assumptions": "Only one posterior target mean changes; all other means stay fixed"
+  },
+  "repeat_only_floor": {
+    "tau2": 0.12249999999999998,
+    "beta2": 0.09,
+    "repeat_noise_variance": 0.6,
+    "target_variance_floor": 0.05188235294117647,
+    "rows": [
+      {
+        "repeat_count": 1,
+        "target_posterior_variance": 0.10403076923076922,
+        "excess_above_floor": 0.05214841628959275
+      },
+      {
+        "repeat_count": 10,
+        "target_posterior_variance": 0.06743119266055045,
+        "excess_above_floor": 0.015548839719373979
+      },
+      {
+        "repeat_count": 100,
+        "target_posterior_variance": 0.05382151029748283,
+        "excess_above_floor": 0.0019391573563063633
+      },
+      {
+        "repeat_count": 10000,
+        "target_posterior_variance": 0.051902286413248025,
+        "excess_above_floor": 1.9933472071555214e-05
+      },
+      {
+        "repeat_count": 100000000,
+        "target_posterior_variance": 0.051882354935086444,
+        "excess_above_floor": 1.9939099746291156e-09
+      }
+    ],
+    "covariance_with_repeat_at_limit": -6.938893903907228e-18,
+    "repeat_innovation_sd_at_limit": 8.958073510310954e-18,
+    "audit_innovation_sd_at_limit": 0.10337625452020527,
+    "two_unit_bayes_regret_floor": 0.04753872103868833,
+    "independent_monte_carlo": {
+      "seed": 2026091116,
+      "reps": 400000,
+      "regret_mean": 0.04770821692638512,
+      "mcse": 0.00019089139946045703,
+      "z": 0.887917885121381
+    },
+    "scope": "Static independent unit-specific biases; not common group shifts or a changing latent target"
+  },
+  "benchmark_shared_bias": {
+    "panels": 200,
+    "quotas": [
+      2,
+      1,
+      2
+    ],
+    "max_regret_invariance_error": 1.887379141862766e-15,
+    "all_oracle_memberships_unchanged": true,
+    "perfectly_correlated_two_unit_example": {
+      "posterior_covariance": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "erroneous_independent_formula": 0.3989422804014327,
+      "exact_joint_kg": 0.0
+    }
+  },
+  "budget_counterexample": {
+    "total_budget": 2,
+    "costs": [
+      1,
+      2
+    ],
+    "observation_noise_variances": [
+      1.0,
+      0.1
+    ],
+    "first_action_kg": [
+      0.28209479177387814,
+      0.38037653963109114
+    ],
+    "first_action_kg_per_cost": [
+      0.28209479177387814,
+      0.19018826981554557
+    ],
+    "ratio_policy_first_action": "cheap",
+    "ratio_policy_total_expected_gain": 0.32573500793528,
+    "one_expensive_action_expected_gain": 0.38037653963109114,
+    "ratio_policy_expected_value_gap": 0.05464153169581115,
+    "interpretation": "Concrete finite-budget counterexample; cost-normalised myopia is not globally optimal"
+  },
+  "uncertainty_and_audit_bias": {
+    "boundary_gap": 0.1,
+    "target_variances": [
+      1.0,
+      0.25
+    ],
+    "repeat_target_mean_innovation_sds": [
+      0.028867513459481308,
+      0.4225771273642583
+    ],
+    "repeat_kg": [
+      1.946203910623085e-06,
+      0.12328232600590364
+    ],
+    "two_independently_biased_channels_target_variance_floor": 0.02258642765685019,
+    "interpretation": "Total uncertainty differs from actionable information; independent persistent audit bias does not average away"
+  },
+  "source_sha256": "99fbf8556f74282e470ce1a2fa5913053211639a658e6275138e915036df6800"
+}

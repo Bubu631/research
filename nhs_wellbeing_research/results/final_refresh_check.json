@@ -1,0 +1,32 @@
+{
+  "harmonised": {
+    "all_other_csv_outputs_byte_identical": {
+      "rank_sensitivity.csv": true,
+      "test_metrics.csv": true,
+      "group_test_metrics.csv": true,
+      "observational_followup.csv": true,
+      "paired_bootstrap.csv": true,
+      "rank_thresholds.csv": true,
+      "development_grid.csv": true,
+      "rank_membership.csv": true,
+      "rank_envelope.csv": true,
+      "frozen_2025_predictions.csv": true
+    },
+    "changed_cohort_columns": [
+      "wellbeing_action",
+      "intent_leave",
+      "work_related_stress"
+    ]
+  },
+  "vintage": {
+    "all_other_csv_outputs_byte_identical": {
+      "test_metrics.csv": true,
+      "group_test_metrics.csv": true,
+      "score_revisions.csv": true,
+      "paired_bootstrap.csv": true,
+      "development_grid.csv": true,
+      "frozen_2025_predictions.csv": true
+    },
+    "changed_cohort_columns": []
+  }
+}

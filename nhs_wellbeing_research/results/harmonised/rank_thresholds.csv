@@ -1,0 +1,6 @@
+benchmark_group,units,k,first_membership_crossing,stable_through_3000,pair_crossings_0_3000
+Acute Specialist Trusts,13,2,,True,5
+Acute&Acute Community Trusts,110,22,234.5999079956548,False,233
+Ambulance Trusts,11,2,11990.844397930865,True,0
+Community Trusts,13,2,3377.4261410556755,True,3
+"MH&LD, MH, LD&Community Trusts",43,8,24822.3609767595,True,29

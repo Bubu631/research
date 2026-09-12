@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If using this research artifact, cite this manuscript and the original CDC BRFSS and NHS Staff Survey sources."
+title: "Which Uncertainty Is Worth Reducing? Budgeted Measurement for Wellbeing Prioritisation"
+type: manuscript
+authors:
+  - family-names: Zhang
+    given-names: Shengwei
+    affiliation: University of Pennsylvania
+version: 1.0.0
+date-released: 2026-09-11
+abstract: "A reproducible study of fixed-budget measurement before workforce-wellbeing review selection, using an established two-channel Gaussian knowledge-gradient rule, synthetic worlds, public-record replay and conditional NHS illustrations."
+keywords:
+  - value of information
+  - knowledge gradient
+  - budgeted measurement
+  - wellbeing
+  - social impact

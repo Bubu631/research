@@ -1,0 +1,128 @@
+{
+  "repository": "Bubu631/research",
+  "tag": "v1.0.0",
+  "scope": "Four research directions and the preserved predecessor of the wellbeing project",
+  "archive_note": "Project archives preserve the original research delivery. Repository README files provide the updated collection navigation.",
+  "artifacts": [
+    {
+      "name": "edit_localization_4authors_paper.pdf",
+      "bytes": 778376,
+      "sha256": "a4dc2b23f5f45c7e82df9f2e55dd56f8d2da568fc3c20ec4b3a60eb88f74f8ab"
+    },
+    {
+      "name": "edit_localization_4authors_source.zip",
+      "bytes": 377379,
+      "sha256": "59d2a02340ea17223187766ec5727246c865c85a2a9e578ed8c4c7b7012a941b"
+    },
+    {
+      "name": "base_upgrade_3authors_paper.pdf",
+      "bytes": 525255,
+      "sha256": "4abb50f8b167b5ebb887a1fecdc6f880a557af46c10e021e2b1db538e6349bf1"
+    },
+    {
+      "name": "base_upgrade_3authors_source.zip",
+      "bytes": 113723,
+      "sha256": "37e2c240c2ab7180dae149da341baeb5e6bc751a7b2399a269a3f49cd37eed7a"
+    },
+    {
+      "name": "research_code_and_papers.zip",
+      "bytes": 90637495,
+      "sha256": "217d264212257e56b1ce7c5d4935016becd899e58d77d7094fb68dfaac70818e"
+    },
+    {
+      "name": "public_gradient_evidence.zip",
+      "bytes": 390899596,
+      "sha256": "fb16c4d24fb2b8588065efc2715527abd1863e8f7800ddf66ca420c781a065f2"
+    },
+    {
+      "name": "nhs_aisi_full_paper.pdf",
+      "bytes": 444720,
+      "sha256": "bca5d806c94ef2c5797af210c66776606539780190f35a4d44fc04d932246f84"
+    },
+    {
+      "name": "nhs_aisi_arxiv_source.zip",
+      "bytes": 105057,
+      "sha256": "e4c25d563baa425c9cd5aaf77ad67505867e2483fd96f37027e73f8aec6b2f31"
+    },
+    {
+      "name": "nhs_aisi_anonymous.pdf",
+      "bytes": 261126,
+      "sha256": "f17c02528864d1f795c6d2ffb716783ebfe74c4816fc5e291e9a3a3baea4def0"
+    },
+    {
+      "name": "nhs_aisi_anonymous_source.zip",
+      "bytes": 118851,
+      "sha256": "73a4458698a166e047b4081ead7fda96a5632088e06c525a29e77feb06913a8b"
+    },
+    {
+      "name": "nhs_aisi_supplement.pdf",
+      "bytes": 369714,
+      "sha256": "05546995cd24cbbc24c155f1b2604ac7912291c69f5a807af35b411772641e80"
+    },
+    {
+      "name": "nhs_aisi_decision_brief.pdf",
+      "bytes": 5235,
+      "sha256": "fbf3c492e13cdda1f3d0cec799ca5db3f53f60d3ac6c57d67424a0a3b1eb3d47"
+    },
+    {
+      "name": "nhs_aisi_results.xlsx",
+      "bytes": 1235485,
+      "sha256": "a0ad696183798585790f6855724e7d84b377f7e750c32619fc48871719f67417"
+    },
+    {
+      "name": "nhs_aisi_reproducibility.zip",
+      "bytes": 39114926,
+      "sha256": "2aece28c7c8960f181030d5a8c6843d83a9ae3a963cbad60c268601fad41a453"
+    },
+    {
+      "name": "nhs_wellbeing_paper.pdf",
+      "bytes": 474023,
+      "sha256": "051d8aefbc73aed35227fa2e9ab662cb07cb028dd0b2c917b232b1698156040d"
+    },
+    {
+      "name": "nhs_wellbeing_source.zip",
+      "bytes": 118662,
+      "sha256": "adb8bb479665713746ed019129ceb34eb9d669e26f7165be631c8881ce04742c"
+    },
+    {
+      "name": "nhs_wellbeing_research.zip",
+      "bytes": 1932469,
+      "sha256": "7700666e353d7166b5752148b3c28e8040a911e10aeff528ffb1c1f55605214a"
+    },
+    {
+      "name": "agent_audit_paper.pdf",
+      "bytes": 913286,
+      "sha256": "d145604af7bc7210799843a00ff8ea9c7a8617d97a5789e8584ded54e968e310"
+    },
+    {
+      "name": "agent_audit_arxiv_source.zip",
+      "bytes": 635392,
+      "sha256": "2f9abd173e5bae0f76c91c901f9d129f58c846158dee3281b2b0c2df443823f7"
+    },
+    {
+      "name": "agent_audit_reproducibility.zip",
+      "bytes": 100104870,
+      "sha256": "213c7841b5dd987613fe1623524e0a297839d3d2a6cc3c2ad9368bcdb9e23504"
+    },
+    {
+      "name": "bundle_manifest.json",
+      "bytes": 2782,
+      "sha256": "125c7cc67f00660f06550daedce99f3737ba1ccd1d6f0728525e430966148696"
+    },
+    {
+      "name": "nhs_wellbeing_manifest.json",
+      "bytes": 37925,
+      "sha256": "1370b470c84ede997cb0c2c65f5a2babf65f538ed4398e1e93b7d00dd0895800"
+    },
+    {
+      "name": "nhs_aisi_release_manifest.json",
+      "bytes": 1778,
+      "sha256": "6b52274d155fd42674b9e51b125fd3317a2f80f2fd2ffb7b2dfdb168635974c0"
+    },
+    {
+      "name": "agent_audit_release_manifest.json",
+      "bytes": 803,
+      "sha256": "ddb6e180aed1f9ae6a7657590ccea3c79f945e3409f6c965acb71d9bc3b2d31b"
+    }
+  ]
+}

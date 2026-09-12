@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "source_sha256": {
+    "experiments/frozen_audit_study.py": "6cd469ee1b1c92970516386b58151ecde187900368dcac7f769e02338b6f4447",
+    "src/reward_audit.py": "fd68931e2378033d106d10408b6ab08cd64fff32e6f3e9d38d4a114b9e2c7423",
+    "results/frozen_model/gradient_bank.npz": "5074caf1858e1d60c02f4ab2f433792c7048641ebad0f62fb3453a572dcf3fca",
+    "data/swe_gym/processed/heterogeneous_groups_g8.jsonl": "f689f9021f7303152d17f218524a529f871c11f9d5b6ee5b68da8af97351f0e8"
+  },
+  "groups": 49,
+  "records": 392,
+  "mixed_groups": 22,
+  "methods": 8,
+  "budgets": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "rows": 1176,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260916,
+  "bootstrap_unit": "task; exactly one G8 group per heldout task; pointwise percentile ratio intervals, not simultaneous",
+  "elapsed_seconds": 0.4306094590574503,
+  "expectations": "exact enumeration of all audit stopping paths or all 256 masks",
+  "additional_true_label_calibration_cost": 0,
+  "cost_unit": "cached reference verdict reveal; not measured real test execution time",
+  "target": "32-dimensional added-logit-bias score of final assistant action under declared truncated frozen-checkpoint serialization; empirical ratios one",
+  "limitations": [
+    "historical heterogeneous groups",
+    "no on-policy inference",
+    "no fresh test execution",
+    "no policy training",
+    "no full-parameter gradient"
+  ]
+}

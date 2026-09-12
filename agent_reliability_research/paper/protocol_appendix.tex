@@ -1,0 +1,66 @@
+\section{Experimental protocols and computational provenance}\label{app:protocol}
+All studies in this manuscript were executed on September 12, 2026. Integer RNG identifiers that resemble later dates are random seeds, not execution dates. The host was an Apple M1 Pro with 16 GB memory. Model extraction used its Metal backend; the other numerical studies used CPU NumPy. Shared-host timing is reported as diagnostic measurement rather than an isolated systems comparison.
+
+\subsection{Controlled fixed-group estimation}
+The initial data generator is
+\begin{align*}
+ z_i&\sim N(\operatorname{logit}(\alpha),1.2^2),&p_i&=\operatorname{sigmoid}(z_i),\\
+ c_i'&=\exp(N(0,.55^2)),&c_i&=Gc_i'/\sum_jc_j',\\
+ s_i&\sim N(0,I_6),&\rho_i&=\exp(N(0,.25^2)).
+\end{align*}
+Its fixed map is $L=G^{-1}[\{s_i\ind(\rho_i<1.2)\}_i;\{s_i\ind(\rho_i>.8)\}_i]$. Evaluated gradient-like errors are $\norm{(\widehat\Phi-\Phi)^\top L}^2$. The map is a simulated derivative geometry, not the gradient of a trained policy. All labels and maps are saved in per-setting NPZ files. Development seed 20260912 and evaluation seed 20260913 are separate. The exponent is chosen to minimize development projected-MSE over 64 fully labelled groups. A prefix is ordered by decreasing $p_i(1-p_i)/c_i$; deterministic ties preserve the original index.
+
+The survival shape for the fixed and tuned schedules is proportional to $k^{-\gamma}$, clipped between $.005$ and one. A scalar search adjusts its scale to the expected cost. The fixed controlled-study exponent is one; the constructed training study intentionally has its separately frozen exponent $.5$. Neither is selected using the final reported training outcomes.
+
+For $G=16$, let $Y_1,\ldots,Y_M$ be the independent audit-mask estimates and $t$ the complete target, with $M=1024$. Write
+\[
+ B=\norm{M^{-1}\sum_jY_j-t}^2,\qquad
+ V=M^{-1}\sum_j\norm{Y_j-t}^2.
+\]
+The signed correction $(MB-V)/(M-1)$ is unbiased for squared conditional bias. It is not forced nonnegative because truncation would add a further bias. The same formula is applied after the fixed linear projection. Mean MSE itself is the ordinary average over the independent masks. For $G=4,8$, every mask is integrated exactly, so this correction is unnecessary.
+
+Two post-run reporting corrections are reproducible without generating new observations. Independent per-item audits have full-group probability $q^G$, not zero. The field called prevalence in the initial run is a logistic-normal base-rate parameter and is relabelled accordingly. The original executed sources and outputs remain frozen; a separate reporting script creates the corrected tables and records their source hashes. These changes do not improve any estimator or alter the calibration-cost finding.
+
+\subsection{Subsequent model-scheduled confirmation}
+The model-derived moment calculation was investigated after observing the calibration expense. The confirmation uses a new seed, 20260914, and the same declared family of 45 base settings, 256 groups per setting, and three budget fractions. There are 11,520 distinct groups; the three budgets and three methods share these groups. Consequently the 135 setting-budget rows are not 135 independent replications. Each method's stopping distribution is integrated exactly. The supplied probability model is part of the simulation: avoiding extra labels for schedule selection does not prove that acquiring a useful real proxy is free.
+
+The resulting 103,680 method-group-budget rows preserve all outcomes, simulated costs, true generation probabilities, query orders, survival vectors and conditional moments. The main model schedule optimizes Euclidean coefficient MSE. Its six-dimensional projection is a separate evaluation metric. Intermediate-completion cost is measured from the operations the online method would actually reach, weighted by survival; whole-group correction is not charged unnecessary intermediate completions. The microbenchmark separately records scheduling and expected completion time. Its sum excludes oracle execution, predictor training, rollout generation and small online bookkeeping operations.
+
+The reported ``wins'' count comparisons of point estimates, not multiplicity-adjusted significance decisions. The method is better across the calibrated grid but substantially worse under reversed label probabilities. Independent validation recomputes the whole-group closed-form risks and all saved query costs, and checks three representative small/large groups by a separate complete-cube implementation. This validates arithmetic and record consistency rather than independently rerunning every generated observation.
+
+\subsection{Historical software trajectories}\label{app:historical}
+The source is the official SWE-Gym OpenHands sampled-trajectory dataset \citep{swegymdata,pan2025}, pinned to revision \nolinkurl{baf3a4e4bff514d48ddc08a93a2ade5c126212c7}. Its three Parquet files contain 301,095,609 bytes, each matching the upstream LFS SHA-256. Processing retains 6,055 unique records across 2,438 tasks. There are 491 resolved records and 2,380 empty generations. Forty-four evaluator-error records are excluded from eligible grouping, leaving 6,011 eligible records. Empty or unsuccessful generations are not removed simply because they are unfavorable outcomes.
+
+An initial strict grouping requirement---same task, initial prompt and logging configuration---produces a maximum group size of two. There are no strict $G=4$ or $G=8$ groups. We therefore record a data-availability amendment and form deterministic same-task/initial-prompt \emph{heterogeneous historical} groups. They mix logging configurations, and many mix behavior-model families. No logged behavior probabilities are available to turn these into on-policy groups. The target is explicitly the update of this fixed empirical grouping.
+
+Task identity is split by a fixed hash into training, calibration and heldout sets in proportions $60/20/20$. The G8 index has 137/37/49 groups in those splits, with one group per task. All 49 heldout groups, comprising 392 unique records and 22 mixed-label groups, are included in model extraction and audit evaluation. The overlapping G4 grouping is retained as a data artifact, not counted as an independent validation dataset.
+
+A logistic proxy is fitted only on task-training records using 12 log-transformed visible-conversation features. They count text, turns, tool calls and visible mentions related to tests, failures and errors. The predictor excludes reference verdict fields, patch-evaluation reports, task identifiers and the separate hidden test output. On the broader heldout record split, its recorded AUC is 0.8176 and Brier score is 0.09193. These are historical prediction diagnostics, not evidence that its probabilities follow the independent working model or remain calibrated during new training.
+
+\subsection{Tokenization and the actual model-defined score}\label{app:frozen}
+The checkpoint is Qwen2.5-Coder-1.5B-Instruct \citep{qwenmodel}, revision \nolinkurl{2e1fd397ee46e1388853d2af2c993145b0f1098a}. Its 3,087,467,144-byte weight file and configuration/tokenizer blobs are verified against the pinned source. All model parameters remain frozen. The code uses PyTorch 2.14.0, Transformers 4.57.6 and NumPy 2.5.3, with float16 frozen-model inference on MPS. No training or newly generated actions occur in this extraction.
+
+Canonicalization inserts explicit role headers and deterministic JSON serialization of tool calls, including tool arguments when assistant content is null. It tokenizes message blocks with the pinned tokenizer, rather than claiming the logging model's native chat format. The target is the last nonempty assistant body. At most its last 512 tokens are scored. Any earlier target prefix is moved into context, whose last 1,536 tokens are retained. There is no added EOS. Right padding uses the tokenizer's end-of-text ID but receives neither attention nor a score mask. Of the 392 records, 274 truncate context and 14 move a target prefix; none lacks a scorable target. The full 6,055-record canonical transcripts have median 12,645 tokens, while the evaluated inputs have median 1,598 tokens. The resulting bounded-context target should not be described as scoring entire long trajectories.
+
+For vocabulary size $V$, fix $B\in\R^{V\times32}$ with independent Rademacher entries divided by $\sqrt{32}$, using seed 20260915. At each target position, let $z$ be the float16 frozen-model logits cast to float32. Introduce a new parameter $\eta\in\R^{32}$ through $z_\eta=z+B\eta$. The per-record score is
+\begin{equation}\label{eq:biasscore}
+ s_i=\frac1{T_i}\sum_{t\in\mathcal T_i}
+ \left[B_{y_{it},:}-\operatorname{softmax}(z_{it})^\top B\right]
+ =\left.\nabla_\eta\frac1{T_i}\sum_{t\in\mathcal T_i}
+ \log\operatorname{softmax}(z_{it}+B\eta)_{y_{it}}\right|_{\eta=0}.
+\end{equation}
+A target token at position $t$ uses hidden state $t-1$. This is the analytic derivative in a specified output-bias subspace of the frozen computation, not an approximation claimed to equal its full-parameter gradient. Different choices of $B$, token weighting or context induce different geometries. Float16 forward values are not asserted to equal float32 base-model values.
+
+The score calculation has independent CPU autograd and finite-difference checks. The float64 analytic/autograd discrepancy is $5.55\times10^{-17}$, the float32 discrepancy $1.03\times10^{-8}$, and the finite-difference discrepancy $3.77\times10^{-11}$. A deliberately wrong one-token shift is detected. Extraction validates binary masks, continuous right-padding boundaries, nonempty predictable target positions and vocabulary ranges. Resuming a bank requires an exact fingerprint match for input tokens, masks, model source, source code, basis, device and runtime versions; smoke and full artifacts are separate. These safeguards establish what was computed, without turning historical replay into an on-policy evaluation.
+
+\subsection{Audit evaluation using frozen scores}
+At the frozen empirical ratio $\rho=1$, both sign blocks use the same score map divided by $G$. We compare eight methods at expected label fractions $.25,.5,.75$: full reference labels, proxy completion, whole-group residual, fixed sequential completion, coefficient-model sequential completion, gradient-model sequential completion, reward HT followed by normalization, and partial replacement followed by normalization. Every prefix distribution and all 256 independent audit masks are integrated exactly. Costs are cached verdict reveals, not elapsed test execution.
+
+The gradient-model schedule is an additional metric-specific instantiation for this small $G=8$ diagnostic. Enumerate the 256 possible label vectors under the frozen independent proxy model, apply the fixed score map, and aggregate conditional means by each prefix pattern. The difference of successive expected squared conditional-mean norms gives the projected martingale increment variances. This requires no observed evaluation labels; its exponential enumeration is practical here but is not the count-compressed general-$G$ algorithm. Both model schedules remain optimal only under their working model, fixed order and declared metric.
+
+Mean MSE ratios are paired against whole-group correction using identical empirical groups. Percentile intervals use 10,000 paired task-bootstrap resamples, seed 20260916. There is exactly one evaluated G8 group per heldout task; individual trajectories are not treated as independent bootstrap units. Intervals are pointwise descriptive summaries for this task collection, not simultaneous coverage guarantees or evidence about new-policy task distributions. Zero-target and all-equal groups remain in the primary averages.
+
+\subsection{Provenance and resource accounting}
+The minimal theory and constructed-training path needs Python and NumPy. Data parsing additionally uses PyArrow and scikit-learn; the exact input tokenization uses tokenizers 0.22.2. The local NumPy-only training used the bundled Python 3.12.14/NumPy 2.3.5 runtime, while the model extraction used the stable Python environment specified in its manifest. Executed versions are recorded per experiment rather than inferred from a later environment export.
+
+Original private research notes are held outside the research repository. Public raw trajectories and model weights are downloaded from pinned sources but not redistributed with the source package. Fetch scripts, source hashes, group identifiers, derived numeric tables and validation records support reproduction. No internal Alibaba or Tencent data, credentials or private business measurements enter these results. The repository contains the complete numerical record, including adverse regimes and reporting corrections; it does not claim a public hosting location that has not been created.

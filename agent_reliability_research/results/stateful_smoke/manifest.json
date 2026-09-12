@@ -1,0 +1,392 @@
+{
+  "started_utc": "2026-09-12T16:14:22.629725+00:00",
+  "study": "constructed stateful tool dependency-repair policy training",
+  "no_llm_or_public_benchmark": true,
+  "parameters": {
+    "smoke": true,
+    "updates": 5,
+    "seeds": 1,
+    "horizons": [
+      12,
+      24,
+      48
+    ],
+    "policies": [
+      "full",
+      "proxy",
+      "whole_group_residual",
+      "rr_completion",
+      "naive_reward_ht",
+      "partial_replacement"
+    ],
+    "eval_episodes": 64,
+    "eval_every": 5,
+    "group_size": 8,
+    "audit_fraction": 0.5,
+    "completion_probability": 0.55,
+    "survival_exponent": 0.5,
+    "initial_preference": 0.9,
+    "learning_rate": 0.5,
+    "max_grad_norm": 1.0,
+    "output": null
+  },
+  "feature_names": [
+    "intercept",
+    "phase_edit",
+    "phase_build",
+    "phase_attest",
+    "phase_publish",
+    "source_version",
+    "requested_version",
+    "artifact_local_matches_request",
+    "published_local_matches_request",
+    "attestation_matches_current_artifact",
+    "publication_matches_current_artifact",
+    "recorded_parent_matches_current_parent_artifact",
+    "component_position",
+    "remaining_horizon",
+    "size_scaled"
+  ],
+  "action_names": [
+    "noop",
+    "edit_to_spec",
+    "build",
+    "attest",
+    "publish"
+  ],
+  "environment_checks": {
+    "correct_release": true,
+    "dependency_omission_detected": true,
+    "attestation_omission_detected": true,
+    "local_failure_detected": true
+  },
+  "notes": [
+    "Softmax policy; one on-policy SGD update, averaged action scores; no replay PPO epochs.",
+    "Query count is a resource unit. No artificial sleep or measured expensive-verifier speedup.",
+    "Cheap negatives imply reference negatives and are inferred free under every method.",
+    "Evaluation and offline diagnostic checks are separately accounted and never train the policy."
+  ],
+  "source_sha256": {
+    "experiments/stateful_training.py": "3e6b332192abb7fb27e09ad66eb6d96ac303c56152abdf781225e96a58e73454",
+    "src/stateful_env.py": "4c25aa151a7e4a24ea9e5025d01ecf37e4ba84f7529fd9afd5c96e8a8f7b22bb",
+    "src/reward_audit.py": "52957e5692bec6f292673fda3def95f6e9cfb70ec0e3c7267f84298c96c469bb",
+    "docs/stateful_protocol.md": "3706d12b0b59ca994380040d9700dd579d01ec61e42112423e6589ba42d569c2"
+  },
+  "completed_utc": "2026-09-12T16:14:23.429533+00:00",
+  "wall_seconds": 0.7998184589669108,
+  "runs": [
+    {
+      "method": "full",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 32,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.005164666101336479,
+        "estimation_seconds": 0.00027179112657904625,
+        "optimization_seconds": 0.0004207915626466274,
+        "reporting_seconds": 0.011915958020836115,
+        "offline_diagnostic_seconds": 0.0002982080914080143
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.004801583010703325,
+        "estimation_seconds": 0.0001511671580374241,
+        "optimization_seconds": 6.958097219467163e-05,
+        "reporting_seconds": 0.011060249991714954,
+        "offline_diagnostic_seconds": 0.0002454998902976513
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 25,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.004742458462715149,
+        "estimation_seconds": 0.001176165882498026,
+        "optimization_seconds": 9.004073217511177e-05,
+        "reporting_seconds": 0.01163529185578227,
+        "offline_diagnostic_seconds": 0.00025174999609589577
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 20,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.005087293218821287,
+        "estimation_seconds": 0.006131458096206188,
+        "optimization_seconds": 0.000104585662484169,
+        "reporting_seconds": 0.012915499974042177,
+        "offline_diagnostic_seconds": 0.0002494165673851967
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 17,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.00488300109282136,
+        "estimation_seconds": 0.0002194172702729702,
+        "optimization_seconds": 7.908139377832413e-05,
+        "reporting_seconds": 0.011449957732111216,
+        "offline_diagnostic_seconds": 0.0002555833198130131
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 12,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 17,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.004610459785908461,
+        "estimation_seconds": 0.000163292046636343,
+        "optimization_seconds": 6.229011341929436e-05,
+        "reporting_seconds": 0.012066292110830545,
+        "offline_diagnostic_seconds": 0.00024741608649492264
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 31,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.0094413748010993,
+        "estimation_seconds": 0.0002500424161553383,
+        "optimization_seconds": 7.941573858261108e-05,
+        "reporting_seconds": 0.02252037636935711,
+        "offline_diagnostic_seconds": 0.00038800016045570374
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.009253707714378834,
+        "estimation_seconds": 0.00015875045210123062,
+        "optimization_seconds": 7.487460970878601e-05,
+        "reporting_seconds": 0.022311751265078783,
+        "offline_diagnostic_seconds": 0.00039858417585492134
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 15,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.009388333186507225,
+        "estimation_seconds": 0.001222166232764721,
+        "optimization_seconds": 9.762309491634369e-05,
+        "reporting_seconds": 0.022342625074088573,
+        "offline_diagnostic_seconds": 0.0003836671821773052
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 15,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.009456831961870193,
+        "estimation_seconds": 0.00474195834249258,
+        "optimization_seconds": 0.00010595843195915222,
+        "reporting_seconds": 0.02184499939903617,
+        "offline_diagnostic_seconds": 0.00038458313792943954
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 13,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.009085959289222956,
+        "estimation_seconds": 0.00017083296552300453,
+        "optimization_seconds": 6.583286449313164e-05,
+        "reporting_seconds": 0.02164037525653839,
+        "offline_diagnostic_seconds": 0.00038458313792943954
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 24,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 14,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.011924499180167913,
+        "estimation_seconds": 0.00046641845256090164,
+        "optimization_seconds": 0.0001500006765127182,
+        "reporting_seconds": 0.023263459093868732,
+        "offline_diagnostic_seconds": 0.0003920411691069603
+      }
+    },
+    {
+      "method": "full",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 29,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.01875420892611146,
+        "estimation_seconds": 0.00030787521973252296,
+        "optimization_seconds": 9.008403867483139e-05,
+        "reporting_seconds": 0.0437371670268476,
+        "offline_diagnostic_seconds": 0.0006573749706149101
+      }
+    },
+    {
+      "method": "proxy",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 0,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.017898373771458864,
+        "estimation_seconds": 0.0002031242474913597,
+        "optimization_seconds": 9.633321315050125e-05,
+        "reporting_seconds": 0.04442883376032114,
+        "offline_diagnostic_seconds": 0.0006535002030432224
+      }
+    },
+    {
+      "method": "whole_group_residual",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 14,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.018098250031471252,
+        "estimation_seconds": 0.001139707863330841,
+        "optimization_seconds": 8.925003930926323e-05,
+        "reporting_seconds": 0.043903667479753494,
+        "offline_diagnostic_seconds": 0.0006551668047904968
+      }
+    },
+    {
+      "method": "rr_completion",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 14,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.018048166297376156,
+        "estimation_seconds": 0.0049100411124527454,
+        "optimization_seconds": 0.00013204244896769524,
+        "reporting_seconds": 0.04315016604959965,
+        "offline_diagnostic_seconds": 0.00074795912951231
+      }
+    },
+    {
+      "method": "naive_reward_ht",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 12,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.017666626255959272,
+        "estimation_seconds": 0.0001804162748157978,
+        "optimization_seconds": 6.020721048116684e-05,
+        "reporting_seconds": 0.04337945906445384,
+        "offline_diagnostic_seconds": 0.0007662498392164707
+      }
+    },
+    {
+      "method": "partial_replacement",
+      "horizon": 48,
+      "seed": 0,
+      "updates": 5,
+      "purchased_reference_queries": 12,
+      "reporting_reference_queries": 128,
+      "offline_diagnostic_reference_queries": 40,
+      "cheap_verifier_calls": 40,
+      "timings": {
+        "rollout_seconds": 0.017877790145576,
+        "estimation_seconds": 0.00025466736406087875,
+        "optimization_seconds": 9.558256715536118e-05,
+        "reporting_seconds": 0.044017167296260595,
+        "offline_diagnostic_seconds": 0.0006831251084804535
+      }
+    }
+  ],
+  "numeric_sha256": {
+    "evaluation.csv": "fa1cd877549f2e15905e1112d40104cbe82fd7f476a1765c7c9dc03606e29c21",
+    "paired_endpoint.csv": "9ef8b154c2be0b643dac0eb67570f48ed5e095f9938e3fbf6ab26710a8283f3b",
+    "query_ceiling_view.csv": "3349489e799d24830f0e515da4f9f8ec275c1f00a25bcbbca2c5b6f7b35de381",
+    "summary.csv": "2ec10d53a16762e5b0a07030b280c2176e3148683f00ac89e76460341ff00324",
+    "training.csv": "4ab2ecb5415b5897983be69ae4d58a4b3b16b2ba1d28e8e7bbe9628b3a38904a"
+  }
+}

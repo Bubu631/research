@@ -1,0 +1,28 @@
+{
+  "completed": true,
+  "seed": 2026091101,
+  "reps_per_cell": 5000,
+  "independent_gaussian_cells": 120,
+  "independent_gaussian_panel_draws": 600000,
+  "methods": 5,
+  "fractions": 3,
+  "shared_draws_across_methods_and_fractions": true,
+  "stress_cells": 4,
+  "elapsed_seconds": 51.2890334171243,
+  "gaussian_score_bounds_enforced": false,
+  "recorded_at_utc": "2026-09-11T19:18:03.781861+00:00",
+  "python": "3.13.1",
+  "numpy": "2.5.3",
+  "platform": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "source_sha256": {
+    "experiments/common.py": "6dc57b5c05a181288f35993d0c3c7fb761b3b861067314885b4a505817711e1a",
+    "experiments/empirical.py": "f7ebf9e9790540a551848f9fdb5f5e1545d0fc6e35740a3684bc71dfdf3f48d5",
+    "experiments/report.py": "9d6bd255bc7c8b6be7414e780832f3d9552280de3e68a500ef3267811dd5a9dc",
+    "experiments/simulate.py": "9bfc68b772b8f60ca9a36293ac567d89e238c90900256f28d0cffa0e0a66acf5",
+    "experiments/theory_checks.py": "f0c32db43858cf40a996ffd98d43b3f6467b6d53f2883d3acd335dabd85d4949",
+    "experiments/verify_empirical.py": "059675193ef4d9dcac94f606c6c6f695b859ed4dd46cff00e1611aa7826fa52c",
+    "experiments/vintage_empirical.py": "26fba7c26d442e3938d945271194fe8e8fc16c14f54873545203b4787107ee77"
+  },
+  "protocol_sha256": "39bd2d7a26a8689361f928b1bc2ac9325f2413fee91c3170e8a24c111ed07286",
+  "source_snapshot_dir": "results/provenance/5a20e7e874f300e3"
+}

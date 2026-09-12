@@ -1,0 +1,174 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Altschuler et~al.(2019)Altschuler, Brunel, and
+  Malek]{altschuler2019contaminated}
+Jason Altschuler, Victor-Emmanuel Brunel, and Alan Malek.
+\newblock Best arm identification for contaminated bandits.
+\newblock \emph{Journal of Machine Learning Research}, 20\penalty0
+  (91):\penalty0 1--39, 2019.
+\newblock URL \url{https://jmlr.org/papers/v20/18-395.html}.
+
+\bibitem[Ao et~al.(2026)Ao, Chen, Gao, Li, and Simchi-Levi]{ao2026judges}
+Ruicheng Ao, Hongyu Chen, Siyang Gao, Hanwei Li, and David Simchi-Levi.
+\newblock Best arm identification with {LLM} judges and limited human, 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.21471}.
+\newblock Preprint, version 1, 29 January 2026.
+
+\bibitem[Betti et~al.(2026)Betti, Sanni, Sogoyou, Agbagla, Molitor, Carleton,
+  and Rolf]{dom_betti2026}
+Livia Betti, Farooq Sanni, Gnouyaro~Z. Sogoyou, Togbe Agbagla, Cullen Molitor,
+  Tamma Carleton, and Esther Rolf.
+\newblock Mapping on a budget: Optimizing spatial data collection for {ML}.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  40\penalty0 (45):\penalty0 38233--38241, 2026.
+\newblock \doi{10.1609/aaai.v40i45.41162}.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/41162}.
+\newblock Special Track on AI for Social Impact I.
+
+\bibitem[{Centers for Disease Control and Prevention}(2024)]{cdc2023}
+{Centers for Disease Control and Prevention}.
+\newblock 2023 {BRFSS} survey data and documentation, 2024.
+\newblock URL \url{https://www.cdc.gov/brfss/annual_data/annual_2023.html}.
+\newblock Public files and documentation accessed 2026-09-11.
+
+\bibitem[{Centers for Disease Control and Prevention}(2025)]{cdc2024}
+{Centers for Disease Control and Prevention}.
+\newblock 2024 {BRFSS} survey data and documentation, 2025.
+\newblock URL \url{https://www.cdc.gov/brfss/annual_data/annual_2024.html}.
+\newblock Public files and documentation accessed 2026-09-11.
+
+\bibitem[Chen et~al.(2008)Chen, He, Fu, and Lee]{chen2008subset}
+Chun-Hung Chen, Donghai He, Michael Fu, and Loo~Hay Lee.
+\newblock Efficient simulation budget allocation for selecting an optimal
+  subset.
+\newblock \emph{INFORMS Journal on Computing}, 20\penalty0 (4):\penalty0
+  579--595, 2008.
+\newblock \doi{10.1287/ijoc.1080.0268}.
+\newblock URL \url{https://pubsonline.informs.org/doi/10.1287/ijoc.1080.0268}.
+
+\bibitem[Chen et~al.(2014)Chen, Lin, King, Lyu, and
+  Chen]{chen2014combinatorial}
+Shouyuan Chen, Tian Lin, Irwin King, Michael~R. Lyu, and Wei Chen.
+\newblock Combinatorial pure exploration of multi-armed bandits.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~27, 2014.
+\newblock URL
+  \url{https://papers.nips.cc/paper_files/paper/2014/hash/d3ea0f3316d2da934d79b8b344eafee4-Abstract.html}.
+
+\bibitem[Frazier and Powell(2010)]{frazier2010paradoxes}
+Peter~I. Frazier and Warren~B. Powell.
+\newblock Paradoxes in learning and the marginal value of information.
+\newblock \emph{Decision Analysis}, 7\penalty0 (4):\penalty0 378--403, 2010.
+\newblock \doi{10.1287/deca.1100.0190}.
+\newblock URL \url{https://doi.org/10.1287/deca.1100.0190}.
+
+\bibitem[Frazier et~al.(2008)Frazier, Powell, and Dayanik]{frazier2008kg}
+Peter~I. Frazier, Warren~B. Powell, and Savas Dayanik.
+\newblock A knowledge-gradient policy for sequential information collection.
+\newblock \emph{SIAM Journal on Control and Optimization}, 47\penalty0
+  (5):\penalty0 2410--2439, 2008.
+\newblock \doi{10.1137/070693424}.
+\newblock URL \url{https://epubs.siam.org/doi/abs/10.1137/070693424}.
+
+\bibitem[Frazier et~al.(2009)Frazier, Powell, and
+  Dayanik]{frazier2009correlated}
+Peter~I. Frazier, Warren~B. Powell, and Savas Dayanik.
+\newblock The knowledge-gradient policy for correlated normal beliefs.
+\newblock \emph{INFORMS Journal on Computing}, 21\penalty0 (4):\penalty0
+  599--613, 2009.
+\newblock \doi{10.1287/ijoc.1080.0314}.
+\newblock URL
+  \url{https://people.orie.cornell.edu/pfrazier/pub/CorrelatedKG.pdf}.
+
+\bibitem[Goebel et~al.(2026)Goebel, Solow, Pesantez-Cabrera, Keller, and
+  Fern]{dom_goebel2026}
+Kristen Goebel, William Solow, Paola Pesantez-Cabrera, Markus Keller, and Alan
+  Fern.
+\newblock Budgeted online active learning with expert advice and episodic
+  priors.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  40\penalty0 (45):\penalty0 38496--38504, 2026.
+\newblock \doi{10.1609/aaai.v40i45.41191}.
+\newblock URL \url{https://ojs.aaai.org/index.php/AAAI/article/view/41191}.
+\newblock Special Track on AI for Social Impact I.
+
+\bibitem[Goldstein and Spiegelhalter(1996)]{goldstein1996league}
+Harvey Goldstein and David~J. Spiegelhalter.
+\newblock League tables and their limitations: Statistical issues in
+  comparisons of institutional performance.
+\newblock \emph{Journal of the Royal Statistical Society: Series A (Statistics
+  in Society)}, 159\penalty0 (3):\penalty0 385--443, 1996.
+\newblock URL
+  \url{https://www.bristol.ac.uk/media-library/sites/cmm/migrated/documents/statistical-issues-for-league-tables1.pdf}.
+\newblock With discussion.
+
+\bibitem[Kalyanakrishnan et~al.(2012)Kalyanakrishnan, Tewari, Auer, and
+  Stone]{kalyanakrishnan2012pac}
+Shivaram Kalyanakrishnan, Ambuj Tewari, Peter Auer, and Peter Stone.
+\newblock {PAC} subset selection in stochastic multi-armed bandits.
+\newblock In \emph{Proceedings of the 29th International Conference on Machine
+  Learning}, pages 655--662, 2012.
+\newblock URL
+  \url{https://www.cs.utexas.edu/~pstone/Papers/bib2html/b2hd-ICML12-shivaram.html}.
+
+\bibitem[Lin et~al.(2006)Lin, Louis, Paddock, and Ridgeway]{lin2006ranking}
+Rongheng Lin, Thomas~A. Louis, Susan~M. Paddock, and Greg Ridgeway.
+\newblock Loss function based ranking in two-stage, hierarchical models.
+\newblock \emph{Bayesian Analysis}, 1\penalty0 (4):\penalty0 915--946, 2006.
+\newblock \doi{10.1214/06-BA130}.
+\newblock URL \url{https://doi.org/10.1214/06-BA130}.
+
+\bibitem[{NHS England}(2023{\natexlab{a}})]{dom_listeningwell2023}
+{NHS England}.
+\newblock Listening well guidance, 2023{\natexlab{a}}.
+\newblock URL
+  \url{https://www.england.nhs.uk/long-read/listening-well-guidance/}.
+\newblock Published 21 February 2023. Accessed 2026-09-11.
+
+\bibitem[{NHS England}(2023{\natexlab{b}})]{dom_nqps2023}
+{NHS England}.
+\newblock National quarterly pulse survey: Guidance for implementing and
+  submitting results.
+\newblock Technical report, NHS England, June 2023{\natexlab{b}}.
+\newblock URL
+  \url{https://www.england.nhs.uk/wp-content/uploads/2021/06/B0581-National-quarterly-pulse-survey-guidance-June-2023.pdf}.
+\newblock Publishing Approval Reference PAR581. Accessed 2026-09-11.
+
+\bibitem[{NHS Staff Survey}(2026)]{nhs2025workbook}
+{NHS Staff Survey}.
+\newblock {NSS Benchmark Report Excel Data for 2021--2025}, 2026.
+\newblock URL
+  \url{https://www.nhsstaffsurveys.com/static/be505cf2e70c080aa35d34279f68e3f2/NSS-Benchmark-report-excel-data-for-2021-2025-v2.xlsx}.
+\newblock Version 2, updated 17 March 2026; accessed 11 September 2026.
+
+\bibitem[{NHS Staff Survey Coordination Centre}(2026)]{nhs2025technical}
+{NHS Staff Survey Coordination Centre}.
+\newblock Technical guide to the 2025 {NHS Staff Survey}, 2026.
+\newblock URL
+  \url{https://www.nhsstaffsurveys.com/static/0e6b1554117a6a032f16a6cba7b4cc2d/NHS-Staff-Survey-2025-Technical-Guide-V2.pdf}.
+\newblock Version 2; accessed 11 September 2026.
+
+\bibitem[Poiani et~al.(2024)Poiani, Degenne, Kaufmann, Metelli, and
+  Restelli]{poiani2024optimal}
+Riccardo Poiani, R{\'e}my Degenne, Emilie Kaufmann, Alberto~Maria Metelli, and
+  Marcello Restelli.
+\newblock Optimal multi-fidelity best-arm identification.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, 2024.
+\newblock URL
+  \url{https://papers.neurips.cc/paper_files/paper/2024/hash/dc9e095f668044e7a0909a4ea3926beb-Abstract-Conference.html}.
+
+\bibitem[Poloczek et~al.(2017)Poloczek, Wang, and Frazier]{poloczek2017miso}
+Matthias Poloczek, Jialei Wang, and Peter~I. Frazier.
+\newblock Multi-information source optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2017/hash/df1f1d20ee86704251795841e6a9405a-Abstract.html}.
+
+\end{thebibliography}

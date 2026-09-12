@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-11T21:58:05.690568+00:00",
+  "source_cells_checked": 186830,
+  "formula_cells_checked": 477,
+  "source_grids": 8,
+  "sheets": 10,
+  "cached_formula_values_checked": true,
+  "native_excel_application_test": false,
+  "workbook_sha256": "a0ad696183798585790f6855724e7d84b377f7e750c32619fc48871719f67417",
+  "source_hashes_unchanged": true,
+  "no_error_cells": true,
+  "verifier_sha256": "6a3e66e8fa8a286a72127a3a2a24e42de1c3294d08c8ae7c2bad5462fe6f2af4"
+}

@@ -1,0 +1,149 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ainsworth et~al.(2023)Ainsworth, Hayase, and
+  Srinivasa]{ainsworth2023rebasin}
+Samuel~K. Ainsworth, Jonathan Hayase, and Siddhartha Srinivasa.
+\newblock Git re-basin: Merging models modulo permutation symmetries.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=CQsmMYm1P5T}.
+
+\bibitem[Alpaydin and Kaynak(1998)]{uci_digits}
+E.~Alpaydin and C.~Kaynak.
+\newblock Optical recognition of handwritten digits, 1998.
+\newblock URL
+  \url{https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits}.
+
+\bibitem[Angelopoulos et~al.(2025)Angelopoulos, Bates, Cand\`es, Jordan, and
+  Lei]{angelopoulos2022ltt}
+Anastasios~N. Angelopoulos, Stephen Bates, Emmanuel~J. Cand\`es, Michael~I.
+  Jordan, and Lihua Lei.
+\newblock Learn then test: Calibrating predictive algorithms to achieve risk
+  control.
+\newblock \emph{The Annals of Applied Statistics}, 19\penalty0 (2):\penalty0
+  1641--1662, 2025.
+\newblock \doi{10.1214/24-AOAS1998}.
+\newblock URL \url{https://doi.org/10.1214/24-AOAS1998}.
+
+\bibitem[Chen and Kwok(2025)]{chen2025pareto}
+Weiyu Chen and James Kwok.
+\newblock Pareto merging: Multi-objective optimization for preference-aware
+  model merging.
+\newblock In \emph{International Conference on Machine Learning}, volume 267,
+  pages 8345--8363, 2025.
+\newblock URL \url{https://proceedings.mlr.press/v267/chen25af.html}.
+
+\bibitem[Dror et~al.(2018)Dror, Baumer, Shlomov, and Reichart]{dror2018}
+Rotem Dror, Gili Baumer, Segev Shlomov, and Roi Reichart.
+\newblock The hitchhiker's guide to testing statistical significance in natural
+  language processing.
+\newblock In \emph{Annual Meeting of the Association for Computational
+  Linguistics}, pages 1383--1392, 2018.
+\newblock \doi{10.18653/v1/P18-1128}.
+\newblock URL \url{https://aclanthology.org/P18-1128/}.
+
+\bibitem[Echterhoff et~al.(2024)Echterhoff, Faghri, Vemulapalli, Hu, Li, Tuzel,
+  and Pouransari]{echterhoff2024muscle}
+Jessica~Maria Echterhoff, Fartash Faghri, Raviteja Vemulapalli, Ting-Yao Hu,
+  Chun-Liang Li, Oncel Tuzel, and Hadi Pouransari.
+\newblock {MUSCLE}: A model update strategy for compatible {LLM} evolution.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2024}, pages 7320--7332, 2024.
+\newblock \doi{10.18653/v1/2024.findings-emnlp.430}.
+\newblock URL \url{https://aclanthology.org/2024.findings-emnlp.430/}.
+
+\bibitem[Elmecker-Plakolm et~al.(2026)Elmecker-Plakolm, Fasterling, Sosnin,
+  Tsay, and Wicker]{elmecker2026safe}
+Leo Elmecker-Plakolm, Pierre Fasterling, Philip Sosnin, Calvin Tsay, and
+  Matthew Wicker.
+\newblock Provably safe model updates.
+\newblock In \emph{IEEE Conference on Secure and Trustworthy Machine Learning},
+  2026.
+\newblock URL \url{https://arxiv.org/abs/2512.01899}.
+\newblock arXiv:2512.01899.
+
+\bibitem[Hoag et~al.(2023)Hoag, Kostas, {da Silva}, Thomas, and
+  Brun]{hoag2023seldonian}
+Austin Hoag, James~E. Kostas, Bruno~Castro {da Silva}, Philip~S. Thomas, and
+  Yuriy Brun.
+\newblock Seldonian toolkit: Building software with safe and fair machine
+  learning.
+\newblock In \emph{IEEE/ACM International Conference on Software Engineering:
+  Companion Proceedings}, pages 107--111, 2023.
+\newblock \doi{10.1109/ICSE-Companion58688.2023.00035}.
+\newblock URL
+  \url{https://people.cs.umass.edu/~bsilva/papers/seldonian_toolkit_ICSE_2023.pdf}.
+
+\bibitem[Hoeffding(1963)]{hoeffding1963}
+Wassily Hoeffding.
+\newblock Probability inequalities for sums of bounded random variables.
+\newblock \emph{Journal of the American Statistical Association}, 58\penalty0
+  (301):\penalty0 13--30, 1963.
+\newblock \doi{10.1080/01621459.1963.10500830}.
+\newblock URL \url{https://doi.org/10.1080/01621459.1963.10500830}.
+
+\bibitem[Koehn(2004)]{koehn2004}
+Philipp Koehn.
+\newblock Statistical significance tests for machine translation evaluation.
+\newblock In \emph{Conference on Empirical Methods in Natural Language
+  Processing}, pages 388--395, 2004.
+\newblock URL \url{https://aclanthology.org/W04-3250/}.
+
+\bibitem[Li et~al.(2025)Li, Zhang, Bu, Wang, He, Fu, Bian, Wu, Chen, and
+  Bengio]{li2025map}
+Lu~Li, Tianyu Zhang, Zhiqi Bu, Suyuchen Wang, Huan He, Jie Fu, Jiang Bian,
+  Yonghui Wu, Yong Chen, and Yoshua Bengio.
+\newblock {MAP}: Low-compute model merging with amortized pareto fronts via
+  quadratic approximation.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
+\newblock URL
+  \url{https://proceedings.iclr.cc/paper_files/paper/2025/hash/a3724221b623bf1966e92cd266ac6177-Abstract-Conference.html}.
+
+\bibitem[{scikit-learn developers}(2026)]{sklearn_digits}
+{scikit-learn developers}.
+\newblock sklearn.datasets.load\_digits, 2026.
+\newblock URL
+  \url{https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html}.
+\newblock Documentation accessed September 11, 2026.
+
+\bibitem[Sui et~al.(2015)Sui, Gotovos, Burdick, and Krause]{sui2015safeopt}
+Yanan Sui, Alkis Gotovos, Joel Burdick, and Andreas Krause.
+\newblock Safe exploration for optimization with gaussian processes.
+\newblock In \emph{International Conference on Machine Learning}, volume~37,
+  pages 997--1005, 2015.
+\newblock URL \url{https://proceedings.mlr.press/v37/sui15.html}.
+
+\bibitem[{U.S. Food and Drug Administration}(2022)]{fda2022}
+{U.S. Food and Drug Administration}.
+\newblock Multiple endpoints in clinical trials: Guidance for industry, 2022.
+\newblock URL \url{https://www.fda.gov/media/162416/download}.
+
+\bibitem[Wortsman et~al.(2022{\natexlab{a}})Wortsman, Ilharco, Gadre, Roelofs,
+  {Gontijo-Lopes}, Morcos, Namkoong, Farhadi, Carmon, Kornblith, and
+  Schmidt]{wortsman2022soups}
+Mitchell Wortsman, Gabriel Ilharco, Samir~Ya Gadre, Rebecca Roelofs, Raphael
+  {Gontijo-Lopes}, Ari~S. Morcos, Hongseok Namkoong, Ali Farhadi, Yair Carmon,
+  Simon Kornblith, and Ludwig Schmidt.
+\newblock Model soups: Averaging weights of multiple fine-tuned models improves
+  accuracy without increasing inference time.
+\newblock In \emph{International Conference on Machine Learning}, volume 162,
+  pages 23965--23998, 2022{\natexlab{a}}.
+\newblock URL \url{https://proceedings.mlr.press/v162/wortsman22a.html}.
+
+\bibitem[Wortsman et~al.(2022{\natexlab{b}})Wortsman, Ilharco, Kim, Li,
+  Kornblith, Roelofs, {Gontijo Lopes}, Hajishirzi, Farhadi, Namkoong, and
+  Schmidt]{wortsman2022wise}
+Mitchell Wortsman, Gabriel Ilharco, Jong~Wook Kim, Mike Li, Simon Kornblith,
+  Rebecca Roelofs, Raphael {Gontijo Lopes}, Hannaneh Hajishirzi, Ali Farhadi,
+  Hongseok Namkoong, and Ludwig Schmidt.
+\newblock Robust fine-tuning of zero-shot models.
+\newblock In \emph{IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition}, pages 7959--7971, 2022{\natexlab{b}}.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content/CVPR2022/html/Wortsman_Robust_Fine-Tuning_of_Zero-Shot_Models_CVPR_2022_paper.html}.
+
+\end{thebibliography}

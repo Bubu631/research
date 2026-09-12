@@ -1,0 +1,29 @@
+{
+  "status": "all_checks_passed",
+  "seed": 2026091121,
+  "unequal_group_sizes": [
+    1,
+    4,
+    8,
+    12
+  ],
+  "fixed_quotas": [
+    1,
+    1,
+    2,
+    3
+  ],
+  "total_slots_K": 7,
+  "threshold_panels_including_ties": 80,
+  "max_average_severity_regret_error": 4.440892098500626e-16,
+  "gaussian_update_cases": 120,
+  "max_posterior_mean_error": 8.881784197001252e-16,
+  "max_posterior_covariance_error": 8.881784197001252e-16,
+  "max_innovation_sd_error": 4.440892098500626e-16,
+  "common_one_over_K_action_argmax_identical": true,
+  "source_sha256": {
+    "allocation.py": "35e05926fd8e8a313ffb321dfab415eeea1e3124dadcc52f91030a6a29dfcd11",
+    "common.py": "92f862bfa7d4b392dacedc693955f7976a6c98b17276df41972a1f1586caa88a",
+    "verify_allocation.py": "5b84f1fc2c408cf181a102fc07c5d6c66fcfabb4fa0c0b1d21f241896a7bbd3b"
+  }
+}

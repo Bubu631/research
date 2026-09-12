@@ -1,0 +1,19 @@
+horizon,method,seed,shared_query_ceiling,update,actual_queries,actual_training_trajectories,reference_success,comparison,zero_query_proxy
+12,full,0,20.0,0,0,0,0.375,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+12,proxy,0,20.0,5,0,40,0.40625,observed checkpoint under ceiling; unequal residual budget; no interpolation,True
+12,whole_group_residual,0,20.0,0,0,0,0.375,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+12,rr_completion,0,20.0,5,20,40,0.484375,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+12,naive_reward_ht,0,20.0,5,17,40,0.40625,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+12,partial_replacement,0,20.0,5,17,40,0.375,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+24,full,0,15.0,0,0,0,0.171875,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+24,proxy,0,15.0,5,0,40,0.140625,observed checkpoint under ceiling; unequal residual budget; no interpolation,True
+24,whole_group_residual,0,15.0,5,15,40,0.171875,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+24,rr_completion,0,15.0,5,15,40,0.1875,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+24,naive_reward_ht,0,15.0,5,13,40,0.1875,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+24,partial_replacement,0,15.0,5,14,40,0.21875,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+48,full,0,14.0,0,0,0,0.03125,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+48,proxy,0,14.0,5,0,40,0.03125,observed checkpoint under ceiling; unequal residual budget; no interpolation,True
+48,whole_group_residual,0,14.0,5,14,40,0.03125,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+48,rr_completion,0,14.0,5,14,40,0.03125,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+48,naive_reward_ht,0,14.0,5,12,40,0.03125,observed checkpoint under ceiling; unequal residual budget; no interpolation,False
+48,partial_replacement,0,14.0,5,12,40,0.015625,observed checkpoint under ceiling; unequal residual budget; no interpolation,False

@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "status": "all checks passed",
+  "interpretation": "Independent executable algebra/implementation checks; simulations are not mathematical proofs",
+  "python": "3.13.1",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "outline_replay": {
+    "seed": 20260819,
+    "repetitions_per_cell": 4000,
+    "interpretation": "Exact algorithm replay of illustrative source parameters; not NHS calibration",
+    "rows": [
+      {
+        "n_lower_inclusive": 800,
+        "n_upper_exclusive": 3000,
+        "units": 206,
+        "k": 41,
+        "raw_hit": 0.9007195121951223,
+        "geometric_hit": 0.7164573170731706,
+        "paired_hit_difference": -0.18426219512195127,
+        "paired_hit_difference_mcse": 0.0009099387024997279,
+        "zero_intervention_rebound": 0.0875928159327508,
+        "rebound_mcse": 0.0005133932802009598,
+        "rebound_q10": 0.04560486733580935,
+        "rebound_q90": 0.1296214466580915
+      },
+      {
+        "n_lower_inclusive": 150,
+        "n_upper_exclusive": 600,
+        "units": 40,
+        "k": 8,
+        "raw_hit": 0.78115625,
+        "geometric_hit": 0.69115625,
+        "paired_hit_difference": -0.09,
+        "paired_hit_difference_mcse": 0.0023343132833075673,
+        "zero_intervention_rebound": 0.13748221702783095,
+        "rebound_mcse": 0.001482623038454775,
+        "rebound_q10": 0.015696898799060163,
+        "rebound_q90": 0.2557209726922844
+      },
+      {
+        "n_lower_inclusive": 40,
+        "n_upper_exclusive": 250,
+        "units": 40,
+        "k": 8,
+        "raw_hit": 0.67259375,
+        "geometric_hit": 0.6633125,
+        "paired_hit_difference": -0.00928125,
+        "paired_hit_difference_mcse": 0.002419494063846949,
+        "zero_intervention_rebound": 0.23647087285466828,
+        "rebound_mcse": 0.0020634517077470675,
+        "rebound_q10": 0.06840412586788745,
+        "rebound_q90": 0.4065919550281027
+      },
+      {
+        "n_lower_inclusive": 20,
+        "n_upper_exclusive": 120,
+        "units": 40,
+        "k": 8,
+        "raw_hit": 0.5799375,
+        "geometric_hit": 0.6230625,
+        "paired_hit_difference": 0.043125,
+        "paired_hit_difference_mcse": 0.002499902317421455,
+        "zero_intervention_rebound": 0.3685475164993144,
+        "rebound_mcse": 0.002751411519378827,
+        "rebound_q10": 0.1486552382528262,
+        "rebound_q90": 0.5888520121728914
+      }
+    ]
+  },
+  "pooling_crossover": {
+    "weights_current_to_oldest": [
+      0.26964125915726994,
+      0.22919507028367947,
+      0.19481580974112753,
+      0.1655934382799584,
+      0.14075442253796464
+    ],
+    "latent_tracking_mse": 0.02812056379030599,
+    "noise_variance_crossover": 0.03561471924881661,
+    "illustrative_n_crossover": 175.48923961285115,
+    "risks": [
+      {
+        "n": 40.0,
+        "raw_mse": 0.15625,
+        "geometric_mse": 0.06099915486416915,
+        "difference": -0.09525084513583085
+      },
+      {
+        "n": 175.48923961285115,
+        "raw_mse": 0.03561471924881661,
+        "geometric_mse": 0.03561471924881661,
+        "difference": 0.0
+      },
+      {
+        "n": 1000.0,
+        "raw_mse": 0.00625,
+        "geometric_mse": 0.029435707433260516,
+        "difference": 0.023185707433260518
+      }
+    ],
+    "two_wave_old_weight": 0.28368794326241137,
+    "two_wave_optimum_mse": 0.05014184397163121,
+    "scope": "Fixed-weight current-state MSE; not top-k overlap and not a universal departmental cutoff"
+  },
+  "posterior_objective_counterexample": {
+    "posterior_independent": true,
+    "posterior_means": [
+      -1.0,
+      -0.9,
+      -0.8
+    ],
+    "posterior_standard_deviations": [
+      0.1,
+      3.0,
+      3.0
+    ],
+    "k": 1,
+    "probability_of_true_finite_bottom_one": [
+      0.2704540969320881,
+      0.37265986611596513,
+      0.3568860369519468
+    ],
+    "quadrature_reported_errors": [
+      1.5411999342920776e-13,
+      7.139138352623658e-12,
+      6.9044736272126856e-12
+    ],
+    "omitted_tail_union_bound": 6.509779433821422e-39,
+    "severity_optimal_unit_one_based": 1,
+    "overlap_optimal_unit_one_based": 2,
+    "overlap_gain": 0.10220576918387703,
+    "expected_severity_penalty": 0.09999999999999998
+  },
+  "gaussian_conditioning": {
+    "unit_parameter_cases": 60,
+    "maximum_weight_absolute_error": 1.5596389501950794e-14,
+    "maximum_variance_absolute_error": 2.3037127760972e-15,
+    "includes_correlated_errors_and_singular_noiseless_phi_one": true
+  },
+  "selected_rebound": {
+    "seed": 2026091107,
+    "repetitions": 30000,
+    "phi": 0.65,
+    "error_autocorrelation": 0.4,
+    "common_trend_per_wave": -0.12,
+    "rows": [
+      {
+        "selection_method": "current",
+        "actual_mean_change": 0.13159228751732588,
+        "conditional_mean_change": 0.13224722755964988,
+        "residual_mean": -0.0006549400423240179,
+        "residual_mcse": 0.0013602728960223822,
+        "residual_z": -0.48147694792651474,
+        "fraction_of_panels_with_negative_change": 0.3038
+      },
+      {
+        "selection_method": "equal_history",
+        "actual_mean_change": 0.02687772057838861,
+        "conditional_mean_change": 0.027374074366822893,
+        "residual_mean": -0.0004963537884342845,
+        "residual_mcse": 0.0013600952226447854,
+        "residual_z": -0.3649404689982627,
+        "fraction_of_panels_with_negative_change": 0.4572333333333333
+      }
+    ],
+    "one_wave_decomposition_error_autocorrelation": 0.0,
+    "one_wave_decomposition_max_error": 5.551115123125783e-17,
+    "conditioning": "All five observed waves; selection is measurable with respect to that history"
+  },
+  "static_rank_geometry": {
+    "two_unit_crossing": 0.5,
+    "interval_checks": 346,
+    "endpoint_certificate_checks": 60,
+    "maximum_pair_score_residual_at_crossing": 2.220446049250313e-16,
+    "exact_tie_scope": "Algebra identifies ties; floating-point evaluation at a tie needs a declared numerical tie policy"
+  },
+  "nonidentification": {
+    "observed_covariance_max_residual": 5.551115123125783e-17,
+    "original_posterior_means": [
+      -0.5,
+      -0.4
+    ],
+    "common_c_posterior_means": [
+      -0.1,
+      -0.08000000000000002
+    ],
+    "heterogeneous_c_posterior_means": [
+      -0.1,
+      -0.32000000000000006
+    ],
+    "full_history_original_posterior_means": [
+      -0.6924643584521384,
+      -0.5539714867617108
+    ],
+    "full_history_alternative_posterior_means": [
+      -0.13849287169042768,
+      -0.4431771894093687
+    ],
+    "necessary_relaxation_for_reversal": "Unit-specific latent variances and correlated measurement errors",
+    "stronger_white_noise_model_recovered_parameters": {
+      "phi": 0.7,
+      "tau2": 1.0,
+      "noise_variance": 1.0
+    }
+  },
+  "empirical_prediction_audit": {
+    "maximum_working_forecast_error": 9.325873406851315e-13,
+    "parameters_cases": 9,
+    "units_per_case": 12,
+    "linear_trend_extrapolation_passed": true,
+    "scope": "Conditional algebra with plug-in group means; no claim that estimated group means are known population means"
+  },
+  "checked_source_sha256": {
+    "experiments/theory_checks.py": "f0c32db43858cf40a996ffd98d43b3f6467b6d53f2883d3acd335dabd85d4949",
+    "experiments/common.py": "6dc57b5c05a181288f35993d0c3c7fb761b3b861067314885b4a505817711e1a",
+    "experiments/simulate.py": "9bfc68b772b8f60ca9a36293ac567d89e238c90900256f28d0cffa0e0a66acf5",
+    "experiments/empirical.py": "f7ebf9e9790540a551848f9fdb5f5e1545d0fc6e35740a3684bc71dfdf3f48d5",
+    "docs/analysis_protocol.md": "39bd2d7a26a8689361f928b1bc2ac9325f2413fee91c3170e8a24c111ed07286"
+  }
+}

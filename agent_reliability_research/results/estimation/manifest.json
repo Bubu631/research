@@ -1,0 +1,35 @@
+{
+  "config": {
+    "groups": [
+      4,
+      8,
+      16
+    ],
+    "prevalence": [
+      0.05,
+      0.2,
+      0.5,
+      0.8,
+      0.95
+    ],
+    "budgets": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "calibration": 64,
+    "evaluation": 256,
+    "ht_samples": 1024,
+    "calibration_seed": 20260912,
+    "evaluation_seed": 20260913
+  },
+  "source_sha256": {
+    "experiments/estimation_study.py": "958b9ee34a2187f3edc4c1e5df40b9b677ded61f63f4a4d8fe3fe48deb440a20",
+    "src/reward_audit.py": "1c239a72056fc54bfa6333e47c44b4e8c765278313afca71e60bab29d91d6ffc"
+  },
+  "status": "complete",
+  "runtime_seconds": 142.3145158290863,
+  "rows": 241920,
+  "summary_rows": 945,
+  "note": "Costs are simulated units. No wall-time training speedup inferred. Calibrated scheduling labels are separate and counted in development_schedules.json."
+}

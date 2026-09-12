@@ -1,0 +1,74 @@
+{
+  "en-de": {
+    "cases": {
+      "edit": {
+        "rho0": 0.4542964680554813,
+        "rho1": 0.3473449663410725,
+        "untouched_bias_norm": 0.0030882420589763756,
+        "Q_mean_inner_product": -5.5008882820098525e-06,
+        "interior_derivative_roots": [
+          0.026984108735295383
+        ]
+      },
+      "length": {
+        "rho0": 0.20991031811407163,
+        "rho1": 0.1307826932118087,
+        "untouched_bias_norm": 0.0014123355488051765,
+        "Q_mean_inner_product": -2.0144209092295325e-06,
+        "interior_derivative_roots": []
+      },
+      "edit_length": {
+        "rho0": 0.22720093076067893,
+        "rho1": 0.1540863650041478,
+        "untouched_bias_norm": 0.0015667677530185773,
+        "Q_mean_inner_product": -3.2728664984215906e-06,
+        "interior_derivative_roots": []
+      }
+    },
+    "max_rho_discrepancy": 1.2212453270876722e-15,
+    "max_derivative_numerator_discrepancy": 4.1359030627651384e-25,
+    "max_mse_discrepancy": 5.421010862427522e-20,
+    "max_mse_mc_standard_errors": 2.1182937100784134,
+    "max_nll_summary_discrepancy": 0.0,
+    "max_gradient_zero_sum_residual": 7.713992999924812e-09,
+    "num_adapters": 90,
+    "all_NLL_changes_negative": true,
+    "record_ID_split_overlap": 0,
+    "source_protocol_hashes_match": true
+  },
+  "en-zh": {
+    "cases": {
+      "edit": {
+        "rho0": 0.22039097443428604,
+        "rho1": 0.08770281772532826,
+        "untouched_bias_norm": 0.004448970978206862,
+        "Q_mean_inner_product": 0.0010964654311003178,
+        "interior_derivative_roots": []
+      },
+      "length": {
+        "rho0": 0.09279805271609545,
+        "rho1": 0.036709733780139926,
+        "untouched_bias_norm": 0.002135963241971411,
+        "Q_mean_inner_product": 0.0009286006135186193,
+        "interior_derivative_roots": []
+      },
+      "edit_length": {
+        "rho0": 0.11479508280850022,
+        "rho1": 0.052880804562387175,
+        "untouched_bias_norm": 0.002170965723235556,
+        "Q_mean_inner_product": 0.0010250838270987825,
+        "interior_derivative_roots": []
+      }
+    },
+    "max_rho_discrepancy": 8.604228440844963e-16,
+    "max_derivative_numerator_discrepancy": 9.26442286059391e-22,
+    "max_mse_discrepancy": 1.0842021724855044e-18,
+    "max_mse_mc_standard_errors": 1.550278113300883,
+    "max_nll_summary_discrepancy": 0.0,
+    "max_gradient_zero_sum_residual": 9.988589511067403e-09,
+    "num_adapters": 90,
+    "all_NLL_changes_negative": true,
+    "record_ID_split_overlap": 0,
+    "source_protocol_hashes_match": true
+  }
+}

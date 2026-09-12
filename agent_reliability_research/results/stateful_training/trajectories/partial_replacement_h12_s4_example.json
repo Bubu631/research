@@ -1,0 +1,23 @@
+{
+  "method": "partial_replacement",
+  "horizon": 12,
+  "seed": 4,
+  "changed_component": 0,
+  "actions": [
+    "publish",
+    "edit_to_spec",
+    "edit_to_spec",
+    "build",
+    "build",
+    "build",
+    "attest",
+    "attest",
+    "attest",
+    "publish",
+    "publish",
+    "publish"
+  ],
+  "cheap_reward": 0,
+  "reference_reward_obtained_after_training": 0,
+  "bought_during_training": false
+}

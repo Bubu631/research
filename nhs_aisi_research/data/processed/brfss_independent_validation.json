@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-11T21:32:11.660412+00:00",
+  "validator_sha256": "5398e5b1f0d992f447eecda3a28328ad94811e93c31bd2ed742544e27cb296b7",
+  "primary_rows_checked_against_fixed_ASCII_offsets": {
+    "2023": 206098,
+    "2024": 214151
+  },
+  "complete_ascii_xpt_crosscheck_rows": 457670,
+  "compared_fields": [
+    "_STATE",
+    "_PSU",
+    "MENTHLTH",
+    "EMPLOY1",
+    "_STSTR",
+    "_LLCPWT",
+    "_MENT14D"
+  ],
+  "categorical_and_design_fields_exactly_equal": true,
+  "maximum_ASCII_weight_rounding_absolute_error": 4.996510506316554e-05,
+  "documented_derived_category_inconsistencies_confirmed_in_XPT": [
+    {
+      "source_record_ordinal": 93536,
+      "ascii_and_xpt_core_answer_equal": true,
+      "xpt_mental_core_code": 3,
+      "xpt_published_category": 1,
+      "state": "17"
+    },
+    {
+      "source_record_ordinal": 93537,
+      "ascii_and_xpt_core_answer_equal": true,
+      "xpt_mental_core_code": 88,
+      "xpt_published_category": 2,
+      "state": "17"
+    },
+    {
+      "source_record_ordinal": 93740,
+      "ascii_and_xpt_core_answer_equal": true,
+      "xpt_mental_core_code": 88,
+      "xpt_published_category": 2,
+      "state": "17"
+    },
+    {
+      "source_record_ordinal": 93741,
+      "ascii_and_xpt_core_answer_equal": true,
+      "xpt_mental_core_code": 2,
+      "xpt_published_category": 1,
+      "state": "17"
+    }
+  ],
+  "derived_CSVs_unchanged": true,
+  "derived_CSV_sha256": {
+    "brfss_employed_2023_all_areas.csv": "b10aef661b4f2b8f95746ce52b321eee1941a87e4541a438564aa73cc4e1a0cc",
+    "brfss_employed_2023_2024.csv": "090eea1fb558add5fca0ae13d11f911197a89214186d91ed2bfbe937b88361a9",
+    "brfss_employed_2024_all_areas.csv": "1a9c18c402a82aa9c83bd23f1dfead00ee91db663942bf0889f82669442a15dc",
+    "brfss_employed_2024.csv": "16872bd93a1120053dda882cb4f046fa2379eef63db590132faf9cd0783df6b2",
+    "brfss_employed_2023.csv": "5c1c5735fd83707fa8d8914643036c935ae2511f4e7224d242224c7c61537da1",
+    "brfss_group_reference.csv": "267c62a4a048205088037003c486a226cea46c69918ec6451d54bed5bf848ada"
+  },
+  "source_sha256": {
+    "source_LLCP2023ASC.zip": "2de39782455d2c365cbfcb5e69a7935685fb1399b08ff1c2d99068a0358bfa46",
+    "source_LLCP2024ASC.zip": "2f00750dfe3bdb53251eda0557476b119d24b8b502d3b6d8559fbcb5997562e3",
+    "source_LLCP2024XPT.zip": "d33de91a584e866f657d29b1d5b51b5672467286ed22d021e36ee3c7b4d712a4"
+  },
+  "numpy_version": "2.5.3",
+  "pandas_version": "3.0.5",
+  "scope": "File parsing and record consistency; not validation of survey responses, population representativeness, latent mental health, or adaptive-policy validity"
+}

@@ -1,0 +1,5763 @@
+{
+  "status": "all_numeric_outputs_match",
+  "started_at_utc": "2026-09-11T21:58:51.029199+00:00",
+  "completed_at_utc": "2026-09-11T22:02:22.913524+00:00",
+  "elapsed_seconds": 211.88327787490562,
+  "isolated_copy": "output/qa/reproduction_temp",
+  "scope": "Full original synthetic/stress, primary BRFSS replay, NHS conditional scenarios, and post-primary exploratory budget extension",
+  "new_environment": false,
+  "same_machine_and_runtime": true,
+  "python": "3.13.1",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "platform": "macOS-14.6.1-arm64-arm-64bit-Mach-O",
+  "copied_input_sha256": {
+    "experiments/synthetic.py": "79a17a2db0a60fe047420a67a8afa75b943ad028bfaa4982ccb42744ec755e2f",
+    "experiments/replay_budget_extension.py": "9846e439c4bed0fd36ce9f883f70c52101e0a5da52e3b95b01eee98ef523c731",
+    "experiments/verify_implementation.py": "5875c8dc2500b3ad3bf168c024a98dfa974d09957cc79cc486967255ac7dd711",
+    "experiments/verify_budget_extension.py": "039aa70b80e062cc14ac7f8b5ecb692fd42806a459e6be2dfb484ab51fb58806",
+    "experiments/verify_allocation.py": "5b84f1fc2c408cf181a102fc07c5d6c66fcfabb4fa0c0b1d21f241896a7bbd3b",
+    "experiments/verify_theory.py": "99fbf8556f74282e470ce1a2fa5913053211639a658e6275138e915036df6800",
+    "experiments/replay.py": "53c2a1ecad8f9764a1e9fb3c9cc7b12c3083ff5bc8336657930db429dd8615b8",
+    "experiments/nhs_scenarios.py": "33d4ea0f2bbbc6ae23468b16d1b4607db5119b120d64b1550dda62c58cfbbe95",
+    "experiments/common.py": "92f862bfa7d4b392dacedc693955f7976a6c98b17276df41972a1f1586caa88a",
+    "experiments/allocation.py": "35e05926fd8e8a313ffb321dfab415eeea1e3124dadcc52f91030a6a29dfcd11",
+    "experiments/report.py": "62ed3ad49b13a610d3cd6e0a694b03374b537ffd83a3345276ae432515b70433",
+    "docs/budget_extension_protocol.md": "3b5a854976a06143d090bca2478de93fee51fa0a501e765adc1163b4041ae09c",
+    "docs/analysis_protocol.md": "f386d991c8e2afb5059fd72e96ff866e5d2b62a945c093c4345a8ba0c6cf3a39",
+    "data/processed/brfss_employed_2023.csv": "5c1c5735fd83707fa8d8914643036c935ae2511f4e7224d242224c7c61537da1",
+    "data/processed/brfss_employed_2024.csv": "16872bd93a1120053dda882cb4f046fa2379eef63db590132faf9cd0783df6b2",
+    "data/processed/nhs_staff_survey_panel_2021_2025.csv": "dd5a85731a37a0b031d7b1d873b64424f65e911a8bd145da143def99f7f8198b"
+  },
+  "executions": [
+    {
+      "arguments": [
+        "/Users/shengweizhang/Documents/ChatGPT/\u7ed9\u81ea\u5df1\u9879\u76ee/.venv/bin/python",
+        "experiments/synthetic.py",
+        "--reps",
+        "2000",
+        "--seed",
+        "2026091107"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 90.7048585829325,
+      "log": "output/qa/reproduction_temp/execution_logs/synthetic.log"
+    },
+    {
+      "arguments": [
+        "/Users/shengweizhang/Documents/ChatGPT/\u7ed9\u81ea\u5df1\u9879\u76ee/.venv/bin/python",
+        "experiments/replay.py",
+        "--reps",
+        "1000",
+        "--seed",
+        "2026091113"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 74.51681608427316,
+      "log": "output/qa/reproduction_temp/execution_logs/replay.log"
+    },
+    {
+      "arguments": [
+        "/Users/shengweizhang/Documents/ChatGPT/\u7ed9\u81ea\u5df1\u9879\u76ee/.venv/bin/python",
+        "experiments/nhs_scenarios.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.6270309160463512,
+      "log": "output/qa/reproduction_temp/execution_logs/nhs_scenarios.log"
+    },
+    {
+      "arguments": [
+        "/Users/shengweizhang/Documents/ChatGPT/\u7ed9\u81ea\u5df1\u9879\u76ee/.venv/bin/python",
+        "experiments/replay_budget_extension.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 45.80152279231697,
+      "log": "output/qa/reproduction_temp/execution_logs/replay_budget_extension.log"
+    }
+  ],
+  "all_values_exact": true,
+  "all_values_within_tolerance": true,
+  "all_csvs_byte_identical": true,
+  "primary_files_unchanged": true,
+  "formal_results_sha256": {
+    "results/synthetic.csv": "3162608c221d187919257899e26cf43089f24ec98e6a7a81f3d986018c9d677a",
+    "results/synthetic_stress.csv": "6ad80c383a2ba9be4b9f4dc12a18fc04dea829cd129651b9b56187eb5a61fae0",
+    "results/replay.csv": "f70ce7987dfeac1d4f9eab9ada6452ec757aa67867b90d89c2441071998bd629",
+    "results/replay_allocations.csv": "642deccf1d77ee4f94676a7e777127493f2d407080fb50ee0efbafc4c9c7a3f5",
+    "results/replay_calibration.csv": "7051e73386c65ecc7591c2bd0dfd1ea0e60af7e597e74be7a4943362b26c3d03",
+    "results/nhs_scenarios.csv": "34ff6adf8e5649539d5924ac84d3da09c7b084cbfea6dc5954ce11e4cedf90c5",
+    "results/nhs_scenario_summary.csv": "bdd93b42a0aeae3662f63b7d7bb53b4a081b0815e2b990a2387ab5dcdd04119b",
+    "results/replay_budget_extension.csv": "b9bfb084660745bd4e99cdf248c36e3e7aa1659f1e08e3433ada32b39d3dc5c3",
+    "results/replay_budget_extension_allocations.csv": "803edc18c0c0933545ac22fe13556529ba3b1f5d4da09d222862f3b9f0dd1069",
+    "results/replay_budget_extension_calibration.csv": "ec7f58a309f5c906513d25da9c1fc3065250a9f0ba842f7a5318507a5ff4db3e",
+    "results/replay_budget_extension_replication_metrics.npz": "14f956f653b745765511094de1ca1a2b7d118a2587b25ddb2bb04003d27da896",
+    "results/synthetic_manifest.json": "f2bdf3dea997829a3576832b8518ec4334ff3e4cd2f624c5dc0d5f9ed2a390ef",
+    "results/replay_manifest.json": "5966df0564096f6e6ac9e0cc4122af73e5ea8392dbfa9a6ced0c83bd39364998",
+    "results/nhs_scenario_manifest.json": "44c87ef0d8086ac0ee8899f2f805a864a9ea121eecf939a1ab8e1c11354052ee",
+    "results/replay_budget_extension_manifest.json": "03a41af370b40968e2fc23892782a0ef797261d2a24c5c0e030d996321bffc98"
+  },
+  "manifest_comparison": "Excluded by design: actual execution timestamps, runtimes, source snapshot hashes and paths change on rerun",
+  "csv_comparisons": [
+    {
+      "file": "synthetic.csv",
+      "rows": 240,
+      "columns": 63,
+      "byte_identical": true,
+      "original_sha256": "3162608c221d187919257899e26cf43089f24ec98e6a7a81f3d986018c9d677a",
+      "rerun_sha256": "3162608c221d187919257899e26cf43089f24ec98e6a7a81f3d986018c9d677a",
+      "column_details": {
+        "scenario": {
+          "kind": "text",
+          "exact": true,
+          "values": 240
+        },
+        "bias_sd": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "assumed_beta": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "audit_cost": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "budget": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "policy": {
+          "kind": "text",
+          "exact": true,
+          "values": 240
+        },
+        "reps": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_mcse": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_lo": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_hi": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        }
+      }
+    },
+    {
+      "file": "synthetic_stress.csv",
+      "rows": 70,
+      "columns": 63,
+      "byte_identical": true,
+      "original_sha256": "6ad80c383a2ba9be4b9f4dc12a18fc04dea829cd129651b9b56187eb5a61fae0",
+      "rerun_sha256": "6ad80c383a2ba9be4b9f4dc12a18fc04dea829cd129651b9b56187eb5a61fae0",
+      "column_details": {
+        "scenario": {
+          "kind": "text",
+          "exact": true,
+          "values": 70
+        },
+        "bias_sd": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "assumed_beta": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "audit_cost": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "budget": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "policy": {
+          "kind": "text",
+          "exact": true,
+          "values": 70
+        },
+        "reps": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_mean": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_mcse": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_lo": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_hi": {
+          "kind": "numeric",
+          "numeric_values": 70,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        }
+      }
+    },
+    {
+      "file": "replay.csv",
+      "rows": 180,
+      "columns": 62,
+      "byte_identical": true,
+      "original_sha256": "f70ce7987dfeac1d4f9eab9ada6452ec757aa67867b90d89c2441071998bd629",
+      "rerun_sha256": "f70ce7987dfeac1d4f9eab9ada6452ec757aa67867b90d89c2441071998bd629",
+      "column_details": {
+        "scenario": {
+          "kind": "text",
+          "exact": true,
+          "values": 180
+        },
+        "weighted": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "kappa": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_kappa": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "audit_cost": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "budget": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "units": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "k": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "policy": {
+          "kind": "text",
+          "exact": true,
+          "values": 180
+        },
+        "reps": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_mean": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_mcse": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_lo": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_hi": {
+          "kind": "numeric",
+          "numeric_values": 180,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        }
+      }
+    },
+    {
+      "file": "replay_allocations.csv",
+      "rows": 8640,
+      "columns": 14,
+      "byte_identical": true,
+      "original_sha256": "642deccf1d77ee4f94676a7e777127493f2d407080fb50ee0efbafc4c9c7a3f5",
+      "rerun_sha256": "642deccf1d77ee4f94676a7e777127493f2d407080fb50ee0efbafc4c9c7a3f5",
+      "column_details": {
+        "scenario": {
+          "kind": "text",
+          "exact": true,
+          "values": 8640
+        },
+        "weighted": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "kappa": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_kappa": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "audit_cost": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "budget": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "units": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "k": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "policy": {
+          "kind": "text",
+          "exact": true,
+          "values": 8640
+        },
+        "ordinary_count_mean": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_count_mean": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mean_estimate": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "reference": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "state": {
+          "kind": "numeric",
+          "numeric_values": 8640,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        }
+      }
+    },
+    {
+      "file": "replay_calibration.csv",
+      "rows": 240,
+      "columns": 8,
+      "byte_identical": true,
+      "original_sha256": "7051e73386c65ecc7591c2bd0dfd1ea0e60af7e597e74be7a4943362b26c3d03",
+      "rerun_sha256": "7051e73386c65ecc7591c2bd0dfd1ea0e60af7e597e74be7a4943362b26c3d03",
+      "column_details": {
+        "scenario": {
+          "kind": "text",
+          "exact": true,
+          "values": 240
+        },
+        "state": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mu": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "tau": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "bias_mean": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "bias_sd": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "ordinary_variance": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_variance": {
+          "kind": "numeric",
+          "numeric_values": 240,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        }
+      }
+    },
+    {
+      "file": "nhs_scenarios.csv",
+      "rows": 1520,
+      "columns": 21,
+      "byte_identical": true,
+      "original_sha256": "34ff6adf8e5649539d5924ac84d3da09c7b084cbfea6dc5954ce11e4cedf90c5",
+      "rerun_sha256": "34ff6adf8e5649539d5924ac84d3da09c7b084cbfea6dc5954ce11e4cedf90c5",
+      "column_details": {
+        "org_code": {
+          "kind": "text",
+          "exact": true,
+          "values": 1520
+        },
+        "org_name": {
+          "kind": "text",
+          "exact": true,
+          "values": 1520
+        },
+        "benchmark_group": {
+          "kind": "text",
+          "exact": true,
+          "values": 1520
+        },
+        "ess_factor": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "assumed_beta": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "assumed_tau": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "assumed_individual_sd": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "nominal_burnout_n": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "observed_burnout": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_mean": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "repeat_floor_sd": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "selected": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "review_slots": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "ordinary_KG": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_KG": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "ordinary_KG_per_cost": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_KG_per_cost": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "preferred_channel": {
+          "kind": "text",
+          "exact": true,
+          "values": 1520
+        },
+        "action_priority_rank": {
+          "kind": "numeric",
+          "numeric_values": 1520,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "evidence_type": {
+          "kind": "text",
+          "exact": true,
+          "values": 1520
+        }
+      }
+    },
+    {
+      "file": "nhs_scenario_summary.csv",
+      "rows": 8,
+      "columns": 10,
+      "byte_identical": true,
+      "original_sha256": "bdd93b42a0aeae3662f63b7d7bb53b4a081b0815e2b990a2387ab5dcdd04119b",
+      "rerun_sha256": "bdd93b42a0aeae3662f63b7d7bb53b4a081b0815e2b990a2387ab5dcdd04119b",
+      "column_details": {
+        "ess_factor": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "assumed_beta": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "units": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "review_slots": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "median_nominal_n": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mean_posterior_sd": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mean_repeat_floor_sd": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "top20_validation_preferred": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "greatest_one_step_KG_per_cost": {
+          "kind": "numeric",
+          "numeric_values": 8,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "evidence_type": {
+          "kind": "text",
+          "exact": true,
+          "values": 8
+        }
+      }
+    },
+    {
+      "file": "replay_budget_extension.csv",
+      "rows": 20,
+      "columns": 63,
+      "byte_identical": true,
+      "original_sha256": "b9bfb084660745bd4e99cdf248c36e3e7aa1659f1e08e3433ada32b39d3dc5c3",
+      "rerun_sha256": "b9bfb084660745bd4e99cdf248c36e3e7aa1659f1e08e3433ada32b39d3dc5c3",
+      "column_details": {
+        "analysis_stage": {
+          "kind": "text",
+          "exact": true,
+          "values": 20
+        },
+        "scenario": {
+          "kind": "text",
+          "exact": true,
+          "values": 20
+        },
+        "weighted": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "kappa": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_kappa": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "audit_cost": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "budget": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "units": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "k": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "policy": {
+          "kind": "text",
+          "exact": true,
+          "values": 20
+        },
+        "reps": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mse_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "coverage_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "spent_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_fraction_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regular_packets_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_packets_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "posterior_sd_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_ordinary_kg_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_ordinary_kg_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "regret_diff_uniform_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_mean": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_mcse": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_lo": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "overlap_diff_uniform_hi": {
+          "kind": "numeric",
+          "numeric_values": 20,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        }
+      }
+    },
+    {
+      "file": "replay_budget_extension_allocations.csv",
+      "rows": 960,
+      "columns": 15,
+      "byte_identical": true,
+      "original_sha256": "803edc18c0c0933545ac22fe13556529ba3b1f5d4da09d222862f3b9f0dd1069",
+      "rerun_sha256": "803edc18c0c0933545ac22fe13556529ba3b1f5d4da09d222862f3b9f0dd1069",
+      "column_details": {
+        "analysis_stage": {
+          "kind": "text",
+          "exact": true,
+          "values": 960
+        },
+        "scenario": {
+          "kind": "text",
+          "exact": true,
+          "values": 960
+        },
+        "weighted": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "kappa": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_kappa": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "audit_cost": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "budget": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "units": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "k": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "policy": {
+          "kind": "text",
+          "exact": true,
+          "values": 960
+        },
+        "state": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "ordinary_count_mean": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_count_mean": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mean_estimate": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "reference": {
+          "kind": "numeric",
+          "numeric_values": 960,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        }
+      }
+    },
+    {
+      "file": "replay_budget_extension_calibration.csv",
+      "rows": 48,
+      "columns": 7,
+      "byte_identical": true,
+      "original_sha256": "ec7f58a309f5c906513d25da9c1fc3065250a9f0ba842f7a5318507a5ff4db3e",
+      "rerun_sha256": "ec7f58a309f5c906513d25da9c1fc3065250a9f0ba842f7a5318507a5ff4db3e",
+      "column_details": {
+        "state": {
+          "kind": "numeric",
+          "numeric_values": 48,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "mu": {
+          "kind": "numeric",
+          "numeric_values": 48,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "tau": {
+          "kind": "numeric",
+          "numeric_values": 48,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "bias_mean": {
+          "kind": "numeric",
+          "numeric_values": 48,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "bias_sd": {
+          "kind": "numeric",
+          "numeric_values": 48,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "ordinary_variance": {
+          "kind": "numeric",
+          "numeric_values": 48,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        },
+        "validation_variance": {
+          "kind": "numeric",
+          "numeric_values": 48,
+          "exact": true,
+          "within_tolerance": true,
+          "matching_missing_pattern": true,
+          "max_absolute_difference": 0.0,
+          "atol": 1e-12,
+          "rtol": 1e-12
+        }
+      }
+    }
+  ],
+  "npz_comparison": {
+    "file": "replay_budget_extension_replication_metrics.npz",
+    "arrays": 200,
+    "array_details": {
+      "b1440__balanced_mix__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__balanced_mix__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__ordinary_kg__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__two_channel_kg__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__uniform__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b1440__validation_only__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__balanced_mix__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__ordinary_kg__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__two_channel_kg__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__uniform__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b144__validation_only__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__balanced_mix__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__ordinary_kg__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__two_channel_kg__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__uniform__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b480__validation_only__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__balanced_mix__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__ordinary_kg__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__two_channel_kg__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__uniform__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__coverage": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__mse": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__overlap": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__posterior_sd": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__regret": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__regular_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__selected_size": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__spent": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__validation_fraction": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "b48__validation_only__validation_packets": {
+        "shape": [
+          500
+        ],
+        "numeric_values": 500,
+        "exact": true,
+        "within_tolerance": true,
+        "matching_missing_pattern": true,
+        "max_absolute_difference": 0.0,
+        "atol": 1e-12,
+        "rtol": 1e-12
+      }
+    }
+  }
+}

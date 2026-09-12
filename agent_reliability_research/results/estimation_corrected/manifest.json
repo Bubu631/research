@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "operation": "post-run reporting correction; no new experimental observations",
+  "source_sha256": "e8f0b4e90b21f9cdec7015243b665f6a217ef1f8c13f939a0f7b00445303e107",
+  "script_sha256": "178edd2b4594476b1dc92d331292f034ed407deaab1aff504442bc3209168985",
+  "changes": [
+    "Independent audit full-group probability is budget**G",
+    "Prevalence renamed base-rate parameter",
+    "G16 squared conditional bias receives signed finite-MC U-statistic correction; negatives not clipped"
+  ],
+  "rows": 241920,
+  "summary_rows": 945
+}

@@ -1,0 +1,315 @@
+{
+  "sources": {
+    "LLCP2023ASC.zip": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2023/files/LLCP2023ASC.zip",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2023/files/LLCP2023ASC.zip",
+      "retrieved_at_utc": "2026-09-11T21:24:40.532455+00:00",
+      "completed_at_utc": "2026-09-11T21:24:42.358059+00:00",
+      "bytes": 60057185,
+      "sha256": "2de39782455d2c365cbfcb5e69a7935685fb1399b08ff1c2d99068a0358bfa46",
+      "response_headers": {
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "60057185",
+        "Last-Modified": "Tue, 10 Sep 2024 19:16:03 GMT",
+        "ETag": "\"4c1a1de1b53db1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login",
+      "zip_members": [
+        {
+          "name": "LLCP2023.ASC ",
+          "bytes": 915611499,
+          "crc32": "f9994136"
+        }
+      ]
+    },
+    "SASOUT23_LLCP.zip": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2023/files/SASOUT23_LLCP.zip",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2023/files/SASOUT23_LLCP.zip",
+      "retrieved_at_utc": "2026-09-11T21:24:40.532679+00:00",
+      "completed_at_utc": "2026-09-11T21:24:40.689073+00:00",
+      "bytes": 11119,
+      "sha256": "7cc0d015b0cbb58dd33cd882baea6d974b5111ee1e8ac3a2dce19b4fde302ccf",
+      "response_headers": {
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "11119",
+        "Last-Modified": "Fri, 28 Feb 2025 14:38:08 GMT",
+        "ETag": "\"475b9c62ee89db1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login",
+      "zip_members": [
+        {
+          "name": "SASOUT23_LLCP.SAS",
+          "bytes": 34392,
+          "crc32": "272fa3b3"
+        }
+      ]
+    },
+    "codebook23_llcp-v2-508.zip": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2023/zip/codebook23_llcp-v2-508.zip",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2023/zip/codebook23_llcp-v2-508.zip",
+      "retrieved_at_utc": "2026-09-11T21:24:40.532838+00:00",
+      "completed_at_utc": "2026-09-11T21:24:40.730528+00:00",
+      "bytes": 85594,
+      "sha256": "948cb7cd58bddde96eab61ab11a93e69ef4440ff3b62f9382895a7403407df4a",
+      "response_headers": {
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "85594",
+        "Last-Modified": "Fri, 28 Feb 2025 14:37:08 GMT",
+        "ETag": "\"e947c13eee89db1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login",
+      "zip_members": [
+        {
+          "name": "USCODE23_LLCP_021924.HTML",
+          "bytes": 1842292,
+          "crc32": "6bfe7196"
+        }
+      ]
+    },
+    "variable_layout_2023.html": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2023/llcp_varlayout_23_onecolumn.html",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2023/llcp_varlayout_23_onecolumn.html",
+      "retrieved_at_utc": "2026-09-11T21:24:40.532946+00:00",
+      "completed_at_utc": "2026-09-11T21:24:41.297443+00:00",
+      "bytes": 112803,
+      "sha256": "78336e951f2bb18a759973e1a5c9e9991c9e8ff5389ac08412da2bccc5f512cc",
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Content-Length": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "annual_2023.html": {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_2023.html",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/annual_2023.html",
+      "retrieved_at_utc": "2026-09-11T21:24:40.689996+00:00",
+      "completed_at_utc": "2026-09-11T21:24:40.847775+00:00",
+      "bytes": 96395,
+      "sha256": "8713653aec30cda2e8f0cd0337760817138a3626473c1d169ba79d7c5d0233f1",
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Content-Length": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "Overview_2023-508.pdf": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2023/pdf/Overview_2023-508.pdf",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2023/pdf/Overview_2023-508.pdf",
+      "retrieved_at_utc": "2026-09-11T21:24:40.731661+00:00",
+      "completed_at_utc": "2026-09-11T21:24:41.102442+00:00",
+      "bytes": 398375,
+      "sha256": "c1e90ec31aa2d1b0de60a00d11af48697eb392fb2cb5023578a61a5e37a01104",
+      "response_headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "398375",
+        "Last-Modified": "Fri, 28 Feb 2025 14:37:29 GMT",
+        "ETag": "\"99f244bee89db1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "Complex_Sampling_2023.pdf": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2023/pdf/Complex-Sampling-Weights-and-Preparing-Module-Data-for-Analysis-2023-508.pdf",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2023/pdf/Complex-Sampling-Weights-and-Preparing-Module-Data-for-Analysis-2023-508.pdf",
+      "retrieved_at_utc": "2026-09-11T21:24:40.848030+00:00",
+      "completed_at_utc": "2026-09-11T21:24:41.352086+00:00",
+      "bytes": 399648,
+      "sha256": "2e9d80abd07784e1df0ee74702fd65a5aa16249e7209e24013a55f295f820ffc",
+      "response_headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "399648",
+        "Last-Modified": "Wed, 05 Mar 2025 16:15:34 GMT",
+        "ETag": "\"5f5e15d3e98ddb1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "LLCP2024ASC.zip": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2024/files/LLCP2024ASC.zip",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2024/files/LLCP2024ASC.zip",
+      "retrieved_at_utc": "2026-09-11T21:23:47.209551+00:00",
+      "completed_at_utc": "2026-09-11T21:23:49.348655+00:00",
+      "bytes": 53411907,
+      "sha256": "2f00750dfe3bdb53251eda0557476b119d24b8b502d3b6d8559fbcb5997562e3",
+      "response_headers": {
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "53411907",
+        "Last-Modified": "Thu, 21 Aug 2025 13:06:25 GMT",
+        "ETag": "\"c0656a669c12dc1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login",
+      "zip_members": [
+        {
+          "name": "LLCP2024.ASC ",
+          "bytes": 944173210,
+          "crc32": "694730b1"
+        }
+      ]
+    },
+    "LLCP2024XPT.zip": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2024/files/LLCP2024XPT.zip",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2024/files/LLCP2024XPT.zip",
+      "retrieved_at_utc": "2026-09-11T21:29:07.973491+00:00",
+      "completed_at_utc": "2026-09-11T21:29:10.863373+00:00",
+      "bytes": 83007956,
+      "sha256": "d33de91a584e866f657d29b1d5b51b5672467286ed22d021e36ee3c7b4d712a4",
+      "response_headers": {
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "83007956",
+        "Last-Modified": "Thu, 21 Aug 2025 13:07:35 GMT",
+        "ETag": "\"29f038909c12dc1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login",
+      "zip_members": [
+        {
+          "name": "LLCP2024.XPT ",
+          "bytes": 1093874240,
+          "crc32": "093138fa"
+        }
+      ]
+    },
+    "SASOUT24_LLCP.zip": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2024/files/SASOUT24_LLCP.zip",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2024/files/SASOUT24_LLCP.zip",
+      "retrieved_at_utc": "2026-09-11T21:23:47.209870+00:00",
+      "completed_at_utc": "2026-09-11T21:23:47.368065+00:00",
+      "bytes": 10007,
+      "sha256": "7e3252e2ca756a6c95072f5fa641101ccc361dca7ff7ae57431926fc353f04f2",
+      "response_headers": {
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "10007",
+        "Last-Modified": "Mon, 29 Sep 2025 14:22:58 GMT",
+        "ETag": "\"e053528e4c31dc1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login",
+      "zip_members": [
+        {
+          "name": "SASOUT24_LLCP.SAS",
+          "bytes": 30871,
+          "crc32": "004b4411"
+        }
+      ]
+    },
+    "codebook24_llcp-v2-508.zip": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2024/zip/codebook24_llcp-v2-508.zip",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2024/zip/codebook24_llcp-v2-508.zip",
+      "retrieved_at_utc": "2026-09-11T21:23:47.209990+00:00",
+      "completed_at_utc": "2026-09-11T21:23:47.392727+00:00",
+      "bytes": 71439,
+      "sha256": "06c1c0e9c384d70c5b204e7869b1b1ad3f402a37a730c1d9a1f5aeee94fd1918",
+      "response_headers": {
+        "Content-Type": "application/x-zip-compressed",
+        "Content-Length": "71439",
+        "Last-Modified": "Mon, 29 Sep 2025 13:00:52 GMT",
+        "ETag": "\"5c3f33164131dc1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login",
+      "zip_members": [
+        {
+          "name": "USCODE24_LLCP_082125.HTML",
+          "bytes": 1613224,
+          "crc32": "e387f814"
+        }
+      ]
+    },
+    "variable_layout_2024.html": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2024/llcp_varlayout_24_onecolumn.html",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2024/llcp_varlayout_24_onecolumn.html",
+      "retrieved_at_utc": "2026-09-11T21:23:47.210085+00:00",
+      "completed_at_utc": "2026-09-11T21:23:47.460741+00:00",
+      "bytes": 111165,
+      "sha256": "a1fc68ea3d16674efa07979bb483df47ef9575ccf642d5232e7ef98fc059c703",
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Content-Length": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "annual_2024.html": {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_2024.html",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/annual_2024.html",
+      "retrieved_at_utc": "2026-09-11T21:23:47.368943+00:00",
+      "completed_at_utc": "2026-09-11T21:23:47.559000+00:00",
+      "bytes": 92511,
+      "sha256": "92dc83c261323933cc441dcfcaf0100e9dbdaeb41835f2fa311fdfb539aaef7e",
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Content-Length": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "Overview_2024-508.pdf": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2024/pdf/Overview_2024-508.pdf",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2024/pdf/Overview_2024-508.pdf",
+      "retrieved_at_utc": "2026-09-11T21:23:47.393747+00:00",
+      "completed_at_utc": "2026-09-11T21:23:47.631262+00:00",
+      "bytes": 267231,
+      "sha256": "e08952dadace276110af1efd005224c150801ce46e0c7baa78407eb1980af17e",
+      "response_headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "267231",
+        "Last-Modified": "Mon, 15 Sep 2025 13:00:26 GMT",
+        "ETag": "\"ec479fb44026dc1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "Complex_Sampling_2024.pdf": {
+      "url": "https://www.cdc.gov/brfss/annual_data/2024/pdf/Complex-Sampling-Weights-and-Preparing-Module-Data-for-Analysis-2024-508.pdf",
+      "resolved_url": "https://www.cdc.gov/brfss/annual_data/2024/pdf/Complex-Sampling-Weights-and-Preparing-Module-Data-for-Analysis-2024-508.pdf",
+      "retrieved_at_utc": "2026-09-11T21:23:47.461224+00:00",
+      "completed_at_utc": "2026-09-11T21:23:47.751215+00:00",
+      "bytes": 440842,
+      "sha256": "9d0c40884a7b659af6ac824d5d61c9bd7605e9fc00854718219d0e1b82e31cd7",
+      "response_headers": {
+        "Content-Type": "application/pdf",
+        "Content-Length": "440842",
+        "Last-Modified": "Mon, 15 Sep 2025 13:00:26 GMT",
+        "ETag": "\"d7e783b44026dc1:0\""
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "brfss_faq.html": {
+      "url": "https://www.cdc.gov/brfss/about/brfss_faq.htm",
+      "resolved_url": "https://www.cdc.gov/brfss/about/brfss_faq.htm",
+      "retrieved_at_utc": "2026-09-11T21:23:47.559310+00:00",
+      "completed_at_utc": "2026-09-11T21:23:48.976026+00:00",
+      "bytes": 99754,
+      "sha256": "3209e887ae7432a094ba0e12e194e745f33c0a82d7f45f952d6b45a673fdfa25",
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Content-Length": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    },
+    "agency_materials.html": {
+      "url": "https://www.cdc.gov/other/agencymaterials.html",
+      "resolved_url": "https://www.cdc.gov/other/agencymaterials.html",
+      "retrieved_at_utc": "2026-09-11T21:23:47.631777+00:00",
+      "completed_at_utc": "2026-09-11T21:23:48.935606+00:00",
+      "bytes": 80260,
+      "sha256": "4238d8179e7c53a2dbb82d10751d2b272be5aa2bf7c9ccc455333ab0674b6a8b",
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Content-Length": null,
+        "Last-Modified": null,
+        "ETag": null
+      },
+      "origin": "Official CDC public download; no account, key or login"
+    }
+  },
+  "survey_years": [
+    2023,
+    2024
+  ],
+  "licence_evidence": "BRFSS FAQ question 14 and CDC agency-materials terms are retained alongside source URLs; attribution and no endorsement required.",
+  "retrieval_script_sha256": "9afa9739b37312df8c486704b824648d500f9a305fe5d8856e6963b650f3804f",
+  "note": "Local SHA-256 and ZIP CRC verify recorded byte identity/integrity; no publisher-provided SHA-256 is claimed."
+}

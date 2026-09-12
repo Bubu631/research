@@ -1,0 +1,64 @@
+{
+  "verification_scope": "Independent Euclidean embedding of native-gradient Gram; no transformer rerun",
+  "gram_reconstruction_max_abs": 4.440892098500626e-15,
+  "gram_eigenvalues": [
+    1.4114894127612272e-09,
+    2.172252751251929e-09,
+    0.006638971515754435,
+    0.014756434401736301,
+    0.05400846461785165,
+    0.1254963287443538,
+    2.712264742395855,
+    12.264710096895897
+  ],
+  "max_curve_discrepancies": {
+    "rho_Q": 7.216449660063518e-15,
+    "rho_P": 6.9111383282915995e-15,
+    "absolute_bias": 4.9960036108132044e-15,
+    "squared_rho_Q_derivative": 4.773959005888173e-15
+  },
+  "same_reporting_record_ids": true,
+  "loss_decomposition_max_abs": 2.980232238769531e-07,
+  "previous_forward_nll_max_abs": 1.7294001763978883e-06,
+  "all_original_artifact_and_source_hashes_match": true,
+  "mixture_edit_coefficient": 0.38814420276707173,
+  "mixture_relative_norm_residuals": [
+    7.049919183373232e-05,
+    2.6758469977782047e-05
+  ],
+  "cases": {
+    "edit": {
+      "rho_Q_0": 0.44747699853612954,
+      "rho_Q_1": 0.33102002712595585,
+      "absolute_bias_0": 0.493395691332864,
+      "absolute_bias_1": 0.6560177749620932,
+      "absolute_bias_minimizer": 0.07935940469871487,
+      "absolute_bias_minimum": 0.49197561557380987,
+      "selected_component_cosine": -0.01138857407412815,
+      "maximum_derivative_numerator": -0.01636438408206243,
+      "strictly_decreasing_rho_on_unit_interval": true
+    },
+    "length": {
+      "rho_Q_0": 0.19267144207281037,
+      "rho_Q_1": 0.1049707724604207,
+      "absolute_bias_0": 0.1268411455859844,
+      "absolute_bias_1": 0.2014428997115447,
+      "absolute_bias_minimizer": 0.04385738754634095,
+      "absolute_bias_minimum": 0.12663743555073298,
+      "selected_component_cosine": -0.012243014987051248,
+      "maximum_derivative_numerator": -0.000275470850130542,
+      "strictly_decreasing_rho_on_unit_interval": true
+    },
+    "edit_length": {
+      "rho_Q_0": 0.2245533995369782,
+      "rho_Q_1": 0.14285829261828337,
+      "absolute_bias_0": 0.18330108968216113,
+      "absolute_bias_1": 0.2733253775767566,
+      "absolute_bias_minimizer": 0.06221485786461469,
+      "absolute_bias_minimum": 0.18280471299540774,
+      "selected_component_cosine": -0.008725650659780112,
+      "maximum_derivative_numerator": -0.0015305030686983817,
+      "strictly_decreasing_rho_on_unit_interval": true
+    }
+  }
+}

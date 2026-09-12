@@ -1,0 +1,33 @@
+{
+  "study": "base_upgrade_synthetic",
+  "seed": 20260911,
+  "calibration_trials": 20000,
+  "search_trials": 4000,
+  "alpha": 0.05,
+  "python": "3.13.1",
+  "numpy": "2.5.3",
+  "synthetic_only": true,
+  "score_family": "bounded paired scores; exact binomial sufficient statistics",
+  "split_policy": "independent development and certification; no retries after rejection",
+  "confidence_intervals": "exact Clopper-Pearson for rates; normal Monte Carlo mean intervals for utility",
+  "script_sha256": "ae109577330e06c9f0b2143fef43a0d29c7fd07b27d9866c0f74a9c387299cdd",
+  "outputs": {
+    "adaptive_outcomes.npz": "d9b7924a442bc55cb583149514baf5fd5975cea20c3be7fc3cc62c9c3489691c",
+    "adaptive_selection.csv": "d15fcdecf5ee9b4ec2f1d819d8659007bae6174de116468f8a97923349e9adaf",
+    "calibration.csv": "a3549697b10fa452052970b7fb96cad931a25accb536a2d99840b4a719413df7",
+    "calibration_counts.npz": "7722bf9166e5b286de4f8f1d7535d2db61e5895ec134efb8d8a1cfb81f1aa414",
+    "calibration_outcomes.npz": "caa3e7e11d1fae623875f065c20c178289f6a207a482a89a3911d9ccfc9dc826",
+    "calibration_table.tex": "da68b85c399ffaf1cf11ddcb27878092d93cfdaae95ec4673ac0b8ac0c1bc966",
+    "correlated_calibration.csv": "f760362e893901a7306909eacdb29efee24c1ef9a88b761a874dc5a4ed95bb90",
+    "correlated_counts.npz": "99ffff4b4081f6a25cfde9f33938cb3019ca983b13d2483bf96edbd60b6c4089",
+    "correlated_outcomes.npz": "a5fd48759bff4d4d5301b8aaf35ca899fe5fdba1c2c482dff7788304b99d33cf",
+    "correlation_table.tex": "f2e9c04a77063fce5fccf6dbc742c552ebf2af436b1c1ffb76667651d3e9747e",
+    "numbers.tex": "e6558faa820d54f0c6e6a452422b63910f13345995f33fa1670f7fb186520497",
+    "paired_variance.csv": "db9b6799d4e5544ac230fb7507913cee1acfd114c21466066c15a831acfd9154",
+    "sample_size_table.tex": "a0b3c9799f8fe1c50aa1ab373568cb023bbd6970e7963eed54992e1ab705517b",
+    "utility_counts.npz": "5489dc71092abd52c2e848eecfd9c59ee66685f699483676a9fa9efdb7b968ea",
+    "utility_selection.csv": "695bed86e5e6200c8f135c517b01e8512c4cba687c4f6f8f4347351cae9d9141",
+    "utility_table.tex": "13a7435321be5b2e5027e767c2b1a07ce0bca85576914c1f6345d6f6de263259",
+    "utility_trials.csv": "ea9a39dfe03cf7d5cf0285722a98e079646edb13106a8991d76bd5d739f53126"
+  }
+}

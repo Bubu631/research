@@ -1,0 +1,1045 @@
+org_code,year,field,source_cell,source_sheet,reason
+RA9,2021,burnout_score,BTN10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,burnout_n,CBD10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,n_resp,CHX10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,response_rate,CHW10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,wellbeing_action,BVI10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,wellbeing_action_n,CCQ10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,intent_leave,BWW10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,intent_leave_n,CEE10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,thinking_about_leaving_score,BUD10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,thinking_about_leaving_n,CAP10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,work_related_stress,BVJ10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2021,work_related_stress_n,CCR10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,burnout_score,BCN10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,burnout_n,BKJ10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,n_resp,BRJ10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,response_rate,BRI10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,wellbeing_action,BEI10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,wellbeing_action_n,BLW10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,intent_leave,BGB10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,intent_leave_n,BNP10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,thinking_about_leaving_score,BDD10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,thinking_about_leaving_n,BJV10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,work_related_stress,BEJ10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RA9,2022,work_related_stress_n,BLX10,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,burnout_score,BTN13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,burnout_n,CBD13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,n_resp,CHX13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,response_rate,CHW13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,wellbeing_action,BVI13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,wellbeing_action_n,CCQ13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,intent_leave,BWW13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,intent_leave_n,CEE13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,thinking_about_leaving_score,BUD13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,thinking_about_leaving_n,CAP13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,work_related_stress,BVJ13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2021,work_related_stress_n,CCR13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,burnout_score,BCN13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,burnout_n,BKJ13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,n_resp,BRJ13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,response_rate,BRI13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,wellbeing_action,BEI13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,wellbeing_action_n,BLW13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,intent_leave,BGB13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,intent_leave_n,BNP13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,thinking_about_leaving_score,BDD13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,thinking_about_leaving_n,BJV13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,work_related_stress,BEJ13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2022,work_related_stress_n,BLX13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,burnout_score,AKX13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,burnout_n,ATB13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,n_resp,BAJ13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,response_rate,BAI13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,wellbeing_action,AMS13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,wellbeing_action_n,AUO13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,intent_leave,AOO13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,intent_leave_n,AWK13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,thinking_about_leaving_score,ALN13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,thinking_about_leaving_n,ASN13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,work_related_stress,AMT13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2023,work_related_stress_n,AUP13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,burnout_score,TF13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,burnout_n,ABK13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,n_resp,AIT13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,response_rate,AIS13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,wellbeing_action,VA13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,wellbeing_action_n,ACX13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,intent_leave,WX13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,intent_leave_n,AEU13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,thinking_about_leaving_score,TV13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,thinking_about_leaving_n,AAW13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,work_related_stress,VB13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAL,2024,work_related_stress_n,ACY13,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,burnout_score,BTN15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,burnout_n,CBD15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,n_resp,CHX15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,response_rate,CHW15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,wellbeing_action,BVI15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,wellbeing_action_n,CCQ15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,intent_leave,BWW15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,intent_leave_n,CEE15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,thinking_about_leaving_score,BUD15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,thinking_about_leaving_n,CAP15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,work_related_stress,BVJ15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2021,work_related_stress_n,CCR15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,burnout_score,BCN15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,burnout_n,BKJ15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,n_resp,BRJ15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,response_rate,BRI15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,wellbeing_action,BEI15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,wellbeing_action_n,BLW15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,intent_leave,BGB15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,intent_leave_n,BNP15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,thinking_about_leaving_score,BDD15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,thinking_about_leaving_n,BJV15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,work_related_stress,BEJ15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2022,work_related_stress_n,BLX15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,burnout_score,AKX15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,burnout_n,ATB15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,n_resp,BAJ15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,response_rate,BAI15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,wellbeing_action,AMS15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,wellbeing_action_n,AUO15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,intent_leave,AOO15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,intent_leave_n,AWK15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,thinking_about_leaving_score,ALN15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,thinking_about_leaving_n,ASN15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,work_related_stress,AMT15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2023,work_related_stress_n,AUP15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,burnout_score,TF15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,burnout_n,ABK15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,n_resp,AIT15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,response_rate,AIS15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,wellbeing_action,VA15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,wellbeing_action_n,ACX15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,intent_leave,WX15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,intent_leave_n,AEU15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,thinking_about_leaving_score,TV15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,thinking_about_leaving_n,AAW15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,work_related_stress,VB15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RAX,2024,work_related_stress_n,ACY15,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,burnout_score,BTN19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,burnout_n,CBD19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,n_resp,CHX19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,response_rate,CHW19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,wellbeing_action,BVI19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,wellbeing_action_n,CCQ19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,intent_leave,BWW19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,intent_leave_n,CEE19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,thinking_about_leaving_score,BUD19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,thinking_about_leaving_n,CAP19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,work_related_stress,BVJ19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2021,work_related_stress_n,CCR19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,burnout_score,BCN19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,burnout_n,BKJ19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,n_resp,BRJ19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,response_rate,BRI19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,wellbeing_action,BEI19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,wellbeing_action_n,BLW19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,intent_leave,BGB19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,intent_leave_n,BNP19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,thinking_about_leaving_score,BDD19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,thinking_about_leaving_n,BJV19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,work_related_stress,BEJ19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RBN,2022,work_related_stress_n,BLX19,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,burnout_score,BTN42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,burnout_n,CBD42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,n_resp,CHX42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,response_rate,CHW42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,wellbeing_action,BVI42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,wellbeing_action_n,CCQ42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,intent_leave,BWW42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,intent_leave_n,CEE42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,thinking_about_leaving_score,BUD42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,thinking_about_leaving_n,CAP42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,work_related_stress,BVJ42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2021,work_related_stress_n,CCR42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,burnout_score,BCN42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,burnout_n,BKJ42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,n_resp,BRJ42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,response_rate,BRI42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,wellbeing_action,BEI42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,wellbeing_action_n,BLW42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,intent_leave,BGB42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,intent_leave_n,BNP42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,thinking_about_leaving_score,BDD42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,thinking_about_leaving_n,BJV42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,work_related_stress,BEJ42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH5,2022,work_related_stress_n,BLX42,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,burnout_score,BTN43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,burnout_n,CBD43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,n_resp,CHX43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,response_rate,CHW43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,wellbeing_action,BVI43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,wellbeing_action_n,CCQ43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,intent_leave,BWW43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,intent_leave_n,CEE43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,thinking_about_leaving_score,BUD43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,thinking_about_leaving_n,CAP43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,work_related_stress,BVJ43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RH8,2021,work_related_stress_n,CCR43,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,burnout_score,BTN66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,burnout_n,CBD66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,n_resp,CHX66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,response_rate,CHW66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,wellbeing_action,BVI66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,wellbeing_action_n,CCQ66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,intent_leave,BWW66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,intent_leave_n,CEE66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,thinking_about_leaving_score,BUD66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,thinking_about_leaving_n,CAP66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,work_related_stress,BVJ66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RM3,2021,work_related_stress_n,CCR66,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,burnout_score,BTN79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,burnout_n,CBD79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,n_resp,CHX79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,response_rate,CHW79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,wellbeing_action,BVI79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,wellbeing_action_n,CCQ79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,intent_leave,BWW79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,intent_leave_n,CEE79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,thinking_about_leaving_score,BUD79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,thinking_about_leaving_n,CAP79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,work_related_stress,BVJ79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2021,work_related_stress_n,CCR79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,burnout_score,BCN79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,burnout_n,BKJ79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,n_resp,BRJ79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,response_rate,BRI79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,wellbeing_action,BEI79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,wellbeing_action_n,BLW79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,intent_leave,BGB79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,intent_leave_n,BNP79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,thinking_about_leaving_score,BDD79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,thinking_about_leaving_n,BJV79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,work_related_stress,BEJ79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2022,work_related_stress_n,BLX79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,burnout_score,AKX79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,burnout_n,ATB79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,n_resp,BAJ79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,response_rate,BAI79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,wellbeing_action,AMS79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,wellbeing_action_n,AUO79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,intent_leave,AOO79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,intent_leave_n,AWK79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,thinking_about_leaving_score,ALN79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,thinking_about_leaving_n,ASN79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,work_related_stress,AMT79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2023,work_related_stress_n,AUP79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,burnout_score,TF79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,burnout_n,ABK79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,n_resp,AIT79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,response_rate,AIS79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,wellbeing_action,VA79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,wellbeing_action_n,ACX79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,intent_leave,WX79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,intent_leave_n,AEU79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,thinking_about_leaving_score,TV79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,thinking_about_leaving_n,AAW79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,work_related_stress,VB79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RQ3,2024,work_related_stress_n,ACY79,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,burnout_score,BTN96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,burnout_n,CBD96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,n_resp,CHX96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,response_rate,CHW96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,wellbeing_action,BVI96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,wellbeing_action_n,CCQ96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,intent_leave,BWW96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,intent_leave_n,CEE96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,thinking_about_leaving_score,BUD96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,thinking_about_leaving_n,CAP96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,work_related_stress,BVJ96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2021,work_related_stress_n,CCR96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,burnout_score,BCN96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,burnout_n,BKJ96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,n_resp,BRJ96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,response_rate,BRI96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,wellbeing_action,BEI96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,wellbeing_action_n,BLW96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,intent_leave,BGB96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,intent_leave_n,BNP96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,thinking_about_leaving_score,BDD96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,thinking_about_leaving_n,BJV96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,work_related_stress,BEJ96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2022,work_related_stress_n,BLX96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,burnout_score,AKX96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,burnout_n,ATB96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,n_resp,BAJ96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,response_rate,BAI96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,wellbeing_action,AMS96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,wellbeing_action_n,AUO96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,intent_leave,AOO96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,intent_leave_n,AWK96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,thinking_about_leaving_score,ALN96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,thinking_about_leaving_n,ASN96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,work_related_stress,AMT96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2023,work_related_stress_n,AUP96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,burnout_score,TF96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,burnout_n,ABK96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,n_resp,AIT96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,response_rate,AIS96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,wellbeing_action,VA96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,wellbeing_action_n,ACX96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,intent_leave,WX96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,intent_leave_n,AEU96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,thinking_about_leaving_score,TV96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,thinking_about_leaving_n,AAW96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,work_related_stress,VB96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RTX,2024,work_related_stress_n,ACY96,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,burnout_score,BTN115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,burnout_n,CBD115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,n_resp,CHX115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,response_rate,CHW115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,wellbeing_action,BVI115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,wellbeing_action_n,CCQ115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,intent_leave,BWW115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,intent_leave_n,CEE115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,thinking_about_leaving_score,BUD115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,thinking_about_leaving_n,CAP115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,work_related_stress,BVJ115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2021,work_related_stress_n,CCR115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,burnout_score,BCN115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,burnout_n,BKJ115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,n_resp,BRJ115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,response_rate,BRI115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,wellbeing_action,BEI115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,wellbeing_action_n,BLW115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,intent_leave,BGB115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,intent_leave_n,BNP115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,thinking_about_leaving_score,BDD115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,thinking_about_leaving_n,BJV115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,work_related_stress,BEJ115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2022,work_related_stress_n,BLX115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,burnout_score,AKX115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,burnout_n,ATB115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,n_resp,BAJ115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,response_rate,BAI115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,wellbeing_action,AMS115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,wellbeing_action_n,AUO115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,intent_leave,AOO115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,intent_leave_n,AWK115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,thinking_about_leaving_score,ALN115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,thinking_about_leaving_n,ASN115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,work_related_stress,AMT115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2023,work_related_stress_n,AUP115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,burnout_score,TF115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,burnout_n,ABK115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,n_resp,AIT115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,response_rate,AIS115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,wellbeing_action,VA115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,wellbeing_action_n,ACX115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,intent_leave,WX115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,intent_leave_n,AEU115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,thinking_about_leaving_score,TV115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,thinking_about_leaving_n,AAW115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,work_related_stress,VB115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXL,2024,work_related_stress_n,ACY115,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,burnout_score,BTN119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,burnout_n,CBD119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,n_resp,CHX119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,response_rate,CHW119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,wellbeing_action,BVI119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,wellbeing_action_n,CCQ119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,intent_leave,BWW119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,intent_leave_n,CEE119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,thinking_about_leaving_score,BUD119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,thinking_about_leaving_n,CAP119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,work_related_stress,BVJ119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2021,work_related_stress_n,CCR119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,burnout_score,BCN119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,burnout_n,BKJ119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,n_resp,BRJ119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,response_rate,BRI119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,wellbeing_action,BEI119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,wellbeing_action_n,BLW119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,intent_leave,BGB119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,intent_leave_n,BNP119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,thinking_about_leaving_score,BDD119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,thinking_about_leaving_n,BJV119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,work_related_stress,BEJ119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2022,work_related_stress_n,BLX119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,burnout_score,AKX119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,burnout_n,ATB119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,n_resp,BAJ119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,response_rate,BAI119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,wellbeing_action,AMS119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,wellbeing_action_n,AUO119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,intent_leave,AOO119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,intent_leave_n,AWK119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,thinking_about_leaving_score,ALN119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,thinking_about_leaving_n,ASN119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,work_related_stress,AMT119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2023,work_related_stress_n,AUP119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,burnout_score,TF119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,burnout_n,ABK119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,n_resp,AIT119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,response_rate,AIS119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,wellbeing_action,VA119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,wellbeing_action_n,ACX119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,intent_leave,WX119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,intent_leave_n,AEU119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,thinking_about_leaving_score,TV119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,thinking_about_leaving_n,AAW119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,work_related_stress,VB119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+RXR,2024,work_related_stress_n,ACY119,Acute&Acute Community Trusts,Blank or suppressed in source; not imputed
+G6V2S,2021,burnout_score,BTN2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,burnout_n,CBD2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,n_resp,CHX2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,response_rate,CHW2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,wellbeing_action,BVI2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,wellbeing_action_n,CCQ2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,intent_leave,BWW2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,intent_leave_n,CEE2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,thinking_about_leaving_score,BUD2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,thinking_about_leaving_n,CAP2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,work_related_stress,BVJ2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2021,work_related_stress_n,CCR2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,burnout_score,BCN2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,burnout_n,BKJ2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,n_resp,BRJ2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,response_rate,BRI2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,wellbeing_action,BEI2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,wellbeing_action_n,BLW2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,intent_leave,BGB2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,intent_leave_n,BNP2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,thinking_about_leaving_score,BDD2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,thinking_about_leaving_n,BJV2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,work_related_stress,BEJ2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2022,work_related_stress_n,BLX2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,burnout_score,AKX2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,burnout_n,ATB2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,n_resp,BAJ2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,response_rate,BAI2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,wellbeing_action,AMS2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,wellbeing_action_n,AUO2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,intent_leave,AOO2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,intent_leave_n,AWK2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,thinking_about_leaving_score,ALN2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,thinking_about_leaving_n,ASN2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,work_related_stress,AMT2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2023,work_related_stress_n,AUP2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,burnout_score,TF2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,burnout_n,ABK2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,n_resp,AIT2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,response_rate,AIS2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,wellbeing_action,VA2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,wellbeing_action_n,ACX2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,intent_leave,WX2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,intent_leave_n,AEU2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,thinking_about_leaving_score,TV2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,thinking_about_leaving_n,AAW2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,work_related_stress,VB2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+G6V2S,2024,work_related_stress_n,ACY2,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,burnout_score,BTN28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,burnout_n,CBD28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,n_resp,CHX28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,response_rate,CHW28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,wellbeing_action,BVI28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,wellbeing_action_n,CCQ28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,intent_leave,BWW28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,intent_leave_n,CEE28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,thinking_about_leaving_score,BUD28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,thinking_about_leaving_n,CAP28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,work_related_stress,BVJ28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2021,work_related_stress_n,CCR28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,burnout_score,BCN28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,burnout_n,BKJ28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,n_resp,BRJ28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,response_rate,BRI28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,wellbeing_action,BEI28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,wellbeing_action_n,BLW28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,intent_leave,BGB28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,intent_leave_n,BNP28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,thinking_about_leaving_score,BDD28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,thinking_about_leaving_n,BJV28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,work_related_stress,BEJ28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2022,work_related_stress_n,BLX28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,burnout_score,AKX28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,burnout_n,ATB28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,n_resp,BAJ28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,response_rate,BAI28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,wellbeing_action,AMS28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,wellbeing_action_n,AUO28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,intent_leave,AOO28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,intent_leave_n,AWK28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,thinking_about_leaving_score,ALN28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,thinking_about_leaving_n,ASN28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,work_related_stress,AMT28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2023,work_related_stress_n,AUP28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,burnout_score,TF28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,burnout_n,ABK28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,n_resp,AIT28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,response_rate,AIS28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,wellbeing_action,VA28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,wellbeing_action_n,ACX28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,intent_leave,WX28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,intent_leave_n,AEU28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,thinking_about_leaving_score,TV28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,thinking_about_leaving_n,AAW28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,work_related_stress,VB28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RW1,2024,work_related_stress_n,ACY28,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,burnout_score,BTN31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,burnout_n,CBD31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,n_resp,CHX31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,response_rate,CHW31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,wellbeing_action,BVI31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,wellbeing_action_n,CCQ31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,intent_leave,BWW31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,intent_leave_n,CEE31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,thinking_about_leaving_score,BUD31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,thinking_about_leaving_n,CAP31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,work_related_stress,BVJ31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2021,work_related_stress_n,CCR31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,burnout_score,BCN31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,burnout_n,BKJ31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,n_resp,BRJ31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,response_rate,BRI31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,wellbeing_action,BEI31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,wellbeing_action_n,BLW31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,intent_leave,BGB31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,intent_leave_n,BNP31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,thinking_about_leaving_score,BDD31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,thinking_about_leaving_n,BJV31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,work_related_stress,BEJ31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RWK,2022,work_related_stress_n,BLX31,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,burnout_score,BTN35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,burnout_n,CBD35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,n_resp,CHX35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,response_rate,CHW35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,wellbeing_action,BVI35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,wellbeing_action_n,CCQ35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,intent_leave,BWW35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,intent_leave_n,CEE35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,thinking_about_leaving_score,BUD35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,thinking_about_leaving_n,CAP35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,work_related_stress,BVJ35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2021,work_related_stress_n,CCR35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,burnout_score,BCN35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,burnout_n,BKJ35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,n_resp,BRJ35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,response_rate,BRI35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,wellbeing_action,BEI35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,wellbeing_action_n,BLW35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,intent_leave,BGB35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,intent_leave_n,BNP35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,thinking_about_leaving_score,BDD35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,thinking_about_leaving_n,BJV35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,work_related_stress,BEJ35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2022,work_related_stress_n,BLX35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,burnout_score,AKX35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,burnout_n,ATB35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,n_resp,BAJ35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,response_rate,BAI35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,wellbeing_action,AMS35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,wellbeing_action_n,AUO35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,intent_leave,AOO35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,intent_leave_n,AWK35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,thinking_about_leaving_score,ALN35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,thinking_about_leaving_n,ASN35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,work_related_stress,AMT35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RX2,2023,work_related_stress_n,AUP35,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,burnout_score,BTN42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,burnout_n,CBD42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,n_resp,CHX42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,response_rate,CHW42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,wellbeing_action,BVI42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,wellbeing_action_n,CCQ42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,intent_leave,BWW42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,intent_leave_n,CEE42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,thinking_about_leaving_score,BUD42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,thinking_about_leaving_n,CAP42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,work_related_stress,BVJ42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2021,work_related_stress_n,CCR42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,burnout_score,BCN42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,burnout_n,BKJ42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,n_resp,BRJ42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,response_rate,BRI42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,wellbeing_action,BEI42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,wellbeing_action_n,BLW42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,intent_leave,BGB42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,intent_leave_n,BNP42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,thinking_about_leaving_score,BDD42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,thinking_about_leaving_n,BJV42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,work_related_stress,BEJ42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2022,work_related_stress_n,BLX42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,burnout_score,AKX42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,burnout_n,ATB42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,n_resp,BAJ42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,response_rate,BAI42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,wellbeing_action,AMS42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,wellbeing_action_n,AUO42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,intent_leave,AOO42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,intent_leave_n,AWK42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,thinking_about_leaving_score,ALN42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,thinking_about_leaving_n,ASN42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,work_related_stress,AMT42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2023,work_related_stress_n,AUP42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,burnout_score,TF42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,burnout_n,ABK42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,n_resp,AIT42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,response_rate,AIS42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,wellbeing_action,VA42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,wellbeing_action_n,ACX42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,intent_leave,WX42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,intent_leave_n,AEU42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,thinking_about_leaving_score,TV42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,thinking_about_leaving_n,AAW42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,work_related_stress,VB42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+RXT,2024,work_related_stress_n,ACY42,"MH&LD, MH, LD&Community Trusts",Blank or suppressed in source; not imputed
+QE1,2021,burnout_score,BTF2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,burnout_n,CAU2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,n_resp,CHN2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,response_rate,CHM2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,wellbeing_action,BVA2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,wellbeing_action_n,CCH2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,intent_leave,BWN2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,intent_leave_n,CDU2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,thinking_about_leaving_score,BTV2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,thinking_about_leaving_n,CAG2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,work_related_stress,BVB2,ICBs,Blank or suppressed in source; not imputed
+QE1,2021,work_related_stress_n,CCI2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,burnout_score,BCH2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,burnout_n,BKC2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,n_resp,BRB2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,response_rate,BRA2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,wellbeing_action,BEC2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,wellbeing_action_n,BLP2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,intent_leave,BFU2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,intent_leave_n,BNH2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,thinking_about_leaving_score,BCX2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,thinking_about_leaving_n,BJO2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,work_related_stress,BED2,ICBs,Blank or suppressed in source; not imputed
+QE1,2022,work_related_stress_n,BLQ2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,burnout_score,AKT2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,burnout_n,ASW2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,n_resp,BAD2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,response_rate,BAC2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,wellbeing_action,AMO2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,wellbeing_action_n,AUJ2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,intent_leave,AOJ2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,intent_leave_n,AWE2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,thinking_about_leaving_score,ALJ2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,thinking_about_leaving_n,ASI2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,work_related_stress,AMP2,ICBs,Blank or suppressed in source; not imputed
+QE1,2023,work_related_stress_n,AUK2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,burnout_score,TD2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,burnout_n,ABH2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,n_resp,AIP2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,response_rate,AIO2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,wellbeing_action,UY2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,wellbeing_action_n,ACU2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,intent_leave,WU2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,intent_leave_n,AEQ2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,thinking_about_leaving_score,TT2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,thinking_about_leaving_n,AAT2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,work_related_stress,UZ2,ICBs,Blank or suppressed in source; not imputed
+QE1,2024,work_related_stress_n,ACV2,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,burnout_score,BTF3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,burnout_n,CAU3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,n_resp,CHN3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,response_rate,CHM3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,wellbeing_action,BVA3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,wellbeing_action_n,CCH3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,intent_leave,BWN3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,intent_leave_n,CDU3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,thinking_about_leaving_score,BTV3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,thinking_about_leaving_n,CAG3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,work_related_stress,BVB3,ICBs,Blank or suppressed in source; not imputed
+QF7,2021,work_related_stress_n,CCI3,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,burnout_score,BTF5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,burnout_n,CAU5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,n_resp,CHN5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,response_rate,CHM5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,wellbeing_action,BVA5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,wellbeing_action_n,CCH5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,intent_leave,BWN5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,intent_leave_n,CDU5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,thinking_about_leaving_score,BTV5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,thinking_about_leaving_n,CAG5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,work_related_stress,BVB5,ICBs,Blank or suppressed in source; not imputed
+QHL,2021,work_related_stress_n,CCI5,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,burnout_score,BTF6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,burnout_n,CAU6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,n_resp,CHN6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,response_rate,CHM6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,wellbeing_action,BVA6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,wellbeing_action_n,CCH6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,intent_leave,BWN6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,intent_leave_n,CDU6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,thinking_about_leaving_score,BTV6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,thinking_about_leaving_n,CAG6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,work_related_stress,BVB6,ICBs,Blank or suppressed in source; not imputed
+QHM,2021,work_related_stress_n,CCI6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,burnout_score,BCH6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,burnout_n,BKC6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,n_resp,BRB6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,response_rate,BRA6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,wellbeing_action,BEC6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,wellbeing_action_n,BLP6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,intent_leave,BFU6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,intent_leave_n,BNH6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,thinking_about_leaving_score,BCX6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,thinking_about_leaving_n,BJO6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,work_related_stress,BED6,ICBs,Blank or suppressed in source; not imputed
+QHM,2022,work_related_stress_n,BLQ6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,burnout_score,AKT6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,burnout_n,ASW6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,n_resp,BAD6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,response_rate,BAC6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,wellbeing_action,AMO6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,wellbeing_action_n,AUJ6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,intent_leave,AOJ6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,intent_leave_n,AWE6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,thinking_about_leaving_score,ALJ6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,thinking_about_leaving_n,ASI6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,work_related_stress,AMP6,ICBs,Blank or suppressed in source; not imputed
+QHM,2023,work_related_stress_n,AUK6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,burnout_score,TD6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,burnout_n,ABH6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,n_resp,AIP6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,response_rate,AIO6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,wellbeing_action,UY6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,wellbeing_action_n,ACU6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,intent_leave,WU6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,intent_leave_n,AEQ6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,thinking_about_leaving_score,TT6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,thinking_about_leaving_n,AAT6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,work_related_stress,UZ6,ICBs,Blank or suppressed in source; not imputed
+QHM,2024,work_related_stress_n,ACV6,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,burnout_score,BTF13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,burnout_n,CAU13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,n_resp,CHN13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,response_rate,CHM13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,wellbeing_action,BVA13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,wellbeing_action_n,CCH13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,intent_leave,BWN13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,intent_leave_n,CDU13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,thinking_about_leaving_score,BTV13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,thinking_about_leaving_n,CAG13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,work_related_stress,BVB13,ICBs,Blank or suppressed in source; not imputed
+QNC,2021,work_related_stress_n,CCI13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,burnout_score,BCH13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,burnout_n,BKC13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,n_resp,BRB13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,response_rate,BRA13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,wellbeing_action,BEC13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,wellbeing_action_n,BLP13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,intent_leave,BFU13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,intent_leave_n,BNH13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,thinking_about_leaving_score,BCX13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,thinking_about_leaving_n,BJO13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,work_related_stress,BED13,ICBs,Blank or suppressed in source; not imputed
+QNC,2022,work_related_stress_n,BLQ13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,burnout_score,AKT13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,burnout_n,ASW13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,n_resp,BAD13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,response_rate,BAC13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,wellbeing_action,AMO13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,wellbeing_action_n,AUJ13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,intent_leave,AOJ13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,intent_leave_n,AWE13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,thinking_about_leaving_score,ALJ13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,thinking_about_leaving_n,ASI13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,work_related_stress,AMP13,ICBs,Blank or suppressed in source; not imputed
+QNC,2023,work_related_stress_n,AUK13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,burnout_score,TD13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,burnout_n,ABH13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,n_resp,AIP13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,response_rate,AIO13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,wellbeing_action,UY13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,wellbeing_action_n,ACU13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,intent_leave,WU13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,intent_leave_n,AEQ13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,thinking_about_leaving_score,TT13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,thinking_about_leaving_n,AAT13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,work_related_stress,UZ13,ICBs,Blank or suppressed in source; not imputed
+QNC,2024,work_related_stress_n,ACV13,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,burnout_score,BTF14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,burnout_n,CAU14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,n_resp,CHN14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,response_rate,CHM14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,wellbeing_action,BVA14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,wellbeing_action_n,CCH14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,intent_leave,BWN14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,intent_leave_n,CDU14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,thinking_about_leaving_score,BTV14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,thinking_about_leaving_n,CAG14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,work_related_stress,BVB14,ICBs,Blank or suppressed in source; not imputed
+QOC,2021,work_related_stress_n,CCI14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,burnout_score,BCH14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,burnout_n,BKC14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,n_resp,BRB14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,response_rate,BRA14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,wellbeing_action,BEC14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,wellbeing_action_n,BLP14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,intent_leave,BFU14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,intent_leave_n,BNH14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,thinking_about_leaving_score,BCX14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,thinking_about_leaving_n,BJO14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,work_related_stress,BED14,ICBs,Blank or suppressed in source; not imputed
+QOC,2022,work_related_stress_n,BLQ14,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,burnout_score,BTF15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,burnout_n,CAU15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,n_resp,CHN15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,response_rate,CHM15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,wellbeing_action,BVA15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,wellbeing_action_n,CCH15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,intent_leave,BWN15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,intent_leave_n,CDU15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,thinking_about_leaving_score,BTV15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,thinking_about_leaving_n,CAG15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,work_related_stress,BVB15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2021,work_related_stress_n,CCI15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,burnout_score,BCH15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,burnout_n,BKC15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,n_resp,BRB15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,response_rate,BRA15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,wellbeing_action,BEC15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,wellbeing_action_n,BLP15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,intent_leave,BFU15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,intent_leave_n,BNH15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,thinking_about_leaving_score,BCX15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,thinking_about_leaving_n,BJO15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,work_related_stress,BED15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2022,work_related_stress_n,BLQ15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,burnout_score,AKT15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,burnout_n,ASW15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,n_resp,BAD15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,response_rate,BAC15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,wellbeing_action,AMO15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,wellbeing_action_n,AUJ15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,intent_leave,AOJ15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,intent_leave_n,AWE15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,thinking_about_leaving_score,ALJ15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,thinking_about_leaving_n,ASI15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,work_related_stress,AMP15,ICBs,Blank or suppressed in source; not imputed
+QOQ,2023,work_related_stress_n,AUK15,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,burnout_score,BTF17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,burnout_n,CAU17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,n_resp,CHN17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,response_rate,CHM17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,wellbeing_action,BVA17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,wellbeing_action_n,CCH17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,intent_leave,BWN17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,intent_leave_n,CDU17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,thinking_about_leaving_score,BTV17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,thinking_about_leaving_n,CAG17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,work_related_stress,BVB17,ICBs,Blank or suppressed in source; not imputed
+QRL,2021,work_related_stress_n,CCI17,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,burnout_score,BTF18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,burnout_n,CAU18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,n_resp,CHN18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,response_rate,CHM18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,wellbeing_action,BVA18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,wellbeing_action_n,CCH18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,intent_leave,BWN18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,intent_leave_n,CDU18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,thinking_about_leaving_score,BTV18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,thinking_about_leaving_n,CAG18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,work_related_stress,BVB18,ICBs,Blank or suppressed in source; not imputed
+QT1,2021,work_related_stress_n,CCI18,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,burnout_score,BTF20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,burnout_n,CAU20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,n_resp,CHN20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,response_rate,CHM20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,wellbeing_action,BVA20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,wellbeing_action_n,CCH20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,intent_leave,BWN20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,intent_leave_n,CDU20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,thinking_about_leaving_score,BTV20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,thinking_about_leaving_n,CAG20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,work_related_stress,BVB20,ICBs,Blank or suppressed in source; not imputed
+QUA,2021,work_related_stress_n,CCI20,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,burnout_score,BTF22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,burnout_n,CAU22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,n_resp,CHN22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,response_rate,CHM22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,wellbeing_action,BVA22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,wellbeing_action_n,CCH22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,intent_leave,BWN22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,intent_leave_n,CDU22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,thinking_about_leaving_score,BTV22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,thinking_about_leaving_n,CAG22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,work_related_stress,BVB22,ICBs,Blank or suppressed in source; not imputed
+QWO,2021,work_related_stress_n,CCI22,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,burnout_score,BTF24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,burnout_n,CAU24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,n_resp,CHN24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,response_rate,CHM24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,wellbeing_action,BVA24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,wellbeing_action_n,CCH24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,intent_leave,BWN24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,intent_leave_n,CDU24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,thinking_about_leaving_score,BTV24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,thinking_about_leaving_n,CAG24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,work_related_stress,BVB24,ICBs,Blank or suppressed in source; not imputed
+QYG,2021,work_related_stress_n,CCI24,ICBs,Blank or suppressed in source; not imputed
+NAX,2021,burnout_score,BTN2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,burnout_n,CBD2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,n_resp,CHX2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,response_rate,CHW2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,wellbeing_action,BVI2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,wellbeing_action_n,CCQ2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,intent_leave,BWW2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,intent_leave_n,CEE2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,thinking_about_leaving_score,BUD2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,thinking_about_leaving_n,CAP2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,work_related_stress,BVJ2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NAX,2021,work_related_stress_n,CCR2,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,burnout_score,BTN3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,burnout_n,CBD3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,n_resp,CHX3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,response_rate,CHW3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,wellbeing_action,BVI3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,wellbeing_action_n,CCQ3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,intent_leave,BWW3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,intent_leave_n,CEE3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,thinking_about_leaving_score,BUD3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,thinking_about_leaving_n,CAP3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,work_related_stress,BVJ3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2021,work_related_stress_n,CCR3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,burnout_score,BCN3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,burnout_n,BKJ3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,n_resp,BRJ3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,response_rate,BRI3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,wellbeing_action,BEI3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,wellbeing_action_n,BLW3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,intent_leave,BGB3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,intent_leave_n,BNP3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,thinking_about_leaving_score,BDD3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,thinking_about_leaving_n,BJV3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,work_related_stress,BEJ3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2022,work_related_stress_n,BLX3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,burnout_score,AKX3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,burnout_n,ATB3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,n_resp,BAJ3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,response_rate,BAI3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,wellbeing_action,AMS3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,wellbeing_action_n,AUO3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,intent_leave,AOO3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,intent_leave_n,AWK3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,thinking_about_leaving_score,ALN3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,thinking_about_leaving_n,ASN3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,work_related_stress,AMT3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2023,work_related_stress_n,AUP3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,burnout_score,TF3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,burnout_n,ABK3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,n_resp,AIT3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,response_rate,AIS3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,wellbeing_action,VA3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,wellbeing_action_n,ACX3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,intent_leave,WX3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,intent_leave_n,AEU3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,thinking_about_leaving_score,TV3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,thinking_about_leaving_n,AAW3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,work_related_stress,VB3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NDJ,2024,work_related_stress_n,ACY3,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,burnout_score,BTN5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,burnout_n,CBD5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,n_resp,CHX5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,response_rate,CHW5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,wellbeing_action,BVI5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,wellbeing_action_n,CCQ5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,intent_leave,BWW5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,intent_leave_n,CEE5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,thinking_about_leaving_score,BUD5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,thinking_about_leaving_n,CAP5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,work_related_stress,BVJ5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2021,work_related_stress_n,CCR5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,burnout_score,BCN5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,burnout_n,BKJ5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,n_resp,BRJ5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,response_rate,BRI5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,wellbeing_action,BEI5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,wellbeing_action_n,BLW5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,intent_leave,BGB5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,intent_leave_n,BNP5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,thinking_about_leaving_score,BDD5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,thinking_about_leaving_n,BJV5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,work_related_stress,BEJ5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2022,work_related_stress_n,BLX5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,burnout_score,AKX5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,burnout_n,ATB5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,n_resp,BAJ5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,response_rate,BAI5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,wellbeing_action,AMS5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,wellbeing_action_n,AUO5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,intent_leave,AOO5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,intent_leave_n,AWK5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,thinking_about_leaving_score,ALN5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,thinking_about_leaving_n,ASN5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,work_related_stress,AMT5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2023,work_related_stress_n,AUP5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,burnout_score,TF5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,burnout_n,ABK5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,n_resp,AIT5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,response_rate,AIS5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,wellbeing_action,VA5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,wellbeing_action_n,ACX5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,intent_leave,WX5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,intent_leave_n,AEU5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,thinking_about_leaving_score,TV5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,thinking_about_leaving_n,AAW5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,work_related_stress,VB5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NQV,2024,work_related_stress_n,ACY5,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,burnout_score,BTN7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,burnout_n,CBD7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,n_resp,CHX7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,response_rate,CHW7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,wellbeing_action,BVI7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,wellbeing_action_n,CCQ7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,intent_leave,BWW7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,intent_leave_n,CEE7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,thinking_about_leaving_score,BUD7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,thinking_about_leaving_n,CAP7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,work_related_stress,BVJ7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NR5,2021,work_related_stress_n,CCR7,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,burnout_score,BTN8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,burnout_n,CBD8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,n_resp,CHX8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,response_rate,CHW8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,wellbeing_action,BVI8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,wellbeing_action_n,CCQ8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,intent_leave,BWW8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,intent_leave_n,CEE8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,thinking_about_leaving_score,BUD8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,thinking_about_leaving_n,CAP8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,work_related_stress,BVJ8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2021,work_related_stress_n,CCR8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,burnout_score,BCN8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,burnout_n,BKJ8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,n_resp,BRJ8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,response_rate,BRI8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,wellbeing_action,BEI8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,wellbeing_action_n,BLW8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,intent_leave,BGB8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,intent_leave_n,BNP8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,thinking_about_leaving_score,BDD8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,thinking_about_leaving_n,BJV8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,work_related_stress,BEJ8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2022,work_related_stress_n,BLX8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,burnout_score,AKX8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,burnout_n,ATB8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,n_resp,BAJ8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,response_rate,BAI8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,wellbeing_action,AMS8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,wellbeing_action_n,AUO8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,intent_leave,AOO8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,intent_leave_n,AWK8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,thinking_about_leaving_score,ALN8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,thinking_about_leaving_n,ASN8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,work_related_stress,AMT8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2023,work_related_stress_n,AUP8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,burnout_score,TF8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,burnout_n,ABK8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,n_resp,AIT8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,response_rate,AIS8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,wellbeing_action,VA8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,wellbeing_action_n,ACX8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,intent_leave,WX8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,intent_leave_n,AEU8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,thinking_about_leaving_score,TV8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,thinking_about_leaving_n,AAW8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,work_related_stress,VB8,Social Enterprises Community,Blank or suppressed in source; not imputed
+NTV,2024,work_related_stress_n,ACY8,Social Enterprises Community,Blank or suppressed in source; not imputed

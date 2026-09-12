@@ -1,0 +1,125 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Altschuler, Brunel, and Malek(2019)}]{altschuler2019contaminated}
+Altschuler, J.; Brunel, V.-E.; and Malek, A. 2019.
+\newblock Best Arm Identification for Contaminated Bandits.
+\newblock \emph{Journal of Machine Learning Research}, 20(91): 1--39.
+
+\bibitem[{Ao et~al.(2026)Ao, Chen, Gao, Li, and Simchi-Levi}]{ao2026judges}
+Ao, R.; Chen, H.; Gao, S.; Li, H.; and Simchi-Levi, D. 2026.
+\newblock Best Arm Identification with {LLM} Judges and Limited Human.
+\newblock Preprint, version 1, 29 January 2026, arXiv:2601.21471.
+
+\bibitem[{Betti et~al.(2026)Betti, Sanni, Sogoyou, Agbagla, Molitor, Carleton,
+  and Rolf}]{dom_betti2026}
+Betti, L.; Sanni, F.; Sogoyou, G.~Z.; Agbagla, T.; Molitor, C.; Carleton, T.;
+  and Rolf, E. 2026.
+\newblock Mapping on a Budget: Optimizing Spatial Data Collection for {ML}.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  40(45): 38233--38241.
+\newblock Special Track on AI for Social Impact I.
+
+\bibitem[{{Centers for Disease Control and Prevention}(2024)}]{cdc2023}
+{Centers for Disease Control and Prevention}. 2024.
+\newblock 2023 {BRFSS} Survey Data and Documentation.
+\newblock Public files and documentation accessed 2026-09-11.
+
+\bibitem[{{Centers for Disease Control and Prevention}(2025)}]{cdc2024}
+{Centers for Disease Control and Prevention}. 2025.
+\newblock 2024 {BRFSS} Survey Data and Documentation.
+\newblock Public files and documentation accessed 2026-09-11.
+
+\bibitem[{Chen et~al.(2008)Chen, He, Fu, and Lee}]{chen2008subset}
+Chen, C.-H.; He, D.; Fu, M.; and Lee, L.~H. 2008.
+\newblock Efficient Simulation Budget Allocation for Selecting an Optimal
+  Subset.
+\newblock \emph{INFORMS Journal on Computing}, 20(4): 579--595.
+
+\bibitem[{Chen et~al.(2014)Chen, Lin, King, Lyu, and
+  Chen}]{chen2014combinatorial}
+Chen, S.; Lin, T.; King, I.; Lyu, M.~R.; and Chen, W. 2014.
+\newblock Combinatorial Pure Exploration of Multi-Armed Bandits.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~27.
+
+\bibitem[{Frazier and Powell(2010)}]{frazier2010paradoxes}
+Frazier, P.~I.; and Powell, W.~B. 2010.
+\newblock Paradoxes in Learning and the Marginal Value of Information.
+\newblock \emph{Decision Analysis}, 7(4): 378--403.
+
+\bibitem[{Frazier, Powell, and Dayanik(2008)}]{frazier2008kg}
+Frazier, P.~I.; Powell, W.~B.; and Dayanik, S. 2008.
+\newblock A Knowledge-Gradient Policy for Sequential Information Collection.
+\newblock \emph{SIAM Journal on Control and Optimization}, 47(5): 2410--2439.
+
+\bibitem[{Frazier, Powell, and Dayanik(2009)}]{frazier2009correlated}
+Frazier, P.~I.; Powell, W.~B.; and Dayanik, S. 2009.
+\newblock The Knowledge-Gradient Policy for Correlated Normal Beliefs.
+\newblock \emph{INFORMS Journal on Computing}, 21(4): 599--613.
+
+\bibitem[{Goebel et~al.(2026)Goebel, Solow, Pesantez-Cabrera, Keller, and
+  Fern}]{dom_goebel2026}
+Goebel, K.; Solow, W.; Pesantez-Cabrera, P.; Keller, M.; and Fern, A. 2026.
+\newblock Budgeted Online Active Learning with Expert Advice and Episodic
+  Priors.
+\newblock \emph{Proceedings of the AAAI Conference on Artificial Intelligence},
+  40(45): 38496--38504.
+\newblock Special Track on AI for Social Impact I.
+
+\bibitem[{Goldstein and Spiegelhalter(1996)}]{goldstein1996league}
+Goldstein, H.; and Spiegelhalter, D.~J. 1996.
+\newblock League Tables and Their Limitations: Statistical Issues in
+  Comparisons of Institutional Performance.
+\newblock \emph{Journal of the Royal Statistical Society: Series A (Statistics
+  in Society)}, 159(3): 385--443.
+\newblock With discussion.
+
+\bibitem[{Kalyanakrishnan et~al.(2012)Kalyanakrishnan, Tewari, Auer, and
+  Stone}]{kalyanakrishnan2012pac}
+Kalyanakrishnan, S.; Tewari, A.; Auer, P.; and Stone, P. 2012.
+\newblock {PAC} Subset Selection in Stochastic Multi-armed Bandits.
+\newblock In \emph{Proceedings of the 29th International Conference on Machine
+  Learning}, 655--662.
+
+\bibitem[{Lin et~al.(2006)Lin, Louis, Paddock, and Ridgeway}]{lin2006ranking}
+Lin, R.; Louis, T.~A.; Paddock, S.~M.; and Ridgeway, G. 2006.
+\newblock Loss Function Based Ranking in Two-Stage, Hierarchical Models.
+\newblock \emph{Bayesian Analysis}, 1(4): 915--946.
+
+\bibitem[{{NHS England}(2023{\natexlab{a}})}]{dom_listeningwell2023}
+{NHS England}. 2023{\natexlab{a}}.
+\newblock Listening Well Guidance.
+\newblock Published 21 February 2023. Accessed 2026-09-11.
+
+\bibitem[{{NHS England}(2023{\natexlab{b}})}]{dom_nqps2023}
+{NHS England}. 2023{\natexlab{b}}.
+\newblock National Quarterly Pulse Survey: Guidance for Implementing and
+  Submitting Results.
+\newblock Technical report, NHS England.
+\newblock Publishing Approval Reference PAR581. Accessed 2026-09-11.
+
+\bibitem[{{NHS Staff Survey}(2026)}]{nhs2025workbook}
+{NHS Staff Survey}. 2026.
+\newblock {NSS Benchmark Report Excel Data for 2021--2025}.
+\newblock Version 2, updated 17 March 2026; accessed 11 September 2026.
+
+\bibitem[{{NHS Staff Survey Coordination Centre}(2026)}]{nhs2025technical}
+{NHS Staff Survey Coordination Centre}. 2026.
+\newblock Technical Guide to the 2025 {NHS Staff Survey}.
+\newblock Version 2; accessed 11 September 2026.
+
+\bibitem[{Poiani et~al.(2024)Poiani, Degenne, Kaufmann, Metelli, and
+  Restelli}]{poiani2024optimal}
+Poiani, R.; Degenne, R.; Kaufmann, E.; Metelli, A.~M.; and Restelli, M. 2024.
+\newblock Optimal Multi-Fidelity Best-Arm Identification.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37.
+
+\bibitem[{Poloczek, Wang, and Frazier(2017)}]{poloczek2017miso}
+Poloczek, M.; Wang, J.; and Frazier, P.~I. 2017.
+\newblock Multi-Information Source Optimization.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30.
+
+\end{thebibliography}

@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "generated_at_utc": "2026-09-11T18:55:44.514096+00:00",
+  "primary_benchmark_vintages": [
+    {
+      "vintage": 2023,
+      "archive_capture": "20240705035334",
+      "archive_cdx_digest_matches": true,
+      "source_sha256": "ce147719f3798cf597ea77509fea739a39a84a6e39d0fa0cd7c7ba49b8909929",
+      "workbook_created": "2024-05-28 15:12:36",
+      "workbook_modified": "2024-05-29 08:26:28",
+      "rows": 804,
+      "organisations": 268,
+      "trust_organisations": 213,
+      "complete_comparable_trust_histories": 207,
+      "missing_scores": 36
+    },
+    {
+      "vintage": 2024,
+      "archive_capture": "20250427122552",
+      "archive_cdx_digest_matches": true,
+      "source_sha256": "6939c8a0ebb2e0ba9a970952cc5dfbdfbb398fb8319ae8bbf7af9c8a9cb9978a",
+      "workbook_created": "2025-01-10 04:38:30",
+      "workbook_modified": "2025-02-04 08:57:58",
+      "rows": 1052,
+      "organisations": 263,
+      "trust_organisations": 210,
+      "complete_comparable_trust_histories": 201,
+      "missing_scores": 45
+    }
+  ],
+  "annual_rows": 1075,
+  "annual_org_counts": {
+    "2021": 280,
+    "2022": 264,
+    "2023": 268,
+    "2024": 263
+  },
+  "outputs": {
+    "benchmark_vintage_panel.csv": "3db4af6e0c65a3412e899c048211fca1a2498e1ef5342df75fa04088c1a1a31e",
+    "annual_release_current_year_panel.csv": "b183a63b395e207a39516ef80a43b835f1e75707bc68f72196c4d2751678e5a6"
+  },
+  "parser_sha256": "708cc10365f3b13ef43ff23844fd115752ff41f86a8649cf62923b9c4d667ed1",
+  "scope": "Archived official benchmark files provide genuine reporting vintages; availability is established by archive capture, not exact release day. No model fitting is performed."
+}

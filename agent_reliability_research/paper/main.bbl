@@ -1,0 +1,131 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Beatson and Adams(2019)]{beatson2019}
+Alex Beatson and Ryan~P. Adams.
+\newblock Efficient optimization of loops and limits with randomized
+  telescoping sums.
+\newblock In \emph{International Conference on Machine Learning}, volume~97 of
+  \emph{PMLR}, pages 534--543, 2019.
+\newblock URL \url{https://proceedings.mlr.press/v97/beatson19a.html}.
+
+\bibitem[Cai et~al.(2025)Cai, Wang, Liu, Liu, Niu, and Sugiyama]{cai2025}
+Xin-Qiang Cai, Wei Wang, Feng Liu, Tongliang Liu, Gang Niu, and Masashi
+  Sugiyama.
+\newblock Reinforcement learning with verifiable yet noisy rewards under
+  imperfect verifiers, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.00915v4}.
+\newblock Version 4, revised 22 May 2026.
+
+\bibitem[El~Mansouri et~al.(2025)El~Mansouri, Izzati, Seddik, and
+  Lahlou]{mansouri2025}
+Omar El~Mansouri, Fathinah~Asma Izzati, Mohamed El~Amine Seddik, and Salem
+  Lahlou.
+\newblock Noise-corrected {GRPO}: From noisy rewards to unbiased gradients,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2510.18924v3}.
+\newblock Version 3, revised 19 May 2026.
+
+\bibitem[Horvitz and Thompson(1952)]{horvitz1952}
+Daniel~G. Horvitz and Donovan~J. Thompson.
+\newblock A generalization of sampling without replacement from a finite
+  universe.
+\newblock \emph{Journal of the American Statistical Association}, 47\penalty0
+  (260):\penalty0 663--685, 1952.
+\newblock \doi{10.1080/01621459.1952.10483446}.
+\newblock URL \url{https://doi.org/10.1080/01621459.1952.10483446}.
+
+\bibitem[Huang and Jiang(2020)]{huang2020}
+Jiawei Huang and Nan Jiang.
+\newblock From importance sampling to doubly robust policy gradient.
+\newblock In \emph{International Conference on Machine Learning}, volume 119 of
+  \emph{PMLR}, pages 4434--4443, 2020.
+\newblock URL \url{https://proceedings.mlr.press/v119/huang20b.html}.
+
+\bibitem[Jiang and Li(2016)]{jiang2016}
+Nan Jiang and Lihong Li.
+\newblock Doubly robust off-policy value evaluation for reinforcement learning.
+\newblock In \emph{International Conference on Machine Learning}, volume~48 of
+  \emph{PMLR}, pages 652--661, 2016.
+\newblock URL \url{https://proceedings.mlr.press/v48/jiang16.html}.
+
+\bibitem[Kaniewski et~al.(2014)Kaniewski, Lee, and de~Wolf]{kaniewski2015}
+Jedrzej Kaniewski, Troy Lee, and Ronald de~Wolf.
+\newblock Query complexity in expectation, 2014.
+\newblock URL \url{https://arxiv.org/abs/1411.7280}.
+
+\bibitem[Li et~al.(2025)Li, Zrnic, and Candes]{li2025}
+Puheng Li, Tijana Zrnic, and Emmanuel Candes.
+\newblock Robust sampling for active statistical inference.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~38, 2025.
+\newblock \doi{10.52202/085713-2312}.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2025/hash/6389470564214983604d1ac81631c2c5-Abstract-Conference.html}.
+
+\bibitem[Liu et~al.(2026)Liu, Neary, Gupta, Suttle, Ellis, Topcu, and
+  Fridovich-Keil]{liu2026}
+Xinjie Liu, Cyrus Neary, Kushagra Gupta, Wesley~A. Suttle, Christian Ellis,
+  Ufuk Topcu, and David Fridovich-Keil.
+\newblock A multi-fidelity control variate approach for policy gradient
+  estimation.
+\newblock \emph{Transactions on Machine Learning Research}, 2026.
+\newblock URL \url{https://openreview.net/forum?id=zAo0L7Dcqt}.
+
+\bibitem[Pan et~al.(2025)Pan, Wang, Neubig, Jaitly, Ji, Suhr, and
+  Zhang]{pan2025}
+Jiayi Pan, Xingyao Wang, Graham Neubig, Navdeep Jaitly, Heng Ji, Alane Suhr,
+  and Yizhe Zhang.
+\newblock Training software engineering agents and verifiers with {SWE-Gym},
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2412.21139}.
+\newblock Accepted at ICML 2025.
+
+\bibitem[{Qwen Team}(2024)]{qwenmodel}
+{Qwen Team}.
+\newblock {Qwen2.5-Coder-1.5B-Instruct} model card and checkpoint, 2024.
+\newblock URL \url{https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct}.
+\newblock Revision 2e1fd397ee46e1388853d2af2c993145b0f1098a, accessed 12
+  September 2026.
+
+\bibitem[Rhee and Glynn(2015)]{rhee2015}
+Chang-Han Rhee and Peter~W. Glynn.
+\newblock Unbiased estimation with square root convergence for {SDE} models.
+\newblock \emph{Operations Research}, 63\penalty0 (5):\penalty0 1026--1043,
+  2015.
+\newblock URL \url{https://web.stanford.edu/~glynn/papers/2015/RheeG15.html}.
+
+\bibitem[Schulman et~al.(2017)Schulman, Wolski, Dhariwal, Radford, and
+  Klimov]{schulman2017}
+John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov.
+\newblock Proximal policy optimization algorithms, 2017.
+\newblock URL \url{https://arxiv.org/abs/1707.06347}.
+
+\bibitem[Shao et~al.(2024)Shao, Wang, Zhu, Xu, Song, Bi, Zhang, Zhang, Li, Wu,
+  and Guo]{shao2024}
+Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Xiao Bi, Haowei
+  Zhang, Mingchuan Zhang, Y.~K. Li, Y.~Wu, and Daya Guo.
+\newblock {DeepSeekMath}: Pushing the limits of mathematical reasoning in open
+  language models, 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.03300}.
+
+\bibitem[{SWE-Gym}(2025)]{swegymdata}
+{SWE-Gym}.
+\newblock {OpenHands-Sampled-Trajectories}, 2025.
+\newblock URL
+  \url{https://huggingface.co/datasets/SWE-Gym/OpenHands-Sampled-Trajectories}.
+\newblock Dataset revision baf3a4e4bff514d48ddc08a93a2ade5c126212c7, accessed
+  12 September 2026.
+
+\bibitem[Zrnic and Candes(2024)]{zrnic2024}
+Tijana Zrnic and Emmanuel Candes.
+\newblock Active statistical inference.
+\newblock In \emph{International Conference on Machine Learning}, volume 235 of
+  \emph{PMLR}, pages 62993--63010, 2024.
+\newblock URL \url{https://proceedings.mlr.press/v235/zrnic24a.html}.
+
+\end{thebibliography}

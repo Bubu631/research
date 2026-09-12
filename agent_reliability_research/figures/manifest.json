@@ -1,0 +1,10 @@
+{
+  "script_sha256": "dc1ab1abedb878b2a6cc18e9f3518156059170141e4830c3b98c9889a7fb054a",
+  "figures": {
+    "model_schedule.png": "c5701f65fb5ffa9ba5a557ba6389d71d94fa06ea589712e6327df00dd8de6d5e",
+    "stateful_training.png": "c06e3f91820127463b359f5e77a9c48e35c0079258b1dcfc8391849bbd3b44dc",
+    "calibration_cost.png": "17b8803f0dee040760d0069363f4105789e03a62ff779ae4c125e6f368ba3c10",
+    "query_degree.png": "8f39ef7434f2a2bcda24f4013650a77cf854390ecdd5a9590b1c64233eacb3f3"
+  },
+  "source": "completed saved experiments only"
+}

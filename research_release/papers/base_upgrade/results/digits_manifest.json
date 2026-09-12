@@ -1,0 +1,135 @@
+{
+  "status": "completed_public_data_integration_study",
+  "config": {
+    "seeds": [
+      1701,
+      1702,
+      1703,
+      1704,
+      1705
+    ],
+    "hidden": 48,
+    "old_epochs": 12,
+    "continuation_epochs": 24,
+    "batch_size": 128,
+    "learning_rate": 0.15,
+    "momentum": 0.9,
+    "epsilon": 0.03,
+    "family_error": 0.05,
+    "scalar_candidates": 121,
+    "layer_grid": 11,
+    "training_fraction": 0.4,
+    "development_fraction": 0.2,
+    "certification_fraction": 0.2,
+    "reporting_fraction": 0.2,
+    "continuation_classes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "objective_weights": [
+      0.16,
+      0.16,
+      0.16,
+      0.16,
+      0.16,
+      0.04,
+      0.04,
+      0.04,
+      0.04,
+      0.04
+    ]
+  },
+  "dataset": "sklearn.datasets.load_digits; 1797 examples; 64 features; classes 0-9",
+  "dataset_sha256": "5889d26819cf830d070975af3c711419825fa0a078137b3d80b8e7d06bd58da0",
+  "source": "https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html",
+  "dataset_original": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+  "versions": {
+    "python": "3.13.1",
+    "numpy": "2.5.3",
+    "sklearn": "1.9.1"
+  },
+  "runtime_seconds": 0.29530875012278557,
+  "aggregate": {
+    "incumbent": {
+      "accuracy": {
+        "mean": 0.9477777777777778,
+        "seed_sd": 0.007708020514173116
+      },
+      "weighted_accuracy": {
+        "mean": 0.9478601660484014,
+        "seed_sd": 0.009762074492592816
+      },
+      "worst_slice_difference": {
+        "mean": 0.0,
+        "seed_sd": 0.0
+      }
+    },
+    "updated": {
+      "accuracy": {
+        "mean": 0.7300000000000001,
+        "seed_sd": 0.020165212680979462
+      },
+      "weighted_accuracy": {
+        "mean": 0.8812645519469049,
+        "seed_sd": 0.011299112348129066
+      },
+      "worst_slice_difference": {
+        "mean": -0.9271428571428573,
+        "seed_sd": 0.04644518763848953
+      }
+    },
+    "scalar": {
+      "accuracy": {
+        "mean": 0.9494444444444443,
+        "seed_sd": 0.00865133972355415
+      },
+      "weighted_accuracy": {
+        "mean": 0.9543509425391778,
+        "seed_sd": 0.012300217608491064
+      },
+      "worst_slice_difference": {
+        "mean": -0.02857142857142856,
+        "seed_sd": 0.049487165930539326
+      }
+    },
+    "layer": {
+      "accuracy": {
+        "mean": 0.9483333333333333,
+        "seed_sd": 0.00891489251993402
+      },
+      "weighted_accuracy": {
+        "mean": 0.9545540868599692,
+        "seed_sd": 0.011519740101487633
+      },
+      "worst_slice_difference": {
+        "mean": -0.045564892623716144,
+        "seed_sd": 0.04315155118172128
+      }
+    },
+    "released": {
+      "accuracy": {
+        "mean": 0.9477777777777778,
+        "seed_sd": 0.007708020514173116
+      },
+      "weighted_accuracy": {
+        "mean": 0.9478601660484014,
+        "seed_sd": 0.009762074492592816
+      },
+      "worst_slice_difference": {
+        "mean": 0.0,
+        "seed_sd": 0.0
+      }
+    }
+  },
+  "certification_pass_count": 0,
+  "caveats": [
+    "Not MNIST, multilingual translation, or a foundation-model result.",
+    "Five fixed split/training seeds; seed SD is descriptive, not an independent confidence interval.",
+    "Small certification sets may force incumbent fallback.",
+    "Scalar and layer searches each evaluate 121 development candidates.",
+    "No hyperparameter revision after inspecting certification/reporting results."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "protocol_amendment": "availability-driven after strict G4/G8 groups were found empty",
+  "interpretation": "fixed empirical group target; heterogeneous historical logging; no on-policy claim",
+  "groups": {
+    "4": {
+      "groups": 453,
+      "records": 1812,
+      "mixed_groups": 106,
+      "groups_with_multiple_behavior_models": 178,
+      "groups_with_multiple_behavior_configs": 453,
+      "incomplete_records": 4199,
+      "by_split": {
+        "train": {
+          "groups": 276,
+          "mixed_groups": 62,
+          "tasks": 139
+        },
+        "calibration": {
+          "groups": 78,
+          "mixed_groups": 11,
+          "tasks": 41
+        },
+        "heldout": {
+          "groups": 99,
+          "mixed_groups": 33,
+          "tasks": 50
+        }
+      }
+    },
+    "8": {
+      "groups": 223,
+      "records": 1784,
+      "mixed_groups": 79,
+      "groups_with_multiple_behavior_models": 178,
+      "groups_with_multiple_behavior_configs": 223,
+      "incomplete_records": 4227,
+      "by_split": {
+        "train": {
+          "groups": 137,
+          "mixed_groups": 49,
+          "tasks": 137
+        },
+        "calibration": {
+          "groups": 37,
+          "mixed_groups": 8,
+          "tasks": 37
+        },
+        "heldout": {
+          "groups": 49,
+          "mixed_groups": 22,
+          "tasks": 49
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "unique_records.jsonl": "41e36d07fcc357cc8d2dfdc5d1adebf12a685e3b94ba507dd4508f045c759326",
+    "proxy_predictions.jsonl": "e973ebd44a93d11f7173cb26ca2aa8a85fbdc347c1e297906cad72bf1506d45e",
+    "swe_gym_data_protocol.md": "6085b9724439f59f24269b7a83f807f6d61b373f9721e728d5e5e3df7e0030f7"
+  },
+  "script_sha256": "3b9acbf260ceccccf8e81725573fb36be0a5c0ff5b228e7920980426773c0518",
+  "created_at_utc": "2026-09-12T16:17:52.873423+00:00"
+}

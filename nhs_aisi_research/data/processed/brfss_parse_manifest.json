@@ -1,0 +1,1225 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-09-11T21:29:20.125318+00:00",
+  "parser_sha256": "a07cd3472ad688501bd60ef601b4ed79679499aaec004d6eefbc7ef88a586e37",
+  "source_manifest_sha256": "5cae276e1d2dbfe113c22c82ccdc277ef6b8da5765d19a5b1c61cf57e7273005",
+  "years": {
+    "2023": {
+      "year": 2023,
+      "source_file": "LLCP2023ASC.zip",
+      "source_sha256": "2de39782455d2c365cbfcb5e69a7935685fb1399b08ff1c2d99068a0358bfa46",
+      "source_member": "LLCP2023.ASC ",
+      "sas_member": "SASOUT23_LLCP.SAS",
+      "codebook_member": "USCODE23_LLCP_021924.HTML",
+      "parsed_fields_one_based": {
+        "_STATE": [
+          1,
+          2
+        ],
+        "_PSU": [
+          36,
+          45
+        ],
+        "MENTHLTH": [
+          104,
+          105
+        ],
+        "EMPLOY1": [
+          201,
+          201
+        ],
+        "_STSTR": [
+          1410,
+          1415
+        ],
+        "_LLCPWT": [
+          1749,
+          1758
+        ],
+        "_MENT14D": [
+          1899,
+          1899
+        ]
+      },
+      "total_records": 433323,
+      "observed_record_lengths": {
+        "2111": 433323
+      },
+      "states_and_territories": 52,
+      "state_names": {
+        "01": "Alabama",
+        "02": "Alaska",
+        "04": "Arizona",
+        "05": "Arkansas",
+        "06": "California",
+        "08": "Colorado",
+        "09": "Connecticut",
+        "10": "Delaware",
+        "11": "District of Columbia",
+        "12": "Florida",
+        "13": "Georgia",
+        "15": "Hawaii",
+        "16": "Idaho",
+        "17": "Illinois",
+        "18": "Indiana",
+        "19": "Iowa",
+        "20": "Kansas",
+        "22": "Louisiana",
+        "23": "Maine",
+        "24": "Maryland",
+        "25": "Massachusetts",
+        "26": "Michigan",
+        "27": "Minnesota",
+        "28": "Mississippi",
+        "29": "Missouri",
+        "30": "Montana",
+        "31": "Nebraska",
+        "32": "Nevada",
+        "33": "New Hampshire",
+        "34": "New Jersey",
+        "35": "New Mexico",
+        "36": "New York",
+        "37": "North Carolina",
+        "38": "North Dakota",
+        "39": "Ohio",
+        "40": "Oklahoma",
+        "41": "Oregon",
+        "44": "Rhode Island",
+        "45": "South Carolina",
+        "46": "South Dakota",
+        "47": "Tennessee",
+        "48": "Texas",
+        "49": "Utah",
+        "50": "Vermont",
+        "51": "Virginia",
+        "53": "Washington",
+        "54": "West Virginia",
+        "55": "Wisconsin",
+        "56": "Wyoming",
+        "66": "Guam",
+        "72": "Puerto Rico",
+        "78": "Virgin Islands"
+      },
+      "mental_codebook_marginals_match": true,
+      "employment_codebook_marginals_match": true,
+      "mental_marginal": {
+        "88": 257026,
+        "1-30": 168189,
+        "77": 5992,
+        "99": 2113,
+        "blank": 3
+      },
+      "employment_marginal": {
+        "7": 139949,
+        "8": 25490,
+        "4": 8976,
+        "1": 177871,
+        "5": 17521,
+        "2": 37923,
+        "blank": 2968,
+        "9": 4713,
+        "6": 10244,
+        "3": 7668
+      },
+      "employed_total": 215794,
+      "employed_valid_mental_records": 212989,
+      "published_mental_category_checks": 212989,
+      "published_mental_category_inconsistencies": [],
+      "group_counts": {
+        "01": {
+          "all_records": 4362,
+          "not_employed_or_employment_missing": 2421,
+          "employed_all": 1941,
+          "employed_complete": 1917,
+          "employed_mental_77": 16,
+          "employed_mental_99": 8
+        },
+        "02": {
+          "all_records": 5525,
+          "not_employed_or_employment_missing": 2554,
+          "employed_all": 2971,
+          "employed_complete": 2926,
+          "employed_mental_77": 22,
+          "employed_mental_99": 23
+        },
+        "04": {
+          "all_records": 12036,
+          "not_employed_or_employment_missing": 7052,
+          "employed_all": 4984,
+          "employed_complete": 4920,
+          "employed_mental_77": 40,
+          "employed_mental_99": 24
+        },
+        "05": {
+          "all_records": 5351,
+          "not_employed_or_employment_missing": 3149,
+          "employed_all": 2202,
+          "employed_complete": 2175,
+          "employed_mental_77": 20,
+          "employed_mental_99": 7
+        },
+        "06": {
+          "all_records": 11976,
+          "not_employed_or_employment_missing": 6083,
+          "employed_all": 5893,
+          "employed_complete": 5765,
+          "employed_mental_99": 30,
+          "employed_mental_77": 98
+        },
+        "08": {
+          "all_records": 8783,
+          "not_employed_or_employment_missing": 3844,
+          "employed_all": 4939,
+          "employed_complete": 4889,
+          "employed_mental_77": 31,
+          "employed_mental_99": 19
+        },
+        "09": {
+          "all_records": 9501,
+          "not_employed_or_employment_missing": 4321,
+          "employed_all": 5180,
+          "employed_complete": 5115,
+          "employed_mental_77": 47,
+          "employed_mental_99": 18
+        },
+        "10": {
+          "all_records": 4282,
+          "employed_all": 1895,
+          "employed_complete": 1865,
+          "not_employed_or_employment_missing": 2387,
+          "employed_mental_77": 23,
+          "employed_mental_99": 7
+        },
+        "11": {
+          "all_records": 3207,
+          "not_employed_or_employment_missing": 1331,
+          "employed_all": 1876,
+          "employed_complete": 1860,
+          "employed_mental_77": 13,
+          "employed_mental_99": 3
+        },
+        "12": {
+          "all_records": 13255,
+          "not_employed_or_employment_missing": 7970,
+          "employed_all": 5285,
+          "employed_complete": 5208,
+          "employed_mental_99": 23,
+          "employed_mental_77": 54
+        },
+        "13": {
+          "all_records": 8227,
+          "not_employed_or_employment_missing": 4639,
+          "employed_all": 3588,
+          "employed_complete": 3540,
+          "employed_mental_77": 31,
+          "employed_mental_99": 17
+        },
+        "15": {
+          "all_records": 7832,
+          "not_employed_or_employment_missing": 3707,
+          "employed_all": 4125,
+          "employed_complete": 4100,
+          "employed_mental_77": 17,
+          "employed_mental_99": 8
+        },
+        "16": {
+          "all_records": 6895,
+          "not_employed_or_employment_missing": 3201,
+          "employed_all": 3694,
+          "employed_complete": 3618,
+          "employed_mental_77": 65,
+          "employed_mental_99": 11
+        },
+        "17": {
+          "all_records": 5279,
+          "not_employed_or_employment_missing": 2323,
+          "employed_all": 2956,
+          "employed_complete": 2946,
+          "employed_mental_77": 6,
+          "employed_mental_99": 4
+        },
+        "18": {
+          "all_records": 10993,
+          "not_employed_or_employment_missing": 5498,
+          "employed_all": 5495,
+          "employed_complete": 5440,
+          "employed_mental_77": 33,
+          "employed_mental_99": 22
+        },
+        "19": {
+          "all_records": 8876,
+          "not_employed_or_employment_missing": 3953,
+          "employed_all": 4923,
+          "employed_complete": 4895,
+          "employed_mental_77": 16,
+          "employed_mental_99": 12
+        },
+        "20": {
+          "all_records": 9884,
+          "employed_all": 5477,
+          "employed_complete": 5404,
+          "not_employed_or_employment_missing": 4407,
+          "employed_mental_77": 59,
+          "employed_mental_99": 14
+        },
+        "22": {
+          "all_records": 5388,
+          "not_employed_or_employment_missing": 2771,
+          "employed_all": 2617,
+          "employed_complete": 2589,
+          "employed_mental_77": 18,
+          "employed_mental_99": 10
+        },
+        "23": {
+          "all_records": 12255,
+          "not_employed_or_employment_missing": 7019,
+          "employed_all": 5236,
+          "employed_complete": 5152,
+          "employed_mental_99": 25,
+          "employed_mental_77": 59
+        },
+        "24": {
+          "all_records": 17255,
+          "not_employed_or_employment_missing": 8726,
+          "employed_all": 8529,
+          "employed_complete": 8440,
+          "employed_mental_99": 46,
+          "employed_mental_77": 43
+        },
+        "25": {
+          "all_records": 9528,
+          "not_employed_or_employment_missing": 4198,
+          "employed_all": 5330,
+          "employed_complete": 5258,
+          "employed_mental_77": 52,
+          "employed_mental_99": 20
+        },
+        "26": {
+          "all_records": 9978,
+          "not_employed_or_employment_missing": 5493,
+          "employed_all": 4485,
+          "employed_complete": 4425,
+          "employed_mental_77": 37,
+          "employed_mental_99": 23
+        },
+        "27": {
+          "all_records": 16170,
+          "not_employed_or_employment_missing": 7563,
+          "employed_all": 8607,
+          "employed_complete": 8438,
+          "employed_mental_77": 146,
+          "employed_mental_99": 23
+        },
+        "28": {
+          "all_records": 4069,
+          "not_employed_or_employment_missing": 1944,
+          "employed_all": 2125,
+          "employed_complete": 2094,
+          "employed_mental_77": 30,
+          "employed_mental_99": 1
+        },
+        "29": {
+          "all_records": 7219,
+          "not_employed_or_employment_missing": 3622,
+          "employed_all": 3597,
+          "employed_complete": 3520,
+          "employed_mental_77": 70,
+          "employed_mental_99": 7
+        },
+        "30": {
+          "all_records": 7143,
+          "not_employed_or_employment_missing": 3603,
+          "employed_all": 3540,
+          "employed_complete": 3502,
+          "employed_mental_77": 28,
+          "employed_mental_99": 10
+        },
+        "31": {
+          "all_records": 12886,
+          "not_employed_or_employment_missing": 5576,
+          "employed_all": 7310,
+          "employed_complete": 7263,
+          "employed_mental_99": 21,
+          "employed_mental_77": 26
+        },
+        "32": {
+          "all_records": 2650,
+          "not_employed_or_employment_missing": 1392,
+          "employed_all": 1258,
+          "employed_complete": 1247,
+          "employed_mental_99": 6,
+          "employed_mental_77": 5
+        },
+        "33": {
+          "all_records": 6960,
+          "not_employed_or_employment_missing": 4167,
+          "employed_all": 2793,
+          "employed_complete": 2764,
+          "employed_mental_99": 10,
+          "employed_mental_77": 19
+        },
+        "34": {
+          "all_records": 9328,
+          "not_employed_or_employment_missing": 4459,
+          "employed_all": 4869,
+          "employed_complete": 4803,
+          "employed_mental_77": 58,
+          "employed_mental_99": 8
+        },
+        "35": {
+          "all_records": 3220,
+          "not_employed_or_employment_missing": 1834,
+          "employed_all": 1386,
+          "employed_complete": 1377,
+          "employed_mental_77": 7,
+          "employed_mental_99": 2
+        },
+        "36": {
+          "all_records": 17349,
+          "employed_all": 9547,
+          "employed_complete": 9374,
+          "not_employed_or_employment_missing": 7802,
+          "employed_mental_77": 130,
+          "employed_mental_99": 43
+        },
+        "37": {
+          "all_records": 4088,
+          "not_employed_or_employment_missing": 1915,
+          "employed_all": 2173,
+          "employed_complete": 2148,
+          "employed_mental_77": 16,
+          "employed_mental_99": 9
+        },
+        "38": {
+          "all_records": 5745,
+          "not_employed_or_employment_missing": 2663,
+          "employed_all": 3082,
+          "employed_complete": 3040,
+          "employed_mental_77": 31,
+          "employed_mental_99": 11
+        },
+        "39": {
+          "all_records": 13384,
+          "not_employed_or_employment_missing": 7075,
+          "employed_all": 6309,
+          "employed_complete": 6239,
+          "employed_mental_77": 42,
+          "employed_mental_99": 28
+        },
+        "40": {
+          "all_records": 6727,
+          "not_employed_or_employment_missing": 3302,
+          "employed_all": 3425,
+          "employed_complete": 3337,
+          "employed_mental_77": 80,
+          "employed_mental_99": 8
+        },
+        "41": {
+          "all_records": 6234,
+          "not_employed_or_employment_missing": 2936,
+          "employed_all": 3298,
+          "employed_complete": 3261,
+          "employed_mental_77": 31,
+          "employed_mental_99": 6
+        },
+        "44": {
+          "all_records": 5781,
+          "not_employed_or_employment_missing": 2803,
+          "employed_all": 2978,
+          "employed_complete": 2932,
+          "employed_mental_99": 26,
+          "employed_mental_77": 20
+        },
+        "45": {
+          "all_records": 10038,
+          "employed_all": 4230,
+          "employed_complete": 4179,
+          "employed_mental_77": 31,
+          "not_employed_or_employment_missing": 5808,
+          "employed_mental_99": 20
+        },
+        "46": {
+          "all_records": 5886,
+          "not_employed_or_employment_missing": 2736,
+          "employed_all": 3150,
+          "employed_complete": 3104,
+          "employed_mental_77": 34,
+          "employed_mental_99": 12
+        },
+        "47": {
+          "all_records": 5645,
+          "employed_all": 2800,
+          "employed_complete": 2766,
+          "not_employed_or_employment_missing": 2845,
+          "employed_mental_99": 8,
+          "employed_mental_77": 26
+        },
+        "48": {
+          "all_records": 10059,
+          "not_employed_or_employment_missing": 4937,
+          "employed_all": 5122,
+          "employed_complete": 5076,
+          "employed_mental_99": 20,
+          "employed_mental_77": 26
+        },
+        "49": {
+          "all_records": 11154,
+          "employed_all": 6202,
+          "employed_complete": 6138,
+          "not_employed_or_employment_missing": 4952,
+          "employed_mental_77": 47,
+          "employed_mental_99": 17
+        },
+        "50": {
+          "all_records": 7636,
+          "not_employed_or_employment_missing": 3463,
+          "employed_all": 4173,
+          "employed_complete": 4124,
+          "employed_mental_77": 35,
+          "employed_mental_99": 14
+        },
+        "51": {
+          "all_records": 6981,
+          "not_employed_or_employment_missing": 3893,
+          "employed_all": 3088,
+          "employed_complete": 3039,
+          "employed_mental_77": 41,
+          "employed_mental_99": 8
+        },
+        "53": {
+          "all_records": 26444,
+          "not_employed_or_employment_missing": 12792,
+          "employed_all": 13652,
+          "employed_complete": 13474,
+          "employed_mental_77": 98,
+          "employed_mental_99": 80
+        },
+        "54": {
+          "all_records": 4339,
+          "not_employed_or_employment_missing": 2526,
+          "employed_all": 1813,
+          "employed_complete": 1791,
+          "employed_mental_77": 16,
+          "employed_mental_99": 6
+        },
+        "55": {
+          "all_records": 12819,
+          "not_employed_or_employment_missing": 7299,
+          "employed_all": 5520,
+          "employed_complete": 5452,
+          "employed_mental_99": 10,
+          "employed_mental_77": 58
+        },
+        "56": {
+          "all_records": 4484,
+          "not_employed_or_employment_missing": 2519,
+          "employed_all": 1965,
+          "employed_complete": 1935,
+          "employed_mental_77": 24,
+          "employed_mental_99": 6
+        },
+        "66": {
+          "all_records": 1559,
+          "not_employed_or_employment_missing": 656,
+          "employed_all": 903,
+          "employed_complete": 899,
+          "employed_mental_77": 3,
+          "employed_mental_99": 1
+        },
+        "72": {
+          "all_records": 4594,
+          "not_employed_or_employment_missing": 2394,
+          "employed_all": 2200,
+          "employed_complete": 2188,
+          "employed_mental_77": 9,
+          "employed_mental_99": 3
+        },
+        "78": {
+          "all_records": 2064,
+          "not_employed_or_employment_missing": 1006,
+          "employed_all": 1058,
+          "employed_complete": 1038,
+          "employed_mental_77": 18,
+          "employed_mental_99": 2
+        }
+      }
+    },
+    "2024": {
+      "year": 2024,
+      "source_file": "LLCP2024ASC.zip",
+      "source_sha256": "2f00750dfe3bdb53251eda0557476b119d24b8b502d3b6d8559fbcb5997562e3",
+      "source_member": "LLCP2024.ASC ",
+      "sas_member": "SASOUT24_LLCP.SAS",
+      "codebook_member": "USCODE24_LLCP_082125.HTML",
+      "parsed_fields_one_based": {
+        "_STATE": [
+          1,
+          2
+        ],
+        "_PSU": [
+          36,
+          45
+        ],
+        "MENTHLTH": [
+          104,
+          105
+        ],
+        "EMPLOY1": [
+          201,
+          201
+        ],
+        "_STSTR": [
+          1410,
+          1415
+        ],
+        "_LLCPWT": [
+          1749,
+          1758
+        ],
+        "_MENT14D": [
+          1899,
+          1899
+        ]
+      },
+      "total_records": 457670,
+      "observed_record_lengths": {
+        "2061": 457670
+      },
+      "states_and_territories": 53,
+      "state_names": {
+        "01": "Alabama",
+        "02": "Alaska",
+        "04": "Arizona",
+        "05": "Arkansas",
+        "06": "California",
+        "08": "Colorado",
+        "09": "Connecticut",
+        "10": "Delaware",
+        "11": "District of Columbia",
+        "12": "Florida",
+        "13": "Georgia",
+        "15": "Hawaii",
+        "16": "Idaho",
+        "17": "Illinois",
+        "18": "Indiana",
+        "19": "Iowa",
+        "20": "Kansas",
+        "21": "Kentucky",
+        "22": "Louisiana",
+        "23": "Maine",
+        "24": "Maryland",
+        "25": "Massachusetts",
+        "26": "Michigan",
+        "27": "Minnesota",
+        "28": "Mississippi",
+        "29": "Missouri",
+        "30": "Montana",
+        "31": "Nebraska",
+        "32": "Nevada",
+        "33": "New Hampshire",
+        "34": "New Jersey",
+        "35": "New Mexico",
+        "36": "New York",
+        "37": "North Carolina",
+        "38": "North Dakota",
+        "39": "Ohio",
+        "40": "Oklahoma",
+        "41": "Oregon",
+        "42": "Pennsylvania",
+        "44": "Rhode Island",
+        "45": "South Carolina",
+        "46": "South Dakota",
+        "48": "Texas",
+        "49": "Utah",
+        "50": "Vermont",
+        "51": "Virginia",
+        "53": "Washington",
+        "54": "West Virginia",
+        "55": "Wisconsin",
+        "56": "Wyoming",
+        "66": "Guam",
+        "72": "Puerto Rico",
+        "78": "Virgin Islands"
+      },
+      "mental_codebook_marginals_match": true,
+      "employment_codebook_marginals_match": true,
+      "mental_marginal": {
+        "88": 269909,
+        "1-30": 179605,
+        "77": 5594,
+        "99": 2559,
+        "blank": 3
+      },
+      "employment_marginal": {
+        "7": 146916,
+        "1": 186378,
+        "8": 27758,
+        "5": 17832,
+        "blank": 3303,
+        "2": 39146,
+        "6": 11473,
+        "3": 8953,
+        "9": 5099,
+        "4": 10812
+      },
+      "employed_total": 225524,
+      "employed_valid_mental_records": 222734,
+      "published_mental_category_checks": 222730,
+      "published_mental_category_inconsistencies": [
+        {
+          "source_record_ordinal": 93536,
+          "state": "17",
+          "mental_unhealthy_days": 3,
+          "source_mental_category": 1,
+          "category_from_core_answer": 2,
+          "disposition": "Core MENTHLTH answer retained; no inferred correction or outcome-based exclusion"
+        },
+        {
+          "source_record_ordinal": 93537,
+          "state": "17",
+          "mental_unhealthy_days": 0,
+          "source_mental_category": 2,
+          "category_from_core_answer": 1,
+          "disposition": "Core MENTHLTH answer retained; no inferred correction or outcome-based exclusion"
+        },
+        {
+          "source_record_ordinal": 93740,
+          "state": "17",
+          "mental_unhealthy_days": 0,
+          "source_mental_category": 2,
+          "category_from_core_answer": 1,
+          "disposition": "Core MENTHLTH answer retained; no inferred correction or outcome-based exclusion"
+        },
+        {
+          "source_record_ordinal": 93741,
+          "state": "17",
+          "mental_unhealthy_days": 2,
+          "source_mental_category": 1,
+          "category_from_core_answer": 2,
+          "disposition": "Core MENTHLTH answer retained; no inferred correction or outcome-based exclusion"
+        }
+      ],
+      "group_counts": {
+        "01": {
+          "all_records": 5092,
+          "not_employed_or_employment_missing": 2821,
+          "employed_all": 2271,
+          "employed_complete": 2255,
+          "employed_mental_77": 9,
+          "employed_mental_99": 7
+        },
+        "02": {
+          "all_records": 5496,
+          "not_employed_or_employment_missing": 2494,
+          "employed_all": 3002,
+          "employed_complete": 2966,
+          "employed_mental_77": 23,
+          "employed_mental_99": 13
+        },
+        "04": {
+          "all_records": 8588,
+          "not_employed_or_employment_missing": 4964,
+          "employed_all": 3624,
+          "employed_complete": 3588,
+          "employed_mental_77": 22,
+          "employed_mental_99": 14
+        },
+        "05": {
+          "all_records": 5344,
+          "not_employed_or_employment_missing": 3142,
+          "employed_all": 2202,
+          "employed_complete": 2160,
+          "employed_mental_77": 30,
+          "employed_mental_99": 12
+        },
+        "06": {
+          "all_records": 8382,
+          "not_employed_or_employment_missing": 4454,
+          "employed_all": 3928,
+          "employed_complete": 3867,
+          "employed_mental_77": 51,
+          "employed_mental_99": 10
+        },
+        "08": {
+          "all_records": 10897,
+          "not_employed_or_employment_missing": 4975,
+          "employed_all": 5922,
+          "employed_complete": 5870,
+          "employed_mental_99": 28,
+          "employed_mental_77": 24
+        },
+        "09": {
+          "all_records": 7213,
+          "employed_all": 4037,
+          "employed_complete": 3997,
+          "not_employed_or_employment_missing": 3176,
+          "employed_mental_77": 32,
+          "employed_mental_99": 8
+        },
+        "10": {
+          "all_records": 4360,
+          "not_employed_or_employment_missing": 2596,
+          "employed_all": 1764,
+          "employed_complete": 1743,
+          "employed_mental_99": 9,
+          "employed_mental_77": 12
+        },
+        "11": {
+          "all_records": 3198,
+          "employed_all": 1797,
+          "employed_complete": 1777,
+          "not_employed_or_employment_missing": 1401,
+          "employed_mental_77": 11,
+          "employed_mental_99": 9
+        },
+        "12": {
+          "all_records": 13086,
+          "not_employed_or_employment_missing": 8090,
+          "employed_all": 4996,
+          "employed_complete": 4937,
+          "employed_mental_99": 18,
+          "employed_mental_77": 41
+        },
+        "13": {
+          "all_records": 7262,
+          "not_employed_or_employment_missing": 4079,
+          "employed_all": 3183,
+          "employed_complete": 3156,
+          "employed_mental_77": 17,
+          "employed_mental_99": 10
+        },
+        "15": {
+          "all_records": 6636,
+          "not_employed_or_employment_missing": 3432,
+          "employed_all": 3204,
+          "employed_complete": 3177,
+          "employed_mental_77": 23,
+          "employed_mental_99": 4
+        },
+        "16": {
+          "all_records": 4354,
+          "not_employed_or_employment_missing": 2038,
+          "employed_all": 2316,
+          "employed_complete": 2284,
+          "employed_mental_77": 28,
+          "employed_mental_99": 4
+        },
+        "17": {
+          "all_records": 11980,
+          "employed_all": 6545,
+          "employed_complete": 6514,
+          "not_employed_or_employment_missing": 5435,
+          "employed_mental_77": 16,
+          "employed_mental_99": 15
+        },
+        "18": {
+          "all_records": 13050,
+          "not_employed_or_employment_missing": 6432,
+          "employed_all": 6618,
+          "employed_complete": 6530,
+          "employed_mental_77": 38,
+          "employed_mental_99": 50
+        },
+        "19": {
+          "all_records": 8735,
+          "not_employed_or_employment_missing": 4085,
+          "employed_all": 4650,
+          "employed_mental_99": 24,
+          "employed_complete": 4612,
+          "employed_mental_77": 14
+        },
+        "20": {
+          "all_records": 10888,
+          "employed_all": 5909,
+          "employed_complete": 5814,
+          "not_employed_or_employment_missing": 4979,
+          "employed_mental_77": 77,
+          "employed_mental_99": 18
+        },
+        "21": {
+          "all_records": 7470,
+          "not_employed_or_employment_missing": 4310,
+          "employed_all": 3160,
+          "employed_complete": 3119,
+          "employed_mental_77": 26,
+          "employed_mental_99": 15
+        },
+        "22": {
+          "all_records": 4547,
+          "not_employed_or_employment_missing": 2430,
+          "employed_all": 2117,
+          "employed_complete": 2081,
+          "employed_mental_77": 30,
+          "employed_mental_99": 6
+        },
+        "23": {
+          "all_records": 12144,
+          "not_employed_or_employment_missing": 6489,
+          "employed_all": 5655,
+          "employed_complete": 5587,
+          "employed_mental_99": 36,
+          "employed_mental_77": 32
+        },
+        "24": {
+          "all_records": 14462,
+          "not_employed_or_employment_missing": 7203,
+          "employed_all": 7259,
+          "employed_complete": 7179,
+          "employed_mental_99": 42,
+          "employed_mental_77": 38
+        },
+        "25": {
+          "all_records": 9485,
+          "not_employed_or_employment_missing": 4297,
+          "employed_all": 5188,
+          "employed_complete": 5117,
+          "employed_mental_77": 36,
+          "employed_mental_99": 35
+        },
+        "26": {
+          "all_records": 11419,
+          "not_employed_or_employment_missing": 6605,
+          "employed_all": 4814,
+          "employed_complete": 4757,
+          "employed_mental_99": 28,
+          "employed_mental_77": 29
+        },
+        "27": {
+          "all_records": 15199,
+          "not_employed_or_employment_missing": 6925,
+          "employed_all": 8274,
+          "employed_complete": 8184,
+          "employed_mental_99": 33,
+          "employed_mental_77": 57
+        },
+        "28": {
+          "all_records": 2986,
+          "not_employed_or_employment_missing": 1346,
+          "employed_all": 1640,
+          "employed_complete": 1618,
+          "employed_mental_99": 4,
+          "employed_mental_77": 18
+        },
+        "29": {
+          "all_records": 7309,
+          "not_employed_or_employment_missing": 3493,
+          "employed_all": 3816,
+          "employed_complete": 3745,
+          "employed_mental_77": 60,
+          "employed_mental_99": 11
+        },
+        "30": {
+          "all_records": 6816,
+          "not_employed_or_employment_missing": 3568,
+          "employed_all": 3248,
+          "employed_complete": 3212,
+          "employed_mental_77": 28,
+          "employed_mental_99": 8
+        },
+        "31": {
+          "all_records": 12671,
+          "not_employed_or_employment_missing": 5991,
+          "employed_all": 6680,
+          "employed_complete": 6619,
+          "employed_mental_77": 37,
+          "employed_mental_99": 24
+        },
+        "32": {
+          "all_records": 2662,
+          "not_employed_or_employment_missing": 1405,
+          "employed_all": 1257,
+          "employed_complete": 1232,
+          "employed_mental_77": 15,
+          "employed_mental_99": 10
+        },
+        "33": {
+          "all_records": 6981,
+          "not_employed_or_employment_missing": 4278,
+          "employed_all": 2703,
+          "employed_complete": 2678,
+          "employed_mental_99": 10,
+          "employed_mental_77": 15
+        },
+        "34": {
+          "all_records": 8666,
+          "not_employed_or_employment_missing": 3927,
+          "employed_all": 4739,
+          "employed_complete": 4671,
+          "employed_mental_99": 16,
+          "employed_mental_77": 52
+        },
+        "35": {
+          "all_records": 3393,
+          "not_employed_or_employment_missing": 1859,
+          "employed_all": 1534,
+          "employed_complete": 1516,
+          "employed_mental_99": 5,
+          "employed_mental_77": 13
+        },
+        "36": {
+          "all_records": 43913,
+          "not_employed_or_employment_missing": 20906,
+          "employed_all": 23007,
+          "employed_complete": 22708,
+          "employed_mental_77": 217,
+          "employed_mental_99": 82
+        },
+        "37": {
+          "all_records": 4325,
+          "not_employed_or_employment_missing": 1994,
+          "employed_all": 2331,
+          "employed_complete": 2302,
+          "employed_mental_77": 21,
+          "employed_mental_99": 8
+        },
+        "38": {
+          "all_records": 5860,
+          "not_employed_or_employment_missing": 2801,
+          "employed_all": 3059,
+          "employed_complete": 3034,
+          "employed_mental_77": 14,
+          "employed_mental_99": 11
+        },
+        "39": {
+          "all_records": 10180,
+          "not_employed_or_employment_missing": 5554,
+          "employed_all": 4626,
+          "employed_complete": 4576,
+          "employed_mental_77": 36,
+          "employed_mental_99": 14
+        },
+        "40": {
+          "all_records": 7063,
+          "employed_all": 3452,
+          "employed_complete": 3371,
+          "not_employed_or_employment_missing": 3611,
+          "employed_mental_77": 75,
+          "employed_mental_99": 6
+        },
+        "41": {
+          "all_records": 6152,
+          "not_employed_or_employment_missing": 3037,
+          "employed_all": 3115,
+          "employed_complete": 3060,
+          "employed_mental_77": 35,
+          "employed_mental_99": 20
+        },
+        "42": {
+          "all_records": 3513,
+          "employed_all": 1723,
+          "employed_complete": 1693,
+          "not_employed_or_employment_missing": 1790,
+          "employed_mental_99": 5,
+          "employed_mental_77": 25
+        },
+        "44": {
+          "all_records": 5467,
+          "not_employed_or_employment_missing": 2736,
+          "employed_all": 2731,
+          "employed_complete": 2689,
+          "employed_mental_77": 27,
+          "employed_mental_99": 15
+        },
+        "45": {
+          "all_records": 9485,
+          "employed_all": 3907,
+          "employed_complete": 3847,
+          "not_employed_or_employment_missing": 5578,
+          "employed_mental_77": 32,
+          "employed_mental_99": 28
+        },
+        "46": {
+          "all_records": 5855,
+          "not_employed_or_employment_missing": 2797,
+          "employed_all": 3058,
+          "employed_complete": 3024,
+          "employed_mental_77": 22,
+          "employed_mental_99": 12
+        },
+        "48": {
+          "all_records": 12291,
+          "employed_all": 6563,
+          "employed_complete": 6475,
+          "not_employed_or_employment_missing": 5728,
+          "employed_mental_77": 53,
+          "employed_mental_99": 35
+        },
+        "49": {
+          "all_records": 12782,
+          "not_employed_or_employment_missing": 5653,
+          "employed_all": 7129,
+          "employed_complete": 7036,
+          "employed_mental_77": 76,
+          "employed_mental_99": 17
+        },
+        "50": {
+          "all_records": 6520,
+          "employed_all": 3555,
+          "employed_complete": 3515,
+          "not_employed_or_employment_missing": 2965,
+          "employed_mental_99": 22,
+          "employed_mental_77": 18
+        },
+        "51": {
+          "all_records": 6860,
+          "employed_all": 2943,
+          "employed_complete": 2915,
+          "not_employed_or_employment_missing": 3917,
+          "employed_mental_99": 11,
+          "employed_mental_77": 17
+        },
+        "53": {
+          "all_records": 25800,
+          "not_employed_or_employment_missing": 13112,
+          "employed_all": 12688,
+          "employed_complete": 12530,
+          "employed_mental_99": 60,
+          "employed_mental_77": 98
+        },
+        "54": {
+          "all_records": 5816,
+          "not_employed_or_employment_missing": 3402,
+          "employed_all": 2414,
+          "employed_complete": 2382,
+          "employed_mental_77": 27,
+          "employed_mental_99": 5
+        },
+        "55": {
+          "all_records": 13096,
+          "employed_all": 5365,
+          "employed_complete": 5259,
+          "not_employed_or_employment_missing": 7731,
+          "employed_mental_99": 15,
+          "employed_mental_77": 91
+        },
+        "56": {
+          "all_records": 4604,
+          "not_employed_or_employment_missing": 2599,
+          "employed_all": 2005,
+          "employed_complete": 1985,
+          "employed_mental_99": 6,
+          "employed_mental_77": 14
+        },
+        "66": {
+          "all_records": 1660,
+          "not_employed_or_employment_missing": 697,
+          "employed_all": 963,
+          "employed_complete": 958,
+          "employed_mental_77": 3,
+          "employed_mental_99": 2
+        },
+        "72": {
+          "all_records": 4309,
+          "not_employed_or_employment_missing": 2223,
+          "employed_all": 2086,
+          "employed_complete": 2078,
+          "employed_mental_77": 8
+        },
+        "78": {
+          "all_records": 1348,
+          "not_employed_or_employment_missing": 596,
+          "employed_all": 752,
+          "employed_complete": 735,
+          "employed_mental_77": 16,
+          "employed_mental_99": 1
+        }
+      }
+    }
+  },
+  "common_states_and_dc": [
+    "01",
+    "02",
+    "04",
+    "05",
+    "06",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "44",
+    "45",
+    "46",
+    "48",
+    "49",
+    "50",
+    "51",
+    "53",
+    "54",
+    "55",
+    "56"
+  ],
+  "common_group_count": 48,
+  "primary_rows_by_year": {
+    "2023": 206098,
+    "2024": 214151
+  },
+  "primary_group_size_ranges": {
+    "2023": [
+      1247,
+      13474
+    ],
+    "2024": [
+      1232,
+      22708
+    ]
+  },
+  "outputs": {
+    "brfss_employed_2023.csv": {
+      "sha256": "5c1c5735fd83707fa8d8914643036c935ae2511f4e7224d242224c7c61537da1",
+      "bytes": 22097574
+    },
+    "brfss_employed_2023_2024.csv": {
+      "sha256": "090eea1fb558add5fca0ae13d11f911197a89214186d91ed2bfbe937b88361a9",
+      "bytes": 45057428
+    },
+    "brfss_employed_2023_all_areas.csv": {
+      "sha256": "b10aef661b4f2b8f95746ce52b321eee1941a87e4541a438564aa73cc4e1a0cc",
+      "bytes": 22840142
+    },
+    "brfss_employed_2024.csv": {
+      "sha256": "16872bd93a1120053dda882cb4f046fa2379eef63db590132faf9cd0783df6b2",
+      "bytes": 22960011
+    },
+    "brfss_employed_2024_all_areas.csv": {
+      "sha256": "1a9c18c402a82aa9c83bd23f1dfead00ee91db663942bf0889f82669442a15dc",
+      "bytes": 23885032
+    },
+    "brfss_group_reference.csv": {
+      "sha256": "267c62a4a048205088037003c486a226cea46c69918ec6451d54bed5bf848ada",
+      "bytes": 18225
+    }
+  },
+  "interpretation": "Finite public-file respondent frames, not latent mental health truth or state population prevalence",
+  "primary_target": "Unweighted mean health among the complete employed respondents in each common state/DC and year",
+  "health_definition": "health=(30-MENTHLTH_recoded_days)/3; 0 to 10, higher is better; not the NHS burnout composite",
+  "weights": "Original _LLCPWT retained. Kish concentration n is not a design-adjusted effective sample size. Weighted subset ratios are not exactly unbiased under uniform sampling.",
+  "filtering": "EMPLOY1 in {1,2}; MENTHLTH in {1,...,30,88}, with 88 recoded to zero; 77/99/blank excluded; common states/DC only for primary files"
+}

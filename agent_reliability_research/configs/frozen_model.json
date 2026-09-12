@@ -1,0 +1,7 @@
+{
+  "model_id": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+  "retrieved_at_utc": "2026-09-12T16:05:47.823079+00:00",
+  "license": "Apache-2.0",
+  "use": "Frozen-checkpoint diagnostic; no on-policy or full-model-training claim"
+}

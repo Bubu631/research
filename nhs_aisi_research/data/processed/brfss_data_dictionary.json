@@ -1,0 +1,23 @@
+{
+  "dataset": "CDC BRFSS employed-adult finite-file replay frames, 2023 and 2024",
+  "primary_files": ["brfss_employed_2023.csv", "brfss_employed_2024.csv"],
+  "year": {"type": "integer", "definition": "BRFSS survey year; these are independent cross-sections, not linked respondents"},
+  "state": {"type": "string", "definition": "Two-character _STATE FIPS code; read as string to preserve leading zero. Primary frame contains 47 common states and DC"},
+  "state_name": {"type": "string", "definition": "Name transcribed programmatically from the corresponding CDC codebook"},
+  "health": {"type": "number", "range": [0, 10], "definition": "(30 - mental_unhealthy_days)/3; higher means fewer self-reported mentally unhealthy days. This is an analysis rescaling, not the NHS burnout score"},
+  "weight": {"type": "positive number", "source": "_LLCPWT", "definition": "Original combined landline/cellphone final survey weight as represented in the ASCII public file. Retained for explicit sensitivity analyses; not used to define the primary unweighted respondent-file target"},
+  "stratum": {"type": "string", "source": "_STSTR", "definition": "Published survey-design stratum; scope jointly with year and state"},
+  "psu": {"type": "string", "source": "_PSU", "definition": "Published survey-design primary-sampling-unit code, not a name/contact identifier; scope jointly with year and state"},
+  "anonymrow": {"type": "string", "definition": "First 24 hexadecimal characters of SHA256(year:ASCII_zip_sha256:physical_record_ordinal). Stable within this exact public release, not a longitudinal person ID"},
+  "mental_unhealthy_days": {"type": "integer", "range": [0, 30], "source": "MENTHLTH", "definition": "Core past-30-day mentally unhealthy-day response. Code 88 becomes zero; codes 77, 99 and blank are excluded. Codes 1–30 are retained"},
+  "frequent_mental_distress": {"type": "binary integer", "definition": "1 if mental_unhealthy_days is at least 14, otherwise 0; derived from the core answer rather than overriding it from _MENT14D"},
+  "employment_code": {"type": "integer", "values": [1, 2], "source": "EMPLOY1", "definition": "1 employed for wages; 2 self-employed. Other categories, refused and missing employment are outside this frame"},
+  "employment_category": {"type": "string", "values": ["employed_for_wages", "self_employed"], "definition": "Employment status, not industry or occupation"},
+  "is_state_or_dc": {"type": "binary integer", "definition": "1 for state/DC public codes through 56; 0 for the three territories. Always 1 in primary common-group CSVs; useful in all_areas CSVs"},
+  "reference_file": "brfss_group_reference.csv",
+  "reference_scope": "Complete-file oracle summaries for evaluation and documented 2023-only calibration. 2024 complete-frame outcomes, means and variances must not be supplied to an acquisition policy",
+  "finite_file_variance": "Population variance with denominator N over the retained respondent records, not a survey-population variance or an unbiased sample-variance estimate",
+  "finite_file_weighted_ratio": "Sum(weight * health)/sum(weight) over all retained records. This is a second finite-file estimand, not established state-population truth",
+  "kish_weight_concentration_n": "(sum weights)^2/sum(weights^2). Describes weight concentration only; excludes clustering, stratification, outcome dependence, nonresponse and other design effects. Do not label it a complete survey effective sample size",
+  "industry": "Not included. Industry/occupation modules do not have uniform national coverage and may require questionnaire-version-specific weights. No employer, hospital or department is inferred"
+}

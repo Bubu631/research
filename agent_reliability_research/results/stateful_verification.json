@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "environment": {
+    "correct_release": true,
+    "dependency_omission_detected": true,
+    "attestation_omission_detected": true,
+    "local_failure_detected": true
+  },
+  "score_finite_difference_max_error": 1.3980195473495272e-11,
+  "generated_release_boundary_checks": 192,
+  "integrated_rr_all_cutoffs_max_error": 4.440892098500626e-16,
+  "maximum_reference_queries_per_group": 8,
+  "seed": 20260912991,
+  "scope": "No full training; exact cutoff expectation on actual generated releases and numerical likelihood derivatives."
+}

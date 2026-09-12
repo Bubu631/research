@@ -1,0 +1,11 @@
+{
+  "vintage": 2022,
+  "page_url": "https://web.archive.org/web/20230321120734id_/https://www.nhsstaffsurveys.com/results/local-results/",
+  "accessed_at_utc": "2026-09-11T18:59:42.669229+00:00",
+  "xlsx_links": [
+    "/static/97ce0b4753776432614b5e0559fba39d/benchmark_report_excel_data_2018-2022-v2.xlsx"
+  ],
+  "original_url": "https://www.nhsstaffsurveys.com/static/97ce0b4753776432614b5e0559fba39d/benchmark_report_excel_data_2018-2022-v2.xlsx",
+  "cdx_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fwww.nhsstaffsurveys.com%2Fstatic%2F97ce0b4753776432614b5e0559fba39d%2Fbenchmark_report_excel_data_2018-2022-v2.xlsx&output=json&filter=statuscode%3A200&collapse=digest",
+  "captures": []
+}

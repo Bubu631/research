@@ -1,0 +1,149 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Barnett et~al.(2005)Barnett, van~der Pols, and Dobson]{barnett2005rtm}
+Adrian~G. Barnett, Jolieke~C. van~der Pols, and Annette~J. Dobson.
+\newblock Regression to the mean: What it is and how to deal with it.
+\newblock \emph{International Journal of Epidemiology}, 34\penalty0
+  (1):\penalty0 215--220, 2005.
+\newblock \doi{10.1093/ije/dyh299}.
+\newblock URL \url{https://doi.org/10.1093/ije/dyh299}.
+
+\bibitem[Gang et~al.(2026)Gang, Fu, James, and Sun]{gang2026ranking}
+Bowen Gang, Luella Fu, Gareth~M. James, and Wenguang Sun.
+\newblock Ranking and selection in large-scale inference of heteroscedastic
+  units.
+\newblock \emph{The Annals of Applied Statistics}, 20\penalty0 (1), 2026.
+\newblock \doi{10.1214/25-AOAS2123}.
+\newblock URL \url{https://doi.org/10.1214/25-AOAS2123}.
+
+\bibitem[Goldstein and Spiegelhalter(1996)]{goldstein1996league}
+Harvey Goldstein and David~J. Spiegelhalter.
+\newblock League tables and their limitations: Statistical issues in
+  comparisons of institutional performance.
+\newblock \emph{Journal of the Royal Statistical Society: Series A (Statistics
+  in Society)}, 159\penalty0 (3):\penalty0 385--443, 1996.
+\newblock URL
+  \url{https://www.bristol.ac.uk/media-library/sites/cmm/migrated/documents/statistical-issues-for-league-tables1.pdf}.
+\newblock With discussion.
+
+\bibitem[Goldwasser et~al.(2025)Goldwasser, Fithian, and
+  Hooker]{goldwasser2025verification}
+Jeremy Goldwasser, Will Fithian, and Giles Hooker.
+\newblock Gaussian rank verification.
+\newblock \emph{Stat}, 14\penalty0 (3):\penalty0 e70087, 2025.
+\newblock \doi{10.1002/sta4.70087}.
+\newblock URL \url{https://doi.org/10.1002/sta4.70087}.
+
+\bibitem[Gu and Koenker(2023)]{gu2023invidious}
+Jiaying Gu and Roger Koenker.
+\newblock Invidious comparisons: Ranking and selection as compound decisions.
+\newblock \emph{Econometrica}, 91\penalty0 (1):\penalty0 1--41, 2023.
+\newblock \doi{10.3982/ECTA19304}.
+\newblock URL \url{https://doi.org/10.3982/ECTA19304}.
+
+\bibitem[Henderson and Hartman(2025)]{henderson2025robust}
+Nicholas~C. Henderson and Nicholas Hartman.
+\newblock Targeted parameter estimation for robust empirical {Bayes} ranking,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2511.16530}.
+
+\bibitem[Henderson and Newton(2016)]{henderson2016cut}
+Nicholas~C. Henderson and Michael~A. Newton.
+\newblock Making the cut: Improved ranking and selection for large-scale
+  inference.
+\newblock \emph{Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)}, 78\penalty0 (4):\penalty0 781--804, 2016.
+\newblock \doi{10.1111/rssb.12131}.
+\newblock URL
+  \url{https://pages.stat.wisc.edu/~newton/papers/publications/rvalues.pdf}.
+
+\bibitem[Kalman(1960)]{kalman1960filter}
+R.~E. Kalman.
+\newblock A new approach to linear filtering and prediction problems.
+\newblock \emph{Journal of Basic Engineering}, 82\penalty0 (1):\penalty0
+  35--45, 1960.
+\newblock \doi{10.1115/1.3662552}.
+\newblock URL
+  \url{https://www.cs.unc.edu/~welch/kalman/media/pdf/Kalman1960.pdf}.
+
+\bibitem[Lin et~al.(2006)Lin, Louis, Paddock, and Ridgeway]{lin2006ranking}
+Rongheng Lin, Thomas~A. Louis, Susan~M. Paddock, and Greg Ridgeway.
+\newblock Loss function based ranking in two-stage, hierarchical models.
+\newblock \emph{Bayesian Analysis}, 1\penalty0 (4):\penalty0 915--946, 2006.
+\newblock \doi{10.1214/06-BA130}.
+\newblock URL \url{https://doi.org/10.1214/06-BA130}.
+
+\bibitem[{NHS Staff Survey}(2024)]{nhs2023archived}
+{NHS Staff Survey}.
+\newblock {2023 NHS Staff Survey: benchmark report Excel data}, 2024.
+\newblock URL
+  \url{https://web.archive.org/web/20240705035334id_/https://www.nhsstaffsurveys.com/static/7d4ab30226c8780f12de6378d8208303/benchmark_report_excel_data_2019-2023_v2.xlsx}.
+\newblock Archived official workbook; capture 20240705035334; accessed 11
+  September 2026.
+
+\bibitem[{NHS Staff Survey}(2025)]{nhs2024archived}
+{NHS Staff Survey}.
+\newblock {2024 NHS Staff Survey: benchmark report Excel data}, 2025.
+\newblock URL
+  \url{https://web.archive.org/web/20250427122552id_/https://www.nhsstaffsurveys.com/static/4393b3f78f0c9e6c06906310ee7ff6c3/Benchmark-report-Excel-data-for-2020-2024.xlsx}.
+\newblock Archived official workbook; capture 20250427122552; accessed 11
+  September 2026.
+
+\bibitem[{NHS Staff Survey}(2026{\natexlab{a}})]{nhs2025workbook}
+{NHS Staff Survey}.
+\newblock {NSS Benchmark Report Excel Data for 2021--2025}, 2026{\natexlab{a}}.
+\newblock URL
+  \url{https://www.nhsstaffsurveys.com/static/be505cf2e70c080aa35d34279f68e3f2/NSS-Benchmark-report-excel-data-for-2021-2025-v2.xlsx}.
+\newblock Version 2, updated 17 March 2026; accessed 11 September 2026.
+
+\bibitem[{NHS Staff Survey}(2026{\natexlab{b}})]{nhs2026faq}
+{NHS Staff Survey}.
+\newblock Frequently asked questions, 2026{\natexlab{b}}.
+\newblock URL \url{https://www.nhsstaffsurveys.com/faqs/}.
+\newblock Accessed 11 September 2026.
+
+\bibitem[{NHS Staff Survey}(2026{\natexlab{c}})]{nhs2026information}
+{NHS Staff Survey}.
+\newblock {NHS Staff Survey} dashboards: Survey information,
+  2026{\natexlab{c}}.
+\newblock URL \url{https://nhssurveys.co.uk/nss/survey-information/}.
+\newblock 2025 survey reporting and weighting information; accessed 11
+  September 2026.
+
+\bibitem[{NHS Staff Survey Coordination Centre}(2025)]{nhs2024technical}
+{NHS Staff Survey Coordination Centre}.
+\newblock Technical guide to the 2024 {NHS Staff Survey}, 2025.
+\newblock URL
+  \url{https://www.nhsstaffsurveys.com/static/e72dc1bd37edd8026aa06b4290a33dd0/NHS-Staff-Survey-2024-Technical-Guide-V5.pdf}.
+\newblock Version 5, including retrospective data corrections; accessed 11
+  September 2026.
+
+\bibitem[{NHS Staff Survey Coordination Centre}(2026)]{nhs2025technical}
+{NHS Staff Survey Coordination Centre}.
+\newblock Technical guide to the 2025 {NHS Staff Survey}, 2026.
+\newblock URL
+  \url{https://www.nhsstaffsurveys.com/static/0e6b1554117a6a032f16a6cba7b4cc2d/NHS-Staff-Survey-2025-Technical-Guide-V2.pdf}.
+\newblock Version 2; accessed 11 September 2026.
+
+\bibitem[van Houwelingen et~al.(2020)van Houwelingen, Brand, and
+  Louis]{houwelingen2020monitoring}
+Hans~C. van Houwelingen, Ronald Brand, and Thomas~A. Louis.
+\newblock Empirical {Bayes} methods for monitoring health care quality, 2020.
+\newblock URL \url{https://arxiv.org/abs/2009.03058}.
+\newblock arXiv:2009.03058.
+
+\bibitem[Xia et~al.(2022)Xia, He, Li, and Kalbfleisch]{xia2022profiling}
+Lu~Xia, Kevin He, Yanming Li, and John Kalbfleisch.
+\newblock Accounting for total variation and robustness in profiling health
+  care providers.
+\newblock \emph{Biostatistics}, 23\penalty0 (1):\penalty0 257--273, 2022.
+\newblock \doi{10.1093/biostatistics/kxaa024}.
+\newblock URL
+  \url{https://academic.oup.com/biostatistics/article-abstract/23/1/257/5856610}.
+
+\end{thebibliography}

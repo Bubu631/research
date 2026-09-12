@@ -1,0 +1,27 @@
+{
+  "paper_title": "The Audit Complexity of Group-Relative Policy Updates",
+  "pages": 24,
+  "figures": 4,
+  "tables": 3,
+  "artifacts": {
+    "agent_audit_paper.pdf": {
+      "bytes": 913286,
+      "sha256": "d145604af7bc7210799843a00ff8ea9c7a8617d97a5789e8584ded54e968e310"
+    },
+    "agent_audit_arxiv_source.zip": {
+      "bytes": 635392,
+      "sha256": "2f9abd173e5bae0f76c91c901f9d129f58c846158dee3281b2b0c2df443823f7"
+    },
+    "agent_audit_reproducibility.zip": {
+      "bytes": 100104870,
+      "sha256": "213c7841b5dd987613fe1623524e0a297839d3d2a6cc3c2ad9368bcdb9e23504"
+    }
+  },
+  "reproducibility_files": 655,
+  "no_cloud_training_or_submission_claim": true,
+  "archive_compilation": {
+    "status": "passed",
+    "pages": 24,
+    "extracted_page_text_matches_delivered_pdf": true
+  }
+}

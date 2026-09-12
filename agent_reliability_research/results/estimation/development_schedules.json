@@ -1,0 +1,1622 @@
+[
+  {
+    "setting": "g4_p0.05_calibrated",
+    "budget": 0.25,
+    "exponent": 1.0,
+    "development_losses": [
+      49.49435380288282,
+      41.17887118458308,
+      39.90059176776663,
+      52.08962500162825
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.05_calibrated",
+    "budget": 0.5,
+    "exponent": 2.0,
+    "development_losses": [
+      16.498117934294278,
+      12.340376625144408,
+      10.875524094864653,
+      10.299237798852813
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.05_calibrated",
+    "budget": 0.75,
+    "exponent": 2.0,
+    "development_losses": [
+      5.499372644764761,
+      2.948153090969063,
+      2.176939916705244,
+      1.401546606672639
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.05_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      129.9276701715342,
+      126.80520060079698,
+      149.27971379133373,
+      313.0099877854282
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.05_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      43.30922339051139,
+      41.747988605142794,
+      51.235060667275675,
+      78.59512668269862
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.05_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      14.436407796837136,
+      13.422813962845474,
+      14.966927722103117,
+      19.521515286777728
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.05_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      159.62986499336427,
+      286.802749297217,
+      467.9679896677512,
+      1270.4223061575985
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.05_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      53.20995499778808,
+      116.79639714971454,
+      196.53521300665017,
+      373.0375340391362
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.05_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      17.73665166592936,
+      52.80455483487988,
+      73.11582080972211,
+      113.03871151383018
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      116.28569967409453,
+      102.8757368428824,
+      107.8233737133638,
+      180.79787378265118
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      38.761899891364834,
+      32.05691847575878,
+      33.1300976018526,
+      38.68737230285493
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_calibrated",
+    "budget": 0.75,
+    "exponent": 1.0,
+    "development_losses": [
+      12.920633297121611,
+      8.87188896052206,
+      8.701000085309305,
+      8.818652254555564
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      160.78197648392816,
+      157.29279852064485,
+      182.9101578977846,
+      360.794893939533
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      53.593992161309366,
+      51.849403179667725,
+      63.32715943321446,
+      87.25075008599464
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      17.8646640537698,
+      16.52944887888185,
+      18.344532796875164,
+      22.76422617980076
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      217.87357164042675,
+      273.594235601341,
+      374.14324347407666,
+      835.9021997600039
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      72.62452388014225,
+      100.48485586059938,
+      140.4395543478773,
+      223.9322679799666
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.2_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      24.2081746267141,
+      38.49299666270675,
+      49.781619851264395,
+      68.03353263268221
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      119.75656401907091,
+      113.65273172196218,
+      126.59362325041079,
+      221.76988660212746
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      39.918854673023645,
+      36.866938524469276,
+      40.40171496928824,
+      51.42022085642137
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_calibrated",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      13.306284891007884,
+      11.080858999457257,
+      11.661087098059106,
+      13.299541615921708
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      190.97167534785302,
+      185.9584194467166,
+      211.91188826956648,
+      381.94564701209134
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      63.65722511595101,
+      61.15059716538276,
+      69.16312834523501,
+      90.135020091873
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      21.21907503865033,
+      18.97130252637362,
+      20.20406781572083,
+      21.27832218396676
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      278.2144726667152,
+      297.41673230278576,
+      361.805846932209,
+      693.7006905724659
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      92.73815755557176,
+      102.339287373607,
+      125.77751647680925,
+      171.7823529457756
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.5_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      30.9127191851906,
+      34.468702925538395,
+      38.52927793433403,
+      44.82400736744988
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      90.3660034149989,
+      81.39523860045124,
+      86.27423424653527,
+      139.48409865026073
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      30.122001138332966,
+      25.636618731059134,
+      26.741858910940426,
+      31.66846178601215
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_calibrated",
+    "budget": 0.75,
+    "exponent": 1.0,
+    "development_losses": [
+      10.04066704611099,
+      7.1647408988229095,
+      6.877155495248017,
+      7.317313371050823
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      164.82429016564524,
+      160.40787752733956,
+      181.63256906944798,
+      325.10140557617825
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      54.941430055215086,
+      52.733223736062264,
+      59.989748237336464,
+      75.8649755119328
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      18.313810018405032,
+      16.014903091122168,
+      16.85909012036223,
+      20.28011829622924
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      236.648628265291,
+      287.0088762568748,
+      395.6606962215085,
+      953.1917998306607
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      78.88287608843027,
+      104.06300008422227,
+      152.41579654971795,
+      264.3736260221483
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.8_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      26.294292029476765,
+      41.28262393145535,
+      58.87937933200812,
+      88.35478731481038
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      72.0281181246329,
+      71.79145353008393,
+      86.20812345040858,
+      188.97628235262326
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      24.009372708210975,
+      23.89104041093648,
+      30.31201773253996,
+      41.15028804959884
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_calibrated",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      8.003124236070322,
+      7.522528833561319,
+      8.560654259652996,
+      10.30744939741271
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      129.29675801621204,
+      123.84558921787347,
+      142.4050783694814,
+      284.5671662850461
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      43.09891933873735,
+      40.37333493956805,
+      48.25791777220779,
+      71.48375083541228
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      14.366306446245794,
+      12.78137649309879,
+      15.208769024451845,
+      19.79520697213908
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      113.82998870715129,
+      224.90396421060723,
+      371.5462117565824,
+      978.986433875844
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      37.94332956905043,
+      93.48031732077841,
+      156.5748540713027,
+      274.47450060495873
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g4_p0.95_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      12.647776523016812,
+      42.318169130868625,
+      56.875828787279794,
+      84.12159065796685
+    ],
+    "calibration_full_labels": 256
+  },
+  {
+    "setting": "g8_p0.05_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      43.43904660168318,
+      38.716861299918556,
+      44.41414515799866,
+      65.49600304375416
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.05_calibrated",
+    "budget": 0.5,
+    "exponent": 1.0,
+    "development_losses": [
+      14.47968220056106,
+      12.125052720140474,
+      11.937514495073877,
+      12.713982020919586
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.05_calibrated",
+    "budget": 0.75,
+    "exponent": 2.0,
+    "development_losses": [
+      4.8265607335203535,
+      3.0731771823203653,
+      2.271982415194701,
+      1.9992809096306574
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.05_overconfident",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      89.64647866329157,
+      91.46169817865766,
+      121.88632830544398,
+      249.58093339072485
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.05_overconfident",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      29.882159554430526,
+      30.750929660970588,
+      38.391363058044846,
+      58.53654942606255
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.05_overconfident",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      9.96071985147684,
+      10.007997901321747,
+      10.870237465878354,
+      13.289541847567714
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.05_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      87.03221718454074,
+      169.80975597488106,
+      304.4760202818826,
+      809.4909347964218
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.05_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      29.010739061513576,
+      70.1271162076558,
+      108.1680583200405,
+      208.3842723919811
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.05_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      9.67024635383786,
+      28.23378893569407,
+      40.00278259588295,
+      58.61220334515924
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      70.07410534682879,
+      63.7811186874886,
+      76.25202946031656,
+      130.08926522055884
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      23.358035115609585,
+      20.239163126543083,
+      22.819614085782348,
+      30.080494059263014
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_calibrated",
+    "budget": 0.75,
+    "exponent": 1.0,
+    "development_losses": [
+      7.7860117052032,
+      6.036123174084776,
+      6.022643716962459,
+      6.865576564251068
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      92.90353237119122,
+      92.2399511155989,
+      117.64448276011922,
+      216.32666179558518
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      30.967844123730416,
+      30.608047539558324,
+      36.55271102468885,
+      52.91451534524605
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      10.322614707910141,
+      9.788280113847618,
+      10.708620672209237,
+      12.710062570465935
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      116.99018299429811,
+      136.2118198843922,
+      197.17863957468194,
+      419.0707509031196
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      38.99672766476603,
+      48.515579115547474,
+      65.6749556832095,
+      108.96569560300527
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.2_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      12.998909221588677,
+      17.630418128171716,
+      22.64806358734259,
+      32.131001200872994
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      69.78169955216661,
+      69.30874257394747,
+      86.20781994378667,
+      140.90525640177458
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      23.26056651738888,
+      22.87356397269545,
+      25.216373509751783,
+      31.697122281710314
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_calibrated",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      7.753522172462964,
+      6.784425961762944,
+      6.85251903985464,
+      7.457365706993769
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      91.62549837623776,
+      90.24734411220926,
+      113.67111882726918,
+      197.70847548063432
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      30.54183279207925,
+      29.7834501716612,
+      34.31019325838974,
+      46.86955493100879
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      10.180610930693085,
+      9.240219401178882,
+      9.909624584649517,
+      11.582319510425645
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_shifted",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      166.62333095984712,
+      164.33266665788196,
+      206.50005404183213,
+      361.5759093030708
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_shifted",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      55.54111031994902,
+      54.0951821163453,
+      62.36909988921202,
+      88.12405783213835
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.5_shifted",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      18.51370343998301,
+      16.832126655707306,
+      19.04673214333221,
+      23.446902515979176
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      78.0026102325493,
+      63.299119126524076,
+      66.08822197910739,
+      89.641873173521
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_calibrated",
+    "budget": 0.5,
+    "exponent": 1.0,
+    "development_losses": [
+      26.000870077516424,
+      18.62825491397891,
+      17.322339573292663,
+      18.687345096791514
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_calibrated",
+    "budget": 0.75,
+    "exponent": 2.0,
+    "development_losses": [
+      8.666956692505474,
+      4.540900859824729,
+      3.856438768452597,
+      3.6061716087729594
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      91.1979007367879,
+      85.27359582988841,
+      105.15462132191429,
+      182.72932806745993
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      30.39930024559598,
+      27.4723481823064,
+      31.601902618741928,
+      41.65099535959566
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      10.133100081865328,
+      8.492897559380197,
+      8.569736018468037,
+      9.588487159904854
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      153.0032852740675,
+      176.46151112179118,
+      251.30860419247014,
+      533.1393337280862
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      51.00109509135585,
+      62.629723646642205,
+      83.24458996736752,
+      140.57363744541072
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.8_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      17.000365030451952,
+      21.98701818224162,
+      28.238680028728414,
+      41.39425953139037
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      49.12335430068159,
+      41.19353094978851,
+      46.314866497765365,
+      77.55359799969514
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      16.37445143356053,
+      12.441244405714594,
+      12.55234559140621,
+      13.9294783616324
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_calibrated",
+    "budget": 0.75,
+    "exponent": 2.0,
+    "development_losses": [
+      5.458150477853511,
+      3.165216110043005,
+      2.7180835875273988,
+      2.1779754231722612
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      100.36409427244676,
+      96.91153902564214,
+      126.27119521963269,
+      266.4649666581621
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      33.4546980908156,
+      31.705126149652,
+      38.4214712120008,
+      58.5386182892021
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      11.151566030271866,
+      9.965528980829776,
+      11.424028550666888,
+      14.436857952144383
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      103.2216434400458,
+      198.8367151314641,
+      346.62111837005494,
+      916.2213312752698
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      34.40721448001527,
+      81.67636030081269,
+      121.56619104765828,
+      223.89444012460217
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g8_p0.95_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      11.469071493338424,
+      31.660338842969466,
+      41.68275265205972,
+      59.874907731257316
+    ],
+    "calibration_full_labels": 512
+  },
+  {
+    "setting": "g16_p0.05_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      27.27901551068908,
+      20.3040030736403,
+      20.372544943983538,
+      27.55861206647958
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.05_calibrated",
+    "budget": 0.5,
+    "exponent": 2.0,
+    "development_losses": [
+      9.093005170229693,
+      5.447798031023387,
+      4.576802278754322,
+      4.472407010850164
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.05_calibrated",
+    "budget": 0.75,
+    "exponent": 2.0,
+    "development_losses": [
+      3.031001723409898,
+      1.1380729153298175,
+      0.8095476720159936,
+      0.6764028006199615
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.05_overconfident",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      51.75642590990969,
+      57.181419279400934,
+      80.7268582068279,
+      173.97945988411428
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.05_overconfident",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      17.25214196996989,
+      19.27243023183936,
+      24.93594883033161,
+      38.72729052898362
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.05_overconfident",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      5.750713989989968,
+      6.448637396124535,
+      7.442610889038111,
+      9.57395372197539
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.05_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      66.95775762797322,
+      108.27412034824417,
+      182.7802046857497,
+      478.4494636618963
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.05_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      22.319252542657733,
+      41.28164080346981,
+      61.4877045633391,
+      110.96921907791682
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.05_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      7.439750847552581,
+      16.024300378921932,
+      21.201628942911793,
+      29.669517204521842
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      40.34247157517781,
+      32.69570581441368,
+      36.25666699406647,
+      57.422192640555366
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      13.447490525059271,
+      9.746984810702065,
+      9.857063319341155,
+      12.19681442966912
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_calibrated",
+    "budget": 0.75,
+    "exponent": 1.0,
+    "development_losses": [
+      4.482496841686426,
+      2.573407775887727,
+      2.4427875045547256,
+      2.6584901538080357
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      43.948681087120555,
+      42.170767148790155,
+      51.089267277767775,
+      87.01998239504536
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      14.649560362373515,
+      13.383018638282648,
+      14.709537256317702,
+      19.34050825136868
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      4.8831867874578405,
+      3.8673147764102827,
+      3.9866992091712836,
+      4.556464111365914
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      71.41363539507263,
+      86.87073638181533,
+      125.8967197957942,
+      266.80581865406845
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      23.804545131690883,
+      30.65800492695687,
+      40.584011764975486,
+      65.98390443580683
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.2_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      7.934848377230298,
+      10.859969526101827,
+      13.435810417072576,
+      18.25562180548051
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      39.95402995693462,
+      38.145259154158516,
+      45.466500928459595,
+      73.1283982462376
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      13.318009985644874,
+      12.078034054001563,
+      12.75125548421775,
+      15.920479843119372
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_calibrated",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      4.439336661881626,
+      3.3739214988729955,
+      3.3821239086720762,
+      3.6864576194241767
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      56.33004900631935,
+      54.060276720532954,
+      65.13010192727663,
+      110.51464469459333
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      18.776683002106456,
+      17.044667140035298,
+      18.976377451818152,
+      25.70741425504806
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_overconfident",
+    "budget": 0.75,
+    "exponent": 0.5,
+    "development_losses": [
+      6.258894334035488,
+      5.12329795864648,
+      5.550113252719029,
+      6.523755977447998
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      78.22122098978014,
+      82.39570704790297,
+      107.72921072289553,
+      196.99978772334478
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      26.07374032992672,
+      27.470766070874546,
+      32.71200038359537,
+      46.00941689464815
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.5_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      8.691246776642247,
+      8.813110974733211,
+      9.828861096240418,
+      11.890600716755587
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      36.37325002092918,
+      32.04424373460967,
+      36.867291829276496,
+      58.680084223762734
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_calibrated",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      12.124416673643063,
+      9.851662034904562,
+      10.314312639251657,
+      11.973518866631938
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_calibrated",
+    "budget": 0.75,
+    "exponent": 1.0,
+    "development_losses": [
+      4.041472224547688,
+      2.6970720240604122,
+      2.43175089528183,
+      2.481193208241253
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_overconfident",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      61.49182899935507,
+      55.77151019952514,
+      67.25544505865712,
+      112.84354633121528
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_overconfident",
+    "budget": 0.5,
+    "exponent": 0.5,
+    "development_losses": [
+      20.497276333118354,
+      17.637533365609144,
+      19.302744702740423,
+      24.09028938139137
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_overconfident",
+    "budget": 0.75,
+    "exponent": 1.0,
+    "development_losses": [
+      6.832425444372787,
+      5.08509514386626,
+      4.8722926651730845,
+      5.149476704052715
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      74.8644912595631,
+      92.88912623337689,
+      132.75926524109556,
+      273.53253235310166
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      24.954830419854364,
+      32.986081156370936,
+      43.365508761467765,
+      68.76964813398065
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.8_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      8.318276806618123,
+      11.678764492536837,
+      14.147443773713881,
+      18.896058275286407
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_calibrated",
+    "budget": 0.25,
+    "exponent": 0.5,
+    "development_losses": [
+      40.61114423100429,
+      29.497205447946087,
+      30.587040780916656,
+      47.331631152687855
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_calibrated",
+    "budget": 0.5,
+    "exponent": 1.0,
+    "development_losses": [
+      13.537048077001431,
+      8.160503166684821,
+      7.999505373158155,
+      9.719412426152756
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_calibrated",
+    "budget": 0.75,
+    "exponent": 2.0,
+    "development_losses": [
+      4.512349359000478,
+      2.087955902733274,
+      1.9148630003887277,
+      1.8478530994171747
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_overconfident",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      55.747773948015144,
+      62.02321809874705,
+      85.53812512318369,
+      175.56406952430177
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_overconfident",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      18.582591316005047,
+      20.997591842900313,
+      25.712853742843063,
+      36.89408763012147
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_overconfident",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      6.194197105335015,
+      6.6295885780136645,
+      7.043753401975435,
+      7.82247151698423
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_shifted",
+    "budget": 0.25,
+    "exponent": 0.0,
+    "development_losses": [
+      52.22094097128818,
+      105.30536888692542,
+      184.88658917108188,
+      498.07700143014154
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_shifted",
+    "budget": 0.5,
+    "exponent": 0.0,
+    "development_losses": [
+      17.40698032376274,
+      41.46709783802758,
+      64.00979502028488,
+      119.58109338217956
+    ],
+    "calibration_full_labels": 1024
+  },
+  {
+    "setting": "g16_p0.95_shifted",
+    "budget": 0.75,
+    "exponent": 0.0,
+    "development_losses": [
+      5.802326774587577,
+      16.441176175550172,
+      22.890242313916332,
+      35.30529022890958
+    ],
+    "calibration_full_labels": 1024
+  }
+]

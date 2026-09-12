@@ -1,0 +1,9 @@
+ess_factor,assumed_beta,units,review_slots,median_nominal_n,mean_posterior_sd,mean_repeat_floor_sd,top20_validation_preferred,greatest_one_step_KG_per_cost,evidence_type
+1.0,0.0,190,36,3140.5,0.04770552039913907,2.9584363033959436e-11,0,4.62990392130592e-05,model_conditional_scenario_no_new_NHS_observations
+1.0,0.15,190,36,3140.5,0.14429059640645095,0.1378717545027086,20,7.376790241529763e-05,model_conditional_scenario_no_new_NHS_observations
+1.0,0.35,190,36,3140.5,0.24880583565613587,0.2474873734152917,20,0.0002195551101804342,model_conditional_scenario_no_new_NHS_observations
+1.0,0.7,190,36,3140.5,0.31321952020768296,0.3130495168499706,20,0.00033734720361967504,model_conditional_scenario_no_new_NHS_observations
+0.25,0.0,190,36,3140.5,0.09185794107940505,5.5108026685287707e-11,0,0.00023516026871507514,model_conditional_scenario_no_new_NHS_observations
+0.25,0.15,190,36,3140.5,0.15979874998561988,0.1378717545027086,15,0.00022172591543888944,model_conditional_scenario_no_new_NHS_observations
+0.25,0.35,190,36,3140.5,0.25239524808654845,0.24748737341529164,20,0.00022702953196649653,model_conditional_scenario_no_new_NHS_observations
+0.25,0.7,190,36,3140.5,0.31371003048086227,0.3130495168499706,20,0.00033850876172650523,model_conditional_scenario_no_new_NHS_observations

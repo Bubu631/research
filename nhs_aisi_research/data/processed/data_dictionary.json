@@ -1,0 +1,162 @@
+{
+  "burnout_score": {
+    "source_variable": "PP4_2_YEAR",
+    "multiplication_factor": 1,
+    "units": "0\u201310; higher = less burnout",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "burnout_n": {
+    "source_variable": "PP4_2_n_YEAR",
+    "multiplication_factor": 1,
+    "units": "nominal count with a valid composite score",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "n_resp": {
+    "source_variable": "response_rate_n_YEAR",
+    "multiplication_factor": 1,
+    "units": "total completed questionnaires",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "response_rate": {
+    "source_variable": "response_rate_YEAR",
+    "multiplication_factor": 1,
+    "units": "0\u20131; published organisation-specific rate",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "wellbeing_action": {
+    "source_variable": "q11a_YEAR",
+    "units": "proportion agreeing that organisation takes positive action; perceived action, not measured intervention allocation"
+  },
+  "wellbeing_action_n": {
+    "source_variable": "q11a_n_YEAR",
+    "multiplication_factor": 1,
+    "units": "nominal valid question responses",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "intent_leave": {
+    "source_variable": "q26a_YEAR",
+    "units": "proportion often thinking about leaving; intention, not actual subsequent exit",
+    "original_question_number_by_year": {
+      "2021": "Q22a",
+      "2022": "Q24a",
+      "2023": "Q26a",
+      "2024": "Q26a",
+      "2025": "Q26a"
+    },
+    "harmonization": "2025 workbook presents corresponding earlier questions under current q26a_YEAR names"
+  },
+  "intent_leave_n": {
+    "source_variable": "q26a_n_YEAR",
+    "multiplication_factor": 1,
+    "units": "nominal valid question responses",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "thinking_about_leaving_score": {
+    "source_variable": "M_1_YEAR",
+    "multiplication_factor": 1,
+    "units": "0\u201310; higher = less intention to leave",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "thinking_about_leaving_n": {
+    "source_variable": "M_1_n_YEAR",
+    "multiplication_factor": 1,
+    "units": "nominal valid composite responses",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "work_related_stress": {
+    "source_variable": "q11c_YEAR",
+    "multiplication_factor": 1,
+    "units": "0\u20131 yes to feeling unwell due to work-related stress",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "work_related_stress_n": {
+    "source_variable": "q11c_n_YEAR",
+    "multiplication_factor": 1,
+    "units": "nominal valid question responses",
+    "missing": "blank/suppressed source retained as empty CSV field"
+  },
+  "org_code": {
+    "definition": "2025 NSS reporting-unit identifier; not necessarily one independent legal trust"
+  },
+  "org_name": {
+    "definition": "Organisation name used in the 2025 source, applied to its reported history"
+  },
+  "year": {
+    "definition": "Survey year, not publication year"
+  },
+  "benchmark_group": {
+    "definition": "2025 reporting benchmark group; historical observations retain this current classification"
+  },
+  "historically_comparable": {
+    "definition": "Result is provided for this year and organisation is absent from the 2025 no-historical-comparison list; does not establish stable staff membership"
+  },
+  "complete_five_year_history": {
+    "definition": "All five official burnout scores available and no 2025 no-history flag; intended complete-history cohort indicator"
+  },
+  "n_eligible": {
+    "definition": "Empty: eligible population is not directly reported in the workbook; not imputed"
+  },
+  "n_eligible_from_org_rate": {
+    "definition": "Algebraic total n_resp / organisation-specific response_rate; explicitly derived, not directly observed. 2021 rates have limited precision. No national response rate used"
+  },
+  "n_eff": {
+    "definition": "Empty: individual analysis weights and item-specific missingness by weight group are unavailable"
+  },
+  "burnout_se": {
+    "definition": "Empty: no aggregate composite standard error supplied"
+  },
+  "burnout_individual_sd": {
+    "definition": "Empty: individual composite standard deviation unavailable; cannot reconstruct from marginal item percentages without covariance"
+  },
+  "source_cells": {
+    "definition": "JSON field-to-Excel-cell locator; source_sheet and source SHA retained separately"
+  },
+  "benchmark_group_vintage": {
+    "definition": "Year whose reporting classification is used: 2025"
+  },
+  "is_trust": {
+    "definition": "1 for the five official trust reporting groups; 0 for ICBs, social enterprises, community surgical services"
+  },
+  "reporting_unit_type": {
+    "definition": "trust, trust_sector (R1F1/R1F2), or other_organisation"
+  },
+  "legal_org_code": {
+    "definition": "R1F for the two Isle of Wight sectors, otherwise published org_code; not a comprehensive legal-successor crosswalk"
+  },
+  "result_available": {
+    "definition": "1 if a numeric burnout score was published for this unit/year, including current-only units"
+  },
+  "official_2025_no_history": {
+    "definition": "1 when code appears in section 8.1 of the 2025 technical guide"
+  },
+  "comparability_reason": {
+    "definition": "Official 2022\u20132025 historical-comparability explanation, or missing-history/complete-history status; no outcome-based exclusion"
+  },
+  "n_eligible_source": {
+    "definition": "Clarifies that direct eligibility counts are absent from this source"
+  },
+  "n_eligible_derivation": {
+    "definition": "Clarifies derivation and rate-precision limitation for n_eligible_from_org_rate"
+  },
+  "precision_metadata": {
+    "definition": "Distinguishes nominal counts from unavailable effective sample size and standard errors"
+  },
+  "release_vintage": {
+    "definition": "Reporting release vintage used for all observations: 2025 survey release, published 2026"
+  },
+  "weighting": {
+    "definition": "Source weighting for the organisation group; demographic exceptions do not affect retained outcome measures"
+  },
+  "source_file": {
+    "definition": "Repository-relative raw workbook path"
+  },
+  "source_sheet": {
+    "definition": "Exact workbook sheet name"
+  },
+  "source_row": {
+    "definition": "One-based Excel row"
+  },
+  "source_sha256": {
+    "definition": "SHA-256 of the original downloaded workbook"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "source_sha256": "4c97deaeda226bd51fc9ae8756b611f17ac2e78c872c0c5849bb07e7cf312470",
+  "runtime_seconds": 0.002560138702392578,
+  "scope": "epsilon=0, population SD, allsame set to zero",
+  "checks": [
+    {
+      "g": 2,
+      "degree": 2,
+      "full_coefficient": -1.0,
+      "full_formula": -1.0,
+      "one_below_formula": null
+    },
+    {
+      "g": 3,
+      "degree": 2,
+      "full_coefficient": 0.0,
+      "full_formula": -0.0,
+      "one_below_formula": -0.7071067811865475
+    },
+    {
+      "g": 4,
+      "degree": 4,
+      "full_coefficient": -0.46410161513775494,
+      "full_formula": -0.46410161513775505,
+      "one_below_formula": null
+    },
+    {
+      "g": 5,
+      "degree": 4,
+      "full_coefficient": 4.440892098500626e-16,
+      "full_formula": -0.0,
+      "one_below_formula": -0.2752551286084108
+    },
+    {
+      "g": 6,
+      "degree": 6,
+      "full_coefficient": -0.330000331268628,
+      "full_formula": -0.33000033126863004,
+      "one_below_formula": null
+    },
+    {
+      "g": 7,
+      "degree": 6,
+      "full_coefficient": 3.3306690738754696e-16,
+      "full_formula": -0.0,
+      "one_below_formula": -0.1845763080148749
+    },
+    {
+      "g": 8,
+      "degree": 8,
+      "full_coefficient": -0.2645581630687328,
+      "full_formula": -0.26455816306872904,
+      "one_below_formula": null
+    },
+    {
+      "g": 9,
+      "degree": 8,
+      "full_coefficient": -7.771561172376096e-15,
+      "full_formula": -0.0,
+      "one_below_formula": -0.14373475088629306
+    },
+    {
+      "g": 10,
+      "degree": 10,
+      "full_coefficient": -0.22467828515317678,
+      "full_formula": -0.22467828515318156,
+      "one_below_formula": null
+    },
+    {
+      "g": 11,
+      "degree": 10,
+      "full_coefficient": -2.1760371282653068e-14,
+      "full_formula": -0.0,
+      "one_below_formula": -0.11997744703607963
+    },
+    {
+      "g": 12,
+      "degree": 12,
+      "full_coefficient": -0.19739869431980667,
+      "full_formula": -0.1973986943199686,
+      "one_below_formula": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "confirmed_at_utc": "2026-09-12T04:48:20.383238+00:00",
+  "authors_by_paper": {
+    "edit_localization": [
+      "Shengwei Zhang",
+      "Haoda Dai",
+      "Yifei Li",
+      "Yuheng Song"
+    ],
+    "base_upgrade": [
+      "Shengwei Zhang",
+      "Tao Wu",
+      "Fei Qian"
+    ]
+  },
+  "source": "User-confirmed author names, order, and affiliations for each paper; updates apply only to the named paper.",
+  "affiliations_by_author": {
+    "Shengwei Zhang": [
+      "University of Pennsylvania"
+    ],
+    "Haoda Dai": [
+      "University of Pennsylvania"
+    ],
+    "Yifei Li": [
+      "University of Pennsylvania"
+    ],
+    "Yuheng Song": [
+      "University of Pennsylvania"
+    ],
+    "Tao Wu": [
+      "Alibaba International Digital Commerce"
+    ],
+    "Fei Qian": [
+      "Alibaba International Digital Commerce"
+    ]
+  }
+}

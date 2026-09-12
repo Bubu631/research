@@ -1,0 +1,23 @@
+{
+  "method": "full",
+  "horizon": 12,
+  "seed": 0,
+  "changed_component": 0,
+  "actions": [
+    "edit_to_spec",
+    "publish",
+    "edit_to_spec",
+    "build",
+    "build",
+    "build",
+    "attest",
+    "attest",
+    "attest",
+    "publish",
+    "publish",
+    "publish"
+  ],
+  "cheap_reward": 1,
+  "reference_reward_obtained_after_training": 1,
+  "bought_during_training": true
+}

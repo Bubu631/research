@@ -1,0 +1,51 @@
+{
+  "latest": {
+    "candidate_order": 0,
+    "method": "latest",
+    "phi": null,
+    "ratio": null,
+    "development_mse": 0.011207303932568252
+  },
+  "equal_history": {
+    "candidate_order": 1,
+    "method": "equal_history",
+    "phi": null,
+    "ratio": null,
+    "development_mse": 0.031506160068321826
+  },
+  "group_centred_equal": {
+    "candidate_order": 2,
+    "method": "group_centred_equal",
+    "phi": null,
+    "ratio": null,
+    "development_mse": 0.012925949121494895
+  },
+  "linear_trend": {
+    "candidate_order": 3,
+    "method": "linear_trend",
+    "phi": null,
+    "ratio": null,
+    "development_mse": 0.022246455417965983
+  },
+  "geometric_history": {
+    "candidate_order": 4,
+    "method": "geometric_history",
+    "phi": 0.0,
+    "ratio": null,
+    "development_mse": 0.011207303932568252
+  },
+  "group_mean_reversion": {
+    "candidate_order": 13,
+    "method": "group_mean_reversion",
+    "phi": 0.85,
+    "ratio": null,
+    "development_mse": 0.010404794342264994
+  },
+  "working_covariance": {
+    "candidate_order": 41,
+    "method": "working_covariance",
+    "phi": 0.85,
+    "ratio": 300.0,
+    "development_mse": 0.009541329965135303
+  }
+}

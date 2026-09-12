@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "raw_source_hashes_checked": 25,
+  "source_cells_checked": 14280,
+  "independent_2025_detailed_percentage_checks": 714,
+  "rows": 1190,
+  "complete_trust_reporting_units": 190,
+  "known_legal_ids_in_complete_cohort": 189,
+  "dictionary_column_coverage": "complete",
+  "panel_sha256": "dd5a85731a37a0b031d7b1d873b64424f65e911a8bd145da143def99f7f8198b",
+  "validator_sha256": "cd6697bcae1eb2e16fb8a139c0447269b0750dc3bf90ce7dce4e60848455b016"
+}

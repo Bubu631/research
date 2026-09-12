@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "runtime_seconds": 1.7627859115600586,
+  "source_sha256": "c47854f21ea56c356af31cf80b88c4bd4885e3425b34f584c196910af76624d4",
+  "protected_manifest_sha256": "f64def117bed7728931f933ffd1ba2bfbb3fe8139fc6a749e3a44fa608850d09",
+  "checked_cost_rows": 103680,
+  "max_cost_discrepancy": 0.0,
+  "max_whole_group_closed_form_error": 2.1316282072803006e-14,
+  "exact_saved_group_recomputations": [
+    {
+      "setting": "g4_base0.2_shifted",
+      "group": 0,
+      "full_pattern_count": 16,
+      "completion_path_max_error": 2.220446049250313e-16,
+      "model_moments_max_error": 4.440892098500626e-16,
+      "metric_max_error": 2.6645352591003757e-15
+    },
+    {
+      "setting": "g8_base0.8_calibrated",
+      "group": 0,
+      "full_pattern_count": 256,
+      "completion_path_max_error": 4.440892098500626e-16,
+      "model_moments_max_error": 2.6645352591003757e-15,
+      "metric_max_error": 3.552713678800501e-15
+    },
+    {
+      "setting": "g16_base0.05_overconfident",
+      "group": 0,
+      "full_pattern_count": 65536,
+      "completion_path_max_error": 1.9539925233402755e-14,
+      "model_moments_max_error": 4.1300296516055823e-14,
+      "metric_max_error": 4.263256414560601e-14
+    }
+  ],
+  "no_oracle_in_schedule": "Source inspected: schedule calls receive only p, order, costs, predicted moments, budget. True probability and r are evaluation-only.",
+  "scope": "No re-execution or replacement of the 135-setting study; independent full-label-pattern and stopping-depth calculation for selected groups."
+}

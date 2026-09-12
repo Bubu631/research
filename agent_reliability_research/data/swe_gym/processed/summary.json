@@ -1,0 +1,283 @@
+{
+  "raw_rows": 6055,
+  "unique_rows": 6055,
+  "duplicates_removed": 0,
+  "label_conflicting_hashes": 0,
+  "tasks": 2438,
+  "run_ids": {
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t04-run_1": 230,
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t03-run_1": 230,
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t02-run_1": 229,
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t05-run_1": 228,
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t08-run_1": 230,
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t0-run_1": 230,
+    "gpt-4o-2024-08-06_maxiter_50_N_v2.1-no-hint-train-t0-run_1": 2020,
+    "claude-3-5-sonnet-20241022_maxiter_50_N_v2.1-no-hint-run_1": 229,
+    "gpt-4o-2024-08-06_maxiter_50_N_v2.1-no-hint-train-t1-run_1": 2429
+  },
+  "behavior_configs": {
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t04": {
+      "records": 230,
+      "tasks": 230
+    },
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t03": {
+      "records": 230,
+      "tasks": 230
+    },
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t02": {
+      "records": 229,
+      "tasks": 229
+    },
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t05": {
+      "records": 228,
+      "tasks": 228
+    },
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t08": {
+      "records": 230,
+      "tasks": 230
+    },
+    "gpt-4o-2024-08-06_maxiter_30_N_v2.1-no-hint-train-t0": {
+      "records": 230,
+      "tasks": 230
+    },
+    "gpt-4o-2024-08-06_maxiter_50_N_v2.1-no-hint-train-t0": {
+      "records": 2020,
+      "tasks": 1823
+    },
+    "claude-3-5-sonnet-20241022_maxiter_50_N_v2.1-no-hint": {
+      "records": 229,
+      "tasks": 229
+    },
+    "gpt-4o-2024-08-06_maxiter_50_N_v2.1-no-hint-train-t1": {
+      "records": 2429,
+      "tasks": 2429
+    }
+  },
+  "records_per_task": {
+    "0": 1.0,
+    "25": 1.0,
+    "50": 2.0,
+    "75": 2.0,
+    "90": 2.0,
+    "95": 10.0,
+    "99": 10.0,
+    "100": 10.0
+  },
+  "records_per_eligible_task_config_prompt": {
+    "0": 1.0,
+    "25": 1.0,
+    "50": 1.0,
+    "75": 1.0,
+    "90": 1.0,
+    "95": 1.0,
+    "99": 2.0,
+    "100": 2.0
+  },
+  "groups": {
+    "4": {
+      "groups": 0,
+      "mixed_groups": 0,
+      "by_split": {
+        "train": {
+          "groups": 0,
+          "mixed_groups": 0
+        },
+        "calibration": {
+          "groups": 0,
+          "mixed_groups": 0
+        },
+        "heldout": {
+          "groups": 0,
+          "mixed_groups": 0
+        }
+      },
+      "incomplete_records": 6011
+    },
+    "8": {
+      "groups": 0,
+      "mixed_groups": 0,
+      "by_split": {
+        "train": {
+          "groups": 0,
+          "mixed_groups": 0
+        },
+        "calibration": {
+          "groups": 0,
+          "mixed_groups": 0
+        },
+        "heldout": {
+          "groups": 0,
+          "mixed_groups": 0
+        }
+      },
+      "incomplete_records": 6011
+    }
+  },
+  "report_flags": {
+    "empty_generation": 2380,
+    "resolved": 491,
+    "failed_apply_patch": 7,
+    "test_timeout": 9,
+    "error_eval": 28
+  },
+  "test_result_fields": {
+    "apply_patch_output": 6055,
+    "git_patch": 6055,
+    "report": 6055,
+    "test_output": 6055
+  },
+  "eligible_unique_rows": 6011,
+  "counts_quantiles": {
+    "message_count": {
+      "0": 7.0,
+      "25": 9.0,
+      "50": 31.0,
+      "75": 61.0,
+      "90": 99.0,
+      "95": 101.0,
+      "99": 101.0,
+      "100": 101.0
+    },
+    "assistant_turns": {
+      "0": 3.0,
+      "25": 4.0,
+      "50": 14.0,
+      "75": 29.0,
+      "90": 48.0,
+      "95": 50.0,
+      "99": 50.0,
+      "100": 50.0
+    },
+    "tool_messages": {
+      "0": 1.0,
+      "25": 3.0,
+      "50": 12.0,
+      "75": 27.0,
+      "90": 44.0,
+      "95": 49.0,
+      "99": 49.0,
+      "100": 49.0
+    },
+    "tool_calls": {
+      "0": 2.0,
+      "25": 4.0,
+      "50": 13.0,
+      "75": 28.0,
+      "90": 44.600000000000364,
+      "95": 50.0,
+      "99": 50.0,
+      "100": 51.0
+    },
+    "assistant_chars": {
+      "0": 504.0,
+      "25": 815.0,
+      "50": 9048.0,
+      "75": 18625.0,
+      "90": 32033.20000000003,
+      "95": 41908.9,
+      "99": 60848.96000000001,
+      "100": 161359.0
+    },
+    "tool_chars": {
+      "0": 153.0,
+      "25": 503.0,
+      "50": 26657.0,
+      "75": 62324.5,
+      "90": 103059.20000000003,
+      "95": 135502.00000000003,
+      "99": 203657.28,
+      "100": 405848.0
+    },
+    "all_chars": {
+      "0": 2540.0,
+      "25": 5247.0,
+      "50": 41249.0,
+      "75": 87970.0,
+      "90": 138055.40000000002,
+      "95": 173178.8,
+      "99": 250243.96000000005,
+      "100": 448461.0
+    },
+    "all_utf8_bytes": {
+      "0": 2543.0,
+      "25": 5247.0,
+      "50": 41249.0,
+      "75": 88030.5,
+      "90": 138101.2,
+      "95": 173211.80000000002,
+      "99": 250254.44000000006,
+      "100": 448461.0
+    },
+    "test_command_mentions": {
+      "0": 0.0,
+      "25": 0.0,
+      "50": 0.0,
+      "75": 0.0,
+      "90": 0.0,
+      "95": 0.0,
+      "99": 3.0,
+      "100": 39.0
+    },
+    "visible_pass_mentions": {
+      "0": 0.0,
+      "25": 0.0,
+      "50": 0.0,
+      "75": 1.0,
+      "90": 3.0,
+      "95": 6.0,
+      "99": 18.0,
+      "100": 126.0
+    },
+    "visible_fail_mentions": {
+      "0": 0.0,
+      "25": 0.0,
+      "50": 0.0,
+      "75": 0.0,
+      "90": 2.0,
+      "95": 4.0,
+      "99": 12.460000000000036,
+      "100": 405.0
+    },
+    "visible_error_mentions": {
+      "0": 0.0,
+      "25": 0.0,
+      "50": 3.0,
+      "75": 11.0,
+      "90": 23.0,
+      "95": 32.0,
+      "99": 66.46000000000004,
+      "100": 578.0
+    }
+  },
+  "runner_timing": {
+    "rows_with_textual_seconds": 3219,
+    "individual_text_values_quantiles": {
+      "0": 0.008242639000002328,
+      "25": 1.7575,
+      "50": 4.54,
+      "75": 10.795,
+      "90": 24.360000000000028,
+      "95": 40.09699999999998,
+      "99": 350.71889999999996,
+      "100": 1090.16
+    },
+    "interpretation": "Free-text runner output; not complete verifier or rollout wall-clock costs."
+  },
+  "script_sha256": "b8720768d8a5d4705e7878173ef37d8e1c03fec5144a19b8e6622a19f9764955",
+  "protocol_sha256": "3d00c903e9fcd990c9c69bedd22bba14651a7eaf1f828bced69039a1102faf3f",
+  "runtime": {
+    "pyarrow": "25.0.1",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "requests": "2.34.2"
+  },
+  "created_at_utc": "2026-09-12T16:08:10.525800+00:00",
+  "metadata_correction": {
+    "reason": "Actual run IDs use a hyphen before run_1; normalize descriptive configuration suffix.",
+    "scientific_values_unchanged": true,
+    "initial_executed_script_sha256": "b8720768d8a5d4705e7878173ef37d8e1c03fec5144a19b8e6622a19f9764955",
+    "current_reproduction_script_sha256": "628cb307ca2e1ce9d8cda0fe0213e7c35c5605e59d33c01847b29112620b07de",
+    "amended_protocol_sha256": "6085b9724439f59f24269b7a83f807f6d61b373f9721e728d5e5e3df7e0030f7",
+    "correction_script_sha256": "317e192abae00aaab68ad546cc32a342a59c0542eb5e38c67aad17b3a26864ab"
+  }
+}
