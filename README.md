@@ -23,4 +23,3 @@ The NHS repository includes the complete preceding NHS ranking study under `prio
 
 This repository now serves as the navigation index. Its original combined files and [v1.0.0 release](https://github.com/Bubu631/research/releases/tag/v1.0.0) remain available for historical continuity. The [original collection overview](COLLECTION_SNAPSHOT_V1.md) is preserved, but use the four independent repositories above for current configuration and reproduction commands.
 
-Manuscript-specific authorship and affiliations are listed in each project. Public availability does not establish conference acceptance or an arXiv identifier.
