@@ -101,8 +101,8 @@
     },
     {
       "name": "agent_audit_reproducibility.zip",
-      "bytes": 100431680,
-      "sha256": "910fac747063cdbb574ffb580d9ad696ec4446b25fb859949042f975fb9e6aab"
+      "bytes": 100431744,
+      "sha256": "86e4822fbd315959bdf9d3aa5f6ed8eff96ced72a54766786d0b0796d1af0c10"
     },
     {
       "name": "bundle_manifest.json",
@@ -117,12 +117,12 @@
     {
       "name": "nhs_aisi_release_manifest.json",
       "bytes": 1778,
-      "sha256": "8150797f61c98bd4caa0cdee77274622d37dff44bde60bb541a7231dc7abaf39"
+      "sha256": "6b52274d155fd42674b9e51b125fd3317a2f80f2fd2ffb7b2dfdb168635974c0"
     },
     {
       "name": "agent_audit_release_manifest.json",
       "bytes": 804,
-      "sha256": "f97948309b6e4310662f7b92f4edb13ef8f1453386af5d98b4abb38accd71e1e"
+      "sha256": "e5cae94feaaa92f0ab6f3ce7b966b80b82e2b2633274d120eafb1cd56cf26750"
     }
   ]
 }
