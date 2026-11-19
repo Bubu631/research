@@ -1,6 +1,6 @@
 # Certifying Model Upgrades with Slice-Wise Non-Regression and Incumbent Fallback
 
-**Shengwei Zhang** — University of Pennsylvania  
+**Shengwei Zhang** — University of Pennsylvania
 **Tao Wu, Fei Qian** — Alibaba International Digital Commerce
 
 Author order: Shengwei Zhang, Tao Wu, Fei Qian.

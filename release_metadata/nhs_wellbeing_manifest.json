@@ -3,16 +3,16 @@
   "builder_sha256": "29def309fb4bdc9ccaa374e35e8396b18621cde0753452ac0e6009ae2cd48a82",
   "artifacts": {
     "nhs_wellbeing_source.zip": {
-      "sha256": "adb8bb479665713746ed019129ceb34eb9d669e26f7165be631c8881ce04742c",
-      "bytes": 118662
+      "sha256": "11a6e634d6ad8d23094f642e0dfde0a37aec8580bc5959154801942aa6be577f",
+      "bytes": 118468
     },
     "nhs_wellbeing_research.zip": {
-      "sha256": "7700666e353d7166b5752148b3c28e8040a911e10aeff528ffb1c1f55605214a",
-      "bytes": 1932469
+      "sha256": "2b7c9394b0c871f0520d8c1d9083b16fdf4e80bf04b155c99aec61e1b8df6ad1",
+      "bytes": 1910494
     },
     "nhs_wellbeing_paper.pdf": {
-      "sha256": "051d8aefbc73aed35227fa2e9ab662cb07cb028dd0b2c917b232b1698156040d",
-      "bytes": 474023
+      "sha256": "01bb67d23ca71d409283aecdd502e6205bbaed5500e00752e32c63e93cf8ad7b",
+      "bytes": 473450
     },
     "nhs_wellbeing_package_validation.json": {
       "sha256": "c2bca03a54dbf85fa4d9253e52d741b1863acc72d398ef58e89cf9de222ed355",
@@ -222,17 +222,9 @@
       "sha256": "463a6678de710e3815740be737799ba8b5f96c6f2326563c0e29986643d40bf3",
       "bytes": 6560
     },
-    "docs/theory_audit.md": {
-      "sha256": "bd93cfd8f031342b8d48912a431387de5a79d8469e7d821dc0048ac6626b4e3c",
-      "bytes": 25986
-    },
     "docs/vintage_audit.md": {
       "sha256": "584818c6ef2fea6bfbd92afdaa2b889fb30ed2310b220cdd481dac1ef26ef9e8",
       "bytes": 12371
-    },
-    "docs/\u7b2c\u4e09\u7bc7\u8bba\u6587\u8bf4\u660e.md": {
-      "sha256": "64ef4b2e722e10f64adc41b839a014664218665e959b6f862588bbfd8a554ce5",
-      "bytes": 6678
     },
     "experiments/common.py": {
       "sha256": "6dc57b5c05a181288f35993d0c3c7fb761b3b861067314885b4a505817711e1a",

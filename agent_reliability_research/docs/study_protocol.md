@@ -27,7 +27,7 @@ Report all prespecified regimes, including variance blowups, zero-signal batches
 
 ## Boundaries
 
-Expected verification budgets permit occasional nearly complete groups. Deterministic per-group caps generally preclude a distribution-free unbiased nonlinear update below its Boolean query degree. A wrong completion model can harm efficiency even when randomized telescoping remains conditionally unbiased. Applying nonlinear optimizer operations to an unbiased random gradient does not reproduce the oracle optimizer trajectory. No claim of top-conference acceptance or guaranteed performance gains is made.
+Expected verification budgets permit occasional nearly complete groups. Deterministic per-group caps generally preclude a distribution-free unbiased nonlinear update below its Boolean query degree. A wrong completion model can harm efficiency even when randomized telescoping remains conditionally unbiased. Applying nonlinear optimizer operations to an unbiased random gradient does not reproduce the oracle optimizer trajectory.
 
 ## Dated extension after the initial complete controlled study
 

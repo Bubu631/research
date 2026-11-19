@@ -1,6 +1,6 @@
 # When Edit Localization Amplifies Relative Selection Bias: Gradient Geometry, Target Mismatch, and Importance Weighting
 
-**Shengwei Zhang, Haoda Dai, Yifei Li, Yuheng Song**  
+**Shengwei Zhang, Haoda Dai, Yifei Li, Yuheng Song**
 University of Pennsylvania
 
 [Paper PDF](main.pdf) · [LaTeX source](main.tex) · [References](references.bib) · [Public-study references](public_references.bib) · [Figures](figures/) · [Results](results/) · [Collection guide](../../README.md)
@@ -35,7 +35,6 @@ make reproduce-public
 python experiments/verify_public_geometry.py
 ```
 
-This downloads the pinned public assets and regenerates the eight large per-record gradient arrays, which are omitted from the compact checkout and required by the final verification command. See the [protocol](../../docs/public_postedit_protocol.md), [English–German manifest](results/public_manifest.json), [English–Chinese manifest](results/public_en_zh/public_manifest.json), and [independent audit](../../docs/public_postedit_independent_audit.md).
 
 For the native-parameter extension:
 

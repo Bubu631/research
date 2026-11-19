@@ -28,13 +28,12 @@ The public experiment agent supplied completed English–German and English–Ch
 
 The underlying text and pretrained models are real. Selection mechanisms are declared synthetic functions. The restricted experiment introduces an output-logit bias; it does not train the base transformer. Any extension to native differentiable parameters must retain this parameterization distinction.
 
-An independent implementation recomputed all six reporting curves and exact fixed-target MSE values directly from the released per-record gradient matrices. Maximum discrepancies were 1.23e-15 for relative bias and 1.09e-18 for MSE. Per-example adapter NLL summaries matched exactly, as did executed source and protocol hashes; the two record splits were disjoint. The checker is `experiments/verify_public_geometry.py`, with details in `docs/public_postedit_independent_audit.md`. A separate complete same-device replay reproduced all 30 numerical files byte for byte.
 
 ## Document verification
 
 The final title is **When Edit Localization Amplifies Relative Selection Bias: Gradient Geometry, Target Mismatch, and Importance Weighting**. The abstract, introduction, native results, and scope statements explicitly distinguish higher relative bias from lower absolute bias under hard localization compared with full retention. No monotonic absolute-bias claim is made: the native absolute curves have shallow interior minima.
 
-The complete 21-page manuscript was compiled and every page was rendered and visually inspected, including all equations, tables, figure labels, references, and appendix proofs. No text/figure clipping or overlap was observed. The final LaTeX log has no warnings, undefined references, or overfull/underfull boxes. Bibliography alignment avoids stretched word spacing around checkpoint hashes, and the AI-assistance statement remains together. Figure typography was enlarged for print readability, with the same numerical synthetic experiment rerun and its updated source hash saved. The bibliography has also undergone the separate primary-source audit in `docs/reference_audit.md`.
+The complete 21-page manuscript was compiled and every page was rendered and visually inspected, including all equations, tables, figure labels, references, and appendix proofs. No text/figure clipping or overlap was observed. The final LaTeX log has no warnings, undefined references, or overfull/underfull boxes. Figure typography was enlarged for print readability, with the same numerical synthetic experiment rerun and its updated source hash saved. The bibliography has also undergone the separate primary-source audit in `docs/reference_audit.md`.
 
 The confirmed author is Shengwei Zhang, University of Pennsylvania. The AI-use statement does not assert that completed human scientific review has occurred. Final human author review remains necessary before submission.
 

@@ -15,7 +15,7 @@ def write_zip(target,entries):
 def main():
     copies={'paper/full.pdf':'nhs_aisi_full_paper.pdf','paper/anonymous.pdf':'nhs_aisi_anonymous.pdf',
             'paper/supplement.pdf':'nhs_aisi_supplement.pdf','results/nhs_aisi_results.xlsx':'nhs_aisi_results.xlsx',
-            'docs/nhs_decision_brief.pdf':'nhs_aisi_decision_brief.pdf','docs/upgrade_summary_zh.md':'nhs_aisi_upgrade_summary_zh.md'}
+            'docs/nhs_decision_brief.pdf':'nhs_aisi_decision_brief.pdf'}
     for src,name in copies.items():shutil.copy2(ROOT/src,DEST/name)
     common=['main_content.tex','extended_content.tex','supplement_content.tex','theory_sections.tex','theory_proofs.tex','references.bib']
     shared=[(ROOT/'paper'/p,p) for p in common]

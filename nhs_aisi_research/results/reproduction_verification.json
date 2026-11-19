@@ -32,7 +32,7 @@
   "executions": [
     {
       "arguments": [
-        "/Users/shengweizhang/Documents/ChatGPT/\u7ed9\u81ea\u5df1\u9879\u76ee/.venv/bin/python",
+        "python",
         "experiments/synthetic.py",
         "--reps",
         "2000",
@@ -45,7 +45,7 @@
     },
     {
       "arguments": [
-        "/Users/shengweizhang/Documents/ChatGPT/\u7ed9\u81ea\u5df1\u9879\u76ee/.venv/bin/python",
+        "python",
         "experiments/replay.py",
         "--reps",
         "1000",
@@ -58,7 +58,7 @@
     },
     {
       "arguments": [
-        "/Users/shengweizhang/Documents/ChatGPT/\u7ed9\u81ea\u5df1\u9879\u76ee/.venv/bin/python",
+        "python",
         "experiments/nhs_scenarios.py"
       ],
       "exit_code": 0,
@@ -67,7 +67,7 @@
     },
     {
       "arguments": [
-        "/Users/shengweizhang/Documents/ChatGPT/\u7ed9\u81ea\u5df1\u9879\u76ee/.venv/bin/python",
+        "python",
         "experiments/replay_budget_extension.py"
       ],
       "exit_code": 0,

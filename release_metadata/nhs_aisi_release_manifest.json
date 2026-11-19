@@ -25,10 +25,6 @@
       "sha256": "fbf3c492e13cdda1f3d0cec799ca5db3f53f60d3ac6c57d67424a0a3b1eb3d47",
       "pages": 1
     },
-    "nhs_aisi_upgrade_summary_zh.md": {
-      "bytes": 3900,
-      "sha256": "c24a28cd38e87553fa9fb63505805427951c14800f3fb9dd0e24c9a4278be090"
-    },
     "nhs_aisi_arxiv_source.zip": {
       "bytes": 105057,
       "sha256": "e4c25d563baa425c9cd5aaf77ad67505867e2483fd96f37027e73f8aec6b2f31"

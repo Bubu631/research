@@ -8,7 +8,6 @@ Checks below were actually executed on 2026-09-11 in the recorded environment. T
 
 The public output-bias experiments were replayed in both language directions. All **30 numeric artifacts** matched the respective first execution byte for byte, including gradients, Monte Carlo outputs, adapters, and per-example NLL. This is a same-environment replay result; it is not a guarantee of byte identity across arbitrary hardware. See `papers/edit_localization/results/public_replay_validation.json`.
 
-An independent script reconstructed the six public reporting settings from saved per-record gradients. Maximum discrepancies were **1.23e-15** for relative bias and **1.09e-18** for fixed-target MSE; summaries of saved adapter NLL matched exactly. See `docs/public_postedit_independent_audit.md`.
 
 Both public digits training paths retain all five seeds. `summarize_digits_paths.py` independently recomputed reporting metrics and certification bounds from saved predictions, regenerated tensor predictions from checkpoints, checked exact fallback, and verified balanced-run provenance hashes. Reconstructed incumbents and split IDs matched the original path exactly. The later balanced path is descriptive because it reuses the earlier holdouts.
 

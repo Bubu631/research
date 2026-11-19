@@ -2,7 +2,7 @@
 
 All assets belong to [release v1.0.0](https://github.com/Bubu631/research/releases/tag/v1.0.0). The four research directions also have browsable source trees in this repository.
 
-Project archives preserve the original delivered research snapshots, including their historical manifests. Updated English collection navigation lives in the repository. `arxiv` in a source-package filename identifies its packaging purpose, not a verified arXiv listing. Anonymous files identify a format, not a submission.
+Project archives include manuscripts, reproducibility materials, and package manifests. Updated English collection navigation lives in the repository. `arxiv` in a source-package filename identifies its packaging purpose, not a verified arXiv listing. Anonymous files identify a format, not a submission.
 
 | Contents | Download | Size (MiB) |
 |---|---|---:|
@@ -26,10 +26,10 @@ Project archives preserve the original delivered research snapshots, including t
 | Agent auditing · paper | [agent_audit_paper.pdf](https://github.com/Bubu631/research/releases/download/v1.0.0/agent_audit_paper.pdf) | 0.87 |
 | Agent auditing · LaTeX source | [agent_audit_arxiv_source.zip](https://github.com/Bubu631/research/releases/download/v1.0.0/agent_audit_arxiv_source.zip) | 0.61 |
 | Agent auditing · code, derived evidence, and documents | [agent_audit_reproducibility.zip](https://github.com/Bubu631/research/releases/download/v1.0.0/agent_audit_reproducibility.zip) | 95.47 |
-| Papers 1–2 · original package manifest | [bundle_manifest.json](https://github.com/Bubu631/research/releases/download/v1.0.0/bundle_manifest.json) | 0.00 |
-| Preceding NHS study · original package manifest | [nhs_wellbeing_manifest.json](https://github.com/Bubu631/research/releases/download/v1.0.0/nhs_wellbeing_manifest.json) | 0.04 |
-| Wellbeing measurement · original package manifest | [nhs_aisi_release_manifest.json](https://github.com/Bubu631/research/releases/download/v1.0.0/nhs_aisi_release_manifest.json) | 0.00 |
-| Agent auditing · original package manifest | [agent_audit_release_manifest.json](https://github.com/Bubu631/research/releases/download/v1.0.0/agent_audit_release_manifest.json) | 0.00 |
+| Papers 1–2 · package manifest | [bundle_manifest.json](https://github.com/Bubu631/research/releases/download/v1.0.0/bundle_manifest.json) | 0.00 |
+| Preceding NHS study · package manifest | [nhs_wellbeing_manifest.json](https://github.com/Bubu631/research/releases/download/v1.0.0/nhs_wellbeing_manifest.json) | 0.04 |
+| Wellbeing measurement · package manifest | [nhs_aisi_release_manifest.json](https://github.com/Bubu631/research/releases/download/v1.0.0/nhs_aisi_release_manifest.json) | 0.00 |
+| Agent auditing · package manifest | [agent_audit_release_manifest.json](https://github.com/Bubu631/research/releases/download/v1.0.0/agent_audit_release_manifest.json) | 0.00 |
 
 ## Integrity and restoration
 

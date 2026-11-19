@@ -73,6 +73,6 @@ That check writes a derived validation JSON. It does not reconstruct or independ
 
 - [Experiments](experiments/) and [tests](tests/): executable code and mathematical, finite-difference, partition, alignment, and geometry checks.
 - [Edit-localization results](papers/edit_localization/results/) and [upgrade results](papers/base_upgrade/results/): numerical summaries, replicate evidence, small classifier checkpoints, and provenance snapshots.
-- [Reference audit](docs/reference_audit.md), [reviewer-readiness assessment](docs/reviewer_readiness_zh.md), and [Chinese reading guide](docs/研究交付与实验说明.md): supporting research notes. Dated release and venue-planning documents describe their historical state, rather than current publication status.
+- [Reference audit](docs/reference_audit.md)
 
-Model weights, downloaded raw corpora, private notes, and interview materials are not bundled. The manuscripts disclose AI assistance in research critique, derivation, drafting, experimental design, implementation, and verification. No arXiv identifier, DOI, or venue acceptance is inferred from these repository artifacts.
+Model weights, downloaded raw corpora, private notes, and interview materials are not bundled. No arXiv identifier, DOI, or venue acceptance is inferred from these repository artifacts.

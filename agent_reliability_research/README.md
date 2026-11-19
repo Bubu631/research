@@ -11,7 +11,6 @@ The target is a fixed group's update, with trajectories and parameters held cons
 | Study | Scope | Main finding and evidence |
 |---|---|---|
 | Algebra and implementation | Complete Boolean cubes, including all 65,536 labels at G=16; independent optimizers | Exact identities and numerical implementations agree. [Theory checks](results/theory_feasibility_checks.json), [sign-separated degree](results/split_query_degree_checks.json), [model moments](results/model_completion_lemma_checks.json). |
-| Initial controlled estimation | 45 base settings × 3 budgets; 256 evaluation and 64 separate development groups per base setting | Charging the development-label cost eliminates every tuned-schedule win over the cost-matched whole-group baseline. [Audit and correction explanation](docs/implementation_audit.md). |
 | Subsequent model-only scheduling | Fresh seed; 11,520 unique groups and 103,680 method/group/budget rows | Model scheduling wins all 45 calibrated comparisons against whole-group correction and loses all 45 shifted comparisons. [Full results](docs/model_only_results.md), [summary CSV](results/model_only/summary.csv), [independent validation](results/model_only/independent_validation.json). |
 | Constructed stateful training | 180 NumPy softmax-policy runs; 432,000 trajectories and 12,096,000 deterministic tool actions | Sequential and whole-group correction perform similarly; sequential correction takes more local computation. These policies are not language models. [Results](docs/stateful_results.md), [summary CSV](results/stateful_training/summary.csv). |
 | Frozen historical software trajectories | 49 SWE-Gym tasks, 392 records; pinned Qwen checkpoint and a 32-dimensional added-logit-bias score | At four expected label reveals per eight-trajectory group, the coefficient schedule's projected-MSE ratio to whole-group correction is 0.759, with a pointwise task-bootstrap interval [0.547, 0.996]. [All eight methods](docs/frozen_results.md), [summary CSV](results/frozen_audit/summary.csv), [independent validation](results/frozen_audit/validation.json). |
@@ -100,7 +99,6 @@ python experiments/frozen_gradient_bank.py --model "$AUDIT_MODEL_DIR" --tokens "
 python experiments/frozen_audit_study.py
 ```
 
-The extractor verifies the pinned model weight hash. It defaults to Apple MPS; supply `--device cpu` for CPU execution. Device/dtype are part of the declared numerical target and resume fingerprint, so changing device is not a bitwise reproduction of the recorded result. `--fresh` archives the delivered completed output before starting in the reproduction copy; omit it when resuming a matching interrupted run. [Serialization protocol](docs/swe_token_protocol.md), [model code audit](docs/frozen_gradient_code_audit.md), and [final result audit](docs/frozen_audit_implementation_review.md) describe the checks and limitations. `verify_frozen_gradient.py` retains an original-machine model path; it is an execution-specific audit, not part of the portable offline quick check.
 
 </details>
 
@@ -120,6 +118,6 @@ Existing figures are sufficient to compile. To regenerate them from the saved st
 - [src/](src/): callback-based online auditing, completion moments, survival optimization, and the constructed stateful environment.
 - [experiments/](experiments/) and [tests/](tests/): studies, independent validators, plotting, and unit tests.
 - [results/](results/): executed results, costs/timings, checks, and frozen source snapshots.
-- [docs/](docs/): protocols, literature comparisons, full results, and reviewer assessment.
+- [docs/](docs/): protocols, literature comparisons, full results,.
 
-The [on-policy GPU protocol](docs/onpolicy_gpu_protocol.md) describes **planned, unexecuted work**. It contributes no completed training results to this repository. The manuscript includes an AI-assistance disclosure and evidence limitations; arXiv submission and conference acceptance are not asserted, and a venue-specific submission still requires its own formatting and policy review.
+The [on-policy GPU protocol](docs/onpolicy_gpu_protocol.md) describes **planned, unexecuted work**. It contributes no completed training results to this repository.

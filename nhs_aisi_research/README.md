@@ -1,6 +1,6 @@
 # Which Uncertainty Is Worth Reducing?
 
-**Budgeted Measurement for Wellbeing Prioritisation**  
+**Budgeted Measurement for Wellbeing Prioritisation**
 Shengwei Zhang, University of Pennsylvania
 
 This repository studies which additional measurements are useful before selecting a fixed number of low-scoring units for further wellbeing review. Repeated measurements can reduce sampling noise while leaving persistent channel bias unresolved. A second measurement channel may help, but its cost, remaining bias and decision relevance matter.
@@ -12,7 +12,7 @@ The method applies established Gaussian knowledge-gradient and multi-information
 - [Full manuscript (PDF)](paper/full.pdf), [technical supplement](paper/supplement.pdf) and [LaTeX source](paper/full.tex).
 - [Results workbook](results/nhs_aisi_results.xlsx), [primary replay results](results/replay.csv) and [exploratory budget extension](results/replay_budget_extension.csv).
 - [Analysis protocol](docs/analysis_protocol.md), [data audit](docs/microdata_audit.md) and [reproduction audit](docs/reproduction_audit.md).
-- [One-page NHS discussion proposal](docs/nhs_decision_brief.pdf), [中文说明](docs/upgrade_summary_zh.md) and [citation metadata](CITATION.cff).
+- [One-page NHS discussion proposal](docs/nhs_decision_brief.pdf) and [citation metadata](CITATION.cff).
 
 The preserved predecessor, [Before You Target](../nhs_wellbeing_research/README.md), studies ranking sensitivity and regression to the mean. This follow-up asks which additional measurements to acquire. The directory name records the intended AISI audience, not a claim of conference submission or acceptance.
 
@@ -124,8 +124,6 @@ The optional decision-brief builder, `artifact_tools/build_decision_brief.py`, a
 The source for BRFSS is **CDC BRFSS**. Its federally published data are supplied under CDC's stated public-domain and attribution guidance, with exceptions for some third-party materials. Original CDC materials are available without charge from the agency. The cleaning and score rescaling in this repository are project transformations, not replacement official CDC files. This independent research is **not endorsed by CDC, HHS or the United States Government**. See [CDC BRFSS FAQ](https://www.cdc.gov/brfss/about/brfss_faq.htm) and [agency-materials terms](https://www.cdc.gov/other/agencymaterials.html). NHS materials retain their original rights. Data and questionnaire permissions are separate from permission to use this project's code; no blanket licence is claimed for third-party sources. Questionnaire reuse and any future staff-data collection require the relevant permissions and governance.
 
 No NHS partnership, stakeholder interview, co-design, additional survey, field trial or deployment took place. Proposed use concerns additional information gathering while preserving universal access to established feedback channels. It does not allocate clinical or wellbeing services. The one-page discussion proposal in `docs/nhs_decision_brief.pdf` has not been sent to NHS organisations.
-
-AI assistance was used in literature research, code development, auditing and writing. The named author remains responsible for verifying the methods, data rights, findings and references, and for any submission or release. The repository is not evidence of publication or acceptance. AAAI-27's regular AISI submission deadline was 28 July 2026 and had passed when this work was prepared; an AISI-oriented manuscript is not an accepted or submitted AISI paper.
 
 ## Release verification
 

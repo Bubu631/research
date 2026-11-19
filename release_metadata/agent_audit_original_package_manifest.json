@@ -146,16 +146,6 @@
       "sha256": "a7cdd83de2c2df33e9954d19c74976132c374a3002aed89e278f48f1a249341f"
     },
     {
-      "path": "docs/env_scaling_literature_audit.md",
-      "bytes": 19577,
-      "sha256": "179c58c45ba72f39a541a73af729e1b057faefa8661bd52510107c06d6417aa6"
-    },
-    {
-      "path": "docs/frozen_audit_implementation_review.md",
-      "bytes": 8820,
-      "sha256": "5a3ffaf65a195f84db625c22b6a76eb71ab4667a65317d87d8c77545aec1b3dd"
-    },
-    {
       "path": "docs/frozen_audit_protocol.md",
       "bytes": 2973,
       "sha256": "9cb4aa80deb27c89d37482763464219526626aa1247f5ca9681e062adfc37c2a"
@@ -169,26 +159,6 @@
       "path": "docs/frozen_results.md",
       "bytes": 1533,
       "sha256": "b89882c326f00911501da62cdb4f1aabe1f604cfc2825e0ec620b436239b8154"
-    },
-    {
-      "path": "docs/implementation_audit.md",
-      "bytes": 11402,
-      "sha256": "c73eed5c46b2b336ebd6190e83ae3a2494ba56b8b82ac28935da1053d476bd04"
-    },
-    {
-      "path": "docs/latest_noise_correction_audit.md",
-      "bytes": 3058,
-      "sha256": "ce6c0025308acc7d4f893c8cd6a45453a66c808a9dd31db97580b8fa84a3b370"
-    },
-    {
-      "path": "docs/latest_verifier_comparison.md",
-      "bytes": 2165,
-      "sha256": "aabbed41dfce2bb9943478b7d200cde0f598543333eb92185ec252480944004a"
-    },
-    {
-      "path": "docs/long_horizon_literature_audit.md",
-      "bytes": 24012,
-      "sha256": "a3fd0e1fa56b69da3c9e62fffbefb89f9761e7cd1d89795577fef68f373e934d"
     },
     {
       "path": "docs/model_only_protocol.md",
@@ -211,11 +181,6 @@
       "sha256": "7c78a15bf3ac6b274c131c9bf7e93923f8947505f5ad5bd08ac7dc1335bea357"
     },
     {
-      "path": "docs/reviewer_assessment.md",
-      "bytes": 7324,
-      "sha256": "4190fc8f7394482ee31f0660a62df4712449324a2b67b87dd8428b441c97065a"
-    },
-    {
       "path": "docs/stateful_protocol.md",
       "bytes": 9930,
       "sha256": "1bcfa44e1a98fed1a86889a31e35dfe803f79e8afc7d8924111da3e2ebba794a"
@@ -231,11 +196,6 @@
       "sha256": "5d6c0f97ef73ffacca974330de0b7b3669152821885e0102a9701e20b6a763cf"
     },
     {
-      "path": "docs/swe_gym_data_audit.md",
-      "bytes": 8154,
-      "sha256": "f7966f456faa2ebf4c8a00f840001273e67f97d8ce199d929bf69e37cbd45ce1"
-    },
-    {
       "path": "docs/swe_gym_data_protocol.md",
       "bytes": 5818,
       "sha256": "6085b9724439f59f24269b7a83f807f6d61b373f9721e728d5e5e3df7e0030f7"
@@ -244,11 +204,6 @@
       "path": "docs/swe_token_protocol.md",
       "bytes": 5405,
       "sha256": "4ef5582eecc88032cb2c8da660e51f8842f7add4bccc3c4ac1449b5c7d0c9e22"
-    },
-    {
-      "path": "docs/theory_feasibility.md",
-      "bytes": 33773,
-      "sha256": "8333b804d783dbe0c54c79541655308873d65c69888e4bc53ca4e089a529e44e"
     },
     {
       "path": "environment_full.lock.txt",
@@ -3269,11 +3224,6 @@
       "path": "tests/test_reward_audit.py",
       "bytes": 2667,
       "sha256": "f13aa2f553641231ecc533dc88cd3ada6a844cbb17d909324681f1e3d2c26399"
-    },
-    {
-      "path": "\u7814\u7a76\u8bf4\u660e.md",
-      "bytes": 5280,
-      "sha256": "55199772d45e287ed80f2d45072b9eb4785895676c8e330fe5ce1d8d0d87fb95"
     }
   ],
   "excluded": [

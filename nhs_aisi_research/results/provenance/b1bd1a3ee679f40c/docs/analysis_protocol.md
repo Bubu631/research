@@ -36,7 +36,7 @@ Preserve the original 190-reporting-unit panel, its within-group review capaciti
 
 ## Reporting and outputs
 
-Write a self-contained AISI-oriented research manuscript, full supplementary methods/proofs and reproducible code/data manifests. Preserve the original release. Authorship remains Shengwei Zhang / University of Pennsylvania; submission copy must be anonymous. Compute and source timestamps remain actual. The 2027 AAAI/AISI deadline has passed; the resulting work is not represented as submitted or accepted. New policy promises and limitations must be supported by executed code, reviewed mathematics or cited sources. AI assistance and lack of stakeholder validation remain explicit.
+Write a self-contained manuscript, supplementary methods, proofs, and reproducible code and data manifests.
 
 ## Before-main-run theoretical and domain amendment
 

@@ -902,12 +902,12 @@
       "original_line": 4207,
       "raw_triple_sha256": "c36a474d7fd331be8bf8acf565e4fbe4df52c5c8f994e825046b2fac3e8ec129",
       "source": "Webber collided with the Lotus of Heikki Kovalainen, flipping his Red Bull car into a somersault before landing and crashing into a tyre barrier.",
-      "archived_mt": "Webber 与 Heikki Kovalainen 的 Lotus 相撞 ， 他的红牛车在降落和撞上轮胎屏障之前 ， 撞上了一个木头。",
-      "human_postedit": "Webber 与 Heikki Kovalainen 的 Lotus 相撞 ， 他的 Red Bull 在落地前翻了一个筋斗 ， 撞上了轮胎护栏。",
+      "archived_mt": null,
+      "human_postedit": null,
       "raw_archive_text": {
         "src": "Webber collided with the Lotus of Heikki Kovalainen , flipping his Red Bull car into a somersault before landing and crashing into a tyre barrier .",
-        "mt": "Webber   与   Heikki   Kovalainen   的   Lotus   相撞   ，   他 的 红 牛车 在 降落 和 撞 上 轮胎 屏障 之前   ，   撞 上 了 一个 木头 。",
-        "pe": "Webber 与 Heikki   Kovalainen 的 Lotus 相撞 ， 他 的 Red   Bull 在 落地 前翻 了 一个 筋斗 ， 撞 上 了 轮胎 护栏 。"
+        "mt": null,
+        "pe": null
       },
       "model_id": "Helsinki-NLP/opus-mt-en-zh",
       "model_revision": "408d9bc410a388e1d9aef112a2daba955b945255",
@@ -954,7 +954,7 @@
         {
           "position": 5,
           "token_id": 67,
-          "piece": "与",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1034,7 +1034,7 @@
         {
           "position": 15,
           "token_id": 12,
-          "piece": "的",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1074,7 +1074,7 @@
         {
           "position": 20,
           "token_id": 2384,
-          "piece": "相",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1082,7 +1082,7 @@
         {
           "position": 21,
           "token_id": 13651,
-          "piece": "撞",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1106,7 +1106,7 @@
         {
           "position": 24,
           "token_id": 10300,
-          "piece": "▁他的",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1146,7 +1146,7 @@
         {
           "position": 29,
           "token_id": 106,
-          "piece": "▁在",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1154,7 +1154,7 @@
         {
           "position": 30,
           "token_id": 6092,
-          "piece": "落",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1162,7 +1162,7 @@
         {
           "position": 31,
           "token_id": 248,
-          "piece": "地",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1170,7 +1170,7 @@
         {
           "position": 32,
           "token_id": 637,
-          "piece": "前",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1178,7 +1178,7 @@
         {
           "position": 33,
           "token_id": 10899,
-          "piece": "翻",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1186,7 +1186,7 @@
         {
           "position": 34,
           "token_id": 5912,
-          "piece": "了一个",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1194,7 +1194,7 @@
         {
           "position": 35,
           "token_id": 41147,
-          "piece": "筋",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1202,7 +1202,7 @@
         {
           "position": 36,
           "token_id": 13494,
-          "piece": "斗",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1234,7 +1234,7 @@
         {
           "position": 40,
           "token_id": 13651,
-          "piece": "撞",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1242,7 +1242,7 @@
         {
           "position": 41,
           "token_id": 11963,
-          "piece": "上了",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1250,7 +1250,7 @@
         {
           "position": 42,
           "token_id": 34221,
-          "piece": "轮胎",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1258,7 +1258,7 @@
         {
           "position": 43,
           "token_id": 16004,
-          "piece": "护",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1266,7 +1266,7 @@
         {
           "position": 44,
           "token_id": 10017,
-          "piece": "栏",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1295,12 +1295,12 @@
       "original_line": 149,
       "raw_triple_sha256": "7bae7dabe78e0ab95b2bee3250a50468a72d110855fd8629138ce50453504074",
       "source": "When Richard refuses, Hurley secretly walks to the Black Rock and defuses the remaining dynamite.",
-      "archived_mt": "当理查德拒绝时, 赫利秘密地走到布莱克岩, 并拆除剩余的炸药.",
-      "human_postedit": "当理查德拒绝时 ， 赫利悄悄地走向黑岩 ， 并拆除剩余的炸药。",
+      "archived_mt": null,
+      "human_postedit": null,
       "raw_archive_text": {
         "src": "When Richard refuses , Hurley secretly walks to the Black Rock and defuses the remaining dynamite .",
-        "mt": "当 理查德 拒绝 时 ,   赫利 秘密 地 走 到 布莱克 岩 ,   并 拆除 剩余 的 炸药 .",
-        "pe": "当 理查德 拒绝 时 ， 赫利 悄悄地 走向 黑岩 ， 并 拆除 剩余 的 炸药 。"
+        "mt": null,
+        "pe": null
       },
       "model_id": "Helsinki-NLP/opus-mt-en-zh",
       "model_revision": "408d9bc410a388e1d9aef112a2daba955b945255",
@@ -1315,7 +1315,7 @@
         {
           "position": 1,
           "token_id": 4042,
-          "piece": "▁当",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1323,7 +1323,7 @@
         {
           "position": 2,
           "token_id": 33875,
-          "piece": "理查德",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1331,7 +1331,7 @@
         {
           "position": 3,
           "token_id": 3092,
-          "piece": "拒绝",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1339,7 +1339,7 @@
         {
           "position": 4,
           "token_id": 148,
-          "piece": "时",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1371,7 +1371,7 @@
         {
           "position": 8,
           "token_id": 5575,
-          "piece": "赫",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1379,7 +1379,7 @@
         {
           "position": 9,
           "token_id": 1298,
-          "piece": "利",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1387,7 +1387,7 @@
         {
           "position": 10,
           "token_id": 48183,
-          "piece": "悄悄",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1395,7 +1395,7 @@
         {
           "position": 11,
           "token_id": 248,
-          "piece": "地",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1403,7 +1403,7 @@
         {
           "position": 12,
           "token_id": 14999,
-          "piece": "走向",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1411,7 +1411,7 @@
         {
           "position": 13,
           "token_id": 4653,
-          "piece": "黑",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1419,7 +1419,7 @@
         {
           "position": 14,
           "token_id": 27125,
-          "piece": "岩",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1451,7 +1451,7 @@
         {
           "position": 18,
           "token_id": 93,
-          "piece": "并",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1459,7 +1459,7 @@
         {
           "position": 19,
           "token_id": 15776,
-          "piece": "拆除",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1467,7 +1467,7 @@
         {
           "position": 20,
           "token_id": 26264,
-          "piece": "剩余的",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1475,7 +1475,7 @@
         {
           "position": 21,
           "token_id": 21329,
-          "piece": "炸药",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1504,12 +1504,12 @@
       "original_line": 5037,
       "raw_triple_sha256": "d662b4278c3e20a250c547f941db58f25b1cd632f21ab309a68ea3ba1ba89f0a",
       "source": "The two friends both admired each other for their great feats and rebellions, and also of each other's brilliance.",
-      "archived_mt": "这两个朋友都钦佩对方的伟大成就和反叛 ， 也钦佩对方的辉煌。",
-      "human_postedit": "这两个朋友都钦佩对方的伟大成就和反叛 ， 也钦佩对方的光彩。",
+      "archived_mt": null,
+      "human_postedit": null,
       "raw_archive_text": {
         "src": "The two friends both admired each other for their great feats and rebellions , and also of each other 's brilliance .",
-        "mt": "这 两个 朋友 都 钦佩 对方 的 伟大成就 和 反叛   ，   也 钦佩 对方 的 辉煌 。",
-        "pe": "这 两个 朋友 都 钦佩 对方 的 伟大成就 和 反叛 ， 也 钦佩 对方 的 光彩 。"
+        "mt": null,
+        "pe": null
       },
       "model_id": "Helsinki-NLP/opus-mt-en-zh",
       "model_revision": "408d9bc410a388e1d9aef112a2daba955b945255",
@@ -1524,7 +1524,7 @@
         {
           "position": 1,
           "token_id": 23382,
-          "piece": "▁这两个",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1532,7 +1532,7 @@
         {
           "position": 2,
           "token_id": 3966,
-          "piece": "朋友",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1540,7 +1540,7 @@
         {
           "position": 3,
           "token_id": 291,
-          "piece": "都",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1548,7 +1548,7 @@
         {
           "position": 4,
           "token_id": 27875,
-          "piece": "钦",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1556,7 +1556,7 @@
         {
           "position": 5,
           "token_id": 6284,
-          "piece": "佩",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1564,7 +1564,7 @@
         {
           "position": 6,
           "token_id": 15338,
-          "piece": "对方",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1572,7 +1572,7 @@
         {
           "position": 7,
           "token_id": 12,
-          "piece": "的",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1580,7 +1580,7 @@
         {
           "position": 8,
           "token_id": 31998,
-          "piece": "伟大",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1588,7 +1588,7 @@
         {
           "position": 9,
           "token_id": 6862,
-          "piece": "成就",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1596,7 +1596,7 @@
         {
           "position": 10,
           "token_id": 18,
-          "piece": "和",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1604,7 +1604,7 @@
         {
           "position": 11,
           "token_id": 21953,
-          "piece": "反叛",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1636,7 +1636,7 @@
         {
           "position": 15,
           "token_id": 251,
-          "piece": "也",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1644,7 +1644,7 @@
         {
           "position": 16,
           "token_id": 27875,
-          "piece": "钦",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1652,7 +1652,7 @@
         {
           "position": 17,
           "token_id": 6284,
-          "piece": "佩",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1660,7 +1660,7 @@
         {
           "position": 18,
           "token_id": 15338,
-          "piece": "对方",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1668,7 +1668,7 @@
         {
           "position": 19,
           "token_id": 12,
-          "piece": "的",
+          "piece": null,
           "edited": false,
           "label": "U",
           "is_eos": false
@@ -1676,7 +1676,7 @@
         {
           "position": 20,
           "token_id": 2856,
-          "piece": "光",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1684,7 +1684,7 @@
         {
           "position": 21,
           "token_id": 15208,
-          "piece": "彩",
+          "piece": null,
           "edited": true,
           "label": "E",
           "is_eos": false
@@ -1707,5 +1707,6 @@
         }
       ]
     }
-  ]
+  ],
+  "surface_text": "Localized surface strings are available from the pinned public corpus. Token IDs, row hashes and numeric diagnostics remain in this export."
 }

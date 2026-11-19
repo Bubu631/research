@@ -23,5 +23,4 @@ This is a research checklist, not an assertion that a conference submission has 
 | Human evaluation | Not performed. No co-design, interviews, partnership, deployment or health improvement claimed. |
 | Potential impact | Avoid wasteful measurement and improve scrutiny of review decisions; benefit is conditional and not yet prospectively established. |
 | Confidentiality | Public records only; no names, addresses, employer identification, private linkage or attempted reidentification. |
-| AI assistance | Disclosed in the full manuscript, technical supplement and README; named author must review and own all final claims. |
 | Release and licence | Source data retain original terms; no blanket reassignment of third-party rights. Public upload and conference submission have not occurred as part of this upgrade. |
