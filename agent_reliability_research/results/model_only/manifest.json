@@ -91,7 +91,7 @@
     "g8_base0.95_shifted.npz": "9344a87df4f91d0ddfb246a9752fb146e6151032576dffd72230a95ec43bebe7",
     "paired_comparisons.csv": "eb6876c80c78e606da55effff06f18a48280c8edd3c94b1cd927afa69926bdbf",
     "per_group.csv": "b5c12ea7d8ed5ade475344b1a2f8127dd0ec87331a1a4fa01111efe3f6798845",
-    "source_snapshots/model_only_protocol.md": "01966b59e2fd306e8c9925c813f0e371b8963e96a4f87a0c196f3eadf31c5c62",
+    "source_snapshots/model_only_protocol.md": "80d4edeca4d4879aecd58304d001252d57055d465d234a8ee83dccbe7319e952",
     "source_snapshots/model_only_study.py": "6843f250e73a0a723049dd45f855a77a2fec9541a699cad49d4b1353600139db",
     "source_snapshots/reward_audit.py": "fd68931e2378033d106d10408b6ab08cd64fff32e6f3e9d38d4a114b9e2c7423",
     "source_snapshots/reward_audit_before_scale_fix.py": "52957e5692bec6f292673fda3def95f6e9cfb70ec0e3c7267f84298c96c469bb",
@@ -117,5 +117,8 @@
     "Fixed six-dimensional linear update metric is not a measured language-model gradient.",
     "Moment timing is fully charged once per independent budget; shared three-budget reuse is saved in raw NPZ.",
     "Model-optimal means coefficient Euclidean model risk at a fixed order; not arbitrary gradient risk under misspecification."
-  ]
+  ],
+  "historical_snapshot_sha256": {
+    "source_snapshots/model_only_protocol.md": "01966b59e2fd306e8c9925c813f0e371b8963e96a4f87a0c196f3eadf31c5c62"
+  }
 }
